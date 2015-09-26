@@ -1,3 +1,391 @@
+:- module(bobao,[solver/3]).
+%Fazer o leitor de C, D, S
+solver(D,C,S) :-
+    assertz(con(house,1)),
+    assertz(con(house,2)),
+    assertz(con(house,3)),
+    assertz(con(house,4)),
+    assertz(con(house,5)),
+    assertz(con(house,6)),
+    assertz(con(house,7)),
+    assertz(con(house,8)),
+    assertz(con(house,9)),
+    assertz(con(house,10)),
+    parse_D(D,[],RlistD),
+    [DH|_] = D,
+    length(DH,Dlent),
+    Dlen is Dlent - 1,
+    make_houses(Dlen,1,[],RHlist),
+    reverse(RHlist,Hlist),
+    parse_C(C,RlistC,[],[]),
+    append(Hlist,RlistC,TempList),
+    append(TempList,RlistD,Alist),
+    atomList_termList(Alist,[],RTlist,Houses),
+    reverse(RTlist,Tlist),
+    gera_houses(Houses,2),
+    listCall(Tlist),
+    maplist(writeln,Houses),
+    create_S(Houses,[],S),
+    printlist(S),
+    %Converter essa saida no formato que o meidanis quer
+    retractall(con(_,_)).
+
+create_S([],R,R).
+create_S(Houses,Acc,S) :-
+    [H|T] = Houses,
+    [HouseN|Components] = H,
+    _X-N = HouseN,
+    create_S_aux(N, Components, [], R),
+    append(R,Acc,Acc1),
+    create_S(T,Acc1,S).
+
+create_S_aux(_,[],R,R).
+
+create_S_aux(N,[Component|T],Acc,R) :-
+    _HN-TN = Component,
+    append([c(TN,N)],Acc,Acc1),
+    
+    create_S_aux(N,T,Acc1,R).
+    
+
+r(NAME,Houses) :-
+    p(NAME,Alist,_),!,atomList_termList(Alist,[],RTlist,Houses),reverse(RTlist,Tlist),gera_houses(Houses,2),listCall(Tlist),maplist(writeln,Houses),retractall(con(_,_)),!.
+
+testAll() :-
+    problema(X,_,_),r(X,_),false.
+
+p(NAME,Rlist,Dlen) :-
+    assertz(con(house,1)),
+    assertz(con(house,2)),
+    assertz(con(house,3)),
+    assertz(con(house,4)),
+    assertz(con(house,5)),
+    assertz(con(house,6)),
+    assertz(con(house,7)),
+    assertz(con(house,8)),
+    assertz(con(house,9)),
+    assertz(con(house,10)),
+    problema(NAME, D, C),
+    parse_D(D,[],RlistD),
+    [DH|_] = D,
+    length(DH,Dlent),
+    Dlen is Dlent - 1,
+    make_houses(Dlen,1,[],RHlist),
+    reverse(RHlist,Hlist),
+    parse_C(C,RlistC,[],[]),
+    append(Hlist,RlistC,TempList),
+    append(TempList,RlistD,Rlist),
+    %printlist(Rlist),
+    %retract(con(house,_)),
+    %retract(con(_X,_Y)),
+    !.
+
+%-----------------------------------------------------------------------%
+%This block parses the domain (D), generating the size of the domain,   %
+%and basic rules to conect all domains to the solution                  %
+%Acumuladores são usados para extrair toda a informação das listas C e D%
+%-----------------------------------------------------------------------%
+parse_D(D,Acc,RlistD) :-
+    [HEAD|TAIL] = D,
+    insert_terms(HEAD,TDRules),
+    append(TDRules,Acc,Acc1),
+    parse_D(TAIL,Acc1,RlistD).
+parse_D(_,R,R).
+
+insert_terms(TERM,TDRules) :-
+    [NAME|DATA] = TERM,
+    assertz(NAME),
+    insert_terms_aux(NAME,DATA,[],TDRules).
+
+insert_terms_aux(NAME,DATA,Acc,TDRules) :-
+    [T1|TR] = DATA,
+    NAME =.. [_Functor, N],
+    TERM =.. [con,N,T1],
+    assertz(TERM),
+    make_domain_rule(N,T1,Rule),
+    append([Rule],Acc,Acc1),
+    insert_terms_aux(NAME,TR,Acc1,TDRules).
+
+insert_terms_aux(_,_,R,R).
+
+make_domain_rule(N,T,Rule) :-
+    atom_concat('one_of(Houses, [',N,Rule0),
+    atom_concat(Rule0,'-\'',Rule1),
+    atom_concat(Rule1,T,Rule2),
+    atom_concat(Rule2,'\' , ',Rule3),
+    atom_concat(Rule3,'_',Rule4),
+    atom_concat(Rule4,'])',Rule).
+
+make_houses(N,N,R,R).
+make_houses(N,B,Acc,HRules) :-
+    B1 is B+1,
+    atom_concat('two_of(Houses, r_left_of, [[house-\'',B,Rule0),
+    atom_concat(Rule0,'\'] , [house-\'',Rule1),
+    atom_concat(Rule1,B1,Rule2),
+    atom_concat(Rule2,'\']])',Rule),
+    append([Rule],Acc,Acc1),
+    make_houses(N,B1,Acc1,HRules).		
+
+%-------------------------------------------------------------------%
+
+atomList_termList(Alist,Acc,Tlist,House) :-
+    [HA|TA] = Alist,
+    (atomic(HA) ->
+	 atom_to_term(HA,Term,BA),
+	 %writeln(Term),
+	 BA.'Houses' = House,
+	    %Term =.. [Func|Rest] ,
+	    %writeln(Func),
+	    %[_|Rest2] = Rest,
+	    %RestF = [House|Rest2],
+	    %TermF =.. [Func|RestF],
+	    append([Term],Acc,Acc1),
+	    %printlist(Acc1),
+	    atomList_termList(TA,Acc1,Tlist,House);
+     atomList_termList(TA,Acc,Tlist,House)).
+
+atomList_termList(_,R,R,_House).
+
+listCall([]).
+
+listCall(Tlist) :-
+    [H|T] = Tlist,
+    %writeln("\n\n\nCalling term"),
+    %writeln(H),
+    call(H),
+    %writeln("End call\n\n"),
+    listCall(T).
+
+printlist([]).
+    
+printlist([X|List]) :-
+    write(X),write(' , '),nl,
+    printlist(List).
+
+%-------------------------------------------------------------------%
+%This section generates rules from the C list, using the con(X,Y)   %
+%created in parse_D                                                 %
+%-------------------------------------------------------------------%
+parse_C([H|T],Rlist,Pacc,Aacc) :-
+    [OP|ARG] = H,
+    (OP == > -> parse_right(ARG,Rule,Kind),
+		append([Rule],Aacc,Aacc1),
+		parse_C(T,Rlist,Pacc,Aacc1);
+     true),
+
+    (OP == < -> parse_left(ARG,Rule,Kind),
+		append([Rule],Aacc,Aacc1),
+		parse_C(T,Rlist,Pacc,Aacc1);
+     true),
+    
+    (OP == = -> parse_equal(ARG,Rule,Kind),
+		append([Rule],Pacc,Pacc1),
+		parse_C(T,Rlist,Pacc1,Aacc);
+     true),
+
+    (OP == or -> parse_or(ARG,Rule,Kind),
+		 append([Rule],Pacc,Pacc1),
+     		 parse_C(T,Rlist,Pacc1,Aacc);
+     true).
+    %writeln(Rule).
+    %writeln(Pacc),
+%Parse_C(T,Rlist,Pacc1,Aacc1).
+parse_C([],Rlist,Pacc,Aacc) :-  append(Pacc,Aacc,Rlist).
+
+parse_or(A,ORRules,or) :-
+    [H,T|_] = A,
+    [_,N,P1] = H,
+    [_,N,P2] = T,
+    con(NT,N),
+    con(P1T,P1),
+    con(P2T,P2),
+    atom_concat('or_of(Houses, [',NT,ORRules0),
+    atom_concat(ORRules0,'-\'',ORRules1),
+    atom_concat(ORRules1,N,ORRules2),
+    atom_concat(ORRules2,'\' , ',ORRules3),
+    atom_concat(ORRules3,P1T,ORRules4),
+    atom_concat(ORRules4,'-\'',ORRules5),
+    atom_concat(ORRules5,P1,ORRules6),
+    atom_concat(ORRules6,'\'], [',ORRules7),
+    atom_concat(ORRules7,NT,ORRules8),
+    atom_concat(ORRules8,'-\'',ORRules9),
+    atom_concat(ORRules9,N,ORRules10),
+    atom_concat(ORRules10,'\' , ',ORRules11),
+    atom_concat(ORRules11,P2T,ORRules12),
+    atom_concat(ORRules12,'-\'',ORRules13),
+    atom_concat(ORRules13,P2,ORRules14),
+    atom_concat(ORRules14,'\'])',ORRules).
+    %writeln(ORRules).
+
+parse_left(A,LRules,lf) :-
+    [H|TT] = A,
+    [T|_] = TT,
+    parse_left_arg(H,RH),
+    parse_left_arg(T,RT),
+    con(RHC,RH),
+    con(RTC,RT),
+    atom_concat("two_of(Houses, left_of, [[",RHC,LRules0),
+    atom_concat(LRules0,'-\'',LRules1), 
+    atom_concat(LRules1,RH,LRules2),
+    atom_concat(LRules2,'\'],[',LRules3),
+    atom_concat(LRules3,RTC,LRules4),
+    atom_concat(LRules4,'-\'',LRules5),
+    atom_concat(LRules5,RT,LRules6),
+    atom_concat(LRules6,'\']])',LRules).
+    %writeln(LRules).
+
+parse_left_arg(X,R) :-
+    atomic(X),
+    %string(X),
+    R = X.
+
+parse_right(A,RRules,rt) :-
+    [H|TT] = A,
+    [T|_] = TT,
+    parse_right_arg(H,RH),
+    parse_right_arg(T,RT),
+    con(RHC,RH),
+    con(RTC,RT),
+    atom_concat("two_of(Houses, right_of, [[",RHC,RRules0),
+    atom_concat(RRules0,'-\'',RRules1), 
+    atom_concat(RRules1,RH,RRules2),
+    atom_concat(RRules2,'\'],[',RRules3),
+    atom_concat(RRules3,RTC,RRules4),
+    atom_concat(RRules4,'-\'',RRules5),
+    atom_concat(RRules5,RT,RRules6),
+    atom_concat(RRules6,'\']])',RRules).
+    %writeln(RRules).
+
+parse_right_arg(X,R) :-
+    atomic(X),
+    R = X.
+
+parse_equal(A,Rule,Kind) :-
+    [H|TT] = A,
+    [T|_] = TT,
+    parse_equal_arg(H,RH1,RH2,OP1),
+    parse_equal_arg(T,RT1,_RT2,OP2),
+    (OP1 == 'abs-' -> RH=RH1, RT=RH2;
+     (OP1 == 'abs+' -> RH=RH1, RT=RT1;
+      RH=RH1, RT=RT1)),
+    con(RHC,RH),
+    con(RTC,RT),
+    Kind = OP1,
+    atom_concat(OP1,OP2,OP),
+    (OP == == ->
+	 atom_concat('one_of(Houses, [',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\' , ',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\'])',Rule); true),
+	 %writeln(Rule); true),
+    (OP == -= ->
+	 atom_concat('two_of(Houses, r_right_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+
+    (OP == += ->
+	 atom_concat('two_of(Houses, r_left_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+
+    (OP1 == 'abs-' ->
+	 atom_concat('two_of(Houses, next_to, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+
+    (OP1 == 'abs+'  ->     
+	 atom_concat('two_of(Houses, r_left_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true).
+
+parse_equal_arg(X,R1,R2,OP) :-
+    \+atomic(X),
+    [OPT|T] = X,
+    [F1|_F2] = T,
+    (OPT==abs -> [OPT2|I1] = F1,
+		 [R1,R2|_] = I1,
+		 atom_concat(OPT,OPT2,OP);
+     OP=OPT,
+     R1=F1,
+     R2=1).
+
+parse_equal_arg(X,R1,R2,OP) :-
+    OP = =,
+    atomic(X),
+    %string(X),
+    R1 = X,
+    R2 = X.
+%----------------------------------------------------------------------%
+%Admito que esse bando de atom_concat e bem deselagante, tentar refazer%
+%----------------------------------------------------------------------%
+
+
+r_left_of(A,B,C):- append(_,[A,B|_],C).
+
+r_right_of(A,B,C):- r_left_of(B,A,C).
+
+left_of(L,R,[L|T]) :-
+    member(R,T).
+left_of(L,R,[_|T]) :-
+    left_of(L,R,T).
+
+right_of(R,L,A):-
+    left_of(L,R,A).
+
+next_to(A,B,C):- r_left_of(A,B,C).
+next_to(A,B,C):- r_left_of(B,A,C).
+
+%Para garantir maior desempeenho, primeiro as select, depois
+%as r_*, depois as next_to e só depois as left, right e between
+%90% do ganho com 10% do esforco separando apenas as left e right
+
+gera_houses(X,N) :-
+    N \= 1,
+    append(X,[_],X1),
+    N1 is N-1,
+    gera_houses(X1,N1).
+gera_houses(_X,_).
+
+attrs(H,[N-V|R]):- memberchk( N-X, H), X=V,  % unique attribute names
+                   (R=[] -> true ; attrs(H,R)).
+one_of(HS,AS)  :- member(H,HS), attrs(H,AS).
+    
+or_of(HS, AS1, AS2) :-
+    (one_of(HS, AS1); one_of(HS, AS2)).
+two_of(HS,G,AS):- call(G,H1,H2,HS), maplist(attrs,[H1,H2],AS).
+
+
+%Meidanis sugeriu usar call para colocar essas regras como uma!
+
+
+
+
+
+
 problemas(
 	[
 	    p1,
@@ -195,350 +583,3 @@ problema(nacoes,
 problema(futebol,
 	 [[domain(chuteira),amarela,azul,branca,verde,vermelha],[domain(nome),edson,fernando,marcos,rogerio,ronaldo],[domain(idade),'21a','22a','25a','26a','28a'],[domain(posicao),atacante,lateral,meia,volante,zagueiro],[domain(estado),ceara,para,parana,rio,sao_paulo],[domain(titulos),'3t','5t','6t','8t','10t']],
 	 [[<,amarela,'3t'],[=,volante,'5t'],[>,'10t',branca],[>,branca,'6t'],[<,branca,vermelha],[=,ronaldo,parana],[<,rogerio,ceara],[=,[abs,[-,sao_paulo,amarela]],1],[=,[-,atacante,1],rio],[=,rogerio,rio],[=,meia,2],[=,[+,lateral,1],branca],[=,'28a',5],[=,[abs,[-,'10t','26a']],1],[=,'22a',3],[=,meia,'25a'],[=,[abs,[-,edson,meia]],1],[=,[abs,[-,ceara,'8t']],1],[>,branca,'6t'],[<,branca,edson],[=,[-,rogerio,1],para],[=,[+,marcos,1],'25a'],[=,[-,ronaldo,1],'22a'],[=,[-,volante,1],azul]]).
-
-r(NAME,Houses) :-
-    p(NAME,Alist,Dlen),!,atomList_termList(Alist,[],RTlist,Houses),reverse(RTlist,Tlist),gera_houses(Houses,2),listCall(Tlist),maplist(writeln,Houses),retractall(con(_,_)),!.
-
-testAll() :-
-    problema(X,_,_),r(X,Houses),false.
-
-p(NAME,Rlist,Dlen) :-
-    assertz(con(house,1)),
-    assertz(con(house,2)),
-    assertz(con(house,3)),
-    assertz(con(house,4)),
-    assertz(con(house,5)),
-    assertz(con(house,6)),
-    assertz(con(house,7)),
-    assertz(con(house,8)),
-    assertz(con(house,9)),
-    assertz(con(house,10)),
-    problema(NAME, D, C),
-    parse_D(D,[],RlistD),
-    [DH|_] = D,
-    length(DH,Dlent),
-    Dlen is Dlent - 1,
-    make_houses(Dlen,1,[],RHlist),
-    reverse(RHlist,Hlist),
-    parse_C(C,RlistC,[],[]),
-    append(Hlist,RlistC,TempList),
-    append(TempList,RlistD,Rlist),
-    %printlist(Rlist),
-    %retract(con(house,_)),
-    %retract(con(_X,_Y)),
-    !.
-
-%-----------------------------------------------------------------------%
-%This block parses the domain (D), generating the size of the domain,   %
-%and basic rules to conect all domains to the solution                  %
-%Acumuladores são usados para extrair toda a informação das listas C e D%
-%-----------------------------------------------------------------------%
-parse_D(D,Acc,RlistD) :-
-    [HEAD|TAIL] = D,
-    insert_terms(HEAD,TDRules),
-    append(TDRules,Acc,Acc1),
-    parse_D(TAIL,Acc1,RlistD).
-parse_D(_,R,R).
-
-insert_terms(TERM,TDRules) :-
-    [NAME|DATA] = TERM,
-    assertz(NAME),
-    insert_terms_aux(NAME,DATA,[],TDRules).
-
-insert_terms_aux(NAME,DATA,Acc,TDRules) :-
-    [T1|TR] = DATA,
-    NAME =.. [_Functor, N],
-    TERM =.. [con,N,T1],
-    assertz(TERM),
-    make_domain_rule(N,T1,Rule),
-    append([Rule],Acc,Acc1),
-    insert_terms_aux(NAME,TR,Acc1,TDRules).
-
-insert_terms_aux(_,_,R,R).
-
-make_domain_rule(N,T,Rule) :-
-    atom_concat('one_of(Houses, [',N,Rule0),
-    atom_concat(Rule0,'-\'',Rule1),
-    atom_concat(Rule1,T,Rule2),
-    atom_concat(Rule2,'\' , ',Rule3),
-    atom_concat(Rule3,'_',Rule4),
-    atom_concat(Rule4,'])',Rule).
-
-make_houses(N,N,R,R).
-make_houses(N,B,Acc,HRules) :-
-    B1 is B+1,
-    atom_concat('two_of(Houses, r_left_of, [[house-\'',B,Rule0),
-    atom_concat(Rule0,'\'] , [house-\'',Rule1),
-    atom_concat(Rule1,B1,Rule2),
-    atom_concat(Rule2,'\']])',Rule),
-    append([Rule],Acc,Acc1),
-    make_houses(N,B1,Acc1,HRules).		
-
-%-------------------------------------------------------------------%
-
-atomList_termList(Alist,Acc,Tlist,House) :-
-    [HA|TA] = Alist,
-    (atomic(HA) ->
-	 atom_to_term(HA,Term,BA),
-	 %writeln(Term),
-	 BA.'Houses' = House,
-	    %Term =.. [Func|Rest] ,
-	    %writeln(Func),
-	    %[_|Rest2] = Rest,
-	    %RestF = [House|Rest2],
-	    %TermF =.. [Func|RestF],
-	    append([Term],Acc,Acc1),
-	    %printlist(Acc1),
-	    atomList_termList(TA,Acc1,Tlist,House);
-     atomList_termList(TA,Acc,Tlist,House)).
-
-atomList_termList(_,R,R,House).
-
-listCall([]).
-
-listCall(Tlist) :-
-    [H|T] = Tlist,
-    %writeln("\n\n\nCalling term"),
-    %writeln(H),
-    call(H),
-    %writeln("End call\n\n"),
-    listCall(T).
-
-printlist([]).
-    
-printlist([X|List]) :-
-    write(X),write(' , '),nl,
-    printlist(List).
-
-%-------------------------------------------------------------------%
-%This section generates rules from the C list, using the con(X,Y)   %
-%created in parse_D                                                 %
-%-------------------------------------------------------------------%
-parse_C([H|T],Rlist,Pacc,Aacc) :-
-    [OP|ARG] = H,
-    (OP == > -> parse_right(ARG,Rule,Kind),
-		append([Rule],Aacc,Aacc1),
-		parse_C(T,Rlist,Pacc,Aacc1);
-     true),
-
-    (OP == < -> parse_left(ARG,Rule,Kind),
-		append([Rule],Aacc,Aacc1),
-		parse_C(T,Rlist,Pacc,Aacc1);
-     true),
-    
-    (OP == = -> parse_equal(ARG,Rule,Kind),
-		append([Rule],Pacc,Pacc1),
-		parse_C(T,Rlist,Pacc1,Aacc);
-     true),
-
-    (OP == or -> parse_or(ARG,Rule,Kind),
-		 append([Rule],Pacc,Pacc1),
-     		 parse_C(T,Rlist,Pacc1,Aacc);
-     true).
-    %writeln(Rule).
-    %writeln(Pacc),
-%Parse_C(T,Rlist,Pacc1,Aacc1).
-parse_C([],Rlist,Pacc,Aacc) :-  append(Pacc,Aacc,Rlist).
-
-parse_or(A,ORRules,or) :-
-    [H,T|_] = A,
-    [_,N,P1] = H,
-    [_,N,P2] = T,
-    con(NT,N),
-    con(P1T,P1),
-    con(P2T,P2),
-    atom_concat('or_of(Houses, [',NT,ORRules0),
-    atom_concat(ORRules0,'-\'',ORRules1),
-    atom_concat(ORRules1,N,ORRules2),
-    atom_concat(ORRules2,'\' , ',ORRules3),
-    atom_concat(ORRules3,P1T,ORRules4),
-    atom_concat(ORRules4,'-\'',ORRules5),
-    atom_concat(ORRules5,P1,ORRules6),
-    atom_concat(ORRules6,'\'], [',ORRules7),
-    atom_concat(ORRules7,NT,ORRules8),
-    atom_concat(ORRules8,'-\'',ORRules9),
-    atom_concat(ORRules9,N,ORRules10),
-    atom_concat(ORRules10,'\' , ',ORRules11),
-    atom_concat(ORRules11,P2T,ORRules12),
-    atom_concat(ORRules12,'-\'',ORRules13),
-    atom_concat(ORRules13,P2,ORRules14),
-    atom_concat(ORRules14,'\'])',ORRules).
-    %writeln(ORRules).
-
-parse_left(A,LRules,lf) :-
-    [H|TT] = A,
-    [T|_] = TT,
-    parse_left_arg(H,RH),
-    parse_left_arg(T,RT),
-    con(RHC,RH),
-    con(RTC,RT),
-    atom_concat("two_of(Houses, left_of, [[",RHC,LRules0),
-    atom_concat(LRules0,'-\'',LRules1), 
-    atom_concat(LRules1,RH,LRules2),
-    atom_concat(LRules2,'\'],[',LRules3),
-    atom_concat(LRules3,RTC,LRules4),
-    atom_concat(LRules4,'-\'',LRules5),
-    atom_concat(LRules5,RT,LRules6),
-    atom_concat(LRules6,'\']])',LRules).
-    %writeln(LRules).
-
-parse_left_arg(X,R) :-
-    atomic(X),
-    %string(X),
-    R = X.
-
-parse_right(A,RRules,rt) :-
-    [H|TT] = A,
-    [T|_] = TT,
-    parse_right_arg(H,RH),
-    parse_right_arg(T,RT),
-    con(RHC,RH),
-    con(RTC,RT),
-    atom_concat("two_of(Houses, right_of, [[",RHC,RRules0),
-    atom_concat(RRules0,'-\'',RRules1), 
-    atom_concat(RRules1,RH,RRules2),
-    atom_concat(RRules2,'\'],[',RRules3),
-    atom_concat(RRules3,RTC,RRules4),
-    atom_concat(RRules4,'-\'',RRules5),
-    atom_concat(RRules5,RT,RRules6),
-    atom_concat(RRules6,'\']])',RRules).
-    %writeln(RRules).
-
-parse_right_arg(X,R) :-
-    atomic(X),
-    R = X.
-
-parse_equal(A,Rule,Kind) :-
-    [H|TT] = A,
-    [T|_] = TT,
-    parse_equal_arg(H,RH1,RH2,OP1),
-    parse_equal_arg(T,RT1,RT2,OP2),
-    (OP1 == 'abs-' -> RH=RH1, RT=RH2;
-     (OP1 == 'abs+' -> RH=RH1, RT=RT1;
-      RH=RH1, RT=RT1)),
-    con(RHC,RH),
-    con(RTC,RT),
-    Kind = OP1,
-    atom_concat(OP1,OP2,OP),
-    (OP == == ->
-	 atom_concat('one_of(Houses, [',RHC,Rule0),
-	 atom_concat(Rule0,'-\'',Rule1),
-	 atom_concat(Rule1,RH,Rule2),
-	 atom_concat(Rule2,'\' , ',Rule3),
-	 atom_concat(Rule3,RTC,Rule4),
-	 atom_concat(Rule4,'-\'',Rule5),
-	 atom_concat(Rule5,RT,Rule6),
-	 atom_concat(Rule6,'\'])',Rule); true),
-	 %writeln(Rule); true),
-    (OP == -= ->
-	 atom_concat('two_of(Houses, r_right_of, [[',RHC,Rule0),
-	 atom_concat(Rule0,'-\'',Rule1),
-	 atom_concat(Rule1,RH,Rule2),
-	 atom_concat(Rule2,'\'] , [',Rule3),
-	 atom_concat(Rule3,RTC,Rule4),
-	 atom_concat(Rule4,'-\'',Rule5),
-	 atom_concat(Rule5,RT,Rule6),
-	 atom_concat(Rule6,'\']])',Rule); true),
-
-    (OP == += ->
-	 atom_concat('two_of(Houses, r_left_of, [[',RHC,Rule0),
-	 atom_concat(Rule0,'-\'',Rule1),
-	 atom_concat(Rule1,RH,Rule2),
-	 atom_concat(Rule2,'\'] , [',Rule3),
-	 atom_concat(Rule3,RTC,Rule4),
-	 atom_concat(Rule4,'-\'',Rule5),
-	 atom_concat(Rule5,RT,Rule6),
-	 atom_concat(Rule6,'\']])',Rule); true),
-
-    (OP1 == 'abs-' ->
-	 atom_concat('two_of(Houses, next_to, [[',RHC,Rule0),
-	 atom_concat(Rule0,'-\'',Rule1),
-	 atom_concat(Rule1,RH,Rule2),
-	 atom_concat(Rule2,'\'] , [',Rule3),
-	 atom_concat(Rule3,RTC,Rule4),
-	 atom_concat(Rule4,'-\'',Rule5),
-	 atom_concat(Rule5,RT,Rule6),
-	 atom_concat(Rule6,'\']])',Rule); true),
-
-    (OP1 == 'abs+'  ->     
-	 atom_concat('two_of(Houses, r_left_of, [[',RHC,Rule0),
-	 atom_concat(Rule0,'-\'',Rule1),
-	 atom_concat(Rule1,RH,Rule2),
-	 atom_concat(Rule2,'\'] , [',Rule3),
-	 atom_concat(Rule3,RTC,Rule4),
-	 atom_concat(Rule4,'-\'',Rule5),
-	 atom_concat(Rule5,RT,Rule6),
-	 atom_concat(Rule6,'\']])',Rule); true).
-
-parse_equal_arg(X,R1,R2,OP) :-
-    \+atomic(X),
-    [OPT|T] = X,
-    [F1|F2] = T,
-    (OPT==abs -> [OPT2|I1] = F1,
-		 [R1,R2|_] = I1,
-		 atom_concat(OPT,OPT2,OP);
-     OP=OPT,
-     R1=F1,
-     R2=1).
-
-parse_equal_arg(X,R1,R2,OP) :-
-    OP = =,
-    atomic(X),
-    %string(X),
-    R1 = X,
-    R2 = X.
-%----------------------------------------------------------------------%
-%Admito que esse bando de atom_concat e bem deselagante, tentar refazer%
-%----------------------------------------------------------------------%
-
-
-
-select(A,S):- select(A,S,_).
-
-r_left_of(A,B,C):- append(_,[A,B|_],C).
-
-r_right_of(A,B,C):- r_left_of(B,A,C).
-
-left_of(L,R,[L|T]) :-
-    member(R,T).
-left_of(L,R,[_|T]) :-
-    left_of(L,R,T).
-
-right_of(R,L,A):-
-    left_of(L,R,A).
-
-next_to(A,B,C):- r_left_of(A,B,C).
-next_to(A,B,C):- r_left_of(B,A,C).
-
-between(A,B,C,R) :-
-    left_of(A,B,R),
-    left_of(B,C,R).
-between(A,B,C,R) :-
-    right_of(A,B,R),
-    right_of(B,C,R).
-
-%Para garantir maior desempeenho, primeiro as select, depois
-%as r_*, depois as next_to e só depois as left, right e between
-
-gera_houses(X,N) :-
-    N \= 1,
-    append(X,[_],X1),
-    N1 is N-1,
-    gera_houses(X1,N1).
-gera_houses(X,_).
-
-zebraa(Zebra,Houses,RList):-
-    gera_houses(Houses,2), % 1
-    maplist(call, Rlist).
-
-attrs(H,[N-V|R]):- memberchk( N-X, H), X=V,  % unique attribute names
-                   (R=[] -> true ; attrs(H,R)).
-one_of(HS,AS)  :- member(H,HS), attrs(H,AS).
-    
-or_of(HS, AS1, AS2) :-
-    (one_of(HS, AS1); one_of(HS, AS2)).
-two_of(HS,G,AS):- call(G,H1,H2,HS), maplist(attrs,[H1,H2],AS).
-%left_of(A,B,HS):- append(_,[A,B|_],HS).
-%next_to(A,B,HS):- left_of(A,B,HS) ; left_of(B,A,HS).
-
-%Meidanis sugeriu usar call para colocar essas regras como uma!
