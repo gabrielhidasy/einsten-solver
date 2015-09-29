@@ -26,7 +26,7 @@ solver(D,C,S) :-
     listCall(Tlist),
     maplist(writeln,Houses),
     create_S(Houses,[],S),
-    printlist(S),
+    %printlist(S),
     %Converter essa saida no formato que o meidanis quer
     retractall(con(_,_)).
 
@@ -43,43 +43,11 @@ create_S_aux(_,[],R,R).
 
 create_S_aux(N,[Component|T],Acc,R) :-
     _HN-TN = Component,
-    append([c(TN,N)],Acc,Acc1),
+    atom_number(N,Num),
+    append([c(TN,Num)],Acc,Acc1),
     
     create_S_aux(N,T,Acc1,R).
     
-
-r(NAME,Houses) :-
-    p(NAME,Alist,_),!,atomList_termList(Alist,[],RTlist,Houses),reverse(RTlist,Tlist),gera_houses(Houses,2),listCall(Tlist),maplist(writeln,Houses),retractall(con(_,_)),!.
-
-testAll() :-
-    problema(X,_,_),r(X,_),false.
-
-p(NAME,Rlist,Dlen) :-
-    assertz(con(house,1)),
-    assertz(con(house,2)),
-    assertz(con(house,3)),
-    assertz(con(house,4)),
-    assertz(con(house,5)),
-    assertz(con(house,6)),
-    assertz(con(house,7)),
-    assertz(con(house,8)),
-    assertz(con(house,9)),
-    assertz(con(house,10)),
-    problema(NAME, D, C),
-    parse_D(D,[],RlistD),
-    [DH|_] = D,
-    length(DH,Dlent),
-    Dlen is Dlent - 1,
-    make_houses(Dlen,1,[],RHlist),
-    reverse(RHlist,Hlist),
-    parse_C(C,RlistC,[],[]),
-    append(Hlist,RlistC,TempList),
-    append(TempList,RlistD,Rlist),
-    %printlist(Rlist),
-    %retract(con(house,_)),
-    %retract(con(_X,_Y)),
-    !.
-
 %-----------------------------------------------------------------------%
 %This block parses the domain (D), generating the size of the domain,   %
 %and basic rules to conect all domains to the solution                  %
@@ -131,18 +99,18 @@ make_houses(N,B,Acc,HRules) :-
 atomList_termList(Alist,Acc,Tlist,House) :-
     [HA|TA] = Alist,
     (atomic(HA) ->
-	 atom_to_term(HA,Term,BA),
+	 atom_to_term(HA,Term,_BA),
 	 %writeln(Term),
-	 BA.'Houses' = House,
-	    %Term =.. [Func|Rest] ,
+	 %BA.'Houses' = House,
+	    Term =.. [Func|Rest] ,
 	    %writeln(Func),
-	    %[_|Rest2] = Rest,
-	    %RestF = [House|Rest2],
-	    %TermF =.. [Func|RestF],
-	    append([Term],Acc,Acc1),
+	    [_|Rest2] = Rest,
+	    RestF = [House|Rest2],
+	    TermF =.. [Func|RestF],
+	    append([TermF],Acc,Acc1),
 	    %printlist(Acc1),
 	    atomList_termList(TA,Acc1,Tlist,House);
-     atomList_termList(TA,Acc,Tlist,House)).
+	    atomList_termList(TA,Acc,Tlist,House)).
 
 atomList_termList(_,R,R,_House).
 
