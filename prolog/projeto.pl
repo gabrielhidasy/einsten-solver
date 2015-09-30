@@ -28,7 +28,10 @@ solver(D,C,S) :-
     create_S(Houses,[],S),
     %printlist(S),
     %Converter essa saida no formato que o meidanis quer
-    retractall(con(_,_)).
+    retractall(con(_,_)),!.
+
+testAll :-
+    problema(_X,D,C),solver(D,C,S),maplist(writeln, S), false.
 
 create_S([],R,R).
 create_S(Houses,Acc,S) :-
@@ -192,7 +195,7 @@ parse_left(A,LRules,lf) :-
     parse_left_arg(T,RT),
     con(RHC,RH),
     con(RTC,RT),
-    atom_concat("two_of(Houses, left_of, [[",RHC,LRules0),
+    atom_concat('two_of(Houses, left_of, [[',RHC,LRules0),
     atom_concat(LRules0,'-\'',LRules1), 
     atom_concat(LRules1,RH,LRules2),
     atom_concat(LRules2,'\'],[',LRules3),
@@ -214,7 +217,7 @@ parse_right(A,RRules,rt) :-
     parse_right_arg(T,RT),
     con(RHC,RH),
     con(RTC,RT),
-    atom_concat("two_of(Houses, right_of, [[",RHC,RRules0),
+    atom_concat('two_of(Houses, right_of, [[',RHC,RRules0),
     atom_concat(RRules0,'-\'',RRules1), 
     atom_concat(RRules1,RH,RRules2),
     atom_concat(RRules2,'\'],[',RRules3),
