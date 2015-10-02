@@ -1,5 +1,196 @@
 :- module(bobao,[solver/3]).
 %Fazer o leitor de C, D, S
+
+start(C,D) :-
+    read_lines(1,[],DLines),
+    read_all_domains(DLines,[],D),
+    read_lines(1,[],CLines),
+    %writeln(CLines),
+    read_all_rules(CLines,[],C),!.
+    %writeln(D),
+    %writeln(D),
+    %writeln(C).
+
+read_left_rule(S,R) :-
+    %writeln("Parsing left"),
+    length(S,N),
+    (N == 3 -> [O1,_,O2] = S, R = ['>',O1,O2]).
+read_right_rule(S,R) :-
+    %writeln("Parsing right"),
+    length(S,N),
+    (N == 3 -> [O1,_,O2] = S, R = ['<',O1,O2]).
+read_or_rule(S,R) :-
+    %writeln("Parsing or"),
+    %writeln(S),
+    [Name,_,P1,_Or,Name2,_,P2|_] = S,
+    (atom_number(P1,PP1) -> RP1 = PP1; RP1 = P1),
+    (atom_number(P2,PP2) -> RP2 = PP2; RP2 = P2),
+    %writeln(Name),
+    %writeln(P1),
+    %writeln(REST),
+    R = ['or',['=',Name,RP1],['=',Name2,RP2]].
+read_abs_rule(S,R) :-
+    %writeln("Parsing abs"),
+    [SH|_] = S,
+    split_atom(' ',SH,SSH),
+    (member('+',SSH) -> read_pos_abs_rule(S,R);
+     read_neg_abs_rule(S,R)).
+    %writeln(R).
+read_pos_abs_rule(S,R) :-
+    [SH,SL] = S,
+    split_atom(' ',SH,S1),
+    split_atom(' ',SL,S2),
+    [N1,_OP,_|_] = S1,
+    [_,N2|_] = S2,
+    (atom_number(N2,NN2) ->
+	 R = ['=',['abs',['+',N1,1]],NN2];
+     R = ['=',['abs',['+',N1,1]],N2]).
+    
+read_neg_abs_rule(S,R) :-
+    %writeln('Parsing negative abs'),
+    [SH,SL] = S,
+    split_atom(' ',SH,S1),
+    split_atom(' ',SL,S2),
+    [N1,_OP,N2|_] = S1,
+    [_,X] = S2,
+    atom_number(X,XX),
+    (atom_number(N2,NN2) ->
+	 R = ['=',['abs',['-',N1,NN2]],XX];
+     R = ['=',['abs',['-',N1,N2]],XX]).
+read_plus_equal_rule(S,R) :-
+    %write('Parsing positive equal'),
+    %writeln(S),
+    ([N1,'+',X,_,N2] = S ->
+	 atom_number(X,XX),
+	 (atom_number(N1,NN1) ->
+	      (atom_number(N2,NN2) ->
+		   R = ['=',['+',NN1,XX],NN2];
+	       R = ['=',['+',NN1,XX],N2]);
+	  (atom_number(N2,NN2) ->
+	       R = ['=',['+',N1,XX],NN2];
+	   R = ['=',['+',N1,XX],N2]));
+     [N1,_,N2,'+',X] = S,
+     atom_number(X,XX),
+     (atom_number(N2,NN2) ->
+	  R = ['=',N1,['+',NN2,XX]];
+      R = ['=',N1,['+',N2,XX]])).
+
+read_minus_equal_rule(S,R) :-
+    %write('Parsing negative equal'),
+    %writeln(S),
+    ([N1,'-',X,_,N2] = S ->
+	 atom_number(X,XX),
+	 (atom_number(N2,NN2) ->
+	      R = ['=',['-',N1,XX],NN2];
+	  R = ['=',['-',N1,XX],N2]);
+     [N1,_,N2,'-',X] = S,
+     atom_number(X,XX),
+     (atom_number(N1,NN1) ->
+	  (atom_number(N2,NN2) ->
+	       R = ['=',NN1,['-',NN2,XX]];
+       R = ['=',NN1,['-',N2,XX]]);
+      (atom_number(N2,NN2) ->
+	   R = ['=',N1,['-',NN2,XX]];
+       R = ['=',N1,['-',N2,XX]]))).
+
+read_real_equal_rule(S,R) :-
+    %write('Parsing real equal'),
+    %writeln(S),
+    [N1,_,N2] = S,
+    %atom_number(N2,NN2),
+    (atom_number(N1,NN1) ->
+	 (atom_number(N2,NN2) -> R = ['=',NN1,NN2];
+	  R = ['=',NN1,N2]);
+     (atom_number(N2,NN2) -> R = ['=',N1,NN2];
+      R = ['=',N1,N2])).
+    %writeln(NN2).
+
+read_equal_rule(S,R):-
+    %writeln('Parsing equal'),
+    (member('+',S) -> read_plus_equal_rule(S,R);
+     (member('-',S) -> read_minus_equal_rule(S,R);
+      read_real_equal_rule(S,R))).
+    
+read_rule(Rulel,R) :-
+    [Rule|_] = Rulel,
+    split_atom('|',Rule,ABS),
+    length(ABS,ISABS),
+    %writeln(ABS),
+    split_atom(' ',Rule,S),
+    (member('>',S) -> read_left_rule(S,R);
+     (member('<',S) -> read_right_rule(S,R);
+      (member('or',S) -> read_or_rule(S,R); 
+       (ISABS == 2 -> read_abs_rule(ABS,R);
+	(member('=',S) -> read_equal_rule(S,R);true))))).
+    %writeln(R).
+
+read_all_rules([],R,RR) :- reverse(R,RR).
+read_all_rules(CLines,Acc,C) :-
+    [H|T] = CLines,
+    read_rule(H,X),
+    append([X],Acc,Acc1),
+    read_all_rules(T,Acc1,C).
+
+read_all_domains([],R,RR) :- reverse(R,RR).
+read_all_domains(DLines,Acc,R) :-
+    [[H]|T] = DLines,
+    read_domain_line(H,X),
+    append([X],Acc,Acc1),
+    read_all_domains(T,Acc1,R).
+    
+    
+read_domain_line(DLine,DElement) :-
+    %writeln(DLine),
+    string_to_atom(DLine, InputA),
+    split_atom(' ',InputA, InputAS),
+    [DOMAINA|REST]=InputAS,
+    split_atom(':', DOMAINA, [DOMAIN|_]),
+    split_domain_list(REST,[],DR),
+    append([domain(DOMAIN)],DR,DElement).
+
+split_domain_list([],R,RE) :- reverse(R, RE).
+split_domain_list(IN,Acc,R) :-
+    [H|T] = IN,
+    (T == [] -> split_atom('.', H, X); split_atom(',', H, X)),
+    append(X, Acc, Acc1),
+    split_domain_list(T, Acc1, R).
+
+split_atom(S, A, L) :- atomic_list_concat(XL, S, A), delete(XL, '', L).
+
+read_single_line(0,R,Line) :-
+    reverse(R,Linel),
+    string_to_list(Line,Linel).
+
+read_single_line(1,Acc,R) :-
+    get_char(C),
+    (C == '\n' ->
+	 read_single_line(0,Acc,R);
+     (C == '.'  ->
+	  read_single_line(0,Acc,R);
+      (C == '\'' -> read_single_line(1,Acc,R);
+       append([C],Acc,Acc1),
+       read_single_line(1,Acc1,R)))).
+     
+
+read_lines(0,CR,CLines) :-
+    reverse(CR,CLines).
+read_lines(1,CAcc,CLines) :-
+    read_single_line(1,[],Line),
+    string_length(Line,N),
+    append([[Line]], CAcc, CAcc1),
+    (N == 0 -> read_lines(0,CAcc,CLines);
+     read_lines(1,CAcc1,CLines)).
+
+print_S([]).
+print_S(S) :-
+    [H|T] = S,
+    c(Name,Estate) = H,
+    write(Name), write(' = '),writeln(Estate),
+    print_S(T).
+
+solve(_File,_Sol) :-
+    start(C,D),solver(D,C,S),print_S(S),!.
+
 solver(D,C,S) :-
     assertz(con(house,1)),
     assertz(con(house,2)),
@@ -21,17 +212,19 @@ solver(D,C,S) :-
     append(Hlist,RlistC,TempList),
     append(TempList,RlistD,Alist),
     atomList_termList(Alist,[],RTlist,Houses),
+    %maplist(writeln, Alist),
     reverse(RTlist,Tlist),
     gera_houses(Houses,2),
     listCall(Tlist),
-    maplist(writeln,Houses),
+    %maplist(writeln,Houses),
     create_S(Houses,[],S),
+    %print_S(S),
     %printlist(S),
     %Converter essa saida no formato que o meidanis quer
     retractall(con(_,_)),!.
 
 testAll :-
-    problema(_X,D,C),solver(D,C,S),maplist(writeln, S), false.
+    problema(_X,D,C),solver(D,C,S),maplist(writeln, S),false.
 
 create_S([],R,R).
 create_S(Houses,Acc,S) :-
@@ -113,7 +306,8 @@ atomList_termList(Alist,Acc,Tlist,House) :-
 	    append([TermF],Acc,Acc1),
 	    %printlist(Acc1),
 	    atomList_termList(TA,Acc1,Tlist,House);
-	    atomList_termList(TA,Acc,Tlist,House)).
+     writeln('POSSIVEL PROBLEMA'),
+     atomList_termList(TA,Acc,Tlist,House)).
 
 atomList_termList(_,R,R,_House).
 
@@ -235,6 +429,7 @@ parse_equal(A,Rule,Kind) :-
     [H|TT] = A,
     [T|_] = TT,
     parse_equal_arg(H,RH1,RH2,OP1),
+    %writeln(H),writeln(T),
     parse_equal_arg(T,RT1,_RT2,OP2),
     (OP1 == 'abs-' -> RH=RH1, RT=RH2;
      (OP1 == 'abs+' -> RH=RH1, RT=RT1;
@@ -243,6 +438,7 @@ parse_equal(A,Rule,Kind) :-
     con(RTC,RT),
     Kind = OP1,
     atom_concat(OP1,OP2,OP),
+    %writeln(OP),
     (OP == == ->
 	 atom_concat('one_of(Houses, [',RHC,Rule0),
 	 atom_concat(Rule0,'-\'',Rule1),
@@ -262,6 +458,33 @@ parse_equal(A,Rule,Kind) :-
 	 atom_concat(Rule4,'-\'',Rule5),
 	 atom_concat(Rule5,RT,Rule6),
 	 atom_concat(Rule6,'\']])',Rule); true),
+    (OP == '-2=' ->
+	 atom_concat('two_of(Houses, rr_right_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+    (OP == '-3=' ->
+	 atom_concat('two_of(Houses, rrr_right_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+    (OP == =- ->
+	 atom_concat('two_of(Houses, r_left_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
 
     (OP == += ->
 	 atom_concat('two_of(Houses, r_left_of, [[',RHC,Rule0),
@@ -272,9 +495,35 @@ parse_equal(A,Rule,Kind) :-
 	 atom_concat(Rule4,'-\'',Rule5),
 	 atom_concat(Rule5,RT,Rule6),
 	 atom_concat(Rule6,'\']])',Rule); true),
-
-    (OP1 == 'abs-' ->
-	 atom_concat('two_of(Houses, next_to, [[',RHC,Rule0),
+     (OP == '+2=' ->
+	 atom_concat('two_of(Houses, rr_left_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+     (OP == '+3=' ->
+	 atom_concat('two_of(Houses, rrr_left_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+    (OP == '=-2' ->
+	 atom_concat('two_of(Houses, rr_left_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+    (OP == '=-3' ->
+	 atom_concat('two_of(Houses, rrr_left_of, [[',RHC,Rule0),
 	 atom_concat(Rule0,'-\'',Rule1),
 	 atom_concat(Rule1,RH,Rule2),
 	 atom_concat(Rule2,'\'] , [',Rule3),
@@ -283,6 +532,48 @@ parse_equal(A,Rule,Kind) :-
 	 atom_concat(Rule5,RT,Rule6),
 	 atom_concat(Rule6,'\']])',Rule); true),
 
+    (OP == =+ ->
+	 atom_concat('two_of(Houses, r_right_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+
+    (OP == '=+2' ->
+	 atom_concat('two_of(Houses, rr_right_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+
+    (OP == '=+3' ->
+	 atom_concat('two_of(Houses, rrr_right_of, [[',RHC,Rule0),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
+    (OP1 == 'abs-' ->
+	 (RT1 == 1 ->
+	      atom_concat('two_of(Houses, next_to, [[',RHC,Rule0);
+	  (RT1 == 2  ->
+	       atom_concat('two_of(Houses, nnext_to, [[',RHC,Rule0);
+	   atom_concat('two_of(Houses, nnnext_to, [[',RHC,Rule0))),
+	 atom_concat(Rule0,'-\'',Rule1),
+	 atom_concat(Rule1,RH,Rule2),
+	 atom_concat(Rule2,'\'] , [',Rule3),
+	 atom_concat(Rule3,RTC,Rule4),
+	 atom_concat(Rule4,'-\'',Rule5),
+	 atom_concat(Rule5,RT,Rule6),
+	 atom_concat(Rule6,'\']])',Rule); true),
     (OP1 == 'abs+'  ->     
 	 atom_concat('two_of(Houses, r_left_of, [[',RHC,Rule0),
 	 atom_concat(Rule0,'-\'',Rule1),
@@ -296,13 +587,15 @@ parse_equal(A,Rule,Kind) :-
 parse_equal_arg(X,R1,R2,OP) :-
     \+atomic(X),
     [OPT|T] = X,
-    [F1|_F2] = T,
+    [F1|F2l] = T,
     (OPT==abs -> [OPT2|I1] = F1,
 		 [R1,R2|_] = I1,
 		 atom_concat(OPT,OPT2,OP);
-     OP=OPT,
+     [F2] = F2l,
+     (F2 \= 1 ->
+	  atom_concat(OPT,F2,OP);OP=OPT),
      R1=F1,
-     R2=1).
+     R2=F2).
 
 parse_equal_arg(X,R1,R2,OP) :-
     OP = =,
@@ -319,6 +612,14 @@ r_left_of(A,B,C):- append(_,[A,B|_],C).
 
 r_right_of(A,B,C):- r_left_of(B,A,C).
 
+rr_left_of(A,B,C):- append(_,[A,_,B|_],C).
+
+rr_right_of(A,B,C):- rr_left_of(B,A,C).
+
+rrr_left_of(A,B,C):- append(_,[A,_,_,B|_],C).
+
+rrr_right_of(A,B,C):- rrr_left_of(B,A,C).
+
 left_of(L,R,[L|T]) :-
     member(R,T).
 left_of(L,R,[_|T]) :-
@@ -329,6 +630,12 @@ right_of(R,L,A):-
 
 next_to(A,B,C):- r_left_of(A,B,C).
 next_to(A,B,C):- r_left_of(B,A,C).
+
+nnext_to(A,B,C):- rr_left_of(A,B,C).
+nnext_to(A,B,C):- rr_left_of(B,A,C).
+
+nnnext_to(A,B,C):- rrr_left_of(A,B,C).
+nnnext_to(A,B,C):- rrr_left_of(B,A,C).
 
 %Para garantir maior desempeenho, primeiro as select, depois
 %as r_*, depois as next_to e só depois as left, right e between
@@ -461,6 +768,9 @@ problemas(
 	    antigos,
 	    junina]).
 
+problema(pais,
+	[[domain(nome),adriana,carolina,daniela,mariana,patricia],[domain(bolsa),amarela,azul,branca,verde,vermelha],[domain(gastar),'50r','75r','100r','200r','300r'],[domain(pai),andre,carlos,fabio,joao,paulo],[domain(presente),calca_jeans,camisa,carteira,gravata,perfume],[domain(time),corinthians,palmeiras,portuguesa,santos,sao_paulo]],
+	[[=,corinthians,4],[=,carlos,2],[or,[=,'50r',1],[=,'50r',5]],[=,[+,verde,1],carteira],[=,paulo,santos],[or,[=,'300r',1],[=,'300r',5]],[=,[abs,[-,carolina,palmeiras]],1],[=,joao,palmeiras],[>,portuguesa,branca],[<,portuguesa,palmeiras],[=,[+,'200r',1],'300r'],[=,fabio,4],[>,vermelha,andre],[<,vermelha,amarela],[=,[abs,[-,calca_jeans,perfume]],1],[=,daniela,gravata],[=,azul,2],[>,'100r',camisa],[<,'100r','200r'],[<,adriana,santos],[=,verde,'100r'],[<,patricia,perfume],[=,portuguesa,'75r'],[or,[=,adriana,'100r'],[=,adriana,'75r']],[=,[-,patricia,1],mariana]]).
 problema(p1,
 	 [[domain(cor),azul,vermelha,preta],[domain(nacionalidade),alemao,espanhol,italiano]],
 	 [[=,espanhol,[+,vermelha,1]],[=,alemao,azul],[=,italiano,2]]).
