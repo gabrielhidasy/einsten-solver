@@ -1,0 +1,112 @@
+c(C) :-
+    C = [[>,suv,crossover],[<,suv,sedan],[=,dr_luis,suv],[<,amarela,hatch],[=,crossover,1],[=,'37_anos',4],[>,'34_anos',dr_otavio],[<,'34_anos',civil],[=,'30_anos',2],[=,[-,mojito,1],'40_anos'],[=,[+,'34_anos',1],cosmopolitan],[=,caipirinha,5],[=,martini,3],[=,suv,4],[or,[=,dr_carlos,1],[=,dr_carlos,5]],[>,dr_ulysses,amarela],[>,amarela,dr_otavio],[<,amarela,'34_anos'],[=,civil,4],[=,[abs,[-,trabalhista,comercial]],1],[>,trabalhista,crossover],[<,trabalhista,comercial],[=,[+,imobiliaria,1],trabalhista],[=,[-,branca,1],dr_luis],[=,vermelha,4],[=,azul,3]].
+
+d(D) :- D = [[domain(gravata),amarela,azul,branca,verde,vermelha],[domain(area),civil,comercial,consumidor,imobiliaria,trabalhista],[domain(nome),dr_alberto,dr_carlos,dr_luis,dr_otavio,dr_ulysses],[domain(bebida),caipirinha,cosmopolitan,margarita,martini,mojito],[domain(idade),'30_anos','34_anos','37_anos','40_anos','44_anos'],[domain(carro),crossover,hatch,pickup,sedan,suv]].
+
+p(C,D) :-
+    assertz(con(house,1)),
+    assertz(con(house,2)),
+    assertz(con(house,3)),
+    assertz(con(house,4)),
+    assertz(con(house,5)),
+    d(D), c(C), split_terms(D).
+
+split_terms(D) :-
+    [HEAD|TAIL] = D,
+    insert_terms(HEAD),
+    split_terms(TAIL).
+
+split_terms(_).
+
+insert_terms(TERM) :-
+    [NAME|DATA] = TERM,
+    assertz(NAME),
+    insert_terms_aux(NAME,DATA).
+
+
+insert_terms_aux(NAME,DATA) :-
+    [T1|TR] = DATA,
+    %The two lines below extract the name from the functor domain and
+    NAME =.. [_Functor, N],
+    TERM =.. [con,N,T1],
+    assertz(TERM),
+    insert_terms_aux(NAME,TR).
+
+insert_terms_aux(_,_).
+
+parse_C([H|T]) :-
+    [OP|ARG] = H,
+    (OP == > -> parse_right(ARG); true),
+    (OP == < -> parse_left(ARG); true),
+    (OP == = -> parse_equal(ARG); true),
+    (OP == or -> parse_or(ARG); true),
+    parse_C(T).
+parse_C([]).
+parse_C(_).
+
+parse_or(A) :-
+    [H,T|_] = A,
+    [_,N,P1] = H,
+    [_,N,P2] = T,
+    con(NT,N), 
+    write(NT),write("-"),write(N),write(" is at "),write(P1),
+    write(" or "),writeln(P2).
+
+parse_left(A) :-
+    [H|TT] = A,
+    [T|_] = TT,
+    parse_left_arg(H,RH),
+    parse_left_arg(T,RT),
+    con(RHC,RH),
+    con(RTC,RT),
+    write(RHC),write("-"),write(RH),
+    write(" is < to "),
+    write(RTC),write("-"),write(RT), write("\n").
+
+parse_left_arg(X,R) :-
+    atomic(X),
+    %string(X),
+    R = X.
+
+parse_right(A) :-
+    [H|TT] = A,
+    [T|_] = TT,
+    parse_right_arg(H,RH),
+    parse_right_arg(T,RT),
+    con(RHC,RH),
+    con(RTC,RT),
+    write(RHC),write("-"),write(RH),
+    write(" is > to "),
+    write(RTC),write("-"),write(RT), write("\n").
+
+
+parse_right_arg(X,R) :-
+    atomic(X),
+    %string(X),
+    R = X.
+
+parse_equal(A) :-
+    [H|TT] = A,
+    [T|_] = TT,
+    parse_equal_arg(H,RH1,RH2,OP1),
+    parse_equal_arg(T,RT1,RT2,OP2),
+    (OP1 == abs -> RH=RH1, RT=RH2; RH=RH1, RT=RT1),
+    con(RHC,RH),
+    con(RTC,RT),
+    write(RHC),write("-"),write(RH),
+    write(" is "),write(OP1),write(OP2),write(" to "),
+    write(RTC),write("-"),write(RT), write("\n").
+
+parse_equal_arg(X,R1,R2,OP) :-
+    \+atomic(X),
+    [OP|T] = X,
+    [F1|_] = T,
+    (OP==abs -> [_|I1] = F1, [R1,R2|_] = I1; R1=F1, R2=1).
+
+parse_equal_arg(X,R1,R2,OP) :-
+    OP = =,
+    atomic(X),
+    %string(X),
+    R1 = X,
+    R2 = X.
+

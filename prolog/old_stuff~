@@ -1,0 +1,304 @@
+do(Houses) :-
+    Houses = _G1514,
+    Houses = [_,_,_,_,_],
+    two_of(_G1514,r_left_of,[[house-1],[house-2]]) , 
+    two_of(_G1514,r_left_of,[[house-2],[house-3]]) , 
+    two_of(_G1514,r_left_of,[[house-3],[house-4]]) , 
+    two_of(_G1514,r_left_of,[[house-4],[house-5]]) , 
+    one_of(_G1514,[blusa-vermelha,veio_com-filho]) , 
+    one_of(_G1514,[blusa-branca,esqueceu-presunto]) , 
+    two_of(_G1514,r_left_of,[[nome-juliana],[blusa-amarela]]) , 
+    one_of(_G1514,[nome-natalia,house-5]) , 
+    two_of(_G1514,r_right_of,[[nome-carol],[veio_com-marido]]) , 
+    one_of(_G1514,[nome-aline,veio_com-marido]) , 
+    one_of(_G1514,[nome-fernanda,blusa-branca]) , 
+    or_of(_G1514,[esqueceu-amaciante,house-1],[esqueceu-amaciante,house-5]) , 
+    one_of(_G1514,[esqueceu-leite,pagamento-dinheiro]) , 
+    one_of(_G1514,[pagamento-credito,esqueceu-presunto]) , 
+    one_of(_G1514,[pagamento-cheque,house-1]) , 
+    two_of(_G1514,r_left_of,[[veio_com-marido],[esqueceu-pao]]) , 
+    one_of(_G1514,[pagamento-dinheiro,house-5]) , 
+    one_of(_G1514,[pagamento-credito,house-4]) , 
+    one_of(_G1514,[veio_com-namorado,house-1]) , 
+    one_of(_G1514,[veio_com-marido,pagamento-vale]) , 
+    two_of(_G1514,r_left_of,[[esqueceu-pao],[veio_com-irma]]) , 
+    two_of(_G1514,left_of,[[blusa-verde],[blusa-azul]]) , 
+    two_of(_G1514,left_of,[[blusa-azul],[veio_com-filho]]) , 
+    one_of(_G1514,[veio_com-namorado,_G4492]) , 
+    one_of(_G1514,[veio_com-marido,_G4523]) , 
+    one_of(_G1514,[veio_com-mae,_G4554]) , 
+    one_of(_G1514,[veio_com-irma,_G4585]) , 
+    one_of(_G1514,[veio_com-filho,_G4616]) , 
+    one_of(_G1514,[pagamento-vale,_G4647]) , 
+    one_of(_G1514,[pagamento-dinheiro,_G4678]) , 
+    one_of(_G1514,[pagamento-debito,_G4709]) , 
+    one_of(_G1514,[pagamento-credito,_G4740]) , 
+    one_of(_G1514,[pagamento-cheque,_G4771]) , 
+    one_of(_G1514,[esqueceu-presunto,_G4802]) , 
+    one_of(_G1514,[esqueceu-pao,_G4833]) , 
+    one_of(_G1514,[esqueceu-leite,_G4864]) , 
+    one_of(_G1514,[esqueceu-frutas,_G4895]) , 
+    one_of(_G1514,[esqueceu-amaciante,_G4926]) , 
+    one_of(_G1514,[nome-natalia,_G4957]) , 
+    one_of(_G1514,[nome-juliana,_G4988]) , 
+    one_of(_G1514,[nome-fernanda,_G5019]) , 
+    one_of(_G1514,[nome-carol,_G5050]) , 
+    one_of(_G1514,[nome-aline,_G5081]) , 
+    one_of(_G1514,[blusa-vermelha,_G5112]) , 
+    one_of(_G1514,[blusa-verde,_G5143]) , 
+    one_of(_G1514,[blusa-branca,_G5174]) , 
+    one_of(_G1514,[blusa-azul,_G5205]) , 
+    one_of(_G1514,[blusa-amarela,_G5236]).
+
+
+attrs(H,[N-V|R]):- memberchk( N-X, H), X=V,  % unique attribute names
+		   (R=[] -> true ; attrs(H,R)).
+
+one_of(HS,AS)  :- member(H,HS), attrs(H,AS).
+two_of(HS,G,AS):- call(G,H1,H2,HS), maplist(attrs,[H1,H2],AS).
+select(A,S):- select(A,S,_).
+
+r_left_of(A,B,C):- append(_,[A,B|_],C).
+
+r_right_of(A,B,C):- r_left_of(B,A,C).
+
+left_of(L,R,[L|T]) :-
+    member(R,T).
+left_of(L,R,[_|T]) :-
+    left_of(L,R,T).
+
+right_of(R,L,A):-
+    left_of(L,R,A).
+
+next_to(A,B,C):- r_left_of(A,B,C).
+next_to(A,B,C):- r_left_of(B,A,C).
+
+between(A,B,C,R) :-
+    left_of(A,B,R),
+    left_of(B,C,R).
+between(A,B,C,R) :-
+    right_of(A,B,R),
+    right_of(B,C,R).
+
+
+
+bla(Houses) :-
+    two_of(Houses, r_left_of, [[house-1],[house-2]]),
+    two_of(Houses, r_left_of, [[house-2],[house-3]]),
+    one_of(Houses, [nacionalidade-italiano , house-2]),
+    one_of(Houses, [nacionalidade-alemao , cor-azul]),
+    one_of(Houses, [nacionalidade-italiano , _]),
+    one_of(Houses, [nacionalidade-espanhol , _]),
+    one_of(Houses, [nacionalidade-alemao , _]),
+    one_of(Houses, [cor-preta , _]),
+    one_of(Houses, [cor-vermelha , _]),
+    one_of(Houses, [cor-azul , _])
+    ,!.
+
+
+
+zebraa2(Zebra,Houses):-
+    gera_houses(Houses,4), % 1
+    two_of(Houses, r_left_of, [[house-n1],[house-n2]]),
+    two_of(Houses, r_left_of, [[house-n2],[house-n3]]),
+    two_of(Houses, r_left_of, [[house-n3],[house-n4]]),
+    two_of(Houses, r_left_of, [[house-n4],[house-n5]]),
+    maplist(one_of(Houses),[
+		[ house-n4, sport-basquete ],
+		[ house-n2, sport-futebol ],
+		[ house-n2, age-'32anos' ],
+		[ name-junior, cor-verde ],
+		[ hability-musica, cor-vermelho],
+		[ fruta-uva, sport-corrida ]
+	    ] ),
+    (one_of(Houses,[ house-n1, hability-canto]);
+     one_of(Houses,[ house-n5, hability-canto])),
+    maplist(two_of(Houses,next_to),  
+            [
+		[[fruta-abacaxi],[fruta-morango]],
+		[[cor-branco],[fruta-morango]],
+		[[cor-amarelo],[age-'35anos']]
+            ] ),
+    maplist(two_of(Houses,r_left_of), [
+		[[name-michel],[fruta-maca]],
+		[[name-michel],[sport-boliche]],
+		[[age-'22anos'],[name-michel]],
+		[[name-alexander],[age-'32anos']]
+	    ]),
+    maplist(two_of(Houses,r_right_of), [
+		[[fruta-abacaxi],[sport-natacao]],
+		[[sport-futebol],[hability-imitacao]],
+		[[hability-canto],[name-junior]]
+	    ]),
+    maplist(two_of(Houses,left_of), [
+		[[cor-vermelho],[age-'24anos']]
+    	    ]),
+    maplist(two_of(Houses,right_of), [
+		[[name-rodolfo],[cor-vermelho]]
+    	    ]),
+    maplist( one_of(Houses), [  [ cor-azul,   _        ]
+				, [cor-vermelho, _ ]
+				, [cor-verde, _]
+				, [cor-amarelo,_]
+				, [cor-branco,_]
+				, [hability-danca, _]
+				, [hability-imitacao, _]
+				, [hability-malabarismo, _]
+				, [hability-canto, _]
+				, [hability-musica, _]
+				, [age-'24anos', _]
+				, [age-'29anos', _]
+				, [age-'32anos', _]
+				, [age-'22anos', _]
+				, [age-'35anos', _]
+				, [name-rodolfo, _]
+				, [name-heitor, _]
+				, [name-junior, _]
+				, [name-michel, _]
+				, [name-alexander, _]
+				, [sport-futebol, _]
+				, [sport-natacao, _]
+				, [sport-corrida, _]
+				, [sport-basquete, _]
+				, [sport-boliche, _]
+				, [fruta-banana, _]
+				, [fruta-morango, _]
+				, [fruta-maca, _]
+				, [fruta-abacaxi, _]
+				, [fruta-uva, _]]),!.
+
+
+
+solve2(R) :-
+    %Essa tem que usar C pra criar a serie de selects e outras abaixo
+    R = [[c1,_,_,_,_,_,_],[c2,_,_,_,_,_,_],[c3,_,_,_,_,_,_],
+	 [c4,_,_,_,_,_,_],[c5,_,_,_,_,_,_]],
+    %basquete = 4
+    select([c4,_,_,_,_,_,basquete],R),
+    %futebol = 2
+    select([c2,_,_,_,_,_,futebol],R),
+    %uva = corrida
+    select([_,_,_,_,_,uva,corrida],R),
+    %junior = verde
+    select([_,verde,junior,_,_,_,_],R),
+    %musica = vermelha
+    select([_,vermelha,_,musica,_,_,_],R), 
+    %'32anos' = 2
+    select([c2,_,_,_,'32anos',_,_],R),
+    %canto = 1 or canto = 5
+    (select([c1,_,_,canto,_,_,_],R);select([c5,_,_,canto,_,_,_],R)),
+
+    %canto - 1 = junior
+    r_right_of([_,_,_,canto,_,_,_],[_,_,junior,_,_,_,_],R),
+    %malabarismo + 1 = canto
+    r_left_of([_,_,_,malabarismo,_,_,_],[_,_,_,canto,_,_,_],R),
+    %futebol - 1 = imitacao
+    r_right_of([_,_,_,_,_,_,futebol],[_,_,_,imitacao,_,_,_],R),
+    %alexander + 1 = '32anos'
+    r_left_of([_,_,alexander,_,_,_,_],[_,_,_,_,'32anos',_,_],R),
+    %abacaxi - 1 = natacao
+    r_right_of([_,_,_,_,_,abacaxi,_],[_,_,_,_,_,_,natacao],R),
+    %michel + 1 = boliche
+    r_left_of([_,_,michel,_,_,_,_],[_,_,_,_,_,_,boliche],R),
+    %michel + 1 = maca
+    r_left_of([_,_,michel,_,_,_,_],[_,_,_,_,_,maca,_],R),
+    %'22anos' + 1 = michel
+    r_left_of([_,_,_,_,'22anos',_,_],[_,_,michel,_,_,_,_],R),
+    %canto - 1 = junior
+    r_right_of([_,_,_,canto,_,_,_],[_,_,junior,_,_,_,_],R),
+
+    %|morango - abacaxi| = 1
+    next_to([_,_,_,_,_,morango,_],[_,_,_,_,_,abacaxi,_],R),
+    %|branca - morango| = 1
+    next_to([_,_,_,_,_,morango,_],[_,branca,_,_,_,_,_],R),    
+    %|'35anos' - amarela| = 1
+    next_to([_,_,_,_,'35anos',_,_],[_,amarela,_,_,_,_,_],R),
+    
+    %basquete > '22anos'
+    right_of([_,_,_,_,_,_,basquete],[_,_,_,_,'22anos',_,_],R),
+    %basquete < corrida
+    left_of([_,_,_,_,_,_,basquete],[_,_,_,_,_,_,corrida],R),
+    %vermelha < '24anos'
+    left_of([_,vermelha,_,_,_,_,_],[_,_,_,_,'24anos',_,_],R),
+    %malabarismo < canto
+    left_of([_,_,_,malabarismo,_,_,_],[_,_,_,canto,_,_,_],R),
+    %futebol > imitacao
+    right_of([_,_,_,_,_,_,futebol],[_,_,_,imitacao,_,_,_],R),
+    %rodolfo > vermelha
+    right_of([_,_,rodolfo,_,_,_,_],[_,vermelha,_,_,_,_,_],R),
+    %alexander < '32anos'
+    left_of([_,_,alexander,_,_,_,_],[_,_,_,_,'32anos',_,_],R),
+
+    domain_contraints(R),!.
+
+domain_contraints(R) :-
+    %Essa tem que receber a lista D e executar selects
+    %como essas ai
+    %camisa: amarela, azul, branca, verde, vermelha
+    select([_,amarela,_,_,_,_,_],R),
+    select([_,azul,_,_,_,_,_],R),
+    select([_,branca,_,_,_,_,_],R),
+    select([_,verde,_,_,_,_,_],R),
+    select([_,vermelha,_,_,_,_,_],R),
+
+    %nome: alexander, heitor, junior, michel, rodolfo
+    select([_,_,alexander,_,_,_,_],R),
+    select([_,_,heitor,_,_,_,_],R),
+    select([_,_,junior,_,_,_,_],R),
+    select([_,_,michel,_,_,_,_],R),
+    select([_,_,rodolfo,_,_,_,_],R),
+    
+    %talento: canto, danca, imitacao, malabarismo, musica
+    select([_,_,_,canto,_,_,_],R),
+    select([_,_,_,danca,_,_,_],R),
+    select([_,_,_,imitacao,_,_,_],R),
+    select([_,_,_,malabarismo,_,_,_],R),
+    select([_,_,_,musica,_,_,_],R),
+
+    %idade: '22anos', '24anos', '29anos', '32anos', '35anos'
+    select([_,_,_,_,'22anos',_,_],R),
+    select([_,_,_,_,'24anos',_,_],R),
+    select([_,_,_,_,'29anos',_,_],R),
+    select([_,_,_,_,'32anos',_,_],R),
+    select([_,_,_,_,'35anos',_,_],R),
+
+    %fruta: abacaxi, banana, maca, morango, uva
+    select([_,_,_,_,_,abacaxi,_],R),
+    select([_,_,_,_,_,banana,_],R),
+    select([_,_,_,_,_,maca,_],R),
+    select([_,_,_,_,_,morango,_],R),
+    select([_,_,_,_,_,uva,_],R),
+    
+    %esporte: basquete, boliche, corrida, futebol, natacao
+    select([_,_,_,_,_,_,basquete],R),
+    select([_,_,_,_,_,_,boliche],R),
+    select([_,_,_,_,_,_,corrida],R),
+    select([_,_,_,_,_,_,futebol],R),
+    select([_,_,_,_,_,_,natacao],R),
+    !.
+
+
+split_terms(D) :-
+    [HEAD|TAIL] = D,
+    insert_terms(HEAD),
+    split_terms(TAIL).
+
+split_terms(_).
+
+insert_terms(TERM) :-
+    [NAME|DATA] = TERM,
+    assertz(NAME),
+    insert_terms_aux(NAME,DATA).
+
+insert_terms_aux(NAME,DATA) :-
+    [T1|TR] = DATA,
+    %The two lines below extract the name from the functor domain and
+    NAME =.. [_Functor, N],
+    TERM =.. [con,N,T1],
+    assertz(TERM),
+    insert_terms_aux(NAME,TR).
+
+insert_terms_aux(_,_).
+
+or_of(HS, AS1, AS2) :-
+    (one_of(HS, AS1); one_of(HS, AS2)).
