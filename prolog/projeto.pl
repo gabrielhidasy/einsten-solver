@@ -1,5 +1,9 @@
 :- module(bobao,[solver/2]).
 
+my_atom_number(X,Y) :-
+    atom_codes(X,T),\+memberchk(95,T),
+    atom_number(X,Y).
+
 solver(File,Sol) :-
     %Definir File como input
     start(File,C,D),
@@ -33,8 +37,8 @@ read_or_rule(S,R) :-
     %writeln("Parsing or"),
     %writeln(S),
     [Name,_,P1,_Or,Name2,_,P2|_] = S,
-    (atom_number(P1,PP1) -> RP1 = PP1; RP1 = P1),
-    (atom_number(P2,PP2) -> RP2 = PP2; RP2 = P2),
+    (my_atom_number(P1,PP1) -> RP1 = PP1; RP1 = P1),
+    (my_atom_number(P2,PP2) -> RP2 = PP2; RP2 = P2),
     %writeln(Name),
     %writeln(P1),
     %writeln(REST),
@@ -52,7 +56,7 @@ read_pos_abs_rule(S,R) :-
     split_atom(' ',SL,S2),
     [N1,_OP,_|_] = S1,
     [_,N2|_] = S2,
-    (atom_number(N2,NN2) ->
+    (my_atom_number(N2,NN2) ->
 	 R = ['=',['abs',['+',N1,1]],NN2];
      R = ['=',['abs',['+',N1,1]],N2]).
     
@@ -63,25 +67,25 @@ read_neg_abs_rule(S,R) :-
     split_atom(' ',SL,S2),
     [N1,_OP,N2|_] = S1,
     [_,X] = S2,
-    atom_number(X,XX),
-    (atom_number(N2,NN2) ->
+    my_atom_number(X,XX),
+    (my_atom_number(N2,NN2) ->
 	 R = ['=',['abs',['-',N1,NN2]],XX];
      R = ['=',['abs',['-',N1,N2]],XX]).
 read_plus_equal_rule(S,R) :-
     %write('Parsing positive equal'),
     %writeln(S),
     ([N1,'+',X,_,N2] = S ->
-	 atom_number(X,XX),
-	 (atom_number(N1,NN1) ->
-	      (atom_number(N2,NN2) ->
+	 my_atom_number(X,XX),
+	 (my_atom_number(N1,NN1) ->
+	      (my_atom_number(N2,NN2) ->
 		   R = ['=',['+',NN1,XX],NN2];
 	       R = ['=',['+',NN1,XX],N2]);
-	  (atom_number(N2,NN2) ->
+	  (my_atom_number(N2,NN2) ->
 	       R = ['=',['+',N1,XX],NN2];
 	   R = ['=',['+',N1,XX],N2]));
      [N1,_,N2,'+',X] = S,
-     atom_number(X,XX),
-     (atom_number(N2,NN2) ->
+     my_atom_number(X,XX),
+     (my_atom_number(N2,NN2) ->
 	  R = ['=',N1,['+',NN2,XX]];
       R = ['=',N1,['+',N2,XX]])).
 
@@ -89,17 +93,17 @@ read_minus_equal_rule(S,R) :-
     %write('Parsing negative equal'),
     %writeln(S),
     ([N1,'-',X,_,N2] = S ->
-	 atom_number(X,XX),
-	 (atom_number(N2,NN2) ->
+	 my_atom_number(X,XX),
+	 (my_atom_number(N2,NN2) ->
 	      R = ['=',['-',N1,XX],NN2];
 	  R = ['=',['-',N1,XX],N2]);
      [N1,_,N2,'-',X] = S,
-     atom_number(X,XX),
-     (atom_number(N1,NN1) ->
-	  (atom_number(N2,NN2) ->
+     my_atom_number(X,XX),
+     (my_atom_number(N1,NN1) ->
+	  (my_atom_number(N2,NN2) ->
 	       R = ['=',NN1,['-',NN2,XX]];
        R = ['=',NN1,['-',N2,XX]]);
-      (atom_number(N2,NN2) ->
+      (my_atom_number(N2,NN2) ->
 	   R = ['=',N1,['-',NN2,XX]];
        R = ['=',N1,['-',N2,XX]]))).
 
@@ -107,11 +111,11 @@ read_real_equal_rule(S,R) :-
     %write('Parsing real equal'),
     %writeln(S),
     [N1,_,N2] = S,
-    %atom_number(N2,NN2),
-    (atom_number(N1,NN1) ->
-	 (atom_number(N2,NN2) -> R = ['=',NN1,NN2];
+    %my_atom_number(N2,NN2),
+    (my_atom_number(N1,NN1) ->
+	 (my_atom_number(N2,NN2) -> R = ['=',NN1,NN2];
 	  R = ['=',NN1,N2]);
-     (atom_number(N2,NN2) -> R = ['=',N1,NN2];
+     (my_atom_number(N2,NN2) -> R = ['=',N1,NN2];
       R = ['=',N1,N2])).
     %writeln(NN2).
 
@@ -251,7 +255,7 @@ create_S_aux(_,[],R,R).
 
 create_S_aux(N,[Component|T],Acc,R) :-
     _HN-TN = Component,
-    atom_number(N,Num),
+    my_atom_number(N,Num),
     append([c(TN,Num)],Acc,Acc1),
     
     create_S_aux(N,T,Acc1,R).
