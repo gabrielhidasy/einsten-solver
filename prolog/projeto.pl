@@ -1,13 +1,12 @@
 :- module(bobao,[solver/2]).
-%Fazer o leitor de C, D, S
-
 
 solver(File,Sol) :-
     %Definir File como input
     start(File,C,D),
     solver_DCS(D,C,S),
-    print_S(S,_,Sol),
-    %maplist(writeln, Sol),
+    Sol = S,
+    %print_S(S,_,Sol),
+    maplist(writeln, S),
     !.
 
 start(F,C,D) :-
@@ -621,18 +620,23 @@ parse_equal_arg(X,R1,R2,OP) :-
 %----------------------------------------------------------------------%
 
 
+%Ficaram horriveis esses predicados abaixo, muito feios
+%1 a direita e esquerda
 r_left_of(A,B,C):- append(_,[A,B|_],C).
 
 r_right_of(A,B,C):- r_left_of(B,A,C).
 
+%2 a direita e esquerda
 rr_left_of(A,B,C):- append(_,[A,_,B|_],C).
 
 rr_right_of(A,B,C):- rr_left_of(B,A,C).
 
+%3 a direita e esquerda
 rrr_left_of(A,B,C):- append(_,[A,_,_,B|_],C).
 
 rrr_right_of(A,B,C):- rrr_left_of(B,A,C).
 
+%arbitrario a direita e esquerda
 left_of(L,R,[L|T]) :-
     member(R,T).
 left_of(L,R,[_|T]) :-
@@ -641,6 +645,7 @@ left_of(L,R,[_|T]) :-
 right_of(R,L,A):-
     left_of(L,R,A).
 
+%Next de 1, 2 e 3
 next_to(A,B,C):- r_left_of(A,B,C).
 next_to(A,B,C):- r_left_of(B,A,C).
 
@@ -651,7 +656,7 @@ nnnext_to(A,B,C):- rrr_left_of(A,B,C).
 nnnext_to(A,B,C):- rrr_left_of(B,A,C).
 
 %Para garantir maior desempeenho, primeiro as select, depois
-%as r_*, depois as next_to e só depois as left, right e between
+%as r_*, depois as next_to e só depois as left e right
 %90% do ganho com 10% do esforco separando apenas as left e right
 
 gera_houses(X,N) :-
@@ -661,219 +666,12 @@ gera_houses(X,N) :-
     gera_houses(X1,N1).
 gera_houses(_X,_).
 
-attrs(H,[N-V|R]):- memberchk( N-X, H), X=V,  % unique attribute names
-                   (R=[] -> true ; attrs(H,R)).
-one_of(HS,AS)  :- member(H,HS), attrs(H,AS).
+attribs(H,[N-V|R]):- memberchk( N-X, H), X=V,
+                   (R=[] -> true ; attribs(H,R)).
+one_of(HS,AS)  :- member(H,HS), attribs(H,AS).
     
 or_of(HS, AS1, AS2) :-
     (one_of(HS, AS1); one_of(HS, AS2)).
-two_of(HS,G,AS):- call(G,H1,H2,HS), maplist(attrs,[H1,H2],AS).
-
+two_of(HS,G,AS):- call(G,H1,H2,HS), maplist(attribs,[H1,H2],AS).
 
 %Meidanis sugeriu usar call para colocar essas regras como uma!
-
-
-
-
-
-
-problemas(
-	[
-	    p1,
-	    p2,
-	    p3,
-	    escola,
-	    piscina,
-	    compras,
-	    presentes,
-	    corruptos,
-	    cinema2,
-	    advocacia,
-	    banco,
-	    piscina2,
-	    nadadores2,
-	    talentos,
-	    maratona,
-	    navios,
-	    nadadores,
-	    estacionamento,
-	    aeroporto,
-	    escola2,
-	    zoologico,
-	    mecanico,
-	    enem,
-	    ingles,
-	    kart,
-	    biblioteca,
-	    compras2,
-	    reveillon,
-	    aniversario,
-	    judo,
-	    nacoes,
-	    futebol,
-	    negocios,
-	    pizza,
-	    pais,
-	    cientistas,
-	    boliche,
-	    farmacia,
-	    secreto,
-	    mulher,
-	    casamento,
-	    bicicleta,
-	    danca,
-	    antiguidades,
-	    ilha,
-	    criancas,
-	    halloween,
-	    astronomos,
-	    mercado,
-	    laboratorio,
-	    estacao,
-	    bercario,
-	    gasolina,
-	    copa,
-	    piquenique,
-	    prato,
-	    musica,
-	    futuro,
-	    veterinario,
-	    dentes,
-	    morango,
-	    lavanderia,
-	    gestante,
-	    onibus,
-	    corruptos2,
-	    ceia,
-	    churrasco,
-	    hidrica,
-	    carnaval,
-	    praia,
-	    manifestacao,
-	    fotografico,
-	    italiano,
-	    construcao,
-	    bebe,
-	    self,
-	    avioes,
-	    cinema,
-	    academia,
-	    pescador,
-	    surf,
-	    espera,
-	    moda,
-	    bandas,
-	    maes,
-	    pet,
-	    aquario,
-	    anonovo,
-	    pascoa,
-	    pedagio,
-	    skate,
-	    happy,
-	    trabalho,
-	    beleza,
-	    porto2,
-	    avioes2,
-	    namorados,
-	    ferias,
-	    poesia,
-	    antigos,
-	    junina]).
-
-problema(pais,
-	[[domain(nome),adriana,carolina,daniela,mariana,patricia],[domain(bolsa),amarela,azul,branca,verde,vermelha],[domain(gastar),'50r','75r','100r','200r','300r'],[domain(pai),andre,carlos,fabio,joao,paulo],[domain(presente),calca_jeans,camisa,carteira,gravata,perfume],[domain(time),corinthians,palmeiras,portuguesa,santos,sao_paulo]],
-	[[=,corinthians,4],[=,carlos,2],[or,[=,'50r',1],[=,'50r',5]],[=,[+,verde,1],carteira],[=,paulo,santos],[or,[=,'300r',1],[=,'300r',5]],[=,[abs,[-,carolina,palmeiras]],1],[=,joao,palmeiras],[>,portuguesa,branca],[<,portuguesa,palmeiras],[=,[+,'200r',1],'300r'],[=,fabio,4],[>,vermelha,andre],[<,vermelha,amarela],[=,[abs,[-,calca_jeans,perfume]],1],[=,daniela,gravata],[=,azul,2],[>,'100r',camisa],[<,'100r','200r'],[<,adriana,santos],[=,verde,'100r'],[<,patricia,perfume],[=,portuguesa,'75r'],[or,[=,adriana,'100r'],[=,adriana,'75r']],[=,[-,patricia,1],mariana]]).
-problema(p1,
-	 [[domain(cor),azul,vermelha,preta],[domain(nacionalidade),alemao,espanhol,italiano]],
-	 [[=,espanhol,[+,vermelha,1]],[=,alemao,azul],[=,italiano,2]]).
-problema(p2,
-	 [[domain(cor),azul,branca,preta],[domain(nacionalidade),alemao,brasileiro,espanhol],[domain(animal),borboleta,cachorro,cavalo],[domain(esporte),futebol,tenis,sinuca]],
-	 [[or,[=,brasileiro,1],[=,brasileiro,3]],[=,cachorro,futebol],[=,[+,tenis,2],preta],[=,cavalo,[-,borboleta,1]],[=,cachorro,[+,branca,1]],[=,espanhol,3]]).
-problema(p3,
-	 [[domain(cor),amarela,branca,preta,vermelha],[domain(nacionalidade),alemao,espanhol,frances,grego],[domain(animal),borboleta,cachorro,cavalo,tartaruga],[domain(esporte),basquete,futebol,tenis,sinuca]],
-	 [[=,[abs,[-,basquete,tenis]],3],[=,grego,[+,futebol,2]],[=,2,amarela],[=,cavalo,[-,preta,2]],[=,[+,alemao,1],tartaruga],[=,cavalo,[-,borboleta,3]],[>,basquete,sinuca],[=,futebol,[-,vermelha,2]],[=,espanhol,1]]).
-problema(escola,
-	 [[domain(nome),ana,jessica,joana,pati,renata],[domain(mochila),amarela,azul,preta,verde,vermelha],[domain(materia),artes,biologia,historia,matematica,portugues],[domain(animal),cachorros,cavalos,gatos,hamsters,passaros],[domain(lugar),fernando_de_noronha,florianopolis,recife,rio_de_janeiro,salvador],[domain(suco),abacaxi,laranja,limao,maracuja,morango]],
-	 [[=,joana,abacaxi],[=,hamsters,artes],[=,ana,limao],[<,jessica,renata],[=,pati,1],[>,artes,biologia],[>,artes,historia],[>,artes,matematica],[>,artes,portugues],[=,laranja,cavalos],[=,limao,3],[=,jessica,verde],[=,[+,florianopolis,1],3],[=,recife,amarela],[=,[abs,[-,abacaxi,fernando_de_noronha]],1],[=,vermelha,fernando_de_noronha],[=,amarela,1],[=,azul,cachorros],[=,[abs,[-,biologia,hamsters]],1],[<,historia,matematica],[=,[abs,[-,laranja,maracuja]],1],[=,preta,rio_de_janeiro],[=,morango,passaros],[=,[abs,[-,biologia,portugues]],1],[=,jessica,salvador]]).
-problema(piscina,
-	 [[domain(maio),amarelo,azul,branco,verde],[domain(nome),ana,bruna,raquel,vivian],[domain(idade),i8,i9,i10,i11],[domain(suco),laranja,limao,maracuja,morango],[domain(protetor),fps40,fps45,fps50,fps55],[domain(animal),cachorro,gato,passaro,peixe]],
-	 [[=,3,cachorro],[or,[=,peixe,1],[=,peixe,4]],[=,gato,1],[=,ana,fps50],[=,2,fps55],[=,[abs,[-,fps40,i8]],1],[=,morango,4],[=,[abs,[-,maracuja,passaro]],1],[=,[abs,[-,limao,maracuja]],1],[or,[=,laranja,1],[=,laranja,4]],[<,azul,i9],[=,i8,4],[or,[=,i11,1],[=,i11,4]],[=,vivian,passaro],[=,raquel,1],[=,verde,4],[or,[=,branco,1],[=,branco,4]]]).
-problema(compras,
-	 [[domain(blusa),amarela,azul,branca,verde,vermelha],[domain(nome),aline,carol,fernanda,juliana,natalia],[domain(esqueceu),amaciante,frutas,leite,pao,presunto],[domain(pagamento),cheque,credito,debito,dinheiro,vale],[domain(veio_com),filho,irma,mae,marido,namorado]],
-	 [[=,[abs,[+,pao,1]],irma],[<,azul,filho],[=,marido,vale],[=,namorado,1],[=,credito,4],[=,dinheiro,5],[=,[abs,[+,marido,1]],pao],[=,cheque,1],[=,credito,presunto],[=,leite,dinheiro],[or,[=,amaciante,1],[=,amaciante,5]],[=,fernanda,branca],[<,verde,azul],[=,aline,marido],[=,[-,carol,1],marido],[=,natalia,5],[=,[abs,[+,juliana,1]],amarela],[=,branca,presunto],[=,vermelha,filho]]).
-problema(presentes,
-	 [[domain(cor),amarela,azul,branca,verde,vermelha],[domain(nome),alex,cristian,eduardo,mario,pedro],[domain(idade),'6_anos','7_anos','8_anos','9_anos','10_anos'],[domain(presente),bicicleta,bola,computador,skate,video_game],[domain(suco),abacaxi,laranja,limao,maracuja,morango],[domain(profissao),astronauta,bombeiro,medico,policial,professor]],
-	 [[or,[=,bombeiro,1],[=,bombeiro,5]],[=,maracuja,medico],[=,professor,3],[or,[=,policial,1],[=,policial,5]],[=,bombeiro,5],[or,[=,laranja,1],[=,laranja,5]],[=,[+,limao,1],morango],[=,[-,medico,1],abacaxi],[=,cristian,limao],[=,[abs,[-,'8_anos',computador]],1],[=,[+,skate,1],alex],[=,branca,video_game],[=,bola,1],[=,[abs,[-,bicicleta,video_game]],1],[=,'6_anos',5],[>,'10_anos','7_anos'],[<,'10_anos','9_anos'],[=,'9_anos',professor],[=,pedro,3],[=,[abs,[+,pedro,1]],eduardo],[=,eduardo,verde],[=,[+,branca,1],maracuja],[=,[+,azul,1],video_game],[=,amarela,1]]).
-problema(corruptos,
-	 [[domain(gravata),amarela,azul,branca,verde,vermelha],[domain(cargo),deputado,governador,ministro,prefeito,vereador],[domain(estado),goias,maranhao,para,parana,sao_paulo],[domain(acusacao),desvio,extorsao,nepotismo,propina,superfaturamento],[domain(fortuna),'30_m','35_m','40_m','45_m','50_m'],[domain(paraiso),chipre,ilhas_cayman,suica,tonga,uruguai]],
-	 [[=,chipre,4],[>,ilhas_cayman,branca],[<,ilhas_cayman,chipre],[=,ilhas_cayman,3],[=,[+,branca,1],tonga],[=,[abs,[-,chipre,uruguai]],1],[=,goias,'50_m'],[>,'45_m',deputado],[<,'45_m','30_m'],[=,[-,'40_m',1],suica],[or,[=,nepotismo,1],[=,nepotismo,5]],[=,propina,4],[>,extorsao,deputado],[<,extorsao,desvio],[=,nepotismo,5],[>,goias,suica],[<,goias,'30_m'],[=,parana,3],[>,maranhao,sao_paulo],[<,maranhao,azul],[>,prefeito,superfaturamento],[<,prefeito,governador],[>,vereador,sao_paulo],[<,vereador,prefeito],[=,ministro,tonga],[=,[-,azul,1],verde],[<,verde,vermelha],[=,verde,ilhas_cayman]]).
-problema(cinema2,
-	 [[domain(nome),bruna,carol,fernanda,marcela,sabrina],[domain(namorado),alex,daniel,henrique,luis,yuri],[domain(idade),'21_anos','22_anos','23_anos','24_anos','25_anos'],[domain(cor),amarelo,azul,branco,verde,vermelho],[domain(filme),acao,comedia,drama,ficcao,romance]],
-	 [[=,[abs,[-,vermelho,comedia]],1],[=,'24_anos',ficcao],[=,acao,2],[=,drama,1],[=,azul,5],[=,'23_anos',romance],[=,[abs,[-,verde,henrique]],1],[=,'22_anos',amarelo],[=,alex,romance],[=,[-,'23_anos',1],amarelo],[=,'21_anos',daniel],[=,ficcao,5],[=,'23_anos',3],[=,henrique,5],[=,[abs,[-,luis,acao]],1],[=,[abs,[-,sabrina,'24_anos']],1],[=,[abs,[-,carol,'22_anos']],1],[=,fernanda,henrique],[or,[=,bruna,1],[=,bruna,5]]]).
-problema(advocacia,
-	 [[domain(gravata),amarela,azul,branca,verde,vermelha],[domain(area),civil,comercial,consumidor,imobiliaria,trabalhista],[domain(nome),dr_alberto,dr_carlos,dr_luis,dr_otavio,dr_ulysses],[domain(bebida),caipirinha,cosmopolitan,margarita,martini,mojito],[domain(idade),'30_anos','34_anos','37_anos','40_anos','44_anos'],[domain(carro),crossover,hatch,pickup,sedan,suv]],
-	 [[>,suv,crossover],[<,suv,sedan],[=,dr_luis,suv],[<,amarela,hatch],[=,crossover,1],[=,'37_anos',4],[>,'34_anos',dr_otavio],[<,'34_anos',civil],[=,'30_anos',2],[=,[-,mojito,1],'40_anos'],[=,[+,'34_anos',1],cosmopolitan],[=,caipirinha,5],[=,martini,3],[=,suv,4],[or,[=,dr_carlos,1],[=,dr_carlos,5]],[>,dr_ulysses,amarela],[>,amarela,dr_otavio],[<,amarela,'34_anos'],[=,civil,4],[=,[abs,[-,trabalhista,comercial]],1],[>,trabalhista,crossover],[<,trabalhista,comercial],[=,[+,imobiliaria,1],trabalhista],[=,[-,branca,1],dr_luis],[=,vermelha,4],[=,azul,3]]).
-problema(banco,
-	 [[domain(camisa),amarela,azul,branca,verde,vermelha],[domain(conta),agua,aluguel,celular,luz,telefone],[domain(nome),augusto,douglas,jose,ronaldo,samuel],[domain(profissao),bombeiro,fotografo,massagista,pesquisador,veterinario],[domain(animal),cachorro,gato,passaro,peixe,tartaruga],[domain(esporte),basquete,futebol,sinuca,natacao,volei]],
-	 [[=,sinuca,4],[=,futebol,5],[=,basquete,2],[=,volei,vermelha],[=,[+,peixe,1],natacao],[=,branca,tartaruga],[=,[-,bombeiro,1],samuel],[=,veterinario,5],[=,pesquisador,3],[=,douglas,fotografo],[=,jose,5],[=,[+,pesquisador,1],augusto],[=,douglas,cachorro],[=,telefone,5],[=,agua,branca],[=,luz,3],[=,ronaldo,celular],[=,verde,passaro],[or,[=,azul,1],[=,azul,5]],[=,[-,gato,1],sinuca],[=,[abs,[-,passaro,sinuca]],1]]).
-problema(nadadores2,
-	 [[domain(touca),amarela,azul,branca,verde],[domain(pais),argentina,brasil,eua,franca],[domain(especialidade),borboleta,costas,crawl,peito],[domain(medalhas),'2medalhas','3medalhas','5medalhas','8medalhas'],[domain(peso),'70kg','75kg','80kg','84kg'],[domain(idade),'20anos','22anos','23anos','24anos']],
-	 [[or,[=,'22anos',1],[=,'22anos',4]],[=,'23anos',2],[=,[abs,[-,'24anos','75kg']],1],[=,'22anos','8medalhas'],[=,'84kg',2],[=,[abs,[-,'70kg',amarela]],1],[=,'5medalhas',3],[=,'2medalhas',1],[=,crawl,4],[=,'24anos',costas],[=,[abs,[-,peito,eua]],1],[=,eua,3],[=,argentina,2],[=,branca,3],[=,azul,2],[=,[abs,[-,argentina,franca]],1]]).
-problema(talentos,
-	 [[domain(camisa),amarela,azul,branca,verde,vermelha],[domain(nome),alexander,heitor,junior,michel,rodolfo],[domain(talento),canto,danca,imitacao,malabarismo,musica],[domain(idade),'22anos','24anos','29anos','32anos','35anos'],[domain(fruta),abacaxi,banana,maca,morango,uva],[domain(esporte),basquete,boliche,corrida,futebol,natacao]],
-	 [[>,basquete,'22anos'],[<,basquete,corrida],[=,basquete,4],[=,futebol,2],[=,[+,michel,1],boliche],[=,uva,corrida],[=,[+,michel,1],maca],[=,[abs,[-,morango,abacaxi]],1],[=,[abs,[-,branca,morango]],1],[=,[abs,[-,'35anos',amarela]],1],[<,vermelha,'24anos'],[=,'32anos',2],[=,[+,'22anos',1],michel],[=,[-,canto,1],junior],[<,malabarismo,canto],[>,futebol,imitacao],[or,[=,canto,1],[=,canto,5]],[>,rodolfo,vermelha],[<,alexander,'32anos'],[=,[+,'22anos',1],michel],[=,[-,canto,1],junior],[=,[+,malabarismo,1],canto],[=,[-,futebol,1],imitacao],[=,[+,alexander,1],'32anos'],[=,junior,verde],[=,[-,abacaxi,1],natacao],[=,musica,vermelha]]).
-problema(maratona,
-	 [[domain(camiseta),amarelo,azul,branco,verde,vermelha],[domain(nome),edgar,lucio,moacir,paulo,tiago],[domain(idade),'25anos','28anos','34anos','39anos','41anos'],[domain(numero),'455i','612i','708i','899i','963i'],[domain(estado),bahia,minas_gerais,parana,rio_de_janeiro,sao_paulo],[domain(hobby),cantar,dancar,desenhar,pintar,ler]],
-	 [[>,amarelo,bahia],[<,amarelo,lucio],[=,pintar,3],[or,[=,'28anos',1],[=,'28anos',5]],[=,[+,lucio,1],'455i'],[=,'899i',3],[=,sao_paulo,5],[=,[-,cantar,1],'34anos'],[=,moacir,verde],[=,amarelo,2],[=,[-,'41anos',1],'899i'],[=,[abs,[-,rio_de_janeiro,'455i']],1],[=,tiago,pintar],[>,amarelo,edgar],[<,amarelo,'28anos'],[=,[abs,[-,pintar,'963i']],1],[<,vermelha,'612i'],[=,ler,1],[=,vermelha,'39anos'],[=,'455i',5],[=,minas_gerais,3],[>,dancar,pintar],[<,dancar,desenhar],[=,branco,4]]).
-problema(navios,
-	 [[domain(nacionalidade),brasileiro,espanhol,frances,grego,ingles],[domain(saida),'5h','6h','7h','8h','9h'],[domain(carregamento),arroz,cacau,cafe,cha,milho],[domain(chamine),azul,branca,verde,vermelha,preta],[domain(destino),hamburgo,macau,manila,santos,rotterdam]],
-	 [[=,grego,'6h'],[=,grego,cafe],[=,preta,3],[=,ingles,'9h'],[=,frances,azul],[=,[+,frances,1],cafe],[=,[-,macau,1],cacau],[=,brasileiro,manila],[=,[abs,[-,arroz,verde]],1],[=,santos,'5h'],[=,espanhol,'7h'],[=,[-,espanhol,1],macau],[=,vermelha,hamburgo],[=,[abs,[-,branca,'7h']],1],[or,[=,milho,1],[=,milho,5]],[=,preta,'8h'],[=,[abs,[-,milho,arroz]],1],[=,hamburgo,'6h']]).
-problema(nadadores,
-	 [[domain(touca),amarela,azul,branca,verde],[domain(pais),brasil,china,eua,russia],[domain(especialidade),borboleta,costas,crawl,peito],[domain(medalhas),'2medalhas','3medalhas','5medalhas','8medalhas'],[domain(suco),abacaxi,laranja,limao,maracuja],[domain(idade),'19anos','20anos','21anos','24anos']],
-	 [[=,'24anos','8medalhas'],[<,azul,'19anos'],[or,[=,'20anos',1],[=,'20anos',4]],[=,[+,limao,1],crawl],[>,maracuja,azul],[=,laranja,2],[=,'24anos',3],[=,'3medalhas',2],[=,[+,'5medalhas',1],laranja],[=,peito,2],[=,[-,costas,1],'3medalhas'],[=,brasil,'8medalhas'],[=,[+,china,1],brasil],[=,eua,'5medalhas'],[=,branca,4],[=,[abs,[-,borboleta,azul]],1],[=,eua,verde]]).
-problema(estacionamento,
-	 [[domain(dono),alexandre,felipe,gilmar,guilherme,rogerio],[domain(cor),amarela,azul,branca,verde,vermelha],[domain(montadora),alema,chinesa,francesa,italiana,japonesa],[domain(placa),aaa1111,bbb2222,ccc3333,ddd4444,ee5555],[domain(ano),'2007a','2008a','2009a','2010a','2011a'],[domain(tipo),crossover,hatch,pickup,sedan,suv]],
-	 [[=,'2009a',pickup],[=,alexandre,crossover],[=,suv,2],[=,[abs,[-,sedan,pickup]],1],[=,pickup,5],[=,'2010a',3],[=,[abs,[-,'2008a',azul]],1],[=,ccc3333,'2007a'],[=,sedan,ee5555],[=,[abs,[-,ddd4444,guilherme]],1],[>,alema,felipe],[=,francesa,4],[=,[-,branca,1],japonesa],[=,[+,italiana,1],crossover],[=,crossover,amarela],[<,chinesa,branca],[=,vermelha,2],[or,[=,rogerio,1],[=,rogerio,5]],[=,italiana,'2007a'],[=,[-,gilmar,1],branca],[>,alexandre,ddd4444],[<,alexandre,aaa1111]]).
-problema(aeroporto,
-	 [[domain(mala),amarela,azul,branca,verde,vermelha],[domain(gentilico),baiano,gaucho,fluminense,mineiro,paulista],[domain(destino),australia,franca,italia,inglaterra,japao],[domain(horario),'8h','9h','10h','11h','12h'],[domain(finalidade),congresso,estudos,intercambio,negocios,turismo],[domain(esqueceu),agenda,celular,notebook,oculos,terno]],
-	 [[=,terno,5],[=,inglaterra,agenda],[<,branca,notebook],[=,[+,turismo,1],celular],[or,[=,congresso,1],[=,congresso,5]],[>,estudos,verde],[=,[-,negocios,1],intercambio],[=,'8h',4],[=,[-,baiano,1],celular],[=,paulista,franca],[or,[=,japao,1],[=,japao,5]],[or,[=,turismo,1],[=,turismo,5]],[=,[abs,[-,'9h',gaucho]],1],[=,[abs,[-,verde,mineiro]],1],[=,japao,'9h'],[=,[abs,[-,amarela,notebook]],1],[=,branca,2],[>,'11h',verde],[<,branca,'10h'],[or,[=,'9h',1],[=,'9h',5]],[=,[abs,[-,australia,'11h']],1],[=,vermelha,1]]).
-problema(escola2,
-	 [[domain(nome),aline,beatriz,isabelle,juliana,patricia],[domain(mochila),amarela,azul,branca,verde,vermelha],[domain(materia),artes,biologia,historia,matematica,portugues],[domain(animal),cachorros,cavalos,gatos,hamsters,passaros],[domain(lugar),florianopolis,manaus,recife,rio_de_janeiro,salvador],[domain(suco),abacaxi,laranja,limao,maracuja,morango]],
-	 [[or,[=,laranja,1],[=,laranja,5]],[>,maracuja,cavalos],[<,maracuja,morango],[=,[abs,[-,limao,vermelha]],1],[=,[abs,[-,isabelle,laranja]],1],[=,hamsters,rio_de_janeiro],[=,[+,aline,1],manaus],[>,florianopolis,aline],[or,[=,recife,1],[=,recife,5]],[=,biologia,rio_de_janeiro],[=,[abs,[-,gatos,branca]],1],[or,[=,passaros,1],[=,passaros,5]],[=,[abs,[-,hamsters,cachorros]],1],[=,[abs,[-,branca,passaros]],1],[=,cachorros,5],[=,[abs,[-,matematica,cavalos]],1],[=,verde,historia],[=,aline,portugues],[=,[+,matematica,1],hamsters],[=,[+,vermelha,1],biologia],[=,azul,biologia],[>,aline,recife],[<,aline,verde],[=,beatriz,3],[=,patricia,1]]).
-problema(zoologico,
-	 [[domain(mochila),amarela,azul,branca,verde,vermelha],[domain(nome),ana,jessica,joana,pati,renata],[domain(suco),abacaxi,laranja,limao,maracuja,morango],[domain(lanche),banana,chocolate,maca,salgadinho,sanduiche],[domain(animal),arara,girafa,elefante,macaco,leao],[domain(materia),biologia,geografia,historia,portugues,matematica]],
-	 [[=,biologia,4],[<,amarela,portugues],[>,historia,joana],[<,historia,geografia],[=,[+,pati,1],girafa],[=,[abs,[-,arara,leao]],1],[<,vermelha,leao],[=,macaco,branca],[=,maca,4],[=,geografia,salgadinho],[=,chocolate,2],[=,sanduiche,portugues],[or,[=,morango,1],[=,morango,5]],[>,limao,elefante],[<,limao,maracuja],[=,amarela,limao],[=,historia,laranja],[or,[=,abacaxi,1],[=,abacaxi,5]],[=,[-,morango,1],maracuja],[>,renata,banana],[<,renata,ana],[=,jessica,2],[=,pati,limao],[=,[abs,[-,geografia,azul]],1],[=,[-,vermelha,1],verde]]).
-problema(mecanico,
-	 [[domain(cor),amarela,azul,branca,verde,vermelha],[domain(montadora),alema,chinesa,francesa,italiana,japonesa],[domain(dono),adailton,francisco,george,nilton,marcos],[domain(tipo),crossover,hatch,pickup,sedan,suv],[domain(problema),bateria,cambio,embreagem,freio,motor],[domain(ano),'2007a','2008a','2009a','2010a','2011a']],
-	 [[or,[=,'2008a',1],[=,'2008a',5]],[>,'2010a',hatch],[<,'2010a','2011a'],[=,[abs,[-,japonesa,'2009a']],1],[=,[abs,[-,branca,'2008a']],1],[=,sedan,freio],[=,[-,cambio,1],amarela],[<,amarela,bateria],[or,[=,embreagem,1],[=,embreagem,5]],[=,francisco,freio],[=,[abs,[-,pickup,francesa]],1],[or,[=,suv,1],[=,suv,5]],[=,[abs,[-,sedan,crossover]],1],[=,[abs,[-,suv,francesa]],1],[=,crossover,5],[=,[abs,[-,hatch,nilton]],1],[=,george,italiana],[=,marcos,amarela],[=,[+,nilton,1],sedan],[=,[+,japonesa,1],francisco],[=,francisco,chinesa],[>,amarela,embreagem],[<,amarela,italiana],[=,azul,3],[=,vermelha,1]]).
-problema(enem,
-	 [[domain(mochila),amarela,azul,branca,verde,vermelha],[domain(nome),andre,bruno,luiz,rafael,tiago],[domain(universidade),unesp,unicamp,unifesp,ufscar,usp],[domain(curso),computacao,direito,economia,odontologia,medicina],[domain(idade),'17a','18a','19a','20a','21a'],[domain(bairro),bela_vista,bom_retiro,consolacao,higienopolis,liberdade]],
-	 [[=,'21a',liberdade],[=,[abs,[-,bom_retiro,bela_vista]],1],[=,bela_vista,unifesp],[=,consolacao,5],[=,'17a',direito],[=,[abs,[-,'19a',economia]],1],[=,[+,unicamp,1],'18a'],[=,[abs,[-,liberdade,'17a']],1],[>,medicina,bruno],[<,medicina,branca],[=,computacao,'18a'],[=,'17a',ufscar],[=,bruno,bom_retiro],[=,[+,higienopolis,1],unesp],[or,[=,unicamp,1],[=,unicamp,5]],[<,branca,rafael],[=,luiz,branca],[>,vermelha,higienopolis],[<,vermelha,usp],[or,[=,andre,1],[=,andre,5]],[>,verde,unicamp],[<,verde,economia],[=,vermelha,2],[=,amarela,odontologia]]).
-problema(ingles,
-	 [[domain(caderno),amarelo,azul,branco,verde,vermelho],[domain(nome),alex,bruno,diego,gabriel,henrique],[domain(pais),australia,canada,estados_unidos,inglaterra,nova_zelandia],[domain(idioma),alemao,espanhol,frances,italiano,mandarim],[domain(idade),'19a','20a','21a','22a','23a'],[domain(curso),biologia,direito,engenharia_eletrica,historia,quimica]],
-	 [[=,diego,direito],[=,engenharia_eletrica,3],[or,[=,biologia,1],[=,biologia,5]],[=,[+,historia,1],italiano],[=,[abs,[-,'23a','20a']],1],[=,[+,canada,1],'20a'],[=,henrique,'23a'],[=,[abs,[-,verde,'19a']],1],[>,amarelo,'21a'],[<,amarelo,verde],[=,alemao,4],[>,frances,bruno],[<,frances,diego],[=,mandarim,1],[<,verde,inglaterra],[=,nova_zelandia,4],[or,[=,australia,1],[=,australia,5]],[=,historia,mandarim],[>,henrique,'21a'],[<,henrique,alex],[=,[abs,[-,bruno,australia]],1],[=,'23a',vermelho],[=,gabriel,historia],[>,branco,azul]]).
-problema(kart,
-	 [[domain(capacete),amarelo,azul,branco,verde,vermelho],[domain(nome),bruno,emerson,felipe,fernando,rubens],[domain(idade),'22a','25a','27a','29a','31a'],[domain(idolo),a_prost,f_alonso,k_raikkonen,m_schumacher,n_piquet],[domain(carro),crossover,hatch,pickup,sedan,suv],[domain(equipe),ferrari,mclaren,rbr,renault,williams]],
-	 [[>,ferrari,a_prost],[<,ferrari,williams],[>,rbr,mclaren],[<,rbr,ferrari],[=,sedan,ferrari],[=,mclaren,2],[=,rbr,crossover],[or,[=,pickup,1],[=,pickup,5]],[>,amarelo,suv],[<,amarelo,rbr],[=,pickup,k_raikkonen],[=,[+,f_alonso,1],williams],[=,[-,verde,1],n_piquet],[or,[=,a_prost,1],[=,a_prost,5]],[=,'22a',k_raikkonen],[>,'27a','29a'],[<,'27a','25a'],[>,felipe,'27a'],[=,suv,'29a'],[=,[abs,[-,emerson,'25a']],1],[=,'27a',n_piquet],[>,emerson,a_prost],[<,emerson,sedan],[>,bruno,rubens],[<,bruno,rbr],[=,f_alonso,'25a'],[=,[+,vermelho,1],'25a'],[=,[+,felipe,1],branco]]).
-problema(biblioteca,
-	 [[domain(mochila),amarela,azul,branca,verde,vermelha],[domain(nome),carlos,fernando,mario,pedro,victor],[domain(livro),'1984l',clube_da_luta,dia_do_curinga,laranja_mecanica,tubarao],[domain(autor),agatha_christie,clarice_lispector,frans_kafta,machado_de_assis,paulo_coelho],[domain(profissao),eletricista,garcom,musico,professor,vendedor],[domain(lugar),biblioteca,jardim,onibus,quarto,sala]],
-	 [[=,jardim,4],[=,biblioteca,3],[=,quarto,5],[=,musico,onibus],[<,vermelha,professor],[>,garcom,azul],[=,eletricista,agatha_christie],[=,laranja_mecanica,clarice_lispector],[=,[+,machado_de_assis,1],professor],[=,carlos,vendedor],[=,[abs,[-,vendedor,sala]],1],[=,frans_kafta,1],[=,[abs,[-,mario,'1984l']],1],[<,azul,laranja_mecanica],[=,[+,sala,1],dia_do_curinga],[=,clube_da_luta,2],[=,victor,2],[=,fernando,jardim],[=,machado_de_assis,'1984l'],[=,[abs,[-,azul,fernando]],1],[=,[abs,[-,vermelha,quarto]],1],[or,[=,branca,1],[=,branca,5]],[=,eletricista,verde],[=,[-,branca,1],'1984l']]).
-problema(compras2,
-	 [[domain(blusa),amarela,azul,branca,verde,vermelha],[domain(nome),aline,carol,fernanda,juliana,natalia],[domain(esqueceu),amaciante,frutas,leite,pao,presunto],[domain(pagamento),cheque,credito,debito,dinheiro,vale],[domain(foicom),filho,irma,mae,marido,namorado],[domain(carro),crossover,hatch,pickup,sedan,suv]],
-	 [[=,[+,amaciante,1],sedan],[=,[-,crossover,1],debito],[=,namorado,pickup],[=,[+,sedan,1],suv],[=,pao,mae],[=,[abs,[-,aline,filho]],1],[or,[=,marido,1],[=,marido,5]],[=,cheque,4],[or,[=,dinheiro,1],[=,dinheiro,5]],[=,[+,debito,1],vale],[=,juliana,mae],[=,presunto,debito],[=,[abs,[-,amarela,frutas]],1],[=,pao,suv],[=,fernanda,filho],[=,[-,carol,1],amaciante],[=,azul,4],[<,verde,vermelha],[=,[abs,[-,frutas,presunto]],1],[>,amarela,marido],[<,amarela,verde],[=,[abs,[-,dinheiro,sedan]],1]]).
-problema(reveillon,
-	 [[domain(vestido),amarelo,azul,branco,verde,vermelho],[domain(nome),bruna,camila,gabriela,marina,vanessa],[domain(bebida),agua,cerveja,champagne,suco,vinho],[domain(idade),'23a','24a','25a','26a','27a'],[domain(desejo),carro,casa,casar,viajar,emagrecer],[domain(profissao),arquiteta,dentista,designer,jornalista,psicologa]],
-	 [[>,arquiteta,designer],[<,arquiteta,jornalista],[=,[+,dentista,1],arquiteta],[=,jornalista,5],[=,[+,'26a',1],designer],[=,[-,casar,1],carro],[=,casar,4],[=,[+,branco,1],casa],[=,[abs,[-,emagrecer,'24a']],1],[=,[-,'25a',1],'27a'],[>,'23a',gabriela],[<,'23a','27a'],[=,[+,vanessa,1],vinho],[=,agua,3],[=,[abs,[-,champagne,verde]],1],[>,amarelo,suco],[<,amarelo,vermelho],[<,azul,marina],[<,camila,casa],[=,'25a',verde],[=,[abs,[-,gabriela,azul]],1],[=,vermelho,'27a']]).
-problema(aniversario,
-	 [[domain(vestido),amarelo,azul,branco,verde,vermelho],[domain(nome),andrea,barbara,cristiane,monica,rafaela],[domain(presente),bolsa,dvd,livro,sandalia,vestido],[domain(idade),'13a','14a','15a','16a','17a'],[domain(suco),abacaxi,laranja,limao,maracuja,morango],[domain(animal),cachorros,cavalos,gatos,golfinhos,passaros]],
-	 [[or,[=,golfinhos,1],[=,golfinhos,5]],[=,maracuja,cachorros],[=,[abs,[-,'13a',gatos]],1],[=,'14a',cavalos],[=,abacaxi,5],[=,limao,gatos],[=,[abs,[-,cachorros,abacaxi]],1],[=,[-,rafaela,1],morango],[=,[abs,[-,azul,gatos]],1],[or,[=,'16a',1],[=,'16a',5]],[<,azul,'17a'],[=,[abs,[-,'15a',limao]],1],[=,[+,'17a',1],'13a'],[=,[abs,[-,cavalos,rafaela]],1],[=,vestido,5],[=,branco,livro],[=,[-,dvd,1],branco],[=,[abs,[-,barbara,sandalia]],1],[or,[=,andrea,1],[=,andrea,5]],[=,monica,3],[=,[abs,[-,amarelo,gatos]],1],[=,[-,cristiane,1],monica],[<,vermelho,andrea]]).
-problema(judo,
-	 [[domain(faixa),amarela,azul,branca,verde,vermelha],[domain(nome),diego,emerson,felipe,milton,renato],[domain(idade),'23a','25a','28a','30a','32a'],[domain(peso),'75kg','79kg','81kg','84kg','87kg'],[domain(altura),'175cm','178cm','180cm','184cm','187cm'],[domain(estado),es,go,rj,rs,sp]],
-	 [[=,[abs,[-,'79kg',es]],1],[=,sp,5],[=,[-,vermelha,1],go],[=,rj,branca],[=,'175cm',5],[=,[abs,[-,emerson,'187cm']],1],[=,'184cm',3],[or,[=,'178cm',1],[=,'178cm',5]],[or,[=,'81kg',1],[=,'81kg',5]],[<,vermelha,'84kg'],[=,[abs,[-,go,rs]],1],[=,azul,'87kg'],[=,[+,'75kg',1],'25a'],[=,[+,'30a',1],'175cm'],[=,'32a',sp],[=,[-,'28a',1],go],[=,milton,amarela],[=,renato,'79kg'],[=,felipe,2],[>,emerson,branca],[=,branca,1]]).
-problema(nacoes,
-	 [[domain(estande),amarelo,azul,branco,verde,vermelho],[domain(representante),cassio,gabriel,helena,lais,sandro],[domain(nacao),alemanha,espanha,italia,japao,portugal],[domain(idade),'7a','8a','9a','10a','11a'],[domain(professor),jucenir,marcio,marilena,rosa,rogerio]],
-	 [[<,amarelo,jucenir],[=,amarelo,cassio],[=,sandro,5],[=,cassio,rogerio],[<,verde,rosa],[=,'10a',marcio],[=,[abs,[-,alemanha,'9a']],1],[>,'7a',branco],[=,[-,'10a',1],vermelho],[=,'8a',3],[=,[+,portugal,1],espanha],[=,[abs,[-,branco,portugal]],1],[=,[abs,[-,'9a',jucenir]],1],[<,japao,espanha],[=,branco,rosa],[=,[-,sandro,1],cassio],[=,[abs,[-,amarelo,gabriel]],1],[or,[=,helena,1],[=,helena,5]],[=,[-,japao,1],italia]]).
-problema(futebol,
-	 [[domain(chuteira),amarela,azul,branca,verde,vermelha],[domain(nome),edson,fernando,marcos,rogerio,ronaldo],[domain(idade),'21a','22a','25a','26a','28a'],[domain(posicao),atacante,lateral,meia,volante,zagueiro],[domain(estado),ceara,para,parana,rio,sao_paulo],[domain(titulos),'3t','5t','6t','8t','10t']],
-	 [[<,amarela,'3t'],[=,volante,'5t'],[>,'10t',branca],[>,branca,'6t'],[<,branca,vermelha],[=,ronaldo,parana],[<,rogerio,ceara],[=,[abs,[-,sao_paulo,amarela]],1],[=,[-,atacante,1],rio],[=,rogerio,rio],[=,meia,2],[=,[+,lateral,1],branca],[=,'28a',5],[=,[abs,[-,'10t','26a']],1],[=,'22a',3],[=,meia,'25a'],[=,[abs,[-,edson,meia]],1],[=,[abs,[-,ceara,'8t']],1],[>,branca,'6t'],[<,branca,edson],[=,[-,rogerio,1],para],[=,[+,marcos,1],'25a'],[=,[-,ronaldo,1],'22a'],[=,[-,volante,1],azul]]).
