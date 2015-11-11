@@ -1,0 +1,1251 @@
+esposa: maria, luana, ana, vanessa, luisa
+profissao: cientista, engenheiro, secretario, advogado, cozinheiro
+cidade: saopaulo, tarabai, campogrande, campinas, montemor
+camiseta: rosa, vermelho, marrom, verde, cinza
+carro: ka, agile, focus, uno, vectra
+nome: gilberto, arnaldo, felipe, ariel, leonardo
+
+cinza > maria
+|cientista - engenheiro| = 1
+|rosa - agile| = 0
+|saopaulo - uno| = 1
+felipe > rosa
+arnaldo < campinas
+montemor > secretario
+|secretario - cozinheiro| = 2
+|montemor - ana| = 2
+|verde - ka| = 0
+|maria - campogrande| = 1
+ana > vanessa
+tarabai < cinza
+focus < ariel
+|vectra - luisa| = 0
+|ariel - vanessa| = 1
+|luana - tarabai| = 0
+|focus - ka| = 2
+|focus - maria| = 2
+|ka - arnaldo| = 3
+ariel > felipe
+|rosa - luana| = 0
+|uno - rosa| = 2
+|verde - ariel| = 1
+vanessa < campogrande
+leonardo > campogrande
+focus < ariel
+ariel < montemor
+felipe < campinas
+maria > luana
+|gilberto - luisa| = 1
+campogrande = vermelho
+verde = gilberto
+uno < montemor
+|luisa - vermelho| = 2
+|uno - focus| = 1
+verde < luisa
+|gilberto - leonardo| = 1
+|montemor - arnaldo| = 4
+vectra > secretario
+|luana - vectra| = 4
+tarabai < ka
+vectra > campinas
+|vermelho - rosa| = 2
+campinas > ariel
+|cientista - secretario| = 2
+|campinas - arnaldo| = 3
+vanessa < vermelho
+|focus - rosa| = 1
+ariel > focus
+arnaldo = tarabai
+|tarabai - montemor| = 4
+|luana - focus| = 1
+campinas > luana
+|felipe - agile| = 1
+|luisa - agile| = 4
+|marrom - campinas| = 2
+|luana - maria| = 3
+|maria - focus| = 2
+felipe < vectra
+agile < ariel
+focus < vermelho
+|rosa - tarabai| = 0
+montemor = cinza
+|campinas - luisa| = 1
+campogrande > felipe
+|cinza - cientista| = 4
+|felipe - ariel| = 1
+montemor > gilberto
+uno > agile
+|cinza - leonardo| = 0
+vermelho > agile
+|luisa - vermelho| = 2
+|cinza - vanessa| = 3
+|rosa - maria| = 3
+|verde - vanessa| = 2
+|cinza - engenheiro| = 3
+vanessa < montemor
+|ka - rosa| = 3
+luisa > vermelho
+|ariel - vermelho| = 0
+luana < ka
+arnaldo < montemor
+|felipe - rosa| = 1
+|campogrande - uno| = 0
+tarabai < gilberto
+felipe < campinas
+|cinza - montemor| = 0
+|luisa - arnaldo| = 4
+|uno - felipe| = 1
+|uno - montemor| = 2
+marrom < luisa
+focus < campinas
+luisa > arnaldo
+|luana - uno| = 2
+|maria - marrom| = 2
+|campinas - maria| = 0
+arnaldo < gilberto
+|verde - montemor| = 1
+campinas = ka
+|felipe - ariel| = 1
+campogrande > arnaldo
+|cinza - arnaldo| = 4
+|agile - verde| = 3
+|focus - cinza| = 3
+|campinas - ariel| = 1
+cinza > campogrande
+campogrande < gilberto
+|gilberto - leonardo| = 1
+|felipe - saopaulo| = 0
+cinza > luana
+|cinza - focus| = 3
+vanessa < maria
+luana < vanessa
+|cinza - luana| = 4
+|campinas - vermelho| = 1
+agile < luisa
+campinas < luisa
+|felipe - saopaulo| = 0
+cientista < secretario
+campinas > rosa
+gilberto > luana
+verde < leonardo
+ariel > agile
+felipe = 2
+|focus - arnaldo| = 1
+campinas < leonardo
+|luisa - marrom| = 3
+|maria - ariel| = 1
+|focus - vanessa| = 0
+|marrom - gilberto| = 2
+vermelho < cinza
+vanessa > rosa
+|luana - ka| = 3
+|ana - saopaulo| = 1
+focus > agile
+|agile - uno| = 2
+gilberto > vermelho
+|marrom - luisa| = 3
+|ka - verde| = 0
+maria < luisa
+focus > agile
+gilberto > focus
+secretario > cientista
+engenheiro > cientista
+|marrom - vectra| = 3
+|montemor - advogado| = 1
+saopaulo < leonardo
+|leonardo - luisa| = 0
+campogrande < campinas
+|uno - marrom| = 1
+|gilberto - luisa| = 1
+tarabai < saopaulo
+campinas < vectra
+|maria - montemor| = 1
+|campinas - vermelho| = 1
+ana < vectra
+|vanessa - gilberto| = 2
+arnaldo < leonardo
+secretario < cozinheiro
+|leonardo - campogrande| = 2
+campogrande = uno
+|felipe - marrom| = 0
+luana < ana
+marrom = felipe
+|ka - focus| = 2
+|vermelho - campinas| = 1
+ka = campinas
+|ariel - tarabai| = 2
+|arnaldo - montemor| = 4
+|ka - uno| = 1
+|campogrande - vermelho| = 0
+|verde - luisa| = 1
+maria < leonardo
+|felipe - campinas| = 2
+campogrande = ariel
+ana > focus
+|ka - campinas| = 0
+vectra > engenheiro
+cinza > maria
+campogrande = vermelho
+|tarabai - vermelho| = 2
+|leonardo - campinas| = 1
+vanessa < vectra
+|ana - vermelho| = 0
+|ariel - vectra| = 2
+leonardo > marrom
+|engenheiro - secretario| = 1
+leonardo > luana
+maria > vermelho
+|vermelho - ka| = 1
+|ariel - campinas| = 1
+|agile - campinas| = 3
+cinza > advogado
+|uno - agile| = 2
+agile < ka
+cinza = leonardo
+montemor > ana
+|ka - campogrande| = 1
+|leonardo - campogrande| = 2
+leonardo > ka
+campinas = gilberto
+cinza > tarabai
+uno < leonardo
+saopaulo = focus
+|ariel - vanessa| = 1
+|gilberto - vanessa| = 2
+|engenheiro - cozinheiro| = 3
+|marrom - uno| = 1
+luana < marrom
+campogrande > marrom
+rosa < marrom
+luana = arnaldo
+|felipe - campogrande| = 1
+|uno - focus| = 1
+|secretario - advogado| = 1
+tarabai < marrom
+agile = arnaldo
+|saopaulo - verde| = 2
+tarabai < marrom
+|luana - leonardo| = 4
+luana < campinas
+|marrom - montemor| = 3
+ka > felipe
+luana < gilberto
+maria > vanessa
+secretario < cozinheiro
+agile < saopaulo
+|tarabai - uno| = 2
+|gilberto - vanessa| = 2
+campogrande > luana
+|leonardo - uno| = 2
+|ariel - felipe| = 1
+|tarabai - ana| = 2
+ka > marrom
+ka < cinza
+|uno - marrom| = 1
+ana < campinas
+montemor > ka
+|uno - montemor| = 2
+|ka - tarabai| = 3
+campogrande > focus
+saopaulo < verde
+|gilberto - maria| = 0
+|focus - cinza| = 3
+|felipe - rosa| = 1
+saopaulo = felipe
+gilberto < cinza
+|leonardo - verde| = 1
+marrom < cinza
+|campinas - vanessa| = 2
+|rosa - verde| = 3
+vanessa = felipe
+felipe > luana
+focus = marrom
+|marrom - ana| = 1
+|tarabai - cinza| = 4
+tarabai < maria
+luana < saopaulo
+|gilberto - saopaulo| = 2
+ana < verde
+|luisa - focus| = 3
+|vermelho - cinza| = 2
+|tarabai - uno| = 2
+|engenheiro - advogado| = 2
+|campogrande - rosa| = 2
+|engenheiro - advogado| = 2
+|ariel - rosa| = 2
+|maria - arnaldo| = 3
+vectra > vermelho
+|saopaulo - leonardo| = 3
+|vermelho - uno| = 0
+|tarabai - focus| = 1
+marrom < montemor
+luana < campinas
+montemor > luana
+|vermelho - marrom| = 1
+arnaldo < gilberto
+|ana - luana| = 2
+|advogado - cientista| = 3
+|ana - gilberto| = 1
+campinas > tarabai
+saopaulo < gilberto
+uno < maria
+|cinza - luana| = 4
+tarabai = arnaldo
+|ariel - focus| = 1
+|tarabai - ariel| = 2
+gilberto = 4
+agile < leonardo
+campinas = 4
+|arnaldo - leonardo| = 4
+|focus - vanessa| = 0
+|campogrande - ka| = 1
+|agile - arnaldo| = 0
+|agile - leonardo| = 4
+|cinza - arnaldo| = 4
+saopaulo = vanessa
+|ana - uno| = 0
+|campogrande - cinza| = 2
+ka < vectra
+campinas > saopaulo
+|maria - gilberto| = 0
+vectra > campogrande
+ana = uno
+|agile - arnaldo| = 0
+|vanessa - leonardo| = 3
+secretario > cientista
+arnaldo = rosa
+|luisa - cientista| = 4
+|vanessa - agile| = 1
+|cientista - secretario| = 2
+marrom < luisa
+verde < luisa
+|luana - marrom| = 1
+|ariel - vermelho| = 0
+arnaldo < ariel
+|advogado - cientista| = 3
+|gilberto - focus| = 2
+felipe < verde
+ana < ka
+vermelho > marrom
+gilberto = verde
+maria > luana
+vermelho = ana
+|vermelho - marrom| = 1
+|ana - cinza| = 2
+|montemor - cientista| = 4
+|felipe - vectra| = 3
+|vanessa - luana| = 1
+|cinza - luana| = 4
+|agile - ariel| = 2
+|uno - gilberto| = 1
+uno = ana
+|marrom - felipe| = 0
+|uno - felipe| = 1
+marrom < maria
+|ana - maria| = 1
+|luisa - marrom| = 3
+|felipe - ariel| = 1
+marrom < montemor
+|campogrande - saopaulo| = 1
+arnaldo < luisa
+|saopaulo - ana| = 1
+|vanessa - montemor| = 3
+|leonardo - ka| = 1
+|luana - cinza| = 4
+ana = 3
+|tarabai - marrom| = 1
+|gilberto - luana| = 3
+rosa < campinas
+|cinza - agile| = 4
+|tarabai - ana| = 2
+cientista < advogado
+luana < vermelho
+arnaldo < campogrande
+verde < luisa
+gilberto > campogrande
+ariel > focus
+|agile - ana| = 2
+maria > tarabai
+focus = vanessa
+|focus - luisa| = 3
+campinas > luana
+|saopaulo - luana| = 1
+marrom > agile
+focus = felipe
+|saopaulo - montemor| = 3
+vermelho < verde
+focus < uno
+|advogado - cozinheiro| = 1
+|campogrande - gilberto| = 1
+cinza > cientista
+|montemor - vectra| = 0
+|cinza - saopaulo| = 3
+gilberto = 4
+|ana - rosa| = 2
+|ariel - maria| = 1
+|luisa - cinza| = 0
+advogado > engenheiro
+felipe = focus
+|engenheiro - advogado| = 2
+focus < ariel
+arnaldo < vectra
+|felipe - luana| = 1
+vanessa < cinza
+focus < maria
+gilberto > agile
+focus = vanessa
+arnaldo < vectra
+agile < cinza
+vanessa < gilberto
+ariel = campogrande
+|saopaulo - marrom| = 0
+arnaldo = tarabai
+|marrom - ana| = 1
+marrom < gilberto
+vermelho < maria
+luisa = leonardo
+|marrom - uno| = 1
+montemor > focus
+focus < vectra
+|gilberto - campinas| = 0
+|cinza - saopaulo| = 3
+|rosa - saopaulo| = 1
+|leonardo - luisa| = 0
+|marrom - luana| = 1
+|cinza - campinas| = 1
+|leonardo - luana| = 4
+luisa > cientista
+|verde - ana| = 1
+|gilberto - marrom| = 2
+montemor = vectra
+vectra > advogado
+|vanessa - montemor| = 3
+|leonardo - vanessa| = 3
+|cinza - secretario| = 2
+|vectra - ariel| = 2
+cientista < engenheiro
+|vermelho - marrom| = 1
+gilberto > luana
+rosa < uno
+ka > campogrande
+|focus - maria| = 2
+leonardo > maria
+|arnaldo - rosa| = 0
+|rosa - luisa| = 4
+|rosa - campogrande| = 2
+|uno - rosa| = 2
+agile < ariel
+saopaulo < campinas
+vermelho > arnaldo
+luana < ana
+|ariel - agile| = 2
+verde > luana
+|advogado - cientista| = 3
+|ka - focus| = 2
+|campinas - uno| = 1
+|uno - ariel| = 0
+|tarabai - montemor| = 4
+arnaldo < focus
+vermelho < campinas
+|leonardo - cinza| = 0
+focus < leonardo
+gilberto < montemor
+|tarabai - agile| = 0
+|vermelho - ariel| = 0
+maria = ka
+|montemor - advogado| = 1
+ana > vanessa
+|vectra - engenheiro| = 3
+|rosa - uno| = 2
+|luana - focus| = 1
+gilberto > rosa
+|ka - ana| = 1
+|marrom - luana| = 1
+arnaldo < ana
+|tarabai - maria| = 3
+|luana - arnaldo| = 0
+|campogrande - montemor| = 2
+rosa = arnaldo
+ka = maria
+|luisa - cinza| = 0
+|agile - vanessa| = 1
+focus < campinas
+arnaldo < vanessa
+|ariel - maria| = 1
+arnaldo < uno
+felipe > arnaldo
+|uno - tarabai| = 2
+luana < maria
+luisa > felipe
+|leonardo - campogrande| = 2
+|uno - ariel| = 0
+|ana - gilberto| = 1
+montemor > gilberto
+|verde - campinas| = 0
+|uno - cinza| = 2
+|tarabai - campogrande| = 2
+|vermelho - tarabai| = 2
+tarabai < campogrande
+campogrande > rosa
+|luana - ariel| = 2
+|cinza - gilberto| = 1
+|felipe - maria| = 2
+ana < cinza
+focus < luisa
+saopaulo > arnaldo
+|vectra - campinas| = 1
+|vanessa - ana| = 1
+|focus - marrom| = 0
+saopaulo < ka
+agile < marrom
+|saopaulo - arnaldo| = 1
+campinas = ka
+gilberto > marrom
+|leonardo - campogrande| = 2
+campogrande = ana
+tarabai < campogrande
+marrom = vanessa
+vanessa < uno
+|maria - marrom| = 2
+rosa < leonardo
+|luana - tarabai| = 0
+|agile - luisa| = 4
+vectra = luisa
+|uno - ana| = 0
+luana < vermelho
+|focus - cinza| = 3
+tarabai < vectra
+vanessa < campinas
+gilberto > saopaulo
+vermelho > vanessa
+|vermelho - ana| = 0
+|ka - felipe| = 2
+leonardo > advogado
+|agile - felipe| = 1
+|ana - tarabai| = 2
+|leonardo - tarabai| = 4
+|focus - gilberto| = 2
+campogrande = ariel
+|verde - rosa| = 3
+saopaulo > rosa
+cinza > felipe
+|vanessa - maria| = 2
+verde = ka
+|maria - vermelho| = 1
+|campinas - focus| = 2
+|cinza - luana| = 4
+|campinas - arnaldo| = 3
+|focus - ka| = 2
+|ana - rosa| = 2
+montemor > luana
+|cinza - luisa| = 0
+ka > arnaldo
+vectra > cientista
+ana > luana
+|arnaldo - ana| = 2
+|luana - focus| = 1
+|leonardo - cientista| = 4
+|leonardo - saopaulo| = 3
+felipe = marrom
+|luana - maria| = 3
+agile = tarabai
+montemor > ana
+|agile - luisa| = 4
+leonardo > secretario
+vectra > ana
+campinas > saopaulo
+campinas = verde
+|vermelho - ariel| = 0
+|luana - rosa| = 0
+uno < verde
+|ana - vectra| = 2
+marrom = 2
+|tarabai - leonardo| = 4
+cinza > ana
+|vanessa - luana| = 1
+campogrande < ka
+|montemor - verde| = 1
+marrom > rosa
+marrom < vectra
+campinas > ana
+|montemor - vanessa| = 3
+maria > tarabai
+campinas > saopaulo
+ana = uno
+gilberto = campinas
+focus < ariel
+|rosa - campogrande| = 2
+|tarabai - cinza| = 4
+ana < gilberto
+|saopaulo - agile| = 1
+felipe = focus
+|rosa - tarabai| = 0
+maria < cinza
+maria = verde
+|arnaldo - uno| = 2
+luisa > ariel
+cinza > ariel
+arnaldo < marrom
+focus < luisa
+felipe = vanessa
+|ka - leonardo| = 1
+vanessa < ana
+|agile - luisa| = 4
+|rosa - agile| = 0
+|vermelho - cinza| = 2
+ana < campinas
+uno < vectra
+|vectra - advogado| = 1
+|luana - vectra| = 4
+|montemor - secretario| = 2
+vermelho < gilberto
+leonardo > uno
+|saopaulo - ariel| = 1
+|gilberto - felipe| = 2
+leonardo > vanessa
+ana < cinza
+vanessa < leonardo
+|luana - marrom| = 1
+|rosa - campinas| = 3
+|marrom - uno| = 1
+|verde - campinas| = 0
+cinza > advogado
+ana = campogrande
+leonardo > agile
+|leonardo - luana| = 4
+|campogrande - agile| = 2
+felipe = 2
+|tarabai - campinas| = 3
+verde > arnaldo
+|tarabai - leonardo| = 4
+maria = gilberto
+|leonardo - vanessa| = 3
+focus < ariel
+|luisa - felipe| = 3
+|engenheiro - advogado| = 2
+|campogrande - vanessa| = 1
+|maria - cinza| = 1
+gilberto > vermelho
+vectra > felipe
+rosa < montemor
+|felipe - arnaldo| = 1
+advogado > cientista
+verde > luana
+|uno - campogrande| = 0
+|luisa - tarabai| = 4
+rosa < vermelho
+agile < gilberto
+|arnaldo - tarabai| = 0
+tarabai = arnaldo
+|campinas - montemor| = 1
+gilberto < cinza
+|luisa - gilberto| = 1
+ka = campinas
+saopaulo = focus
+|montemor - arnaldo| = 4
+|montemor - uno| = 2
+vermelho < montemor
+ana > marrom
+|luisa - agile| = 4
+focus < vectra
+|focus - ariel| = 1
+|vermelho - uno| = 0
+|verde - vanessa| = 2
+cinza > vanessa
+ana > rosa
+|gilberto - vermelho| = 1
+luana < vanessa
+luisa > felipe
+|cinza - cientista| = 4
+uno > agile
+rosa = arnaldo
+ana < ka
+saopaulo < campogrande
+|maria - cinza| = 1
+|saopaulo - ariel| = 1
+vermelho > luana
+|agile - ariel| = 2
+vanessa < ariel
+|saopaulo - campogrande| = 1
+|engenheiro - cozinheiro| = 3
+verde > tarabai
+|campogrande - rosa| = 2
+|tarabai - leonardo| = 4
+advogado > engenheiro
+|marrom - agile| = 1
+|marrom - luisa| = 3
+|vermelho - vanessa| = 1
+maria > marrom
+|leonardo - engenheiro| = 3
+|vectra - ariel| = 2
+campogrande < luisa
+marrom < maria
+|leonardo - secretario| = 2
+ka > felipe
+cinza > arnaldo
+|leonardo - saopaulo| = 3
+|arnaldo - campinas| = 3
+|vectra - gilberto| = 1
+ka > uno
+marrom < cinza
+|verde - cinza| = 1
+|maria - montemor| = 1
+|marrom - ana| = 1
+campogrande = vermelho
+|felipe - arnaldo| = 1
+|vermelho - maria| = 1
+|gilberto - leonardo| = 1
+|maria - gilberto| = 0
+gilberto > uno
+rosa = agile
+|luisa - arnaldo| = 4
+rosa < leonardo
+|montemor - cinza| = 0
+rosa < ka
+|vermelho - focus| = 1
+maria > campogrande
+|vectra - verde| = 1
+|saopaulo - tarabai| = 1
+|felipe - rosa| = 1
+marrom = vanessa
+|felipe - saopaulo| = 0
+|agile - luana| = 0
+|verde - cinza| = 1
+|uno - focus| = 1
+|felipe - campogrande| = 1
+verde > ariel
+|ariel - leonardo| = 2
+cientista < secretario
+|arnaldo - agile| = 0
+|luisa - gilberto| = 1
+focus < montemor
+luana < montemor
+|luisa - vectra| = 0
+rosa < vectra
+|ka - focus| = 2
+maria > vermelho
+|ka - luana| = 3
+campinas > rosa
+ana > marrom
+|tarabai - luisa| = 4
+|vermelho - campogrande| = 0
+luana < verde
+montemor > agile
+|saopaulo - maria| = 2
+maria < leonardo
+|cinza - leonardo| = 0
+montemor = cinza
+|maria - felipe| = 2
+campogrande = vermelho
+rosa < ariel
+campinas = gilberto
+tarabai = 1
+|gilberto - saopaulo| = 2
+montemor = cinza
+saopaulo = vanessa
+|cinza - arnaldo| = 4
+|focus - gilberto| = 2
+|focus - verde| = 2
+|luisa - secretario| = 2
+|campogrande - ariel| = 0
+|vanessa - rosa| = 1
+montemor > ariel
+|verde - arnaldo| = 3
+campogrande < montemor
+luisa > tarabai
+|leonardo - marrom| = 3
+saopaulo > tarabai
+engenheiro < advogado
+ariel = vermelho
+vanessa = focus
+|leonardo - tarabai| = 4
+verde > focus
+|uno - tarabai| = 2
+uno = 3
+luana < verde
+|campinas - cinza| = 1
+|advogado - secretario| = 1
+|campinas - arnaldo| = 3
+|gilberto - agile| = 3
+|vermelho - luisa| = 2
+ka < vectra
+|ka - ariel| = 1
+vanessa = felipe
+|luisa - leonardo| = 0
+|vanessa - rosa| = 1
+arnaldo < montemor
+agile < verde
+agile = 1
+|vermelho - ana| = 0
+|vectra - vermelho| = 2
+campogrande > tarabai
+|verde - leonardo| = 1
+vanessa < luisa
+leonardo > engenheiro
+tarabai < campogrande
+|vectra - montemor| = 0
+|maria - leonardo| = 1
+focus > arnaldo
+|rosa - luisa| = 4
+|campinas - marrom| = 2
+|agile - rosa| = 0
+|campinas - vectra| = 1
+verde < montemor
+leonardo > marrom
+luana < ka
+campogrande < campinas
+ariel > agile
+vanessa > tarabai
+rosa < ka
+|luisa - vermelho| = 2
+cinza > advogado
+ariel > vanessa
+luana < maria
+|luisa - vermelho| = 2
+|maria - ana| = 1
+|campinas - ka| = 0
+|montemor - arnaldo| = 4
+|cinza - advogado| = 1
+|rosa - saopaulo| = 1
+|campogrande - ka| = 1
+|agile - ariel| = 2
+agile < maria
+|verde - vectra| = 1
+verde > rosa
+|focus - cinza| = 3
+tarabai = agile
+felipe < ka
+|uno - rosa| = 2
+|vectra - arnaldo| = 4
+|maria - focus| = 2
+|ana - ariel| = 0
+|saopaulo - arnaldo| = 1
+|felipe - tarabai| = 1
+ariel = uno
+|verde - rosa| = 3
+|cinza - gilberto| = 1
+|tarabai - cinza| = 4
+|cinza - tarabai| = 4
+|uno - tarabai| = 2
+|arnaldo - vermelho| = 2
+|agile - arnaldo| = 0
+|leonardo - verde| = 1
+|ariel - focus| = 1
+rosa < verde
+campogrande < ka
+|arnaldo - cinza| = 4
+montemor > rosa
+saopaulo < leonardo
+felipe < ana
+maria < cinza
+arnaldo < ka
+luisa > rosa
+arnaldo < campogrande
+|montemor - vermelho| = 2
+uno = campogrande
+cinza > campinas
+tarabai = 1
+cinza > campogrande
+arnaldo < vectra
+maria = ka
+arnaldo = rosa
+|vermelho - uno| = 0
+ariel = ana
+vectra > campogrande
+maria = ka
+ariel < gilberto
+|cinza - uno| = 2
+|rosa - montemor| = 4
+cinza > advogado
+|gilberto - uno| = 1
+|verde - campinas| = 0
+leonardo > campogrande
+uno < ka
+|cientista - engenheiro| = 1
+|arnaldo - campogrande| = 2
+ka > saopaulo
+|advogado - cozinheiro| = 1
+saopaulo < maria
+|vectra - leonardo| = 0
+|focus - uno| = 1
+gilberto = verde
+maria = verde
+focus > rosa
+|montemor - cinza| = 0
+|focus - montemor| = 3
+|felipe - vanessa| = 0
+|vectra - luana| = 4
+felipe = focus
+agile < cinza
+vanessa < gilberto
+|arnaldo - luisa| = 4
+|verde - arnaldo| = 3
+|vanessa - cinza| = 3
+marrom < uno
+uno > marrom
+vermelho = 3
+maria > focus
+|luana - vanessa| = 1
+luana < leonardo
+ana > focus
+|cinza - leonardo| = 0
+|montemor - vermelho| = 2
+|cinza - gilberto| = 1
+|montemor - advogado| = 1
+montemor > gilberto
+focus > tarabai
+|arnaldo - luisa| = 4
+agile < ka
+tarabai < vanessa
+felipe < vectra
+|saopaulo - campinas| = 2
+campogrande = ana
+leonardo > campogrande
+|campogrande - saopaulo| = 1
+vermelho < montemor
+|rosa - ka| = 3
+ka > uno
+campinas = verde
+|cientista - engenheiro| = 1
+|maria - leonardo| = 1
+luisa > arnaldo
+|campogrande - agile| = 2
+saopaulo < gilberto
+campinas < luisa
+|agile - saopaulo| = 1
+marrom = vanessa
+saopaulo = focus
+maria > vanessa
+|leonardo - vectra| = 0
+|ka - focus| = 2
+agile < leonardo
+|luana - ana| = 2
+|gilberto - felipe| = 2
+marrom < vermelho
+tarabai < maria
+saopaulo > arnaldo
+|montemor - cientista| = 4
+|vermelho - gilberto| = 1
+campinas > vermelho
+saopaulo = marrom
+vectra > cientista
+focus < uno
+|ka - campinas| = 0
+uno = ana
+gilberto > felipe
+|verde - marrom| = 2
+|focus - uno| = 1
+|marrom - tarabai| = 1
+luana < campinas
+|ana - felipe| = 1
+marrom < cinza
+luana < vanessa
+tarabai < saopaulo
+campinas > arnaldo
+vanessa = marrom
+|vectra - marrom| = 3
+saopaulo < gilberto
+|tarabai - verde| = 3
+advogado < cozinheiro
+ka < vectra
+focus < verde
+saopaulo > arnaldo
+|montemor - cinza| = 0
+|gilberto - saopaulo| = 2
+|felipe - ka| = 2
+cinza > arnaldo
+|felipe - montemor| = 3
+felipe < ana
+marrom = felipe
+|saopaulo - ariel| = 1
+tarabai < ka
+|montemor - arnaldo| = 4
+|saopaulo - focus| = 0
+|montemor - agile| = 4
+|luana - arnaldo| = 0
+agile < ana
+|engenheiro - advogado| = 2
+campinas < cinza
+|luisa - rosa| = 4
+vanessa < uno
+campinas > vanessa
+|uno - ka| = 1
+luana < verde
+ana > arnaldo
+luisa > advogado
+|ana - saopaulo| = 1
+luana = rosa
+ka > agile
+|saopaulo - campogrande| = 1
+|leonardo - vanessa| = 3
+|campinas - vanessa| = 2
+|campogrande - luisa| = 2
+ka = campinas
+campogrande < montemor
+|rosa - vanessa| = 1
+|leonardo - uno| = 2
+|gilberto - uno| = 1
+rosa < ana
+|vermelho - marrom| = 1
+verde < leonardo
+agile < maria
+|campogrande - luisa| = 2
+luana = tarabai
+verde > marrom
+uno < leonardo
+|luana - leonardo| = 4
+saopaulo < maria
+|campinas - vectra| = 1
+|vectra - luana| = 4
+gilberto > focus
+luana < leonardo
+leonardo > ka
+maria < cinza
+|ariel - verde| = 1
+|vectra - campinas| = 1
+rosa = luana
+|vectra - leonardo| = 0
+felipe < campinas
+luana = rosa
+leonardo > campogrande
+|verde - rosa| = 3
+ariel > luana
+|rosa - ana| = 2
+marrom < leonardo
+rosa < ariel
+luana < maria
+luana = arnaldo
+ariel > luana
+|marrom - focus| = 0
+|campogrande - maria| = 1
+|agile - montemor| = 4
+|uno - focus| = 1
+ana = uno
+|verde - marrom| = 2
+focus = saopaulo
+cientista < advogado
+|ka - arnaldo| = 3
+leonardo > vermelho
+|rosa - focus| = 1
+ka = gilberto
+|luana - saopaulo| = 1
+|tarabai - ariel| = 2
+vectra > saopaulo
+vanessa < luisa
+ariel > marrom
+uno > focus
+campinas < montemor
+|vermelho - leonardo| = 2
+verde = maria
+leonardo > maria
+|ana - campinas| = 1
+|luisa - vectra| = 0
+cinza > gilberto
+|campinas - campogrande| = 1
+campogrande < leonardo
+ariel = ana
+ariel < cinza
+|campinas - arnaldo| = 3
+leonardo > verde
+|felipe - luana| = 1
+|vermelho - campinas| = 1
+agile < cinza
+|cinza - campinas| = 1
+|felipe - maria| = 2
+|marrom - focus| = 0
+|marrom - montemor| = 3
+|campinas - vanessa| = 2
+vermelho < cinza
+|marrom - felipe| = 0
+|marrom - cinza| = 3
+montemor = leonardo
+maria > ana
+|focus - vanessa| = 0
+ana < ka
+luisa > ka
+agile < saopaulo
+maria > focus
+vanessa = marrom
+|verde - campogrande| = 1
+gilberto < leonardo
+|marrom - tarabai| = 1
+campinas > marrom
+|maria - campogrande| = 1
+|vanessa - verde| = 2
+vanessa < vermelho
+|montemor - secretario| = 2
+campogrande < leonardo
+saopaulo < campogrande
+ariel > vanessa
+|vanessa - campinas| = 2
+montemor > advogado
+campinas > tarabai
+|leonardo - vanessa| = 3
+ana > felipe
+|uno - campinas| = 1
+cinza > felipe
+|ka - campinas| = 0
+|campogrande - ka| = 1
+|arnaldo - campogrande| = 2
+|maria - campinas| = 0
+|vectra - leonardo| = 0
+arnaldo < ariel
+arnaldo < felipe
+ka = gilberto
+luisa = leonardo
+campinas > luana
+agile < campogrande
+campinas > focus
+|campinas - luisa| = 1
+luisa > rosa
+agile < ka
+|vermelho - rosa| = 2
+ka < montemor
+ariel > agile
+|campogrande - leonardo| = 2
+luana < vectra
+ana > focus
+|ariel - vectra| = 2
+|luisa - tarabai| = 4
+|cinza - arnaldo| = 4
+agile = 1
+ana > felipe
+|tarabai - ana| = 2
+vectra > campogrande
+|rosa - felipe| = 1
+|vermelho - campogrande| = 0
+marrom < campogrande
+|saopaulo - marrom| = 0
+|vanessa - felipe| = 0
+cinza > focus
+|ariel - ka| = 1
+|agile - luana| = 0
+|cientista - cozinheiro| = 4
+|montemor - uno| = 2
+|vectra - saopaulo| = 3
+|vanessa - focus| = 0
+felipe = 2
+|gilberto - arnaldo| = 3
+|ana - felipe| = 1
+|agile - felipe| = 1
+|cientista - engenheiro| = 1
+ka > marrom
+|arnaldo - gilberto| = 3
+|leonardo - cinza| = 0
+|campinas - vectra| = 1
+|marrom - vectra| = 3
+|tarabai - focus| = 1
+focus < campogrande
+|montemor - felipe| = 3
+|agile - gilberto| = 3
+tarabai < verde
+saopaulo = focus
+ka > rosa
+|luisa - vectra| = 0
+|uno - marrom| = 1
+|ana - maria| = 1
+maria < leonardo
+vanessa < verde
+|campinas - uno| = 1
+|felipe - vanessa| = 0
+|cinza - ana| = 2
+uno > vanessa
+|ana - tarabai| = 2
+vectra > tarabai
+|rosa - uno| = 2
+|ariel - arnaldo| = 2
+luana < ana
+|vectra - cientista| = 4
+|campinas - ka| = 0
+maria = 4
+|ka - verde| = 0
+|focus - rosa| = 1
+|leonardo - vectra| = 0
+rosa < uno
+agile < ka
+|luana - campinas| = 3
+vectra > tarabai
+arnaldo < gilberto
+|ana - saopaulo| = 1
+|cinza - vanessa| = 3
+saopaulo < ana
+uno > agile
+|vectra - campinas| = 1
+|saopaulo - maria| = 2
+|leonardo - vermelho| = 2
+|agile - felipe| = 1
+arnaldo < marrom
+secretario < cozinheiro
+vermelho = uno
+campinas > ana
+ariel > arnaldo
+|vanessa - arnaldo| = 1
+montemor = vectra
+|vermelho - montemor| = 2
+saopaulo = felipe
+agile < luisa
+|luana - vermelho| = 2
+|maria - tarabai| = 3
+|ariel - agile| = 2
+vermelho > arnaldo
+arnaldo < felipe
+luisa > focus
+campinas > campogrande
+|focus - tarabai| = 1
+|rosa - felipe| = 1
+agile < ariel
+|vermelho - agile| = 2
+vanessa < vermelho
+|luisa - arnaldo| = 4
+luana < vectra
+verde > marrom
+campogrande > luana
+agile < vanessa
+leonardo = luisa
+|ka - uno| = 1
+|vanessa - cinza| = 3
+|luana - focus| = 1
+|ka - luana| = 3
+|vanessa - vermelho| = 1
+|verde - arnaldo| = 3
+|rosa - vanessa| = 1
+|marrom - arnaldo| = 1
+saopaulo < cinza
+montemor > agile
+|ana - campogrande| = 0
+luisa > rosa
+rosa < focus
+|focus - felipe| = 0
+montemor > luana
+luana < montemor
+campinas < cinza
+|vermelho - felipe| = 1
+maria > tarabai
+ka = maria
+|focus - saopaulo| = 0
+|campogrande - verde| = 1
+verde > uno
+tarabai < focus
+agile < verde
+verde > felipe
+luisa > marrom
+|leonardo - luisa| = 0
+|montemor - ka| = 1
+|cientista - engenheiro| = 1
+tarabai = agile
+|campinas - tarabai| = 3
+leonardo > uno
+|verde - felipe| = 2
+arnaldo < montemor
+|uno - cinza| = 2
+|arnaldo - gilberto| = 3
+felipe > agile
+uno > marrom
+|uno - focus| = 1
+|rosa - ka| = 3
+|gilberto - agile| = 3
+|cinza - ariel| = 2
+rosa < vanessa
+ana > marrom
+|secretario - advogado| = 1
+vermelho < ka

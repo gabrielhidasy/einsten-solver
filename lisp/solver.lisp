@@ -23,19 +23,15 @@ other adjustments"
 	;;Transforma toda regra (= (- coisa1 n) coisa2) em uma
 	;;(= (+ coisa2 n) coisa1)
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal (caadr constraint) '-))
-	 ;;(print constraint)
 	 (let ((n (car (cddadr constraint))))
 	   (setf constraint (car (list `(= (+ ,(caddr constraint) ,n) ,(cadadr constraint)))))))
-	;;(print constraint))
 	;;Resolver a |coisa1 + 1| = coisa2 -> (= (+ coisa1 1) coisa2)
-	;;(print constraint)
 	;(= (ABS (+ PEDRO 1)) EDUARDO) -> (= (+ PEDRO 1) EDUARDO)
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal (caadr constraint) 'ABS) (equal (car (cadadr constraint)) '+))
 	 (setf constraint `(= ,(cadadr constraint) ,(caddr constraint))))
 	 ;(print (cadr constraint)))
-	;;TODO
-	;;Resolver a Coisa + n1 = n2 -> é um Coisa = n2-n1 (que vc pode resolver sozinho)
-	;;(= (+ florianopolis 1) 3)
+	;;Resolver a Coisa + n1 = n2 -> é um Coisa = n2-n1
+	;;(= (+ florianopolis 1) 3) -> (= florianopolis 2)
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal (caadr constraint) '+) (symbolp (cadadr constraint)) (numberp (caddr constraint)))
 	 (setf constraint `(= ,(cadadr constraint) ,(- (caddr constraint) (car (cddadr constraint)))))
 	 )
@@ -77,6 +73,7 @@ thing n) rules, or rules, and so on"
 	     (setf (aref field x domain-setted domain-element) 0))
 	   (setf (aref field house-setted-1 domain-setted domain-element) 1)
 	   (setf (aref field house-setted-2 domain-setted domain-element) 1)))
+
 	;;Se A < B, A não pode estar na ultima casa e B não pode estar
 	;;na primeira
 	((and (equal (car constraint) '<))
@@ -92,7 +89,6 @@ thing n) rules, or rules, and so on"
 	;;Se (A + n) = B, A não pode estar nas ultimas n casas e B não pode estar
 	;;nas n primeiras
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal '+ (caadr constraint)))
-	 ;;TODO Ve nos casos p1 p2 e p3, talvez vc precise tratar mais aqui
 	 (let ((attr-1-domain (cdr (assoc (cadadr constraint) domain-hash)))
 	       (attr-2-domain (cdr (assoc (caddr constraint) domain-hash)))
 	       (attr-1-item (cdr (assoc (cadadr constraint) domain-item-hash)))
@@ -112,8 +108,6 @@ thing n) rules, or rules, and so on"
 (defun fix-field ()
   "when an item can only be in houses a, house a will have only this item"					
   (dotimes (x nhouses)
-  ;This loop parses all columns and when one column has only one '1'
-  ;the line in it has only one 1 too
     (dotimes (y ndomains)
       (let ((counter-1 0) (pos-1 -1) (counter-2 0) (pos-2 -1))
 	(dotimes (z nhouses)
@@ -137,7 +131,6 @@ thing n) rules, or rules, and so on"
 
 ;;Muito a trabalhar aqui
 (defun smart-apply1 (constraints on-brutus)
-  (setf smartcals (1+ smartcals))
   (let ((adjusted-constraints '()))
     (dolist (constraint constraints)
       
@@ -310,10 +303,8 @@ thing n) rules, or rules, and so on"
 	     (setf (aref field (1- nhouses) att-1-domain att-1-item) 0))
 
 	   (setf adjusted-constraints (append adjusted-constraints (list constraint)))
-	   ;(print att-1)
-	   ;(print att-2)
-	   ;(print constraint)))
 	   ))
+
 	;;Tratar as regras do tipo (OR (= Coisa1 Coisa2) (= Coisa1 Coisa3))
 	((and (equal (car constraint) 'OR))
 	 ;;(print constraint)
@@ -326,14 +317,11 @@ thing n) rules, or rules, and so on"
 		(att-2 (cadr (cdaddr constraint)))
 		(att-2-domain (cdr (assoc att-2 domain-hash)))
 		(att-2-item (cdr (assoc att-2 domain-item-hash))))
-	   ;(print att-0)
-	   ;(print att-1)
-	   ;(print att-2)
 	   (dotimes (x nhouses)
 	     (unless (or (= (aref field x att-1-domain att-1-item) 1) (= (aref field x att-2-domain att-2-item) 1))
 	       (setf (aref field x att-0-domain att-0-item) 0)))
 	   (setf adjusted-constraints (append adjusted-constraints (list constraint)))))
-	 ;;Se chegou aqui é porque eu não tive regra esperta, melhor imprimir
+	;;Se chegou aqui é porque eu não tive regra esperta, melhor imprimir
 	;;o que me escapou
 	(T
 	 (print "Nao sou smart")
@@ -351,7 +339,6 @@ thing n) rules, or rules, and so on"
 	(when (and (not (= 1 (aref field_aux myx myy))) (or (> myx x) (and (= myx x) (> myy y))))
 	  (setf x myx)
 	  (setf y myy)
-	  ;(pretty-print-field-aux)
 	  (setf out 1)
 	  (return)))
       (when (= out 1)
@@ -373,8 +360,7 @@ thing n) rules, or rules, and so on"
 (defun brutus (constraints x y)
   "Choose one position in array to brute-force, the position should be
 after x y"
-  ;;Start the brute-force approach by copying the field and the current
-  ;;list of constraints
+  ;;Start the brute-force approach by copying the field
   (let ((old-field (copy-field field)) (flag nil))
     ;;Choose the first x y to tackle
     (let* ((xy (choose-x-y x y)) (x (car xy)) (y (cdr xy)))
@@ -386,22 +372,23 @@ after x y"
 	  ;;Try this house with brutus
 	  (smart-apply1 constraints t)
 	  (let ((nsols (generate-field-aux)))
-	    (when (= nsols 1)
+	    (when (= nsols 1) ;found a solution
 	      (setf flag t)
 	      (return))
-	    (when (> nsols 1)
+	    (when (> nsols 1) ;still possible, keep trying
 	      (setf flag (brutus constraints x y))
 	      (when (equal flag t)
 		(return)))
-	    (when (= nsols 0)
+	    (when (= nsols 0) ;impossible
 	      (setf field (copy-field old-field))  
-	  ))))
-      )
+	  )))))
     flag
-    )
-  )
+    ))
+
 (defun solver (path)
-  (defparameter smartcals 0)
+  ;;Byte-compile some things, got me a good speedup
+  (compile 'fix-field) ;Great, in extra62 from 0.6 to 0.3
+  (compile 'generate-field-aux) ;Good, from 0.3 to 0.2
   (with-open-file (f path)
     (let* ((domains (read f))
 	   (constraints (read f))
@@ -413,13 +400,7 @@ after x y"
       ;;(print constraints)
       (setf constraints (smart-apply0 constraints))
 
-      ;;Byte-compile some things, got me a good speedup
-      (compile 'fix-field) ;Great, in extra62 from 0.6 to 0.3
-      (compile 'generate-field-aux) ;Good, from 0.3 to 0.2
-      ;(compile 'brutus) ;This others only help in some specific cases
-      ;(compile 'choose-x-y)
-      ;(compile 'smart-apply0)
-      ;(compile 'smart-apply1)
+      ;;All others take more time to compile then to execute as they are
       (setf constraints (smart-apply-repeat constraints))
 
       ;;E aqui começa o brute
@@ -431,18 +412,16 @@ after x y"
 		(brutus constraints 0 0)
 		(brutus constraints 0 -1))
 	    ))
-      ;;(print constraints)
-      )
-    )
-  (print smartcals)
+      ))
   (generate-solution-from-field)
   )
 
 
 ;;;Auxiliares (ler e imprimir entrada e saida de varias formas)
 (defun massoc (key alist)
-  "For some reason assoc is not working with a pair even when I change the test
-function to equalp (which should be good) so I will make it myself"
+  "Given a key and an alist, returns the element using equal as test" 
+  ;;For some reason assoc is not working with a pair even when I change the test
+  ;;function to equalp (which should be good) so I will make it myself"
   (if (equal alist '())
     '()
     (if (equal (caar alist) key)
@@ -459,28 +438,20 @@ function to equalp (which should be good) so I will make it myself"
 	       (setf house-number x)
 	       (setf item-number z)
 	       (setf item-name (massoc (cons y item-number) domain-item-inverse-hash))
-	       ;(print "-----------------")
-	       ;(print (cdr (assoc y domain-name-number)))
-	       ;(print house-number)
-	       ;(print item-name)
-					;(print "-----------------")
 	       (setf output (append output (list (list item-name  (1+ house-number)))))
 
   )))) output ))
 
 (defun create-domain-alist (domains)
-  "Might be exchanged for a hashtable in the future"
+  "Create some alists to connect the words in domains with numbers in the field"
   (defparameter domain-hash '()) ;identify from witch domain
   (defparameter domain-item-hash '()) ;identify an iten in a domain
   (defparameter domain-name-number '()) ;associate domain names and numbers
-  ;(defparameter domain-inverse-hash '())
   (defparameter domain-item-inverse-hash '())
-  ;(defparameter domain-name-inverse-number '())
   (let ((domain-number 0))
     (dolist (domain domains)
       (setf domain-name (caadr domain))
       (push (cons domain-number domain-name) domain-name-number)
-      ;(push (cons domain-name domain-number) domain-name-inverse-number)
       (let ((item-number 0))
 	(dolist (element (cddr domain))
 	  (push (cons element item-number) domain-item-hash)
@@ -492,14 +463,9 @@ function to equalp (which should be good) so I will make it myself"
 (defun create-field (domains constraints)
   (defparameter nhouses (- (length (car domains)) 2))
   (defparameter ndomains (length domains))
-  (defparameter field (make-array (list nhouses ndomains nhouses)))
-  (defparameter field_aux (make-array (list nhouses ndomains)))
-  (defparameter min_field_aux nhouses)
-  (dotimes (x nhouses)
-	(dotimes (y ndomains)
-	  (dotimes  (z nhouses)
-	    (setf (aref field x y z) 1))
-	  (setf (aref field_aux x y) 0))))
+  (defparameter field (make-array (list nhouses ndomains nhouses) :initial-element 1))
+  (defparameter field_aux (make-array (list nhouses ndomains) :initial-element 0))
+  (defparameter min_field_aux nhouses))
 
 (defun copy-field (old-field)
   (let ((new-field (make-array (list nhouses ndomains nhouses))))

@@ -1,0 +1,1252 @@
+nome: nivaldo, ariel, felipe, amauri, douglas
+profissao: faxineiro, ator, lixeiro, cientista, advogado
+carro: corsa, corolla, i30, vectra, agile
+esposa: vanessa, luana, isabela, carol, neide
+cidade: saopaulo, campogrande, venceslau, anhumas, rio
+hobby: escrever, desenhar, cozinhar, tenis, volei
+
+ariel = 3
+|douglas - corolla| = 3
+|agile - campogrande| = 4
+|vectra - felipe| = 0
+venceslau < escrever
+|desenhar - nivaldo| = 0
+corsa < saopaulo
+|anhumas - nivaldo| = 2
+|ator - lixeiro| = 3
+|agile - douglas| = 0
+desenhar = corolla
+|corsa - douglas| = 4
+|isabela - nivaldo| = 2
+luana < douglas
+|ator - advogado| = 1
+corsa < felipe
+|campogrande - neide| = 4
+saopaulo > vanessa
+|escrever - amauri| = 3
+agile > anhumas
+isabela > corolla
+isabela > vanessa
+saopaulo = i30
+|volei - anhumas| = 1
+|volei - isabela| = 1
+ariel > amauri
+campogrande < corolla
+corolla > corsa
+tenis < saopaulo
+luana < carol
+|venceslau - douglas| = 3
+venceslau < douglas
+|luana - isabela| = 2
+rio > escrever
+|ariel - i30| = 0
+|vectra - anhumas| = 0
+luana < volei
+|i30 - cozinhar| = 0
+i30 < anhumas
+volei > anhumas
+|corolla - corsa| = 1
+faxineiro < ator
+volei > nivaldo
+tenis < corolla
+amauri = tenis
+|isabela - carol| = 1
+|carol - corsa| = 2
+tenis = campogrande
+|escrever - luana| = 2
+|corsa - isabela| = 3
+vanessa < venceslau
+|nivaldo - luana| = 0
+|cozinhar - felipe| = 1
+rio > lixeiro
+|volei - anhumas| = 1
+saopaulo = 3
+|luana - escrever| = 2
+corsa < carol
+isabela = vectra
+volei > vanessa
+|cozinhar - volei| = 2
+amauri < neide
+|felipe - tenis| = 3
+|saopaulo - agile| = 2
+|douglas - rio| = 0
+cozinhar > desenhar
+|felipe - amauri| = 3
+escrever > saopaulo
+|carol - cozinhar| = 0
+|corolla - luana| = 0
+campogrande = amauri
+douglas > luana
+luana = 2
+isabela < volei
+|vanessa - luana| = 1
+|escrever - ariel| = 1
+|vanessa - amauri| = 0
+neide > felipe
+neide > venceslau
+|ariel - rio| = 2
+|i30 - volei| = 2
+|vectra - luana| = 2
+lixeiro < ator
+carol < felipe
+|isabela - saopaulo| = 1
+|felipe - corolla| = 2
+escrever < volei
+|anhumas - isabela| = 0
+|corolla - neide| = 3
+venceslau < neide
+anhumas = vectra
+|tenis - douglas| = 4
+|vectra - campogrande| = 3
+|campogrande - felipe| = 3
+|corolla - carol| = 1
+saopaulo > vanessa
+vectra = felipe
+rio > cientista
+|campogrande - corsa| = 0
+anhumas > campogrande
+|nivaldo - tenis| = 1
+|neide - nivaldo| = 3
+isabela > amauri
+volei = neide
+ariel > nivaldo
+carol = ariel
+amauri < ariel
+|nivaldo - vectra| = 2
+corolla < cozinhar
+|escrever - luana| = 2
+|cozinhar - felipe| = 1
+|ator - advogado| = 1
+|desenhar - carol| = 1
+campogrande = tenis
+saopaulo > amauri
+|desenhar - rio| = 3
+|campogrande - corolla| = 1
+saopaulo < douglas
+|luana - nivaldo| = 0
+anhumas > saopaulo
+corsa = campogrande
+neide > campogrande
+neide > i30
+venceslau < isabela
+|anhumas - vectra| = 0
+|isabela - corsa| = 3
+anhumas > desenhar
+ariel < neide
+vanessa < carol
+campogrande < vectra
+saopaulo > campogrande
+corolla < carol
+saopaulo < escrever
+vanessa < agile
+|douglas - corolla| = 3
+i30 < isabela
+|tenis - cozinhar| = 2
+|anhumas - corsa| = 3
+agile > ariel
+amauri < felipe
+amauri < ariel
+|nivaldo - tenis| = 1
+neide > saopaulo
+|i30 - ariel| = 0
+cozinhar > vanessa
+felipe < douglas
+campogrande < cozinhar
+|corsa - felipe| = 3
+tenis < douglas
+|vectra - tenis| = 3
+anhumas > venceslau
+cozinhar > tenis
+saopaulo > corolla
+|i30 - felipe| = 1
+|carol - ariel| = 0
+corsa = vanessa
+|saopaulo - vectra| = 1
+|carol - corolla| = 1
+|saopaulo - luana| = 1
+cientista < ator
+douglas > vectra
+carol = saopaulo
+|carol - luana| = 1
+|carol - neide| = 2
+|tenis - isabela| = 3
+corolla < escrever
+volei > ariel
+volei > venceslau
+desenhar < i30
+tenis < desenhar
+|ariel - nivaldo| = 1
+amauri < vectra
+|carol - anhumas| = 1
+|douglas - saopaulo| = 2
+nivaldo < carol
+rio > isabela
+|nivaldo - desenhar| = 0
+isabela < agile
+anhumas > corsa
+|agile - rio| = 0
+luana < anhumas
+|carol - rio| = 2
+|agile - cozinhar| = 2
+i30 > vanessa
+ariel > campogrande
+|luana - neide| = 3
+amauri = campogrande
+carol > corsa
+|saopaulo - isabela| = 1
+|rio - agile| = 0
+vanessa < nivaldo
+i30 < escrever
+i30 < volei
+|nivaldo - escrever| = 2
+venceslau > campogrande
+corsa < douglas
+vanessa < agile
+|isabela - corsa| = 3
+rio > carol
+carol > corolla
+|corolla - vanessa| = 1
+isabela > nivaldo
+|neide - anhumas| = 1
+douglas > tenis
+|desenhar - ariel| = 1
+|corsa - felipe| = 3
+|anhumas - i30| = 1
+saopaulo > vanessa
+volei = neide
+volei > nivaldo
+|ariel - corolla| = 1
+campogrande < saopaulo
+volei = neide
+ariel < volei
+|venceslau - desenhar| = 0
+tenis < luana
+escrever > carol
+|tenis - volei| = 4
+cozinhar > campogrande
+corsa < vectra
+|luana - tenis| = 1
+ariel < rio
+|campogrande - corsa| = 0
+anhumas > cozinhar
+|nivaldo - agile| = 3
+|desenhar - agile| = 3
+|vanessa - vectra| = 3
+desenhar < saopaulo
+i30 > corsa
+anhumas < neide
+faxineiro > lixeiro
+felipe > campogrande
+|corolla - amauri| = 1
+|douglas - anhumas| = 1
+venceslau = nivaldo
+|campogrande - vectra| = 3
+i30 > desenhar
+|nivaldo - luana| = 0
+|anhumas - desenhar| = 2
+|corolla - carol| = 1
+|corolla - agile| = 3
+vectra > tenis
+amauri < venceslau
+tenis < desenhar
+anhumas < volei
+|neide - nivaldo| = 3
+|carol - tenis| = 2
+douglas > desenhar
+cozinhar < isabela
+|cozinhar - venceslau| = 1
+|i30 - saopaulo| = 0
+|campogrande - vectra| = 3
+nivaldo < isabela
+|agile - campogrande| = 4
+tenis < i30
+|ariel - vectra| = 1
+escrever < rio
+tenis < i30
+|isabela - amauri| = 3
+|corsa - amauri| = 0
+|anhumas - isabela| = 0
+douglas > saopaulo
+|vectra - felipe| = 0
+|luana - felipe| = 2
+|corolla - neide| = 3
+luana = desenhar
+neide > cozinhar
+isabela > campogrande
+isabela < rio
+campogrande < luana
+|isabela - neide| = 1
+|venceslau - isabela| = 2
+tenis < agile
+cozinhar < volei
+|faxineiro - lixeiro| = 1
+|vectra - neide| = 1
+|vanessa - venceslau| = 1
+|rio - nivaldo| = 3
+volei > anhumas
+agile > luana
+|amauri - ariel| = 2
+|isabela - nivaldo| = 2
+|saopaulo - ariel| = 0
+i30 = cozinhar
+|nivaldo - douglas| = 3
+|cozinhar - desenhar| = 1
+|nivaldo - isabela| = 2
+vectra > vanessa
+corsa = amauri
+ariel > nivaldo
+ariel > corsa
+|desenhar - vanessa| = 1
+|cozinhar - amauri| = 2
+|anhumas - tenis| = 3
+rio > amauri
+desenhar < isabela
+ariel > tenis
+|corsa - agile| = 4
+agile > escrever
+corsa < venceslau
+tenis < luana
+|desenhar - ariel| = 1
+|volei - anhumas| = 1
+amauri < rio
+|carol - tenis| = 2
+vanessa = corsa
+|vanessa - cozinhar| = 2
+corolla = venceslau
+felipe > desenhar
+luana < volei
+cientista < ator
+felipe > amauri
+|douglas - corolla| = 3
+i30 < neide
+cozinhar < neide
+|lixeiro - ator| = 3
+|tenis - neide| = 4
+|lixeiro - cientista| = 2
+|felipe - corolla| = 2
+agile > ator
+|ariel - luana| = 1
+|vectra - anhumas| = 0
+|i30 - ariel| = 0
+|tenis - volei| = 4
+douglas > saopaulo
+|carol - corsa| = 2
+|desenhar - neide| = 3
+felipe > corsa
+felipe = vectra
+|lixeiro - faxineiro| = 1
+|rio - i30| = 2
+|escrever - anhumas| = 0
+neide > venceslau
+|i30 - volei| = 2
+|corsa - anhumas| = 3
+|tenis - neide| = 4
+anhumas > luana
+|ariel - venceslau| = 1
+agile > tenis
+amauri < felipe
+|corsa - douglas| = 4
+|amauri - vanessa| = 0
+|agile - felipe| = 1
+ator > lixeiro
+|agile - ator| = 1
+|rio - carol| = 2
+|agile - isabela| = 1
+corsa = tenis
+corsa = tenis
+|lixeiro - faxineiro| = 1
+ariel < volei
+|corolla - felipe| = 2
+|agile - ariel| = 2
+|lixeiro - faxineiro| = 1
+|corsa - corolla| = 1
+|carol - cozinhar| = 0
+carol < vectra
+|tenis - felipe| = 3
+amauri < felipe
+|corsa - isabela| = 3
+|corsa - isabela| = 3
+|corolla - nivaldo| = 0
+isabela > saopaulo
+nivaldo < ariel
+corsa < isabela
+|luana - douglas| = 3
+ariel < escrever
+luana < felipe
+anhumas > luana
+escrever > tenis
+cozinhar = i30
+isabela > nivaldo
+carol < douglas
+venceslau < volei
+lixeiro < advogado
+felipe = 4
+|volei - felipe| = 1
+|neide - escrever| = 1
+|rio - volei| = 0
+vanessa < venceslau
+i30 > nivaldo
+neide = rio
+saopaulo = carol
+|carol - vectra| = 1
+luana = 2
+volei = agile
+venceslau < cozinhar
+saopaulo = ariel
+|saopaulo - anhumas| = 1
+|vanessa - felipe| = 3
+corsa < desenhar
+isabela < douglas
+venceslau < isabela
+amauri < saopaulo
+carol < douglas
+|carol - venceslau| = 1
+|venceslau - corsa| = 1
+felipe = escrever
+neide > campogrande
+|isabela - saopaulo| = 1
+nivaldo < volei
+|campogrande - escrever| = 3
+ator > faxineiro
+volei > lixeiro
+|rio - vectra| = 1
+cozinhar < felipe
+douglas = volei
+escrever > nivaldo
+|corolla - vanessa| = 1
+|nivaldo - agile| = 3
+rio > isabela
+|saopaulo - luana| = 1
+neide > ariel
+corsa < neide
+|douglas - neide| = 0
+|volei - luana| = 3
+corsa < carol
+|carol - agile| = 2
+neide > nivaldo
+campogrande < corolla
+nivaldo = desenhar
+escrever = isabela
+|carol - luana| = 1
+anhumas > desenhar
+neide > corsa
+volei > faxineiro
+felipe > venceslau
+amauri = vanessa
+|tenis - anhumas| = 3
+|ariel - vectra| = 1
+|isabela - volei| = 1
+tenis < corolla
+cozinhar < rio
+|escrever - anhumas| = 0
+|vectra - tenis| = 3
+venceslau < saopaulo
+|isabela - luana| = 2
+|anhumas - carol| = 1
+|cozinhar - vanessa| = 2
+|corolla - douglas| = 3
+|felipe - desenhar| = 2
+douglas > corsa
+|carol - ariel| = 0
+escrever > corsa
+i30 > corolla
+|isabela - luana| = 2
+rio > i30
+|felipe - amauri| = 3
+|campogrande - anhumas| = 3
+|carol - douglas| = 2
+tenis < neide
+|felipe - vectra| = 0
+vectra = felipe
+|rio - vanessa| = 4
+anhumas > ariel
+|rio - vectra| = 1
+neide > venceslau
+agile > desenhar
+|saopaulo - venceslau| = 1
+|saopaulo - escrever| = 1
+escrever = vectra
+|anhumas - volei| = 1
+|corolla - vectra| = 2
+vectra > campogrande
+venceslau < saopaulo
+i30 < escrever
+|nivaldo - carol| = 1
+corolla < saopaulo
+|corsa - saopaulo| = 2
+|agile - lixeiro| = 4
+|saopaulo - rio| = 2
+|i30 - carol| = 0
+anhumas > corsa
+neide > faxineiro
+felipe = escrever
+corolla = luana
+|isabela - anhumas| = 0
+rio > corolla
+nivaldo < i30
+i30 > corsa
+|corsa - venceslau| = 1
+anhumas > corsa
+|felipe - nivaldo| = 2
+corolla > campogrande
+luana < anhumas
+cozinhar > tenis
+|desenhar - douglas| = 3
+|venceslau - vanessa| = 1
+neide > ator
+campogrande < luana
+venceslau > corsa
+vectra > i30
+|i30 - campogrande| = 2
+|desenhar - volei| = 3
+|felipe - amauri| = 3
+|campogrande - nivaldo| = 1
+|corolla - escrever| = 2
+isabela > nivaldo
+corsa < agile
+saopaulo < neide
+anhumas < agile
+escrever = isabela
+|saopaulo - douglas| = 2
+|campogrande - corolla| = 1
+|campogrande - desenhar| = 1
+vectra = 4
+|tenis - volei| = 4
+ariel = i30
+i30 < felipe
+|douglas - vectra| = 1
+|escrever - corsa| = 3
+campogrande < desenhar
+amauri < desenhar
+ariel > venceslau
+|amauri - anhumas| = 3
+corsa < luana
+|corsa - ariel| = 2
+|amauri - i30| = 2
+escrever > nivaldo
+luana < isabela
+rio = agile
+corolla > campogrande
+isabela < volei
+saopaulo < volei
+|campogrande - felipe| = 3
+agile > carol
+|neide - escrever| = 1
+corsa < luana
+desenhar < isabela
+volei > vectra
+nivaldo < vectra
+tenis < carol
+douglas > corsa
+|corolla - venceslau| = 0
+agile > nivaldo
+|isabela - corolla| = 2
+|saopaulo - vanessa| = 2
+|agile - neide| = 0
+felipe = isabela
+isabela < rio
+cozinhar > desenhar
+|felipe - cozinhar| = 1
+vectra > desenhar
+|desenhar - vanessa| = 1
+rio > faxineiro
+escrever > luana
+nivaldo < carol
+|luana - agile| = 3
+rio > i30
+|corsa - neide| = 4
+|rio - ator| = 1
+saopaulo > nivaldo
+|agile - tenis| = 4
+amauri < agile
+corolla < escrever
+rio > vectra
+|vanessa - corsa| = 0
+|vectra - felipe| = 0
+|nivaldo - amauri| = 1
+|cozinhar - carol| = 0
+|vectra - escrever| = 0
+|amauri - vanessa| = 0
+corsa = vanessa
+ariel = 3
+tenis < venceslau
+neide > nivaldo
+|carol - desenhar| = 1
+desenhar = 2
+nivaldo < rio
+volei > carol
+escrever < neide
+corsa < douglas
+|anhumas - escrever| = 0
+ariel > tenis
+nivaldo > tenis
+|saopaulo - cozinhar| = 0
+douglas > faxineiro
+venceslau < volei
+agile > faxineiro
+i30 > tenis
+vanessa = tenis
+agile = rio
+|ariel - neide| = 2
+isabela = 4
+|saopaulo - ariel| = 0
+|rio - lixeiro| = 4
+luana < douglas
+campogrande < douglas
+luana = 2
+|escrever - vectra| = 0
+|amauri - venceslau| = 1
+|escrever - venceslau| = 2
+luana < saopaulo
+|douglas - escrever| = 1
+|corsa - saopaulo| = 2
+|cozinhar - rio| = 2
+neide > tenis
+|anhumas - vectra| = 0
+|vectra - vanessa| = 3
+saopaulo < escrever
+|neide - amauri| = 4
+|felipe - douglas| = 1
+|i30 - desenhar| = 1
+|corolla - rio| = 3
+|lixeiro - ator| = 3
+|nivaldo - rio| = 3
+rio > ator
+campogrande < vectra
+|escrever - vanessa| = 3
+vanessa < anhumas
+luana = corolla
+i30 > amauri
+|vanessa - tenis| = 0
+tenis < luana
+|douglas - rio| = 0
+|luana - corolla| = 0
+|neide - douglas| = 0
+felipe = escrever
+|nivaldo - neide| = 3
+felipe > tenis
+ariel < isabela
+|isabela - anhumas| = 0
+saopaulo < douglas
+ariel > vanessa
+|nivaldo - felipe| = 2
+|nivaldo - corsa| = 1
+|tenis - vectra| = 3
+|volei - agile| = 0
+|neide - ator| = 1
+volei > lixeiro
+vectra = felipe
+|campogrande - desenhar| = 1
+|ariel - agile| = 2
+|luana - isabela| = 2
+|carol - vanessa| = 2
+corsa < saopaulo
+|i30 - felipe| = 1
+|vectra - anhumas| = 0
+agile > luana
+carol > nivaldo
+campogrande < carol
+|tenis - campogrande| = 0
+isabela > amauri
+|carol - corolla| = 1
+vectra > corsa
+campogrande < neide
+|neide - corsa| = 4
+carol < volei
+|amauri - corolla| = 1
+rio > corsa
+|venceslau - corsa| = 1
+desenhar > vanessa
+|nivaldo - rio| = 3
+vectra < neide
+|cozinhar - felipe| = 1
+|luana - cozinhar| = 1
+carol > venceslau
+vectra > tenis
+|felipe - agile| = 1
+neide > corolla
+|rio - douglas| = 0
+|rio - lixeiro| = 4
+amauri < volei
+|isabela - felipe| = 0
+neide = rio
+isabela > corsa
+rio > ator
+|anhumas - corolla| = 2
+agile > saopaulo
+douglas > campogrande
+cozinhar > vanessa
+ariel > nivaldo
+|felipe - anhumas| = 0
+|douglas - cientista| = 2
+|amauri - i30| = 2
+ariel < vectra
+|douglas - campogrande| = 4
+|escrever - corsa| = 3
+|desenhar - corsa| = 1
+rio = douglas
+|cozinhar - venceslau| = 1
+|isabela - anhumas| = 0
+|escrever - corolla| = 2
+rio > vanessa
+|felipe - campogrande| = 3
+amauri < escrever
+|saopaulo - campogrande| = 2
+campogrande < isabela
+|escrever - felipe| = 0
+corolla < felipe
+|douglas - escrever| = 1
+escrever < neide
+|nivaldo - douglas| = 3
+|escrever - luana| = 2
+|rio - neide| = 0
+corolla < vectra
+|isabela - rio| = 1
+carol < douglas
+|nivaldo - anhumas| = 2
+saopaulo > amauri
+neide > escrever
+cozinhar > luana
+carol = saopaulo
+|ariel - venceslau| = 1
+isabela > vanessa
+|carol - cozinhar| = 0
+|saopaulo - volei| = 2
+volei > cientista
+nivaldo < volei
+|venceslau - campogrande| = 1
+|carol - corolla| = 1
+|neide - corsa| = 4
+|ator - faxineiro| = 2
+corsa < ariel
+campogrande < venceslau
+saopaulo < agile
+i30 < neide
+|volei - lixeiro| = 4
+neide > anhumas
+|nivaldo - saopaulo| = 1
+|douglas - ator| = 1
+corsa < agile
+vanessa < rio
+|vectra - neide| = 1
+agile > lixeiro
+venceslau < vectra
+neide > corsa
+|amauri - corolla| = 1
+desenhar < agile
+|tenis - felipe| = 3
+|cozinhar - vectra| = 1
+|ariel - carol| = 0
+|carol - escrever| = 1
+|saopaulo - venceslau| = 1
+|corolla - venceslau| = 0
+desenhar = 2
+neide > venceslau
+|corsa - campogrande| = 0
+tenis < felipe
+cozinhar < agile
+corsa < saopaulo
+anhumas > i30
+agile > desenhar
+ariel < isabela
+neide > tenis
+luana < volei
+campogrande < vectra
+anhumas = felipe
+|rio - i30| = 2
+volei > corsa
+agile > amauri
+|vectra - volei| = 1
+agile > vanessa
+tenis < luana
+carol > venceslau
+|corsa - carol| = 2
+desenhar < escrever
+desenhar < agile
+carol < rio
+|anhumas - cozinhar| = 1
+corolla < carol
+|rio - douglas| = 0
+cozinhar < anhumas
+|venceslau - desenhar| = 0
+|isabela - vanessa| = 3
+anhumas > nivaldo
+|douglas - escrever| = 1
+carol = cozinhar
+|desenhar - isabela| = 2
+|corolla - vectra| = 2
+saopaulo < anhumas
+nivaldo < escrever
+i30 = saopaulo
+|isabela - agile| = 1
+escrever = vectra
+vanessa < ariel
+tenis = campogrande
+|douglas - vanessa| = 4
+isabela > carol
+|nivaldo - vectra| = 2
+|carol - neide| = 2
+ator > lixeiro
+|douglas - carol| = 2
+vanessa < carol
+vanessa < neide
+|carol - escrever| = 1
+lixeiro < ator
+vectra > i30
+|isabela - corolla| = 2
+corsa < saopaulo
+|cozinhar - luana| = 1
+|anhumas - vanessa| = 3
+|neide - rio| = 0
+|anhumas - luana| = 2
+luana = desenhar
+|carol - rio| = 2
+felipe > luana
+lixeiro < advogado
+campogrande < isabela
+campogrande = vanessa
+|neide - lixeiro| = 4
+|vectra - saopaulo| = 1
+|nivaldo - i30| = 1
+desenhar > vanessa
+|vanessa - anhumas| = 3
+|cozinhar - felipe| = 1
+|ariel - vanessa| = 2
+|rio - isabela| = 1
+rio > tenis
+|rio - volei| = 0
+|agile - vanessa| = 4
+|cozinhar - venceslau| = 1
+anhumas = felipe
+|desenhar - douglas| = 3
+vanessa < rio
+ariel > amauri
+|campogrande - tenis| = 0
+|anhumas - luana| = 2
+|vanessa - anhumas| = 3
+anhumas < volei
+anhumas < rio
+|escrever - ariel| = 1
+agile > escrever
+campogrande < felipe
+volei > carol
+cozinhar < escrever
+i30 < felipe
+|tenis - corsa| = 0
+i30 > vanessa
+|vanessa - desenhar| = 1
+saopaulo < neide
+|douglas - carol| = 2
+|corolla - tenis| = 1
+|amauri - corolla| = 1
+douglas > luana
+|luana - cozinhar| = 1
+douglas = volei
+rio > i30
+|corsa - escrever| = 3
+|vanessa - cozinhar| = 2
+|tenis - amauri| = 0
+isabela > venceslau
+|luana - vectra| = 2
+|campogrande - anhumas| = 3
+rio > vectra
+|tenis - corolla| = 1
+|volei - luana| = 3
+i30 = cozinhar
+neide > corolla
+|nivaldo - vanessa| = 1
+|ariel - carol| = 0
+i30 > campogrande
+vectra < neide
+isabela > corolla
+venceslau < isabela
+vectra > tenis
+|neide - vectra| = 1
+agile > cozinhar
+|isabela - cozinhar| = 1
+corsa < escrever
+|saopaulo - cozinhar| = 0
+|cozinhar - venceslau| = 1
+luana < rio
+|desenhar - campogrande| = 1
+isabela = escrever
+corolla < isabela
+corolla < saopaulo
+|campogrande - rio| = 4
+douglas > lixeiro
+rio > escrever
+|saopaulo - isabela| = 1
+|vanessa - tenis| = 0
+anhumas > corolla
+|agile - isabela| = 1
+|desenhar - corolla| = 0
+ariel < douglas
+|venceslau - desenhar| = 0
+vanessa < escrever
+|nivaldo - carol| = 1
+campogrande < escrever
+escrever > saopaulo
+|nivaldo - amauri| = 1
+agile > cientista
+felipe > corsa
+|amauri - venceslau| = 1
+|corsa - carol| = 2
+amauri < neide
+|desenhar - corolla| = 0
+corolla < saopaulo
+desenhar < agile
+desenhar = corolla
+nivaldo < saopaulo
+|rio - luana| = 3
+|saopaulo - vanessa| = 2
+corsa < i30
+|desenhar - venceslau| = 0
+volei > campogrande
+|tenis - ariel| = 2
+|desenhar - douglas| = 3
+|rio - i30| = 2
+tenis < felipe
+|saopaulo - isabela| = 1
+saopaulo < vectra
+|campogrande - escrever| = 3
+|i30 - desenhar| = 1
+vanessa < carol
+|agile - cozinhar| = 2
+saopaulo > nivaldo
+|rio - tenis| = 4
+|neide - anhumas| = 1
+isabela < neide
+|agile - vanessa| = 4
+volei > cientista
+|corsa - volei| = 4
+|volei - lixeiro| = 4
+volei > ariel
+|nivaldo - douglas| = 3
+|agile - amauri| = 4
+|corsa - vectra| = 3
+|ariel - saopaulo| = 0
+escrever < neide
+|anhumas - felipe| = 0
+saopaulo < felipe
+i30 > vanessa
+carol = cozinhar
+|rio - desenhar| = 3
+|agile - desenhar| = 3
+felipe > nivaldo
+|vanessa - douglas| = 4
+cientista < ator
+|isabela - vanessa| = 3
+|douglas - vanessa| = 4
+douglas > cozinhar
+campogrande < douglas
+|vectra - douglas| = 1
+|cozinhar - escrever| = 1
+|desenhar - amauri| = 1
+|tenis - corolla| = 1
+isabela > i30
+saopaulo = ariel
+|saopaulo - neide| = 2
+|agile - faxineiro| = 3
+|felipe - cozinhar| = 1
+corolla < i30
+|vectra - nivaldo| = 2
+|douglas - campogrande| = 4
+felipe > saopaulo
+saopaulo < rio
+corsa < desenhar
+lixeiro < ator
+ariel > vanessa
+corolla < douglas
+|venceslau - volei| = 3
+|vectra - campogrande| = 3
+escrever > campogrande
+|douglas - carol| = 2
+ariel < anhumas
+vectra = isabela
+neide > corolla
+|tenis - cozinhar| = 2
+|venceslau - ariel| = 1
+desenhar > campogrande
+|nivaldo - anhumas| = 2
+ariel < neide
+|nivaldo - agile| = 3
+vectra > campogrande
+saopaulo = ariel
+anhumas > tenis
+ariel > campogrande
+|carol - desenhar| = 1
+|corsa - douglas| = 4
+desenhar > campogrande
+|corolla - neide| = 3
+|volei - vanessa| = 4
+volei > corsa
+|luana - i30| = 1
+venceslau < escrever
+faxineiro < cientista
+|luana - vanessa| = 1
+|volei - nivaldo| = 3
+|tenis - anhumas| = 3
+i30 > venceslau
+|carol - douglas| = 2
+corsa < rio
+|tenis - felipe| = 3
+|carol - neide| = 2
+carol > corolla
+|venceslau - i30| = 1
+|carol - amauri| = 2
+|vanessa - corsa| = 0
+corsa < anhumas
+|cozinhar - vanessa| = 2
+|ariel - desenhar| = 1
+|volei - ator| = 1
+|campogrande - tenis| = 0
+amauri = tenis
+venceslau < i30
+|amauri - luana| = 1
+corolla < volei
+|venceslau - carol| = 1
+corolla = venceslau
+ariel = cozinhar
+|venceslau - saopaulo| = 1
+|amauri - felipe| = 3
+agile > ator
+rio = neide
+vanessa < agile
+|tenis - i30| = 2
+vectra > ariel
+luana = 2
+volei > campogrande
+|vanessa - isabela| = 3
+anhumas > corsa
+|felipe - i30| = 1
+vanessa = campogrande
+cozinhar > campogrande
+ariel = 3
+|vectra - luana| = 2
+|luana - cozinhar| = 1
+|i30 - amauri| = 2
+ator > cientista
+corolla < carol
+|amauri - agile| = 4
+|i30 - vectra| = 1
+|anhumas - felipe| = 0
+felipe > vanessa
+nivaldo = venceslau
+|ariel - tenis| = 2
+|amauri - douglas| = 4
+|luana - desenhar| = 0
+|venceslau - escrever| = 2
+volei = douglas
+|anhumas - corolla| = 2
+agile > felipe
+|vanessa - neide| = 4
+ariel = cozinhar
+|neide - ator| = 1
+amauri = vanessa
+felipe < volei
+volei = neide
+|douglas - escrever| = 1
+|tenis - cozinhar| = 2
+|corsa - saopaulo| = 2
+|corsa - tenis| = 0
+|vanessa - luana| = 1
+|cozinhar - neide| = 2
+agile > isabela
+|amauri - ariel| = 2
+corsa < douglas
+vanessa < neide
+|ariel - escrever| = 1
+cozinhar < agile
+|anhumas - douglas| = 1
+|isabela - agile| = 1
+|rio - volei| = 0
+|amauri - isabela| = 3
+|volei - isabela| = 1
+|amauri - nivaldo| = 1
+rio > ariel
+i30 = cozinhar
+nivaldo < agile
+|tenis - i30| = 2
+corsa < felipe
+luana < carol
+corsa = amauri
+|venceslau - desenhar| = 0
+desenhar < anhumas
+campogrande = amauri
+|luana - amauri| = 1
+|douglas - vectra| = 1
+|luana - tenis| = 1
+|tenis - i30| = 2
+|agile - rio| = 0
+isabela > i30
+neide = rio
+|vanessa - agile| = 4
+|ariel - i30| = 0
+vanessa = 1
+|douglas - anhumas| = 1
+|felipe - i30| = 1
+|vanessa - felipe| = 3
+|neide - saopaulo| = 2
+vanessa < venceslau
+|tenis - campogrande| = 0
+rio > lixeiro
+cozinhar < agile
+vectra < agile
+|ariel - felipe| = 1
+|vanessa - vectra| = 3
+anhumas = escrever
+vectra > cozinhar
+vectra > vanessa
+|volei - faxineiro| = 3
+agile > luana
+|desenhar - campogrande| = 1
+|felipe - amauri| = 3
+ariel < douglas
+campogrande < desenhar
+luana = nivaldo
+vectra = felipe
+|corsa - vectra| = 3
+|desenhar - campogrande| = 1
+|isabela - i30| = 1
+|desenhar - felipe| = 2
+|vectra - amauri| = 3
+|escrever - tenis| = 3
+rio > vectra
+venceslau > corsa
+carol > desenhar
+|vanessa - luana| = 1
+|isabela - neide| = 1
+felipe = 4
+|rio - luana| = 3
+|douglas - campogrande| = 4
+|rio - isabela| = 1
+|vectra - cozinhar| = 1
+agile > felipe
+|tenis - corolla| = 1
+volei > i30
+i30 > corolla
+rio > corolla
+amauri < ariel
+|vectra - felipe| = 0
+|ariel - volei| = 2
+rio > faxineiro
+|amauri - corsa| = 0
+|tenis - felipe| = 3
+|venceslau - luana| = 0
+|luana - corolla| = 0
+douglas > isabela
+carol > venceslau
+|corsa - carol| = 2
+|ariel - anhumas| = 1
+faxineiro < cientista
+venceslau < carol
+|agile - nivaldo| = 3
+tenis < volei
+neide > desenhar
+corolla < felipe
+campogrande = corsa
+|campogrande - corsa| = 0
+|neide - cozinhar| = 2
+|corolla - amauri| = 1
+carol < douglas
+amauri = corsa
+amauri < vectra
+|ariel - saopaulo| = 0
+escrever > ariel
+agile > cientista
+cozinhar < rio
+|saopaulo - agile| = 2
+venceslau > campogrande
+saopaulo = carol
+escrever > corsa
+|luana - rio| = 3
+|felipe - neide| = 1
+|corolla - luana| = 0
+anhumas < douglas
+isabela < douglas
+|anhumas - campogrande| = 3
+|venceslau - vectra| = 2
+felipe < neide
+|venceslau - neide| = 3
+luana < neide
+|isabela - rio| = 1
+venceslau < ariel
+|tenis - vectra| = 3
+|campogrande - cozinhar| = 2
+|ator - cientista| = 1
+douglas > cozinhar
+anhumas > vanessa
+|escrever - vanessa| = 3
+|rio - douglas| = 0
+corsa = campogrande
+anhumas = felipe
+i30 < escrever
+cozinhar < isabela
+faxineiro < ator
+|ariel - douglas| = 2
+|douglas - volei| = 0
+nivaldo < i30
+|vectra - tenis| = 3
+|felipe - saopaulo| = 1
+saopaulo > corsa
+|cozinhar - venceslau| = 1
+|faxineiro - ator| = 2
+campogrande < i30
+|cozinhar - douglas| = 2
+|douglas - cientista| = 2
+vectra > desenhar
+vectra > ariel
+corsa < cozinhar
+|rio - neide| = 0
+|desenhar - corolla| = 0
+|corolla - corsa| = 1
+|neide - nivaldo| = 3
+|desenhar - agile| = 3
+douglas > cozinhar
+rio > faxineiro
+desenhar < escrever
+neide = agile
+|rio - cozinhar| = 2
+|rio - vanessa| = 4
+ariel < vectra
+|vanessa - carol| = 2
+campogrande < douglas
+ariel > nivaldo
+|tenis - escrever| = 3
+corsa < escrever
+saopaulo < volei
+|anhumas - vanessa| = 3
+|douglas - faxineiro| = 3
+agile = douglas
+|i30 - campogrande| = 2
+|ator - cientista| = 1
+|neide - amauri| = 4
+desenhar < escrever
+|vanessa - cozinhar| = 2
+volei = douglas
+|corolla - volei| = 3
+desenhar = luana
+venceslau < vectra
+|ariel - felipe| = 1
+|campogrande - neide| = 4
+|campogrande - vectra| = 3
+|agile - desenhar| = 3
+corsa < felipe
+isabela = 4
+|felipe - ariel| = 1
+luana > vanessa
+|neide - rio| = 0
+venceslau = nivaldo
+corsa < desenhar
+|rio - isabela| = 1
+|luana - tenis| = 1
+corsa < carol
+i30 > tenis
+|venceslau - saopaulo| = 1
+|rio - isabela| = 1
+ariel > amauri
+|campogrande - volei| = 4
+|corolla - carol| = 1
+|agile - escrever| = 1
+neide > escrever
+|corsa - anhumas| = 3

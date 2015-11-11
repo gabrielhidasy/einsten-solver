@@ -1,0 +1,1249 @@
+hobby: videogame, correr, tenis, volei, pintar
+carro: corolla, cruise, civic, ka, vectra
+nome: raul, arnaldo, carlos, felipe, gilberto
+camiseta: verde, marrom, preto, ciano, cinza
+profissao: ator, cientista, secretario, arquiteto, engenheiro
+esposa: luisa, caroline, luana, ana, nelsa
+
+carlos < ciano
+pintar = nelsa
+|carlos - arnaldo| = 3
+vectra > ciano
+|raul - carlos| = 1
+|cruise - felipe| = 1
+corolla = felipe
+civic < gilberto
+|corolla - carlos| = 2
+carlos < ana
+|preto - luana| = 2
+civic = marrom
+caroline = videogame
+civic = volei
+|felipe - gilberto| = 2
+|ciano - nelsa| = 3
+|civic - ana| = 2
+|carlos - ciano| = 1
+|caroline - luisa| = 3
+|caroline - ka| = 0
+|carlos - felipe| = 2
+correr = luana
+civic < gilberto
+verde > marrom
+felipe = corolla
+raul < tenis
+pintar > corolla
+|ana - videogame| = 1
+|volei - ana| = 2
+raul = luana
+arquiteto > secretario
+correr < ka
+arnaldo > cruise
+arnaldo < pintar
+cruise < arnaldo
+|preto - pintar| = 1
+luana < tenis
+|luisa - ciano| = 1
+vectra > verde
+|arnaldo - tenis| = 1
+correr < cinza
+raul < pintar
+|preto - videogame| = 0
+|carlos - correr| = 1
+verde > civic
+vectra > luisa
+|volei - ka| = 3
+pintar > caroline
+|arnaldo - ana| = 1
+corolla < ka
+|vectra - raul| = 3
+vectra = cinza
+|gilberto - cruise| = 3
+preto > carlos
+marrom < caroline
+preto > ana
+cruise < arnaldo
+|preto - gilberto| = 1
+|vectra - pintar| = 0
+luisa < pintar
+civic < ciano
+vectra > preto
+|vectra - cinza| = 0
+tenis < nelsa
+|luana - cinza| = 3
+|cinza - correr| = 3
+|caroline - videogame| = 0
+luana > carlos
+marrom < videogame
+marrom = carlos
+|raul - ana| = 1
+preto = arnaldo
+|tenis - correr| = 1
+|felipe - videogame| = 1
+arnaldo > luana
+caroline > ciano
+vectra > ator
+arquiteto > ator
+|raul - volei| = 1
+vectra > luisa
+tenis > ciano
+|felipe - caroline| = 1
+corolla > luana
+|verde - nelsa| = 2
+|vectra - volei| = 4
+|ciano - luana| = 0
+|marrom - caroline| = 3
+|tenis - arnaldo| = 1
+|gilberto - marrom| = 4
+|caroline - ana| = 1
+|tenis - felipe| = 0
+|arnaldo - correr| = 2
+|videogame - preto| = 0
+|carlos - correr| = 1
+|ciano - volei| = 1
+cruise = raul
+|gilberto - ator| = 3
+|verde - volei| = 2
+|raul - volei| = 1
+|caroline - corolla| = 1
+|ciano - carlos| = 1
+|gilberto - luisa| = 4
+gilberto > volei
+civic = marrom
+|tenis - videogame| = 1
+|volei - raul| = 1
+|nelsa - vectra| = 0
+volei < caroline
+|raul - cinza| = 3
+preto > carlos
+civic < tenis
+|carlos - caroline| = 3
+|ka - luisa| = 3
+|civic - corolla| = 2
+|arquiteto - engenheiro| = 1
+corolla < cinza
+arnaldo > civic
+luisa < gilberto
+|tenis - preto| = 1
+|cinza - secretario| = 4
+verde > volei
+|tenis - marrom| = 2
+|arnaldo - preto| = 0
+luana = cruise
+|ana - civic| = 2
+caroline > correr
+|verde - cruise| = 1
+|nelsa - cientista| = 2
+|caroline - pintar| = 1
+|arnaldo - ka| = 0
+|ana - luisa| = 2
+|arnaldo - cinza| = 1
+cruise < verde
+gilberto > preto
+|civic - ciano| = 1
+cinza > ka
+marrom < ana
+verde > correr
+felipe = ana
+|vectra - felipe| = 2
+ciano < felipe
+|luisa - gilberto| = 4
+|arnaldo - ka| = 0
+|luisa - marrom| = 0
+ciano < verde
+|civic - luana| = 1
+vectra > carlos
+verde > luisa
+|ka - felipe| = 1
+|preto - corolla| = 1
+|luana - tenis| = 1
+luana = correr
+nelsa > carlos
+|videogame - tenis| = 1
+felipe < vectra
+|ka - luisa| = 3
+|pintar - luisa| = 4
+cruise < felipe
+raul < gilberto
+|ciano - tenis| = 1
+|nelsa - pintar| = 0
+ciano < videogame
+|ana - ciano| = 1
+nelsa > marrom
+nelsa > ciano
+|caroline - civic| = 3
+pintar = nelsa
+|ana - caroline| = 1
+|corolla - correr| = 1
+|cinza - volei| = 4
+|luana - caroline| = 2
+|nelsa - corolla| = 2
+arnaldo > ana
+|gilberto - vectra| = 0
+|correr - verde| = 1
+ka < pintar
+preto < nelsa
+ana = verde
+marrom < caroline
+arnaldo > verde
+|vectra - luana| = 3
+corolla > civic
+|preto - tenis| = 1
+|corolla - nelsa| = 2
+|gilberto - nelsa| = 0
+arnaldo > ana
+raul < cinza
+|preto - luana| = 2
+ka > marrom
+|corolla - vectra| = 2
+cruise < tenis
+caroline < gilberto
+|felipe - ana| = 0
+|ciano - cinza| = 3
+pintar > cruise
+videogame < vectra
+arquiteto < engenheiro
+caroline = arnaldo
+|volei - ciano| = 1
+|videogame - luisa| = 3
+|luana - ana| = 1
+volei < nelsa
+marrom < verde
+arnaldo = 4
+ana < nelsa
+caroline = videogame
+|vectra - luana| = 3
+|ka - raul| = 2
+pintar > caroline
+cinza > ka
+cinza > tenis
+cruise < cinza
+|pintar - vectra| = 0
+caroline > luisa
+|luana - pintar| = 3
+|ka - raul| = 2
+|pintar - luana| = 3
+preto > corolla
+|correr - tenis| = 1
+ana < pintar
+luisa < verde
+|nelsa - verde| = 2
+carlos < raul
+tenis < pintar
+ka > luana
+ka > verde
+|raul - correr| = 0
+|gilberto - volei| = 4
+luana > carlos
+|verde - luana| = 1
+|nelsa - marrom| = 4
+tenis < cinza
+|carlos - gilberto| = 4
+|verde - correr| = 1
+|corolla - pintar| = 2
+correr > civic
+volei < caroline
+|corolla - videogame| = 1
+|ana - ciano| = 1
+arnaldo > marrom
+videogame > luana
+cruise < caroline
+|secretario - engenheiro| = 4
+ciano < nelsa
+|videogame - cruise| = 2
+|arnaldo - volei| = 3
+civic < arnaldo
+cinza = gilberto
+corolla > carlos
+vectra > arnaldo
+nelsa > carlos
+arnaldo > carlos
+pintar > luana
+|pintar - luisa| = 4
+|preto - ana| = 1
+corolla > raul
+|luana - civic| = 1
+carlos < ka
+|ana - ciano| = 1
+|cruise - luisa| = 1
+cruise < ana
+|preto - cinza| = 1
+videogame < cinza
+|raul - pintar| = 3
+luana = cruise
+|ana - cruise| = 1
+|ciano - cruise| = 0
+verde > marrom
+felipe < nelsa
+luisa < ka
+|videogame - ana| = 1
+|vectra - ana| = 2
+|luisa - tenis| = 2
+luisa < nelsa
+|arnaldo - preto| = 0
+|luana - correr| = 0
+|gilberto - luisa| = 4
+|cinza - nelsa| = 0
+|raul - correr| = 0
+tenis < videogame
+luana < tenis
+ator < cientista
+|ka - vectra| = 1
+|ciano - luisa| = 1
+pintar > luana
+civic < corolla
+|ka - ciano| = 2
+civic < raul
+preto > tenis
+ka < vectra
+|civic - ciano| = 1
+civic = marrom
+|cinza - ka| = 1
+|correr - luana| = 0
+|ciano - felipe| = 1
+|volei - arnaldo| = 3
+|verde - ana| = 0
+ka > cruise
+correr > luisa
+raul = ciano
+|arnaldo - ciano| = 2
+|cruise - raul| = 0
+|pintar - luana| = 3
+|volei - arnaldo| = 3
+ka > civic
+|civic - felipe| = 2
+|raul - vectra| = 3
+luisa = marrom
+|pintar - cruise| = 3
+|volei - luisa| = 0
+|marrom - raul| = 1
+vectra = gilberto
+arnaldo > carlos
+caroline > correr
+|carlos - civic| = 0
+|correr - civic| = 1
+|felipe - vectra| = 2
+ciano > carlos
+tenis > marrom
+|ciano - marrom| = 1
+|verde - ka| = 1
+pintar > arquiteto
+tenis > civic
+arnaldo > verde
+|verde - felipe| = 0
+|arnaldo - carlos| = 3
+felipe = corolla
+corolla > cruise
+arnaldo = ka
+arnaldo > correr
+luisa < corolla
+carlos < raul
+|volei - marrom| = 0
+ana < preto
+|correr - carlos| = 1
+luisa < pintar
+correr < corolla
+carlos < vectra
+corolla = verde
+luana > volei
+|cinza - ka| = 1
+|caroline - cruise| = 2
+gilberto = nelsa
+caroline < vectra
+|luana - vectra| = 3
+felipe > marrom
+|arnaldo - volei| = 3
+luisa < preto
+|cinza - corolla| = 2
+cruise < gilberto
+|cruise - corolla| = 1
+|cruise - verde| = 1
+felipe > civic
+felipe = corolla
+|cruise - tenis| = 1
+|carlos - ciano| = 1
+ciano < corolla
+ciano = cruise
+|verde - arnaldo| = 1
+|cinza - raul| = 3
+tenis < arnaldo
+|raul - preto| = 2
+nelsa = pintar
+videogame = arnaldo
+gilberto > correr
+ka > felipe
+ana < arnaldo
+|ana - raul| = 1
+arnaldo < gilberto
+|luisa - pintar| = 4
+preto > tenis
+|carlos - caroline| = 3
+|civic - cinza| = 4
+videogame = caroline
+|verde - civic| = 2
+|marrom - carlos| = 0
+|videogame - raul| = 2
+caroline > marrom
+gilberto > ciano
+|cinza - correr| = 3
+raul > carlos
+carlos < luana
+luisa < corolla
+cruise < pintar
+corolla < ka
+videogame < gilberto
+gilberto = nelsa
+vectra = gilberto
+|luana - pintar| = 3
+cruise = correr
+|civic - tenis| = 2
+ka > marrom
+|carlos - civic| = 0
+|nelsa - ator| = 3
+luisa < preto
+gilberto > luana
+arnaldo > luisa
+nelsa > arquiteto
+|videogame - carlos| = 3
+felipe < cinza
+vectra > ciano
+volei < verde
+nelsa > volei
+civic = volei
+|correr - caroline| = 2
+cinza > ka
+|ciano - caroline| = 2
+ka > cruise
+|videogame - nelsa| = 1
+volei < felipe
+vectra > marrom
+correr > volei
+pintar > luisa
+carlos < cruise
+|raul - luana| = 0
+marrom < videogame
+|ciano - carlos| = 1
+ciano < tenis
+caroline > luisa
+|carlos - civic| = 0
+civic < ana
+|ana - videogame| = 1
+luisa < pintar
+|raul - marrom| = 1
+|videogame - vectra| = 1
+|corolla - luisa| = 2
+carlos < correr
+videogame > civic
+|correr - preto| = 2
+|volei - tenis| = 2
+|raul - luana| = 0
+pintar > marrom
+vectra > marrom
+volei < ana
+|cinza - vectra| = 0
+|arnaldo - corolla| = 1
+|preto - civic| = 3
+|gilberto - luisa| = 4
+arnaldo = 4
+caroline > luana
+cientista > ator
+ciano < verde
+correr = luana
+verde > volei
+|correr - vectra| = 3
+|videogame - vectra| = 1
+verde > luisa
+arnaldo = videogame
+civic < corolla
+preto > tenis
+tenis > raul
+|nelsa - ciano| = 3
+raul > marrom
+|cruise - preto| = 2
+ciano < corolla
+|luisa - felipe| = 2
+|tenis - vectra| = 2
+marrom < correr
+|marrom - videogame| = 3
+|vectra - videogame| = 1
+|caroline - cruise| = 2
+nelsa = vectra
+ka = caroline
+gilberto = pintar
+|videogame - nelsa| = 1
+ka > volei
+|verde - raul| = 1
+arquiteto > ator
+cinza > felipe
+|verde - preto| = 1
+cinza > cientista
+ciano < felipe
+ana < nelsa
+correr = cruise
+|nelsa - pintar| = 0
+|cientista - engenheiro| = 2
+|cruise - luisa| = 1
+carlos < gilberto
+|ka - volei| = 3
+raul > marrom
+ka > civic
+ana < gilberto
+vectra > ator
+felipe > luana
+carlos < ana
+|cinza - ator| = 3
+|marrom - nelsa| = 4
+tenis < preto
+luisa < corolla
+cruise < tenis
+|videogame - nelsa| = 1
+verde = 3
+caroline < gilberto
+ka < vectra
+|marrom - luisa| = 0
+raul < vectra
+|corolla - ciano| = 1
+luisa < pintar
+|luana - caroline| = 2
+|civic - ana| = 2
+|ka - marrom| = 3
+|luana - correr| = 0
+|gilberto - ana| = 2
+|cinza - videogame| = 1
+corolla < videogame
+|gilberto - cruise| = 3
+|ana - verde| = 0
+|ana - civic| = 2
+marrom < luana
+civic = volei
+cruise < pintar
+nelsa > ka
+|cruise - corolla| = 1
+verde < nelsa
+|ana - civic| = 2
+civic = carlos
+|volei - luisa| = 0
+|tenis - caroline| = 1
+verde > raul
+raul < corolla
+|pintar - marrom| = 4
+|videogame - ana| = 1
+arquiteto > secretario
+|arnaldo - gilberto| = 1
+|carlos - verde| = 2
+vectra > luisa
+ciano > luisa
+carlos < gilberto
+|ka - arnaldo| = 0
+|volei - preto| = 3
+carlos < caroline
+|marrom - caroline| = 3
+vectra > marrom
+|cruise - corolla| = 1
+|vectra - secretario| = 4
+cruise < arnaldo
+|gilberto - ciano| = 3
+|luisa - caroline| = 3
+|ka - correr| = 2
+carlos < cinza
+|ka - volei| = 3
+ka > cruise
+|marrom - corolla| = 2
+videogame > raul
+caroline > cruise
+|civic - cruise| = 1
+|ka - corolla| = 1
+ana > luisa
+correr < preto
+|marrom - cinza| = 4
+caroline > verde
+|luana - tenis| = 1
+|felipe - arnaldo| = 1
+tenis = felipe
+|volei - marrom| = 0
+marrom < raul
+|raul - carlos| = 1
+tenis < arnaldo
+ator > secretario
+|ciano - tenis| = 1
+verde > cruise
+ana > carlos
+tenis > volei
+|preto - cinza| = 1
+marrom = carlos
+correr < gilberto
+|carlos - correr| = 1
+luana > marrom
+|civic - raul| = 1
+|videogame - nelsa| = 1
+nelsa > cientista
+|corolla - civic| = 2
+|ciano - arnaldo| = 2
+ka > carlos
+|civic - raul| = 1
+tenis > luisa
+|marrom - cruise| = 1
+|marrom - luana| = 1
+|civic - volei| = 0
+cinza > ka
+nelsa > ator
+corolla > civic
+|tenis - pintar| = 2
+|ciano - cinza| = 3
+|vectra - ana| = 2
+|gilberto - ciano| = 3
+|ka - civic| = 3
+|cruise - vectra| = 3
+|nelsa - civic| = 4
+|preto - corolla| = 1
+|tenis - luisa| = 2
+vectra > arnaldo
+tenis > marrom
+|felipe - videogame| = 1
+volei < caroline
+pintar > ciano
+videogame > civic
+luana < arnaldo
+|nelsa - raul| = 3
+|caroline - carlos| = 3
+|preto - volei| = 3
+preto > civic
+volei < felipe
+carlos < cruise
+|nelsa - raul| = 3
+|pintar - arquiteto| = 1
+ka > cruise
+cinza = vectra
+cruise < nelsa
+|cruise - carlos| = 1
+arnaldo > volei
+|cruise - ciano| = 0
+ana > volei
+|felipe - ka| = 1
+|gilberto - vectra| = 0
+volei < caroline
+|ana - volei| = 2
+|raul - vectra| = 3
+|verde - volei| = 2
+|ka - volei| = 3
+caroline < gilberto
+nelsa > verde
+|ana - caroline| = 1
+|videogame - ka| = 0
+verde < videogame
+ana > luisa
+preto > marrom
+|luana - caroline| = 2
+|arnaldo - tenis| = 1
+|carlos - luana| = 1
+volei < correr
+gilberto > arquiteto
+carlos < arnaldo
+|carlos - preto| = 3
+luisa < verde
+marrom < ka
+|carlos - gilberto| = 4
+|marrom - vectra| = 4
+|arnaldo - cruise| = 2
+|carlos - marrom| = 0
+|marrom - carlos| = 0
+|marrom - tenis| = 2
+nelsa > ator
+ka = caroline
+|vectra - preto| = 1
+|correr - videogame| = 2
+volei < videogame
+|luisa - videogame| = 3
+|corolla - pintar| = 2
+vectra = pintar
+ana > raul
+raul < gilberto
+felipe < nelsa
+ana < nelsa
+|carlos - corolla| = 2
+arquiteto > secretario
+|carlos - civic| = 0
+luana > civic
+|cinza - secretario| = 4
+|carlos - correr| = 1
+|civic - ciano| = 1
+nelsa > felipe
+|secretario - engenheiro| = 4
+|caroline - civic| = 3
+felipe < caroline
+|videogame - cruise| = 2
+luisa < pintar
+cinza > correr
+|ana - felipe| = 0
+|arnaldo - cinza| = 1
+|gilberto - ana| = 2
+|luana - caroline| = 2
+civic < verde
+ka = videogame
+|vectra - nelsa| = 0
+cruise = raul
+tenis > raul
+|arnaldo - civic| = 3
+corolla < preto
+|luisa - raul| = 1
+caroline > ana
+luisa < raul
+nelsa > felipe
+correr > luisa
+corolla > raul
+|marrom - arnaldo| = 3
+tenis > marrom
+preto > felipe
+correr = 2
+|correr - videogame| = 2
+felipe > volei
+luisa < preto
+|ana - raul| = 1
+|volei - correr| = 1
+|civic - preto| = 3
+|vectra - ator| = 3
+|vectra - marrom| = 4
+tenis > raul
+raul < ka
+marrom < ciano
+corolla = ana
+|ciano - preto| = 2
+|luisa - caroline| = 3
+|tenis - caroline| = 1
+volei < corolla
+tenis < caroline
+ana = verde
+|correr - cinza| = 3
+ka > verde
+|volei - luisa| = 0
+|marrom - ana| = 2
+corolla < cinza
+|ka - nelsa| = 1
+corolla < arnaldo
+|pintar - ka| = 1
+|corolla - carlos| = 2
+|gilberto - luisa| = 4
+|marrom - luana| = 1
+ana > volei
+vectra > tenis
+|gilberto - ator| = 3
+|cruise - cinza| = 3
+|videogame - civic| = 3
+correr = raul
+ana > ciano
+|cruise - marrom| = 1
+cruise < felipe
+|ka - arnaldo| = 0
+|civic - luisa| = 0
+|volei - luisa| = 0
+ana < vectra
+|cinza - raul| = 3
+|pintar - luana| = 3
+|verde - luisa| = 2
+|raul - cinza| = 3
+|ka - marrom| = 3
+carlos < caroline
+felipe > ciano
+raul < pintar
+|ciano - volei| = 1
+|felipe - luana| = 1
+tenis > correr
+carlos < pintar
+|correr - volei| = 1
+|vectra - ator| = 3
+|gilberto - videogame| = 1
+|nelsa - felipe| = 2
+|carlos - ka| = 3
+videogame > cruise
+|nelsa - raul| = 3
+|videogame - volei| = 3
+volei = marrom
+marrom < caroline
+|marrom - ciano| = 1
+arnaldo > ciano
+|gilberto - nelsa| = 0
+|civic - tenis| = 2
+pintar > cientista
+|vectra - ator| = 3
+|volei - tenis| = 2
+civic < gilberto
+carlos < vectra
+volei < ciano
+|luana - videogame| = 2
+preto = caroline
+|volei - luisa| = 0
+gilberto = cinza
+raul = correr
+nelsa > arquiteto
+|arnaldo - carlos| = 3
+|luisa - luana| = 1
+ciano < vectra
+|marrom - gilberto| = 4
+luana = ciano
+|civic - caroline| = 3
+tenis < nelsa
+cruise < gilberto
+|corolla - videogame| = 1
+|pintar - gilberto| = 0
+|cinza - cientista| = 2
+|luana - marrom| = 1
+ka > tenis
+ciano < verde
+|vectra - correr| = 3
+|felipe - videogame| = 1
+|ciano - raul| = 0
+|marrom - ana| = 2
+|luana - preto| = 2
+|caroline - cinza| = 1
+|cruise - luisa| = 1
+preto > correr
+|luana - ciano| = 0
+verde < nelsa
+|civic - nelsa| = 4
+|felipe - verde| = 0
+|felipe - luana| = 1
+|carlos - luisa| = 0
+cinza > ator
+ciano = luana
+cinza > raul
+|ka - raul| = 2
+|cruise - luana| = 0
+marrom < cruise
+|videogame - volei| = 3
+|preto - vectra| = 1
+|verde - raul| = 1
+gilberto > ator
+|felipe - luisa| = 2
+ana > cruise
+luana < arnaldo
+ciano < vectra
+preto = ka
+felipe > luana
+correr < gilberto
+|volei - caroline| = 3
+|ka - luisa| = 3
+|ka - videogame| = 0
+|videogame - raul| = 2
+|volei - carlos| = 0
+|cinza - volei| = 4
+|gilberto - luisa| = 4
+|luisa - carlos| = 0
+|cruise - carlos| = 1
+corolla < caroline
+|raul - luisa| = 1
+|videogame - correr| = 2
+caroline < cinza
+cinza > cruise
+raul < cinza
+vectra > ator
+correr > marrom
+|corolla - felipe| = 0
+|ciano - felipe| = 1
+|arnaldo - tenis| = 1
+caroline < gilberto
+|correr - volei| = 1
+nelsa = pintar
+|nelsa - civic| = 4
+|civic - videogame| = 3
+|tenis - pintar| = 2
+raul = correr
+|pintar - luana| = 3
+|pintar - verde| = 2
+pintar > cruise
+cruise < ana
+|cruise - nelsa| = 3
+ana > marrom
+volei < ciano
+|correr - arnaldo| = 2
+|corolla - volei| = 2
+|raul - correr| = 0
+|ciano - ana| = 1
+luana > marrom
+|cinza - felipe| = 2
+secretario < arquiteto
+pintar > ana
+raul < ka
+marrom < cinza
+verde > correr
+felipe > raul
+ciano > civic
+|ka - carlos| = 3
+ciano < videogame
+|carlos - cruise| = 1
+ana > marrom
+tenis = ana
+felipe > volei
+marrom < verde
+|cruise - ana| = 1
+|ana - luisa| = 2
+civic < nelsa
+|videogame - cinza| = 1
+|marrom - correr| = 1
+correr < ka
+nelsa > raul
+|ana - arnaldo| = 1
+|cruise - ana| = 1
+|civic - luana| = 1
+|ana - carlos| = 2
+corolla > carlos
+|tenis - felipe| = 0
+ana > civic
+carlos < pintar
+|civic - tenis| = 2
+felipe < caroline
+caroline > marrom
+raul = cruise
+carlos = civic
+ana > volei
+arnaldo > raul
+|nelsa - secretario| = 4
+|nelsa - ator| = 3
+|ka - marrom| = 3
+|marrom - ana| = 2
+cruise < gilberto
+|tenis - luisa| = 2
+|arnaldo - luana| = 2
+|civic - cruise| = 1
+corolla > correr
+|volei - luana| = 1
+|tenis - felipe| = 0
+verde < nelsa
+arnaldo > civic
+videogame < vectra
+tenis < videogame
+caroline = preto
+|cinza - raul| = 3
+|luisa - vectra| = 4
+videogame > felipe
+luisa < ka
+cinza > ator
+|corolla - civic| = 2
+cruise < gilberto
+|videogame - civic| = 3
+caroline > civic
+verde < pintar
+luisa < ana
+ciano > luisa
+corolla > carlos
+cinza > felipe
+|preto - ciano| = 2
+|videogame - pintar| = 1
+|luana - videogame| = 2
+|carlos - pintar| = 4
+|raul - verde| = 1
+|ka - ana| = 1
+|cinza - corolla| = 2
+luisa < pintar
+|ciano - luisa| = 1
+cinza > ator
+|vectra - raul| = 3
+vectra > luisa
+|raul - ciano| = 0
+|corolla - pintar| = 2
+|ciano - cinza| = 3
+|tenis - vectra| = 2
+videogame = 4
+videogame > marrom
+ana < nelsa
+correr < nelsa
+raul = correr
+|caroline - nelsa| = 1
+|ator - secretario| = 1
+ka > cruise
+|cruise - caroline| = 2
+pintar > raul
+|corolla - preto| = 1
+|ana - marrom| = 2
+felipe < videogame
+caroline > luisa
+ka > volei
+marrom = volei
+carlos < luana
+|verde - marrom| = 2
+tenis < arnaldo
+verde < ka
+|carlos - corolla| = 2
+|preto - ana| = 1
+|cinza - cientista| = 2
+|raul - volei| = 1
+volei = 1
+gilberto > ana
+ana = tenis
+|nelsa - corolla| = 2
+gilberto = nelsa
+|nelsa - pintar| = 0
+civic < pintar
+felipe > carlos
+carlos < corolla
+|caroline - volei| = 3
+verde = ana
+|corolla - gilberto| = 2
+|videogame - cinza| = 1
+secretario < engenheiro
+videogame > corolla
+verde > marrom
+|caroline - nelsa| = 1
+tenis < ka
+|volei - tenis| = 2
+|cruise - verde| = 1
+ator < arquiteto
+|ator - secretario| = 1
+cinza > ator
+|caroline - pintar| = 1
+ciano < preto
+|civic - pintar| = 4
+volei < vectra
+|civic - luisa| = 0
+verde > correr
+|carlos - raul| = 1
+caroline = preto
+arnaldo > civic
+videogame > volei
+|videogame - tenis| = 1
+correr = luana
+|raul - correr| = 0
+nelsa = cinza
+|caroline - vectra| = 1
+tenis < caroline
+raul < nelsa
+|volei - civic| = 0
+marrom < correr
+vectra = nelsa
+|luisa - nelsa| = 4
+ka < pintar
+ka < gilberto
+|cruise - preto| = 2
+arnaldo > luana
+|luana - pintar| = 3
+volei < corolla
+marrom < ciano
+|vectra - caroline| = 1
+|marrom - verde| = 2
+ciano < pintar
+|vectra - cientista| = 2
+luisa < tenis
+tenis > volei
+|cinza - ka| = 1
+|vectra - carlos| = 4
+videogame > verde
+|ana - raul| = 1
+|cinza - corolla| = 2
+marrom = volei
+|ka - ciano| = 2
+civic < cruise
+preto < cinza
+|marrom - correr| = 1
+felipe < cinza
+|cinza - caroline| = 1
+ana = tenis
+corolla > carlos
+|ciano - pintar| = 3
+arquiteto < engenheiro
+|videogame - nelsa| = 1
+|preto - civic| = 3
+luisa < vectra
+|vectra - correr| = 3
+arnaldo = caroline
+|ciano - pintar| = 3
+nelsa = cinza
+|verde - carlos| = 2
+civic < felipe
+|cruise - luisa| = 1
+cinza > carlos
+|ana - cruise| = 1
+|arnaldo - carlos| = 3
+|volei - cinza| = 4
+|videogame - caroline| = 0
+ka < cinza
+|felipe - ciano| = 1
+luana > marrom
+|luana - ciano| = 0
+|arquiteto - secretario| = 3
+|cinza - luisa| = 4
+cruise = ciano
+|nelsa - ator| = 3
+ana < vectra
+arnaldo < cinza
+luana < verde
+|pintar - raul| = 3
+civic < arnaldo
+volei < corolla
+carlos < luana
+secretario < engenheiro
+preto < vectra
+luisa < cruise
+videogame > tenis
+|vectra - ciano| = 3
+|correr - volei| = 1
+felipe < arnaldo
+|luisa - cruise| = 1
+|marrom - gilberto| = 4
+|ka - arnaldo| = 0
+marrom < luana
+gilberto > videogame
+vectra > cientista
+corolla < preto
+luisa < raul
+ciano > luisa
+carlos < videogame
+|caroline - tenis| = 1
+|arquiteto - secretario| = 3
+|luana - carlos| = 1
+luana > luisa
+felipe > luisa
+|ka - cinza| = 1
+nelsa > marrom
+|tenis - marrom| = 2
+|ana - arnaldo| = 1
+cinza > cruise
+|correr - carlos| = 1
+felipe > luisa
+luana < nelsa
+|felipe - corolla| = 0
+|ka - volei| = 3
+gilberto > arquiteto
+cruise < caroline
+|arnaldo - carlos| = 3
+ka > marrom
+|correr - cruise| = 0
+|luana - ciano| = 0
+corolla = verde
+carlos = 1
+|vectra - volei| = 4
+pintar > raul
+|vectra - caroline| = 1
+marrom < corolla
+|ka - corolla| = 1
+luana < verde
+correr < cinza
+raul < nelsa
+corolla > civic
+|cientista - arquiteto| = 1
+raul > civic
+pintar > caroline
+|carlos - pintar| = 4
+nelsa > cientista
+|felipe - gilberto| = 2
+|felipe - nelsa| = 2
+ana < ka
+ana > ciano
+volei < raul
+|luana - preto| = 2
+caroline > tenis
+|pintar - ka| = 1
+|volei - tenis| = 2
+nelsa > ator
+civic < felipe
+|ka - pintar| = 1
+|videogame - luana| = 2
+ka < nelsa
+corolla < cinza
+|pintar - luisa| = 4
+|ka - gilberto| = 1
+|ator - cientista| = 1
+corolla = verde
+felipe > correr
+|ciano - ana| = 1
+civic < luana
+pintar > luana
+|carlos - caroline| = 3
+civic < tenis
+felipe > marrom
+luisa = volei
+cruise < nelsa
+ka > luana
+corolla < videogame
+|verde - correr| = 1
+felipe > marrom
+ana > raul
+volei < felipe
+caroline > civic
+luana < preto
+arnaldo > felipe
+luana < ka
+|videogame - cruise| = 2
+raul = 2
+|marrom - corolla| = 2
+|luana - gilberto| = 3
+|luisa - tenis| = 2
+|arnaldo - preto| = 0
+|civic - videogame| = 3
+|carlos - felipe| = 2
+gilberto > ator
+corolla < vectra
+gilberto > luisa
+corolla < videogame
+felipe > volei
+arnaldo > cruise
+|cinza - cruise| = 3
+|cruise - ana| = 1
+|tenis - luana| = 1
+|felipe - ka| = 1
+|ciano - preto| = 2
+volei < videogame
+|cinza - nelsa| = 0
+|gilberto - videogame| = 1
+corolla < nelsa
+cinza = nelsa
+|pintar - ciano| = 3
+|ator - engenheiro| = 3
+tenis > civic
+|volei - pintar| = 4
+caroline < cinza
+ana > luisa
+marrom < luana
+corolla > carlos
+|gilberto - videogame| = 1
+|civic - felipe| = 2
+|caroline - cinza| = 1
+|volei - ciano| = 1
+|luana - verde| = 1
+|civic - felipe| = 2
+gilberto > civic
+|corolla - cinza| = 2
+|volei - ana| = 2
+|ka - arnaldo| = 0
+marrom = carlos
+ka < gilberto
+|luisa - caroline| = 3
+arnaldo = videogame
+marrom = volei
+|felipe - correr| = 1
+|cruise - felipe| = 1
+|gilberto - ana| = 2
+|ka - videogame| = 0
+cinza > carlos
+felipe > correr
+ka > luana
+|felipe - luisa| = 2
+|nelsa - vectra| = 0
+ka > tenis
+felipe > luana
+|corolla - vectra| = 2
+ciano < caroline
+arnaldo > felipe
+|pintar - arquiteto| = 1
+volei < ciano
+|ana - nelsa| = 2
+verde < ka
+pintar > carlos
+|cruise - pintar| = 3
+|marrom - arnaldo| = 3
+ana < cinza
+|ana - tenis| = 0
+luisa < arnaldo
+|preto - arnaldo| = 0
+|luisa - gilberto| = 4
+cruise < corolla
+|arnaldo - pintar| = 1
+|carlos - cruise| = 1
+correr = 2
+verde > correr
+volei < ka
+ciano < pintar
+arnaldo > corolla
+correr < corolla
+nelsa = vectra
+|cruise - volei| = 1
+luana < videogame
+|civic - vectra| = 4
+arquiteto < engenheiro

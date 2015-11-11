@@ -1,0 +1,1248 @@
+carro: vectra, uno, cruise, i30, focus
+nome: arnaldo, amauri, diego, douglas, ariel
+signo: gemeos, peixe, escorpiao, capricornio, aries
+hobby: videogame, pintar, desenhar, volei, cozinhar
+profissao: cineastra, lixeiro, advogado, cozinheiro, cientista
+cidade: venceslau, tarabai, montemor, jau, campogrande
+
+|arnaldo - focus| = 3
+venceslau > arnaldo
+volei > i30
+lixeiro < tarabai
+|desenhar - focus| = 3
+|lixeiro - advogado| = 1
+|vectra - lixeiro| = 0
+diego = i30
+|uno - pintar| = 1
+douglas = vectra
+pintar = 3
+|cientista - venceslau| = 2
+cruise > advogado
+|focus - venceslau| = 2
+|vectra - cruise| = 3
+|volei - cientista| = 1
+|desenhar - focus| = 3
+|focus - cientista| = 0
+vectra < desenhar
+advogado < diego
+|jau - cozinheiro| = 1
+|uno - pintar| = 1
+cozinhar > vectra
+|ariel - focus| = 0
+pintar > montemor
+lixeiro < diego
+|cineastra - lixeiro| = 3
+|gemeos - peixe| = 2
+ariel > montemor
+videogame = douglas
+|desenhar - cozinheiro| = 1
+|diego - cientista| = 2
+|cineastra - cientista| = 1
+montemor = vectra
+|tarabai - amauri| = 0
+|campogrande - ariel| = 0
+ariel > volei
+|venceslau - montemor| = 2
+|capricornio - gemeos| = 1
+diego > advogado
+|douglas - pintar| = 2
+|advogado - desenhar| = 0
+cineastra > advogado
+|videogame - uno| = 1
+cientista > vectra
+|focus - jau| = 3
+|douglas - diego| = 2
+|cruise - diego| = 1
+campogrande > douglas
+volei > i30
+lixeiro < cozinhar
+|tarabai - ariel| = 1
+|focus - amauri| = 1
+advogado < pintar
+|advogado - lixeiro| = 1
+cozinhar > gemeos
+venceslau > jau
+|campogrande - uno| = 3
+|cozinhar - cientista| = 0
+|cientista - cruise| = 1
+cruise < focus
+|escorpiao - peixe| = 3
+|uno - cruise| = 2
+|cozinheiro - vectra| = 2
+advogado < campogrande
+cozinhar > i30
+uno < campogrande
+|cineastra - lixeiro| = 3
+|jau - focus| = 3
+cozinhar > i30
+|ariel - focus| = 0
+|desenhar - cozinhar| = 3
+|jau - volei| = 2
+|campogrande - pintar| = 2
+|cruise - cientista| = 1
+|arnaldo - douglas| = 1
+focus > volei
+cientista > arnaldo
+|pintar - uno| = 1
+cruise > i30
+jau < cientista
+|montemor - advogado| = 1
+|campogrande - videogame| = 4
+|i30 - videogame| = 2
+ariel > escorpiao
+lixeiro < cruise
+pintar < cruise
+|focus - cientista| = 0
+ariel > escorpiao
+ariel > escorpiao
+|cineastra - cruise| = 0
+|focus - amauri| = 1
+videogame < cientista
+desenhar = advogado
+|cientista - focus| = 0
+tarabai = cruise
+|desenhar - venceslau| = 1
+campogrande = ariel
+|arnaldo - campogrande| = 3
+|uno - lixeiro| = 1
+campogrande > vectra
+volei < focus
+|ariel - uno| = 3
+douglas = videogame
+montemor < i30
+diego = pintar
+|pintar - venceslau| = 0
+|jau - cruise| = 2
+pintar > vectra
+|vectra - venceslau| = 2
+lixeiro < cineastra
+|tarabai - jau| = 2
+|montemor - douglas| = 0
+|videogame - ariel| = 4
+|cozinheiro - douglas| = 2
+|lixeiro - douglas| = 0
+douglas < cozinhar
+videogame < uno
+jau > lixeiro
+|i30 - cineastra| = 1
+|desenhar - arnaldo| = 0
+|gemeos - aries| = 3
+uno < cientista
+volei > videogame
+advogado < cozinheiro
+lixeiro < cozinheiro
+|ariel - uno| = 3
+|tarabai - jau| = 2
+cruise > montemor
+venceslau < focus
+cruise > advogado
+venceslau < volei
+|douglas - volei| = 3
+diego > montemor
+volei > jau
+|tarabai - pintar| = 1
+|cozinhar - diego| = 2
+desenhar = arnaldo
+desenhar = jau
+uno = jau
+cozinheiro > desenhar
+|lixeiro - volei| = 3
+|douglas - amauri| = 3
+cientista > venceslau
+vectra = douglas
+|diego - arnaldo| = 1
+|cozinheiro - amauri| = 1
+|tarabai - vectra| = 3
+desenhar < focus
+|desenhar - lixeiro| = 1
+pintar < focus
+montemor < cineastra
+|i30 - uno| = 1
+|i30 - diego| = 0
+diego > uno
+i30 < volei
+montemor < campogrande
+|cineastra - cozinhar| = 1
+|pintar - amauri| = 1
+cientista > arnaldo
+|desenhar - cruise| = 2
+diego > vectra
+|videogame - focus| = 4
+|cozinheiro - cineastra| = 1
+focus > escorpiao
+cientista > arnaldo
+|focus - tarabai| = 1
+advogado > douglas
+pintar = i30
+montemor < volei
+cruise < cientista
+|amauri - montemor| = 3
+campogrande > peixe
+jau = advogado
+|cozinheiro - montemor| = 2
+lixeiro = videogame
+campogrande > douglas
+|tarabai - uno| = 2
+|ariel - cozinhar| = 0
+cruise > jau
+|ariel - cozinheiro| = 2
+|lixeiro - amauri| = 3
+advogado < volei
+|pintar - lixeiro| = 2
+uno < venceslau
+volei > arnaldo
+|focus - campogrande| = 0
+|amauri - cruise| = 0
+|jau - lixeiro| = 1
+|jau - focus| = 3
+|uno - arnaldo| = 0
+|desenhar - cineastra| = 2
+campogrande > vectra
+|tarabai - montemor| = 3
+focus > diego
+vectra < advogado
+|lixeiro - cineastra| = 3
+|douglas - lixeiro| = 0
+ariel = cientista
+|ariel - peixe| = 1
+arnaldo < cozinheiro
+|cientista - videogame| = 4
+|tarabai - lixeiro| = 3
+arnaldo < tarabai
+diego = venceslau
+|cineastra - douglas| = 3
+capricornio < aries
+|douglas - cozinhar| = 4
+vectra = montemor
+|cozinheiro - ariel| = 2
+|ariel - videogame| = 4
+|lixeiro - arnaldo| = 1
+pintar > douglas
+focus = ariel
+|advogado - lixeiro| = 1
+|venceslau - i30| = 0
+videogame = lixeiro
+volei < cientista
+focus > tarabai
+|amauri - vectra| = 3
+ariel > venceslau
+diego = venceslau
+vectra < cozinheiro
+i30 > uno
+|desenhar - tarabai| = 2
+volei < cozinhar
+cineastra < ariel
+lixeiro < cozinheiro
+|desenhar - diego| = 1
+|advogado - desenhar| = 0
+campogrande > lixeiro
+videogame = montemor
+|tarabai - amauri| = 0
+|advogado - tarabai| = 2
+|vectra - cineastra| = 3
+jau < cineastra
+videogame < tarabai
+|pintar - diego| = 0
+cozinhar = campogrande
+|venceslau - desenhar| = 1
+pintar = cozinheiro
+focus > volei
+|pintar - amauri| = 1
+|focus - diego| = 2
+jau < cientista
+volei > vectra
+|amauri - cineastra| = 0
+montemor < volei
+cozinheiro > jau
+|cientista - capricornio| = 2
+cozinhar > diego
+|i30 - cruise| = 1
+|jau - volei| = 2
+|amauri - cruise| = 0
+|venceslau - lixeiro| = 2
+|i30 - cineastra| = 1
+|cozinhar - lixeiro| = 4
+|videogame - tarabai| = 3
+|amauri - lixeiro| = 3
+escorpiao < capricornio
+|tarabai - douglas| = 3
+tarabai > videogame
+cientista > gemeos
+videogame = douglas
+|cruise - campogrande| = 1
+|focus - cineastra| = 1
+tarabai > arnaldo
+|focus - montemor| = 4
+|videogame - lixeiro| = 0
+douglas = 1
+cientista > desenhar
+ariel > cineastra
+|jau - ariel| = 3
+campogrande > capricornio
+venceslau > uno
+advogado > lixeiro
+|cozinhar - focus| = 0
+|cozinheiro - douglas| = 2
+|pintar - amauri| = 1
+uno < cientista
+|arnaldo - advogado| = 0
+cruise > douglas
+|campogrande - amauri| = 1
+tarabai = volei
+ariel > gemeos
+|cineastra - amauri| = 0
+pintar > jau
+advogado < pintar
+cruise > lixeiro
+|pintar - amauri| = 1
+ariel = cozinhar
+cozinheiro = diego
+|vectra - jau| = 1
+tarabai < ariel
+arnaldo > videogame
+|tarabai - montemor| = 3
+diego > lixeiro
+desenhar < cozinhar
+jau > montemor
+montemor < campogrande
+|focus - desenhar| = 3
+|cozinheiro - jau| = 1
+|diego - arnaldo| = 1
+|lixeiro - focus| = 4
+|i30 - cineastra| = 1
+|cruise - i30| = 1
+montemor < cineastra
+|volei - focus| = 1
+|videogame - desenhar| = 1
+uno = desenhar
+|campogrande - vectra| = 4
+|amauri - montemor| = 3
+|advogado - arnaldo| = 0
+|cientista - arnaldo| = 3
+|arnaldo - focus| = 3
+|jau - douglas| = 1
+cineastra > i30
+|montemor - tarabai| = 3
+|tarabai - ariel| = 1
+|cientista - venceslau| = 2
+volei > i30
+advogado < i30
+venceslau > desenhar
+cineastra = volei
+arnaldo < cineastra
+|lixeiro - cruise| = 3
+videogame < desenhar
+|venceslau - cruise| = 1
+|focus - amauri| = 1
+|uno - videogame| = 1
+diego > arnaldo
+|campogrande - advogado| = 3
+|douglas - vectra| = 0
+|amauri - cozinhar| = 1
+|cozinhar - arnaldo| = 3
+pintar < cozinhar
+|montemor - douglas| = 0
+videogame < cientista
+|vectra - cientista| = 4
+diego > montemor
+|escorpiao - peixe| = 3
+ariel > advogado
+montemor < pintar
+cientista = focus
+|i30 - jau| = 1
+amauri > cozinheiro
+cineastra > lixeiro
+|pintar - amauri| = 1
+|advogado - arnaldo| = 0
+vectra = lixeiro
+ariel > desenhar
+douglas < pintar
+|campogrande - desenhar| = 3
+|desenhar - cozinheiro| = 1
+|venceslau - arnaldo| = 1
+|cientista - uno| = 3
+|ariel - cozinhar| = 0
+i30 = cozinheiro
+diego < cientista
+cozinheiro = i30
+|diego - cozinheiro| = 0
+|cruise - desenhar| = 2
+advogado < amauri
+montemor < jau
+|montemor - ariel| = 4
+|focus - douglas| = 4
+desenhar > montemor
+|cruise - volei| = 0
+|arnaldo - cozinhar| = 3
+douglas < cruise
+|cozinheiro - uno| = 1
+jau < cozinheiro
+videogame < focus
+|montemor - cineastra| = 3
+|tarabai - jau| = 2
+volei < cientista
+|ariel - peixe| = 1
+videogame < focus
+|focus - videogame| = 4
+|venceslau - amauri| = 1
+uno = arnaldo
+cozinhar > douglas
+diego < ariel
+|pintar - cientista| = 2
+|ariel - peixe| = 1
+arnaldo < ariel
+focus > montemor
+campogrande > amauri
+lixeiro < campogrande
+volei > desenhar
+|pintar - douglas| = 2
+cientista > amauri
+|lixeiro - amauri| = 3
+|campogrande - diego| = 2
+|venceslau - douglas| = 2
+|cruise - uno| = 2
+tarabai = cineastra
+diego < cruise
+videogame < arnaldo
+|pintar - videogame| = 2
+tarabai = volei
+focus > videogame
+ariel > videogame
+|videogame - douglas| = 0
+|douglas - cruise| = 3
+|i30 - ariel| = 2
+|vectra - jau| = 1
+tarabai > douglas
+|pintar - vectra| = 2
+campogrande = cozinhar
+diego > lixeiro
+volei > douglas
+advogado < cozinhar
+diego > videogame
+cozinheiro > montemor
+vectra = douglas
+|volei - venceslau| = 1
+|amauri - videogame| = 3
+pintar > advogado
+|desenhar - amauri| = 2
+|montemor - venceslau| = 2
+|arnaldo - venceslau| = 1
+arnaldo < venceslau
+focus > montemor
+focus > jau
+|vectra - tarabai| = 3
+desenhar = advogado
+|uno - cozinhar| = 3
+|pintar - tarabai| = 1
+cineastra = volei
+pintar = cozinheiro
+douglas = lixeiro
+|douglas - vectra| = 0
+videogame < jau
+|cozinheiro - arnaldo| = 1
+|campogrande - volei| = 1
+|tarabai - ariel| = 1
+jau = desenhar
+cruise > venceslau
+venceslau > lixeiro
+|douglas - amauri| = 3
+|cientista - uno| = 3
+uno < diego
+|focus - arnaldo| = 3
+|arnaldo - douglas| = 1
+|cineastra - uno| = 2
+|videogame - i30| = 2
+|jau - amauri| = 2
+|douglas - i30| = 2
+|montemor - focus| = 4
+cineastra > advogado
+venceslau > desenhar
+douglas < campogrande
+|cientista - ariel| = 0
+desenhar < cientista
+pintar < amauri
+lixeiro < cientista
+uno > montemor
+i30 = diego
+|uno - vectra| = 1
+|lixeiro - montemor| = 0
+|videogame - amauri| = 3
+peixe > escorpiao
+|vectra - venceslau| = 2
+pintar > desenhar
+|montemor - i30| = 2
+|cozinhar - i30| = 2
+|montemor - focus| = 4
+|cientista - pintar| = 2
+|amauri - jau| = 2
+|douglas - campogrande| = 4
+amauri > uno
+cientista > pintar
+i30 > desenhar
+|cozinhar - cineastra| = 1
+|escorpiao - capricornio| = 2
+cozinheiro < campogrande
+tarabai > advogado
+campogrande > peixe
+|jau - cineastra| = 2
+|lixeiro - amauri| = 3
+advogado < i30
+pintar = 3
+uno = arnaldo
+|arnaldo - cruise| = 2
+i30 = diego
+tarabai < ariel
+|cozinheiro - volei| = 1
+ariel > i30
+|advogado - i30| = 1
+|venceslau - videogame| = 2
+|pintar - venceslau| = 0
+advogado > montemor
+|advogado - ariel| = 3
+arnaldo < focus
+|cientista - focus| = 0
+|pintar - diego| = 0
+douglas = vectra
+tarabai > cozinheiro
+|campogrande - diego| = 2
+arnaldo < i30
+|amauri - i30| = 1
+|amauri - douglas| = 3
+i30 = diego
+tarabai > i30
+|focus - arnaldo| = 3
+cozinheiro < amauri
+volei > jau
+montemor < desenhar
+lixeiro = douglas
+|jau - lixeiro| = 1
+|desenhar - cineastra| = 2
+|cineastra - cruise| = 0
+|cozinheiro - i30| = 0
+diego > desenhar
+gemeos < peixe
+|ariel - tarabai| = 1
+amauri < cientista
+|cineastra - pintar| = 1
+|lixeiro - venceslau| = 2
+lixeiro < amauri
+cientista > videogame
+jau > lixeiro
+ariel = cientista
+|lixeiro - cineastra| = 3
+cineastra > diego
+jau = desenhar
+|advogado - diego| = 1
+|ariel - volei| = 1
+jau > montemor
+pintar > montemor
+ariel > desenhar
+advogado < ariel
+ariel = cozinhar
+douglas < cruise
+|ariel - advogado| = 3
+ariel > desenhar
+tarabai > videogame
+|focus - montemor| = 4
+videogame < i30
+i30 > lixeiro
+amauri > vectra
+|montemor - douglas| = 0
+|i30 - ariel| = 2
+vectra < ariel
+|escorpiao - capricornio| = 2
+|cientista - i30| = 2
+cozinheiro = venceslau
+tarabai > montemor
+campogrande = ariel
+jau < volei
+|diego - tarabai| = 1
+cozinhar > advogado
+videogame < pintar
+cozinheiro = i30
+|lixeiro - cozinheiro| = 2
+advogado < tarabai
+pintar > vectra
+uno > vectra
+|desenhar - advogado| = 0
+|arnaldo - campogrande| = 3
+|cruise - montemor| = 3
+tarabai > cozinheiro
+douglas < cozinhar
+jau > vectra
+focus > tarabai
+montemor < cineastra
+|jau - amauri| = 2
+venceslau > arnaldo
+|peixe - capricornio| = 1
+|uno - douglas| = 1
+uno < cineastra
+ariel > pintar
+|venceslau - uno| = 1
+diego < tarabai
+focus > arnaldo
+amauri > uno
+focus > arnaldo
+amauri = cineastra
+|cozinheiro - lixeiro| = 2
+|tarabai - cozinheiro| = 1
+cozinhar > lixeiro
+|jau - pintar| = 1
+|diego - ariel| = 2
+cientista > i30
+lixeiro < arnaldo
+|campogrande - peixe| = 1
+douglas < campogrande
+|ariel - jau| = 3
+|focus - volei| = 1
+|cozinhar - lixeiro| = 4
+|campogrande - amauri| = 1
+cineastra > videogame
+volei > jau
+|uno - focus| = 3
+|cozinheiro - cientista| = 2
+|i30 - tarabai| = 1
+campogrande > escorpiao
+tarabai > videogame
+|cineastra - uno| = 2
+cineastra > vectra
+|jau - douglas| = 1
+|i30 - focus| = 2
+desenhar < volei
+campogrande > vectra
+|vectra - cozinhar| = 4
+tarabai > arnaldo
+vectra < advogado
+|i30 - cozinhar| = 2
+pintar < campogrande
+|campogrande - advogado| = 3
+cozinhar > douglas
+|focus - peixe| = 1
+campogrande > escorpiao
+|amauri - campogrande| = 1
+campogrande = cozinhar
+diego < tarabai
+i30 = venceslau
+|lixeiro - cozinhar| = 4
+uno < tarabai
+|tarabai - amauri| = 0
+|pintar - arnaldo| = 1
+advogado = arnaldo
+|cozinheiro - amauri| = 1
+douglas = 1
+ariel > cozinheiro
+|focus - pintar| = 2
+cozinheiro > montemor
+arnaldo < focus
+jau < venceslau
+|cozinhar - uno| = 3
+desenhar = uno
+campogrande = cozinhar
+advogado < campogrande
+|vectra - cineastra| = 3
+diego < ariel
+cozinhar > lixeiro
+|i30 - uno| = 1
+|cozinhar - amauri| = 1
+|volei - vectra| = 3
+|douglas - montemor| = 0
+|douglas - uno| = 1
+jau > montemor
+escorpiao < aries
+pintar > arnaldo
+|pintar - diego| = 0
+|volei - diego| = 1
+|desenhar - arnaldo| = 0
+|tarabai - cozinhar| = 1
+|ariel - venceslau| = 2
+lixeiro < jau
+|advogado - diego| = 1
+i30 = venceslau
+|amauri - pintar| = 1
+desenhar > douglas
+|ariel - venceslau| = 2
+vectra < amauri
+|i30 - volei| = 1
+campogrande > uno
+cruise < focus
+|montemor - cozinheiro| = 2
+tarabai > uno
+|lixeiro - focus| = 4
+|cineastra - vectra| = 3
+uno = advogado
+|advogado - i30| = 1
+|lixeiro - ariel| = 4
+|cruise - cientista| = 1
+douglas < cozinheiro
+tarabai = 4
+|desenhar - arnaldo| = 0
+|jau - amauri| = 2
+cozinheiro = diego
+diego = venceslau
+|desenhar - videogame| = 1
+|escorpiao - peixe| = 3
+venceslau > douglas
+|tarabai - cruise| = 0
+pintar > advogado
+arnaldo < amauri
+cruise > jau
+|douglas - i30| = 2
+cozinheiro < cozinhar
+|jau - arnaldo| = 0
+|capricornio - escorpiao| = 2
+|campogrande - advogado| = 3
+|videogame - focus| = 4
+focus > diego
+|jau - arnaldo| = 0
+|cientista - jau| = 3
+tarabai > venceslau
+arnaldo < cientista
+videogame < cineastra
+i30 > douglas
+desenhar = advogado
+|amauri - pintar| = 1
+jau > videogame
+jau < cruise
+|videogame - pintar| = 2
+volei > vectra
+|videogame - uno| = 1
+|cozinheiro - diego| = 0
+|cineastra - jau| = 2
+|cozinhar - ariel| = 0
+cozinheiro = venceslau
+|amauri - tarabai| = 0
+videogame = douglas
+|arnaldo - cientista| = 3
+lixeiro < cozinheiro
+uno = desenhar
+cozinheiro < cruise
+pintar > advogado
+uno = desenhar
+capricornio < peixe
+|ariel - lixeiro| = 4
+ariel > montemor
+campogrande > uno
+|advogado - arnaldo| = 0
+videogame = montemor
+|cozinheiro - venceslau| = 0
+|advogado - amauri| = 2
+cozinheiro < amauri
+campogrande > peixe
+|jau - videogame| = 1
+|arnaldo - lixeiro| = 1
+|ariel - cozinhar| = 0
+|venceslau - ariel| = 2
+|pintar - ariel| = 2
+cozinhar = campogrande
+|volei - montemor| = 3
+campogrande = cientista
+cruise < focus
+cientista > gemeos
+cruise > lixeiro
+|venceslau - vectra| = 2
+vectra < cientista
+|douglas - cozinheiro| = 2
+videogame < cozinheiro
+|campogrande - ariel| = 0
+advogado > montemor
+desenhar > videogame
+pintar < tarabai
+arnaldo > douglas
+cientista > venceslau
+|lixeiro - desenhar| = 1
+|montemor - campogrande| = 4
+|focus - pintar| = 2
+campogrande = focus
+|cruise - venceslau| = 1
+|campogrande - cientista| = 0
+cruise = volei
+lixeiro < arnaldo
+cruise < ariel
+|cozinheiro - focus| = 2
+ariel > cozinheiro
+amauri > jau
+cineastra = cruise
+|cruise - advogado| = 2
+|cineastra - cientista| = 1
+advogado < campogrande
+|i30 - montemor| = 2
+|montemor - vectra| = 0
+volei > videogame
+campogrande > volei
+montemor < campogrande
+|i30 - amauri| = 1
+ariel = campogrande
+|arnaldo - uno| = 0
+|vectra - lixeiro| = 0
+desenhar < amauri
+|ariel - gemeos| = 3
+vectra = montemor
+|pintar - videogame| = 2
+i30 > videogame
+focus > jau
+|cozinhar - diego| = 2
+|cozinheiro - uno| = 1
+|tarabai - douglas| = 3
+douglas < advogado
+|cozinheiro - desenhar| = 1
+uno < ariel
+cozinheiro > vectra
+|focus - douglas| = 4
+uno < cruise
+|pintar - cozinheiro| = 0
+|tarabai - volei| = 0
+|arnaldo - advogado| = 0
+|videogame - volei| = 3
+|cozinhar - ariel| = 0
+|lixeiro - i30| = 2
+cientista > jau
+ariel > pintar
+vectra < jau
+cozinhar > amauri
+amauri < focus
+|venceslau - cruise| = 1
+pintar > videogame
+videogame < desenhar
+|desenhar - amauri| = 2
+|cozinhar - advogado| = 3
+i30 > douglas
+|peixe - aries| = 1
+advogado < cientista
+|venceslau - cozinheiro| = 0
+videogame < tarabai
+|cozinhar - amauri| = 1
+|jau - lixeiro| = 1
+diego < ariel
+videogame < cozinhar
+|desenhar - i30| = 1
+|jau - tarabai| = 2
+|cineastra - montemor| = 3
+|venceslau - pintar| = 0
+focus > videogame
+vectra < cineastra
+arnaldo < venceslau
+campogrande > amauri
+montemor < ariel
+|amauri - advogado| = 2
+capricornio < peixe
+|cruise - pintar| = 1
+|cientista - pintar| = 2
+|arnaldo - jau| = 0
+venceslau < amauri
+jau > vectra
+|arnaldo - venceslau| = 1
+|gemeos - peixe| = 2
+|advogado - i30| = 1
+diego > douglas
+|cozinheiro - tarabai| = 1
+cineastra > arnaldo
+desenhar < venceslau
+|cientista - douglas| = 4
+uno < i30
+vectra < campogrande
+venceslau > desenhar
+|cozinheiro - cientista| = 2
+desenhar < volei
+lixeiro < cozinhar
+cineastra > vectra
+|advogado - cozinhar| = 3
+videogame < venceslau
+volei < campogrande
+desenhar < cozinhar
+|douglas - vectra| = 0
+lixeiro < tarabai
+peixe < aries
+|pintar - campogrande| = 2
+cientista > gemeos
+|cruise - cientista| = 1
+|i30 - desenhar| = 1
+|cineastra - cientista| = 1
+|cineastra - cozinheiro| = 1
+diego > videogame
+|lixeiro - cozinhar| = 4
+|douglas - cientista| = 4
+|videogame - lixeiro| = 0
+cozinhar > lixeiro
+|amauri - diego| = 1
+|cientista - douglas| = 4
+|douglas - campogrande| = 4
+|cineastra - lixeiro| = 3
+|videogame - vectra| = 0
+amauri > cozinheiro
+|lixeiro - uno| = 1
+|desenhar - lixeiro| = 1
+diego > montemor
+advogado = desenhar
+|volei - ariel| = 1
+|venceslau - cineastra| = 1
+|videogame - amauri| = 3
+douglas < campogrande
+|cineastra - videogame| = 3
+|advogado - campogrande| = 3
+cineastra > desenhar
+|campogrande - uno| = 3
+ariel > volei
+jau < cineastra
+|amauri - diego| = 1
+|campogrande - capricornio| = 2
+|cineastra - focus| = 1
+|amauri - jau| = 2
+|tarabai - advogado| = 2
+|amauri - vectra| = 3
+|arnaldo - douglas| = 1
+|pintar - cineastra| = 1
+|uno - campogrande| = 3
+|diego - cozinheiro| = 0
+|arnaldo - vectra| = 1
+cozinhar > lixeiro
+campogrande = cozinhar
+lixeiro = vectra
+vectra < advogado
+capricornio > escorpiao
+|focus - cozinheiro| = 2
+tarabai > montemor
+lixeiro < cozinheiro
+|montemor - tarabai| = 3
+amauri < ariel
+jau < cozinhar
+venceslau < focus
+|uno - venceslau| = 1
+|arnaldo - pintar| = 1
+|campogrande - advogado| = 3
+i30 < volei
+|pintar - cozinheiro| = 0
+|cozinheiro - jau| = 1
+|uno - focus| = 3
+tarabai = 4
+|videogame - arnaldo| = 1
+|cozinheiro - cineastra| = 1
+desenhar < pintar
+|amauri - tarabai| = 0
+pintar > montemor
+|pintar - cozinhar| = 2
+|desenhar - cozinheiro| = 1
+|cozinhar - montemor| = 4
+i30 < campogrande
+|montemor - volei| = 3
+|desenhar - jau| = 0
+|cientista - jau| = 3
+vectra < cineastra
+ariel = focus
+|arnaldo - cozinheiro| = 1
+volei > jau
+escorpiao < capricornio
+|advogado - cineastra| = 2
+|jau - videogame| = 1
+gemeos > escorpiao
+|gemeos - peixe| = 2
+cientista > venceslau
+volei > cozinheiro
+venceslau < amauri
+|arnaldo - cruise| = 2
+cruise = cineastra
+pintar > vectra
+|diego - cruise| = 1
+lixeiro < focus
+uno < cozinhar
+diego < amauri
+diego > douglas
+venceslau > videogame
+|advogado - videogame| = 1
+desenhar < focus
+advogado < tarabai
+|jau - vectra| = 1
+|ariel - cientista| = 0
+jau = uno
+|amauri - cruise| = 0
+|desenhar - tarabai| = 2
+|lixeiro - venceslau| = 2
+cineastra > douglas
+|focus - cozinheiro| = 2
+|vectra - lixeiro| = 0
+|i30 - focus| = 2
+|cozinhar - capricornio| = 2
+cruise < cientista
+|vectra - focus| = 4
+|arnaldo - desenhar| = 0
+|peixe - aries| = 1
+venceslau < tarabai
+cientista = focus
+pintar > videogame
+desenhar > vectra
+|jau - campogrande| = 3
+cruise > videogame
+|cozinhar - cozinheiro| = 2
+douglas < focus
+|campogrande - arnaldo| = 3
+videogame < venceslau
+|cientista - diego| = 2
+|tarabai - venceslau| = 1
+|vectra - uno| = 1
+cozinhar > diego
+pintar = venceslau
+ariel > advogado
+|montemor - videogame| = 0
+advogado < campogrande
+|lixeiro - douglas| = 0
+|ariel - gemeos| = 3
+arnaldo = 2
+|videogame - vectra| = 0
+tarabai > vectra
+montemor < volei
+arnaldo < i30
+volei > lixeiro
+|desenhar - lixeiro| = 1
+uno < cientista
+escorpiao < capricornio
+advogado < cozinheiro
+|lixeiro - cozinhar| = 4
+jau < focus
+cientista = campogrande
+cruise > lixeiro
+diego > jau
+|uno - focus| = 3
+desenhar < focus
+|diego - montemor| = 2
+|cientista - venceslau| = 2
+|campogrande - cientista| = 0
+|cineastra - cozinhar| = 1
+cineastra > montemor
+pintar < amauri
+i30 < tarabai
+|vectra - advogado| = 1
+|cientista - cozinhar| = 0
+|i30 - montemor| = 2
+|vectra - campogrande| = 4
+cientista > jau
+montemor = videogame
+venceslau < tarabai
+volei < focus
+tarabai = amauri
+|montemor - douglas| = 0
+campogrande > i30
+|focus - tarabai| = 1
+focus > jau
+|montemor - cozinheiro| = 2
+|cineastra - douglas| = 3
+tarabai < focus
+|pintar - focus| = 2
+capricornio < peixe
+ariel = cozinhar
+|ariel - videogame| = 4
+diego < cientista
+|amauri - uno| = 2
+|uno - diego| = 1
+montemor < uno
+|escorpiao - gemeos| = 1
+|desenhar - diego| = 1
+|diego - jau| = 1
+lixeiro < uno
+|i30 - arnaldo| = 1
+advogado < volei
+|cruise - douglas| = 3
+volei > vectra
+arnaldo = uno
+|volei - cozinheiro| = 1
+|cineastra - focus| = 1
+|montemor - advogado| = 1
+|lixeiro - douglas| = 0
+|campogrande - capricornio| = 2
+|jau - volei| = 2
+i30 < ariel
+campogrande = ariel
+|cruise - jau| = 2
+diego > videogame
+cientista > venceslau
+|amauri - volei| = 0
+|uno - amauri| = 2
+|arnaldo - volei| = 2
+jau < tarabai
+|campogrande - cozinheiro| = 2
+|advogado - videogame| = 1
+venceslau > videogame
+douglas < desenhar
+|videogame - pintar| = 2
+jau > videogame
+ariel > videogame
+vectra < volei
+|tarabai - cruise| = 0
+|advogado - uno| = 0
+amauri > vectra
+|uno - diego| = 1
+uno < cozinheiro
+|cientista - diego| = 2
+|pintar - cientista| = 2
+|ariel - cruise| = 1
+vectra < uno
+|ariel - lixeiro| = 4
+focus > montemor
+|i30 - pintar| = 0
+desenhar > lixeiro
+|jau - desenhar| = 0
+diego > lixeiro
+|campogrande - focus| = 0
+|cozinheiro - lixeiro| = 2
+jau < cozinhar
+ariel = focus
+amauri < campogrande
+jau < amauri
+i30 = diego
+|douglas - diego| = 2
+|jau - videogame| = 1
+|cozinheiro - desenhar| = 1
+venceslau < cozinhar
+|douglas - lixeiro| = 0
+cineastra > cozinheiro
+uno > lixeiro
+focus > capricornio
+venceslau > douglas
+douglas < ariel
+venceslau < cruise
+|uno - tarabai| = 2
+|desenhar - cozinheiro| = 1
+tarabai = cruise
+|i30 - uno| = 1
+pintar > arnaldo
+ariel > uno
+|cruise - venceslau| = 1
+cozinhar > lixeiro
+volei > i30
+cozinheiro < focus
+montemor < cientista
+|uno - focus| = 3
+cientista > venceslau
+douglas < focus
+diego < volei
+uno = jau
+campogrande = focus
+|pintar - volei| = 1
+|pintar - campogrande| = 2
+uno < tarabai
+cineastra > cozinheiro
+|desenhar - lixeiro| = 1
+venceslau > desenhar
+|cozinhar - lixeiro| = 4
+montemor < i30
+arnaldo = advogado
+douglas < cozinheiro
+venceslau > advogado
+|diego - arnaldo| = 1
+cientista > vectra
+i30 < cruise
+arnaldo < tarabai
+|focus - amauri| = 1
+|videogame - lixeiro| = 0
+|volei - advogado| = 2
+|videogame - cozinheiro| = 2
+cientista > i30
+cientista > tarabai
+arnaldo > videogame
+|cientista - douglas| = 4
+|volei - i30| = 1
+|ariel - cineastra| = 1
+montemor < ariel
+|cineastra - campogrande| = 1
+desenhar > vectra
+peixe > escorpiao
+campogrande = cientista
+douglas < jau
+lixeiro = montemor
+|tarabai - diego| = 1
+|montemor - videogame| = 0
+|ariel - venceslau| = 2
+ariel > pintar
+|uno - desenhar| = 0
+|tarabai - pintar| = 1
+cozinhar > tarabai
+|cruise - focus| = 1
+volei = amauri
+focus > lixeiro
+amauri > uno
+advogado = arnaldo
+|advogado - douglas| = 1
+cineastra > i30
+|gemeos - capricornio| = 1
+advogado < pintar
+jau > montemor
+|desenhar - ariel| = 3
+|cozinheiro - focus| = 2
+|cientista - amauri| = 1
+|douglas - advogado| = 1
+|amauri - cruise| = 0
+|tarabai - douglas| = 3
+|advogado - i30| = 1
+venceslau > videogame
+|videogame - campogrande| = 4
+|vectra - ariel| = 4
+vectra < focus
+|vectra - i30| = 2
+i30 > lixeiro
+advogado > montemor
+|volei - arnaldo| = 2
+|focus - campogrande| = 0
+lixeiro < pintar
+|pintar - tarabai| = 1
+volei > advogado
+pintar < campogrande
+vectra < cineastra
+|tarabai - jau| = 2
+|lixeiro - venceslau| = 2
+|campogrande - volei| = 1
+cruise > venceslau
+|cientista - uno| = 3
+advogado > videogame
+cozinhar > i30
+cineastra = amauri
+|tarabai - focus| = 1
+|videogame - advogado| = 1
+|uno - vectra| = 1
+montemor < jau
+|cozinheiro - i30| = 0
+|ariel - tarabai| = 1
+|focus - pintar| = 2
+|diego - advogado| = 1
+venceslau < cineastra
+tarabai < focus
+amauri > jau
+|videogame - ariel| = 4
+lixeiro = vectra
+|vectra - ariel| = 4
+jau = 2
+|desenhar - amauri| = 2
+|volei - vectra| = 3
+montemor < cruise
+|lixeiro - campogrande| = 4
+montemor < cozinheiro
+|tarabai - campogrande| = 1
+desenhar < cozinheiro
+|cozinhar - tarabai| = 1
+|cruise - campogrande| = 1
+amauri = volei
+gemeos < capricornio
+uno < amauri
+cozinheiro > desenhar
+|tarabai - desenhar| = 2
+amauri > cozinheiro
+montemor < cruise
+venceslau > montemor
+campogrande > diego
+|focus - escorpiao| = 4
+lixeiro < diego
+|desenhar - cozinhar| = 3
+focus = cozinhar
+|diego - cruise| = 1
+|montemor - advogado| = 1
+volei > arnaldo
+advogado = desenhar
+|cientista - desenhar| = 3
+|vectra - campogrande| = 4
+cruise = tarabai
+|cruise - videogame| = 3
+cineastra > advogado
+i30 < cineastra
+vectra < venceslau
+|cineastra - ariel| = 1
+lixeiro < volei
+montemor < uno
+volei > lixeiro
+|campogrande - volei| = 1

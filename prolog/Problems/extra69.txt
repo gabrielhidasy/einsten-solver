@@ -1,0 +1,843 @@
+nome: carlos, ariel, gilberto, diego, raul
+signo: leao, cancer, escorpiao, capricornio, aquario
+camiseta: cinza, verde, preto, amarelo, rosa
+esposa: neide, ana, nelsa, maria, vanessa
+hobby: videogame, futebol, desenhar, correr, tenis
+
+|ana - futebol| = 3
+preto < cinza
+|preto - ana| = 0
+|maria - ariel| = 3
+videogame > gilberto
+|futebol - gilberto| = 2
+rosa > nelsa
+|preto - desenhar| = 0
+verde < raul
+|desenhar - futebol| = 3
+|maria - ariel| = 3
+|cinza - gilberto| = 1
+neide < amarelo
+amarelo = maria
+ana = preto
+|ariel - tenis| = 4
+|amarelo - cinza| = 1
+|cinza - maria| = 1
+futebol > verde
+tenis = vanessa
+|maria - desenhar| = 3
+ana < verde
+leao > escorpiao
+|verde - maria| = 2
+|vanessa - diego| = 1
+|preto - desenhar| = 0
+|capricornio - aquario| = 4
+|rosa - raul| = 0
+diego < raul
+|correr - nelsa| = 1
+cancer > leao
+tenis > carlos
+vanessa > leao
+|nelsa - gilberto| = 1
+|preto - neide| = 1
+preto < nelsa
+videogame < raul
+|cinza - desenhar| = 2
+ariel < diego
+maria > preto
+|aquario - carlos| = 2
+|amarelo - tenis| = 1
+cinza > neide
+|maria - carlos| = 1
+|gilberto - videogame| = 1
+|preto - rosa| = 4
+preto = ana
+cinza = carlos
+futebol > cinza
+desenhar < rosa
+rosa > videogame
+preto < neide
+verde < tenis
+maria > desenhar
+|neide - preto| = 1
+desenhar = preto
+ariel = ana
+ana < videogame
+maria > cinza
+|neide - tenis| = 3
+aquario > videogame
+|aquario - verde| = 3
+|correr - amarelo| = 2
+tenis > amarelo
+nelsa < vanessa
+videogame > preto
+rosa = vanessa
+|escorpiao - capricornio| = 1
+maria > correr
+|gilberto - futebol| = 2
+|maria - videogame| = 1
+|carlos - correr| = 1
+raul = tenis
+|neide - verde| = 0
+|ariel - raul| = 4
+|videogame - maria| = 1
+maria < rosa
+|diego - futebol| = 0
+|futebol - amarelo| = 0
+|desenhar - carlos| = 2
+|preto - videogame| = 2
+raul > ana
+|preto - maria| = 3
+cinza = videogame
+ariel = desenhar
+|verde - carlos| = 1
+raul = vanessa
+ariel < amarelo
+tenis > amarelo
+desenhar = ariel
+|preto - correr| = 1
+amarelo > preto
+verde < raul
+diego > ariel
+|cinza - raul| = 2
+|nelsa - gilberto| = 1
+rosa > maria
+diego < tenis
+nelsa > desenhar
+carlos < vanessa
+|preto - rosa| = 4
+|cinza - raul| = 2
+raul > verde
+|tenis - ana| = 4
+|ana - cinza| = 2
+neide = correr
+amarelo > cinza
+|ana - raul| = 4
+|videogame - gilberto| = 1
+|preto - ana| = 0
+|videogame - diego| = 1
+|carlos - ana| = 2
+aquario > videogame
+|ana - vanessa| = 4
+rosa > capricornio
+|amarelo - futebol| = 0
+|ariel - raul| = 4
+|tenis - raul| = 0
+|preto - raul| = 4
+maria > carlos
+|verde - diego| = 2
+|aquario - amarelo| = 1
+|rosa - gilberto| = 3
+|desenhar - videogame| = 2
+amarelo = diego
+correr = verde
+|aquario - diego| = 1
+|nelsa - futebol| = 1
+maria > cinza
+neide = verde
+correr < rosa
+|maria - tenis| = 1
+|neide - vanessa| = 3
+maria > desenhar
+neide > ana
+preto < cinza
+|aquario - ariel| = 4
+amarelo = futebol
+gilberto < rosa
+verde > desenhar
+|desenhar - nelsa| = 2
+cinza > verde
+aquario > gilberto
+desenhar < maria
+amarelo > carlos
+cinza > ana
+verde > desenhar
+diego < rosa
+ariel < gilberto
+verde > preto
+rosa > neide
+diego > desenhar
+|vanessa - leao| = 2
+|amarelo - desenhar| = 3
+|correr - ariel| = 1
+|cancer - leao| = 1
+|ana - desenhar| = 0
+|videogame - cinza| = 0
+correr > preto
+|verde - preto| = 1
+|amarelo - raul| = 1
+|correr - rosa| = 3
+futebol = maria
+|escorpiao - leao| = 1
+|futebol - carlos| = 1
+|preto - vanessa| = 4
+desenhar < correr
+cinza > verde
+|gilberto - raul| = 3
+|gilberto - desenhar| = 1
+|diego - verde| = 2
+aquario > correr
+preto < verde
+|cancer - capricornio| = 3
+|correr - tenis| = 3
+raul > desenhar
+|carlos - preto| = 2
+capricornio < leao
+ariel < nelsa
+capricornio < leao
+|diego - gilberto| = 2
+|correr - diego| = 2
+|amarelo - nelsa| = 1
+|amarelo - diego| = 0
+nelsa > neide
+|raul - cancer| = 1
+desenhar < carlos
+correr > ana
+rosa > ana
+maria > ana
+|tenis - preto| = 4
+|desenhar - verde| = 1
+|amarelo - diego| = 0
+|ana - ariel| = 0
+tenis > gilberto
+tenis > cancer
+|cinza - correr| = 1
+|correr - maria| = 2
+tenis > neide
+|tenis - leao| = 2
+verde > ariel
+correr < futebol
+gilberto < diego
+vanessa > diego
+aquario > diego
+ariel < carlos
+tenis = rosa
+ana < diego
+aquario > amarelo
+|carlos - correr| = 1
+|rosa - videogame| = 2
+|raul - verde| = 3
+|preto - cinza| = 2
+|nelsa - tenis| = 2
+raul > capricornio
+cinza = 3
+|desenhar - raul| = 4
+neide < cinza
+|rosa - cancer| = 1
+|nelsa - maria| = 1
+|preto - nelsa| = 2
+diego = futebol
+|cinza - vanessa| = 2
+ana = preto
+|carlos - tenis| = 2
+|verde - vanessa| = 3
+|vanessa - cinza| = 2
+cinza = carlos
+|nelsa - ana| = 2
+preto = 1
+rosa > escorpiao
+diego > videogame
+verde = correr
+|desenhar - correr| = 1
+neide < futebol
+|gilberto - carlos| = 1
+|vanessa - verde| = 3
+preto = ariel
+ariel < cinza
+correr < futebol
+vanessa > correr
+amarelo > desenhar
+|rosa - correr| = 3
+|futebol - correr| = 2
+verde < rosa
+|capricornio - leao| = 2
+verde = neide
+tenis > diego
+correr < carlos
+correr > desenhar
+preto < vanessa
+|carlos - futebol| = 1
+|preto - cinza| = 2
+ana < tenis
+tenis > neide
+|desenhar - raul| = 4
+|ana - correr| = 1
+tenis = rosa
+nelsa > ariel
+escorpiao < aquario
+|preto - verde| = 1
+videogame < futebol
+videogame < raul
+neide > ana
+|cinza - diego| = 1
+aquario > maria
+neide < diego
+carlos > verde
+|escorpiao - cancer| = 2
+|amarelo - neide| = 2
+carlos < diego
+|capricornio - escorpiao| = 1
+|verde - cinza| = 1
+amarelo > correr
+|preto - cinza| = 2
+nelsa = videogame
+|neide - rosa| = 3
+|nelsa - raul| = 2
+videogame < tenis
+|carlos - desenhar| = 2
+|neide - verde| = 0
+verde > preto
+maria > correr
+|vanessa - tenis| = 0
+|tenis - escorpiao| = 3
+desenhar < amarelo
+|nelsa - maria| = 1
+carlos > verde
+|rosa - neide| = 3
+vanessa > carlos
+|tenis - cancer| = 1
+|maria - tenis| = 1
+|raul - verde| = 3
+carlos < rosa
+|cinza - raul| = 2
+maria > desenhar
+|rosa - gilberto| = 3
+|rosa - raul| = 0
+maria > cinza
+maria > videogame
+cancer > escorpiao
+neide < cinza
+videogame < vanessa
+|rosa - tenis| = 0
+|verde - ana| = 1
+carlos < raul
+tenis > gilberto
+diego > carlos
+maria < rosa
+aquario > futebol
+preto < gilberto
+tenis > preto
+maria < vanessa
+correr > preto
+|maria - correr| = 2
+|maria - preto| = 3
+verde < amarelo
+futebol < tenis
+gilberto = correr
+desenhar < tenis
+diego < tenis
+|rosa - correr| = 3
+gilberto < diego
+|carlos - videogame| = 0
+carlos < raul
+|preto - amarelo| = 3
+cinza < amarelo
+maria > verde
+vanessa > diego
+|ariel - tenis| = 4
+|neide - gilberto| = 0
+gilberto = correr
+|futebol - cinza| = 1
+ana < diego
+|gilberto - vanessa| = 3
+rosa > ana
+|ana - maria| = 3
+maria < vanessa
+preto < correr
+desenhar < carlos
+|ariel - maria| = 3
+ana < nelsa
+|carlos - videogame| = 0
+carlos < vanessa
+tenis > ariel
+|ariel - nelsa| = 2
+|preto - maria| = 3
+|rosa - gilberto| = 3
+correr < videogame
+verde < tenis
+|desenhar - diego| = 3
+|maria - tenis| = 1
+|preto - carlos| = 2
+cinza > neide
+ana = ariel
+neide < amarelo
+|capricornio - aquario| = 4
+ariel < futebol
+vanessa > verde
+cinza > ariel
+cinza > verde
+raul > futebol
+aquario > ana
+futebol < vanessa
+maria = diego
+|ariel - verde| = 1
+maria > cinza
+|aquario - desenhar| = 4
+neide < cinza
+|verde - ana| = 1
+|neide - preto| = 1
+correr < maria
+desenhar < futebol
+|cinza - ariel| = 2
+carlos > ana
+verde = gilberto
+videogame < vanessa
+gilberto < rosa
+diego > neide
+verde > ana
+|futebol - diego| = 0
+videogame < rosa
+videogame = nelsa
+|tenis - capricornio| = 4
+|ariel - raul| = 4
+|diego - nelsa| = 1
+desenhar < maria
+|ariel - cinza| = 2
+nelsa > verde
+tenis = raul
+|desenhar - diego| = 3
+aquario > nelsa
+diego > carlos
+|nelsa - carlos| = 0
+futebol = maria
+|nelsa - futebol| = 1
+|gilberto - neide| = 0
+|gilberto - cinza| = 1
+|neide - preto| = 1
+|correr - verde| = 0
+maria > preto
+desenhar < videogame
+diego > preto
+desenhar < neide
+|raul - rosa| = 0
+|rosa - correr| = 3
+|diego - maria| = 0
+vanessa > cinza
+rosa > videogame
+|rosa - capricornio| = 4
+gilberto < maria
+|verde - tenis| = 3
+|raul - ana| = 4
+cancer > capricornio
+|gilberto - diego| = 2
+|nelsa - maria| = 1
+carlos > ariel
+ana < raul
+aquario > videogame
+ariel < maria
+verde > desenhar
+vanessa > amarelo
+|neide - vanessa| = 3
+|neide - futebol| = 2
+cinza > ana
+preto < neide
+futebol > desenhar
+|ariel - verde| = 1
+capricornio < aquario
+|correr - amarelo| = 2
+gilberto = verde
+|cinza - diego| = 1
+neide < raul
+cancer > leao
+carlos = nelsa
+|desenhar - ana| = 0
+|maria - vanessa| = 1
+tenis = raul
+videogame = 3
+|correr - rosa| = 3
+nelsa = carlos
+|cinza - neide| = 1
+nelsa < amarelo
+correr = 2
+vanessa > verde
+verde < nelsa
+|ana - amarelo| = 3
+|carlos - desenhar| = 2
+|tenis - rosa| = 0
+|ariel - maria| = 3
+desenhar = ana
+cinza > neide
+|preto - nelsa| = 2
+|correr - futebol| = 2
+|carlos - ariel| = 2
+|rosa - tenis| = 0
+|vanessa - ariel| = 4
+diego > ariel
+|amarelo - correr| = 2
+|cinza - gilberto| = 1
+amarelo > ariel
+|cinza - ariel| = 2
+|neide - carlos| = 1
+carlos > ana
+nelsa > gilberto
+|ana - verde| = 1
+rosa > cancer
+|vanessa - tenis| = 0
+vanessa > capricornio
+|tenis - neide| = 3
+carlos > correr
+vanessa > diego
+vanessa = rosa
+|ariel - rosa| = 4
+futebol > correr
+videogame < vanessa
+ariel < correr
+|carlos - ana| = 2
+|carlos - verde| = 1
+|preto - maria| = 3
+verde < tenis
+cinza = videogame
+|verde - preto| = 1
+amarelo > nelsa
+|maria - raul| = 1
+|futebol - desenhar| = 3
+videogame > ariel
+gilberto < cinza
+videogame = carlos
+|amarelo - desenhar| = 3
+desenhar < videogame
+|cinza - carlos| = 0
+ariel = desenhar
+futebol > verde
+ariel = desenhar
+|rosa - escorpiao| = 3
+preto = ana
+cinza > ariel
+|gilberto - verde| = 0
+amarelo > ana
+diego > ariel
+cinza = videogame
+raul > desenhar
+|verde - amarelo| = 2
+amarelo > preto
+|amarelo - vanessa| = 1
+ana = preto
+|correr - futebol| = 2
+|cinza - vanessa| = 2
+|vanessa - tenis| = 0
+verde < futebol
+|desenhar - correr| = 1
+videogame < tenis
+raul > amarelo
+|neide - diego| = 2
+diego > desenhar
+carlos = 3
+|vanessa - rosa| = 0
+|raul - capricornio| = 4
+|raul - correr| = 3
+nelsa < futebol
+|diego - rosa| = 1
+verde > desenhar
+amarelo = maria
+carlos > verde
+|aquario - amarelo| = 1
+|preto - rosa| = 4
+videogame = carlos
+neide > ariel
+nelsa > ariel
+rosa > leao
+|ana - diego| = 3
+|vanessa - cancer| = 1
+|preto - neide| = 1
+carlos < maria
+|carlos - cinza| = 0
+|maria - amarelo| = 0
+|vanessa - carlos| = 2
+ana < verde
+vanessa > ariel
+verde = neide
+neide > ana
+maria = amarelo
+|verde - neide| = 0
+|correr - verde| = 0
+|desenhar - correr| = 1
+rosa > nelsa
+correr < maria
+tenis > neide
+|verde - futebol| = 2
+videogame > preto
+amarelo = maria
+vanessa > gilberto
+correr < rosa
+nelsa < diego
+tenis = raul
+|diego - maria| = 0
+|correr - nelsa| = 1
+|diego - amarelo| = 0
+ana < cinza
+preto < amarelo
+|verde - carlos| = 1
+|verde - futebol| = 2
+desenhar = ariel
+|raul - rosa| = 0
+neide = correr
+futebol > ana
+|maria - diego| = 0
+preto = ana
+gilberto > ariel
+amarelo > gilberto
+|maria - preto| = 3
+tenis > ana
+ana = desenhar
+|amarelo - preto| = 3
+|preto - desenhar| = 0
+videogame = cinza
+escorpiao < cancer
+rosa > diego
+carlos < tenis
+|desenhar - futebol| = 3
+|gilberto - ariel| = 1
+preto < carlos
+rosa > desenhar
+|cinza - diego| = 1
+amarelo = 4
+gilberto < futebol
+tenis > diego
+ariel < gilberto
+videogame > verde
+ariel < videogame
+neide > ana
+neide < cinza
+|preto - diego| = 3
+|escorpiao - leao| = 1
+carlos > gilberto
+|preto - ariel| = 0
+|maria - correr| = 2
+desenhar < videogame
+|futebol - ariel| = 3
+futebol > nelsa
+tenis = raul
+|maria - raul| = 1
+cinza > desenhar
+preto < neide
+tenis = vanessa
+|amarelo - videogame| = 1
+vanessa = raul
+raul > correr
+gilberto < tenis
+carlos < tenis
+maria > gilberto
+|raul - maria| = 1
+|nelsa - desenhar| = 2
+vanessa > leao
+|preto - gilberto| = 1
+|leao - aquario| = 2
+preto < amarelo
+|ana - tenis| = 4
+videogame > preto
+desenhar < videogame
+|raul - preto| = 4
+|diego - carlos| = 1
+gilberto > preto
+videogame = cinza
+|nelsa - futebol| = 1
+ariel < cinza
+|diego - tenis| = 1
+|aquario - neide| = 3
+rosa > futebol
+videogame < diego
+|futebol - neide| = 2
+|desenhar - correr| = 1
+videogame > preto
+|verde - amarelo| = 2
+ana < futebol
+|tenis - carlos| = 2
+neide > ariel
+vanessa > escorpiao
+|nelsa - desenhar| = 2
+ana < correr
+|diego - rosa| = 1
+|cinza - raul| = 2
+maria > correr
+correr < futebol
+|gilberto - amarelo| = 2
+gilberto < nelsa
+amarelo > carlos
+|cancer - aquario| = 1
+|ariel - diego| = 3
+|cinza - ariel| = 2
+diego = futebol
+cancer < aquario
+|futebol - diego| = 0
+|vanessa - verde| = 3
+verde = gilberto
+|desenhar - verde| = 1
+|raul - neide| = 3
+desenhar < verde
+|correr - ana| = 1
+rosa > cancer
+neide > preto
+|ariel - amarelo| = 3
+|ariel - nelsa| = 2
+carlos = cinza
+|raul - preto| = 4
+|rosa - raul| = 0
+|rosa - correr| = 3
+vanessa > cancer
+cinza > gilberto
+rosa > nelsa
+nelsa < raul
+ariel < correr
+|videogame - maria| = 1
+gilberto < cinza
+|desenhar - nelsa| = 2
+aquario > ana
+|neide - maria| = 2
+amarelo < raul
+vanessa > ariel
+|carlos - raul| = 2
+aquario > desenhar
+|desenhar - cinza| = 2
+|carlos - raul| = 2
+verde = gilberto
+|diego - ana| = 3
+|maria - nelsa| = 1
+cancer < aquario
+preto < raul
+|ariel - nelsa| = 2
+amarelo > desenhar
+correr < vanessa
+desenhar = preto
+|videogame - cinza| = 0
+|vanessa - verde| = 3
+diego > ariel
+|correr - tenis| = 3
+preto < gilberto
+ariel = ana
+desenhar < cinza
+diego > carlos
+|verde - desenhar| = 1
+|vanessa - ariel| = 4
+|vanessa - videogame| = 2
+|tenis - rosa| = 0
+ana < verde
+|preto - maria| = 3
+|verde - rosa| = 3
+ana < amarelo
+ana < futebol
+|amarelo - videogame| = 1
+|tenis - leao| = 2
+neide < vanessa
+|vanessa - ariel| = 4
+|ana - ariel| = 0
+carlos > gilberto
+|ana - verde| = 1
+|raul - vanessa| = 0
+|escorpiao - capricornio| = 1
+|tenis - nelsa| = 2
+cinza > preto
+|preto - ariel| = 0
+tenis > maria
+|amarelo - vanessa| = 1
+verde < nelsa
+|maria - correr| = 2
+|ana - correr| = 1
+|capricornio - escorpiao| = 1
+amarelo = diego
+|futebol - ana| = 3
+|amarelo - futebol| = 0
+|cinza - preto| = 2
+|raul - ana| = 4
+|tenis - vanessa| = 0
+|capricornio - cancer| = 3
+correr > ariel
+|vanessa - cinza| = 2
+|desenhar - cinza| = 2
+|rosa - tenis| = 0
+|desenhar - raul| = 4
+futebol > videogame
+raul > cinza
+futebol < tenis
+|videogame - desenhar| = 2
+|amarelo - neide| = 2
+nelsa > ana
+|nelsa - desenhar| = 2
+maria < tenis
+carlos > ana
+|rosa - videogame| = 2
+cinza > ana
+|nelsa - preto| = 2
+|correr - neide| = 0
+|maria - neide| = 2
+|escorpiao - aquario| = 3
+|raul - videogame| = 2
+|maria - videogame| = 1
+|raul - desenhar| = 4
+futebol > neide
+ana = ariel
+preto < diego
+|amarelo - tenis| = 1
+|ana - maria| = 3
+|videogame - cinza| = 0
+desenhar = ana
+|vanessa - raul| = 0
+|videogame - diego| = 1
+|raul - ana| = 4
+|escorpiao - cancer| = 2
+correr < cinza
+vanessa > correr
+|neide - nelsa| = 1
+|carlos - diego| = 1
+futebol > carlos
+gilberto < vanessa
+|futebol - maria| = 0
+desenhar < correr
+|diego - raul| = 1
+raul > capricornio
+capricornio < aquario
+|rosa - escorpiao| = 3
+desenhar < nelsa
+|nelsa - tenis| = 2
+neide = gilberto
+vanessa > escorpiao
+|verde - vanessa| = 3
+gilberto = 2
+futebol < tenis
+verde < raul
+maria > verde
+|preto - maria| = 3
+verde > ana
+|neide - tenis| = 3
+ana < neide
+|preto - nelsa| = 2
+|cinza - ana| = 2
+ana < gilberto
+|ariel - cinza| = 2
+|neide - raul| = 3
+|carlos - gilberto| = 1
+|neide - correr| = 0
+|verde - amarelo| = 2
+vanessa = raul
+rosa > escorpiao
+ana < raul
+cinza < futebol
+aquario > neide
+|rosa - ana| = 4
+diego > preto
+verde < tenis
+|nelsa - ana| = 2
+vanessa > verde
+correr < videogame
+vanessa > futebol
+|nelsa - ariel| = 2
+raul > capricornio
+gilberto < amarelo
+|preto - rosa| = 4
+videogame < diego
+|correr - raul| = 3
+rosa > capricornio
+neide = correr
+cinza > correr
+escorpiao < aquario
+|verde - amarelo| = 2
+|amarelo - desenhar| = 3
+|gilberto - raul| = 3
+|preto - ana| = 0
+|amarelo - futebol| = 0
+desenhar < vanessa
+raul > ana
+cinza > preto
+videogame = carlos
+|rosa - raul| = 0
+nelsa < rosa
+|amarelo - tenis| = 1
+|verde - gilberto| = 0
