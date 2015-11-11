@@ -1,7 +1,41 @@
-(make-package 'tpman2)
-(in-package tpman2)
+;(make-package 'tpman_noprint)
+(defpackage :tpman_noprint
+  (:use :common-lisp)
+  (:export
+   :solver))
+(in-package tpman_noprint)
 (common-lisp:use-package 'common-lisp)
 (export 'solver)
+(declaim (optimize
+	  (speed 3)
+	  (safety 1)
+	  (debug 0)
+	  ))
+;;Define our parameters
+(defun create-field (domains)
+  (defparameter nhouses (- (length (car domains)) 2))
+  (defparameter ndomains (length domains))
+  (defparameter field (make-array (list nhouses ndomains nhouses) :initial-element 1))
+  (defparameter field_aux (make-array (list nhouses ndomains) :initial-element 0))
+  (defparameter min_field_aux nhouses))
+
+(defun create-domain-alist (domains)
+  "Create some alists to connect the words in domains with numbers in the field"
+  (defparameter domain-hash '()) ;identify from witch domain
+  (defparameter domain-item-hash '()) ;identify an iten in a domain
+  (defparameter domain-name-number '()) ;associate domain names and numbers
+  (defparameter domain-item-inverse-hash '())
+  (let ((domain-number 0))
+    (dolist (domain domains)
+      (let ((domain-name (caadr domain)))
+	(push (cons domain-number domain-name) domain-name-number)
+	(let ((item-number 0))
+	  (dolist (element (cddr domain))
+	    (push (cons element item-number) domain-item-hash)
+	    (push (cons (cons domain-number item-number) element) domain-item-inverse-hash)
+	    (setf item-number (1+ item-number))
+	    (push (cons element domain-number) domain-hash))
+	  (setf domain-number (1+ domain-number)))))))
 
 ;;Partes do solver
 (defun presolve (constraints)
@@ -61,7 +95,6 @@ thing n) rules, or rules, and so on"
 	   (dotimes (x nhouses)
 	     (setf (aref field house-setted domain-setted x) 0))
 	   (setf (aref field house-setted domain-setted domain-element) 1)))
-	
 	;;Elimina regras do tipo (OR (= coisa n) (= coisa n2))
 	;;Assim como as regras anteriores elas são fixas no campo
 	((and (equal (car constraint) 'OR) (numberp (car (cddadr constraint))))
@@ -73,7 +106,6 @@ thing n) rules, or rules, and so on"
 	     (setf (aref field x domain-setted domain-element) 0))
 	   (setf (aref field house-setted-1 domain-setted domain-element) 1)
 	   (setf (aref field house-setted-2 domain-setted domain-element) 1)))
-
 	;;Se A < B, A não pode estar na ultima casa e B não pode estar
 	;;na primeira
 	((and (equal (car constraint) '<))
@@ -85,7 +117,6 @@ thing n) rules, or rules, and so on"
 	   (setf (aref field 0 attr-2-domain attr-2-item) 0))
 	 ;;Essa regra ainda não pode ser eliminada
 	 (setf adjusted-constraints (append adjusted-constraints (list constraint))))
-	
 	;;Se (A + n) = B, A não pode estar nas ultimas n casas e B não pode estar
 	;;nas n primeiras
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal '+ (caadr constraint)))
@@ -97,7 +128,6 @@ thing n) rules, or rules, and so on"
 	   (dotimes (x n)
 	     (setf (aref field x attr-2-domain attr-2-item) 0)
 	     (setf (aref field (- nhouses (1+ x)) attr-1-domain attr-1-item) 0)))
-
 	 ;;Essa regra ainda não pode ser eliminada
 	 (setf adjusted-constraints (append adjusted-constraints (list constraint))))
 	(T
@@ -111,11 +141,11 @@ thing n) rules, or rules, and so on"
     (dotimes (y ndomains)
       (let ((counter-1 0) (pos-1 -1) (counter-2 0) (pos-2 -1))
 	(dotimes (z nhouses)
-	  (when (= 1 (aref field x y z))
+	  (when (and (< counter-2 2) (= 1 (aref field x y z)))
 	    (setf counter-2 (1+ counter-2))
 	    (setf pos-2 z)
 	    )
-	  (when (= 1 (aref field z y x))
+	  (when (and (< counter-1 2) (= 1 (aref field z y x)))
 	    (setf counter-1 (1+ counter-1))
 	    (setf pos-1 z)
 	    ))
@@ -133,13 +163,12 @@ thing n) rules, or rules, and so on"
 (defun smart-apply1 (constraints on-brutus)
   (let ((adjusted-constraints '()))
     (dolist (constraint constraints)
-      
-      (let ((nsols (generate-field-aux)))
+      (let ((nsols (calculate-nsols on-brutus)))
 	(when (= nsols 0) ;There are no solutions this path
 	    (return))
 	;;makes a lot of diference in the extra ones:
 	;;if the rules determine a solution before parsing all but not on brutus
-	(when (and (not on-brutus) (= (generate-field-aux) 1)) 
+	(when (and (not on-brutus) (= nsols 1)) 
 	  (return)))
       (cond
 	;;Tenta resolver as regras do tipo (= thing thing)
@@ -175,7 +204,6 @@ thing n) rules, or rules, and so on"
 		 (setf flag 1)))
 	     (when (= flag 0)
 	       (setf adjusted-constraints (append adjusted-constraints (list constraint)))))))
-	
 	;;Resolver as regras do tipo (= (+ coisa n) coisa 2) -> se uma está definida não precisa
 	;;Definir a outra
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal '+ (caadr constraint)))
@@ -206,8 +234,6 @@ thing n) rules, or rules, and so on"
 	       (if (= count (- nhouses 2)) (setf flag 1) t))
 	     (when (= flag 0)
 	       (setf adjusted-constraints (append adjusted-constraints (list constraint)))))))
-
-	
 	;;Resolve as regras do tipo (< coisa1 coisa2)
 	((and (equal (car constraint) '<) (symbolp (cadr constraint)) (symbolp (caddr constraint)))
 	 (let* ((att-1 (cadr constraint))
@@ -244,8 +270,6 @@ thing n) rules, or rules, and so on"
 	       (setf flag 1))
 	     (when (or (= flag 0))
 	       (setf adjusted-constraints (append adjusted-constraints (list constraint)))))))
-	       
-
 	;;Resolver as regras ABS (so existem ABS -, as + sao removidas no presolve)
 	;;mais especificamente (= (ABS (- coisa1 coisa2)) n) 
 	((and (equal (car constraint) '=) (equal (caadr constraint) 'ABS))
@@ -266,7 +290,6 @@ thing n) rules, or rules, and so on"
 		 (setf (aref field (+ x n) att-2-domain att-2-item) 0))
 	       (when (and (= 0 (aref field x att-2-domain att-2-item)) (= 0 (aref field (+ x 2n) att-2-domain att-2-item)))
 		 (setf (aref field (+ x n) att-1-domain att-1-item) 0))))
-	   
 	   ;;Se x1 esta definido x2 so pode ser definido em x1+n ou x1-n
 	   (let ((count 0) (pos -1))
 	     (dotimes (x nhouses)
@@ -287,24 +310,18 @@ thing n) rules, or rules, and so on"
 	       (dotimes (x nhouses)
 		 (unless (or (= (+ x n) pos) (= (- x n) pos))
 		   (setf (aref field x att-1-domain att-1-item) 0)))))
-	   
 	   ;;Two special cases here, if an item is 0 on house n then the other cant be in 0,
 	   ;;And if an item is 0 in (nhouses - (n+1)), the other can't be 1 in nhouses-1
 	   (when (= 0 (aref field n att-1-domain att-1-item))
 	     (setf (aref field 0 att-2-domain att-2-item) 0))
-	   
 	   (when (= 0 (aref field n att-2-domain att-2-item))
 	     (setf (aref field 0 att-1-domain att-1-item) 0))
-	   
 	   (when (= 0 (aref field (- nhouses (+ n 1)) att-1-domain att-1-item))
 	     (setf (aref field (1- nhouses) att-2-domain att-2-item) 0))
-	   
 	   (when (= 0 (aref field (- nhouses (+ n 1)) att-2-domain att-2-item))
 	     (setf (aref field (1- nhouses) att-1-domain att-1-item) 0))
-
 	   (setf adjusted-constraints (append adjusted-constraints (list constraint)))
 	   ))
-
 	;;Tratar as regras do tipo (OR (= Coisa1 Coisa2) (= Coisa1 Coisa3))
 	((and (equal (car constraint) 'OR))
 	 ;;(print constraint)
@@ -346,9 +363,9 @@ thing n) rules, or rules, and so on"
     (cons x y)))
 
 (defun smart-apply-repeat (constraints)
-  (let ((nsols (generate-field-aux)))
+  (let ((nsols (calculate-nsols nil)))
     (setf constraints (smart-apply1 constraints nil))
-    (let ((nsols1 (generate-field-aux)))
+    (let ((nsols1 (calculate-nsols nil)))
       (if (= nsols1 1)
 	  t
 	  (progn
@@ -357,7 +374,7 @@ thing n) rules, or rules, and so on"
 		(setf constraints (smart-apply-repeat constraints)))))))
   constraints)
 
-(defun brutus (constraints x y)
+(defun brutus (constraints x y l)
   "Choose one position in array to brute-force, the position should be
 after x y"
   ;;Start the brute-force approach by copying the field
@@ -371,46 +388,60 @@ after x y"
 	  (setf (aref field x y z) 0)
 	  ;;Try this house with brutus
 	  (smart-apply1 constraints t)
-	  (let ((nsols (generate-field-aux)))
+	  (print x)
+	  (print y)
+	  (let ((nsols (calculate-nsols t)))
 	    (when (= nsols 1) ;found a solution
+	      (print "YEAH")
 	      (setf flag t)
 	      (return))
 	    (when (> nsols 1) ;still possible, keep trying
-	      (setf flag (brutus constraints x y))
+	      (print "Keep on trying")
+	      (setf flag (brutus constraints x y (1+ l)))
 	      (when (equal flag t)
 		(return)))
 	    (when (= nsols 0) ;impossible
+	      (print "Not this branch")
+	      (print l)
 	      (setf field (copy-field old-field))  
 	  )))))
     flag
     ))
 
 (defun solver (path)
-  ;;Byte-compile some things, got me a good speedup
-  (compile 'fix-field) ;Great, in extra62 from 0.6 to 0.3
-  (compile 'generate-field-aux) ;Good, from 0.3 to 0.2
   (with-open-file (f path)
     (let* ((domains (read f))
 	   (constraints (read f))
 	   )
-      (create-field domains constraints)
+      (create-field domains)
       (create-domain-alist domains)
+      (declaim (optimize
+		(speed 3)
+		(safety 1)
+		(debug 0)
+		))
+      (declaim '(type signed-byte field))
+      (declaim '(type fixnum field_aux))
+      (declaim '(type fixnum x y z))
+      ;;Byte-compile some things, got me a good speedup
+      (when (not (compiled-function-p #'fix-field))
+	(compile 'fix-field) ;Great, in extra62 from 0.6 to 0.3
+	(compile 'calculate-nsols)) ;Good, from 0.3 to 0.2
+      ;;All others take more time to compile then to execute as they are
+      ;;(for small files), and give barelly any improvement for big ones
       ;;(print domain-hash)
       (setf constraints (presolve constraints))
       ;;(print constraints)
       (setf constraints (smart-apply0 constraints))
-
-      ;;All others take more time to compile then to execute as they are
       (setf constraints (smart-apply-repeat constraints))
-
       ;;E aqui começa o brute
       (fix-field)
-      (if (= (generate-field-aux) 1)
+      (if (= (generate-field-aux) 1) ;;Here it should be as I use the field_aux
 	  t
 	  (progn
 	    (if (= 1 (aref field_aux 0 0))
-		(brutus constraints 0 0)
-		(brutus constraints 0 -1))
+		(brutus constraints 0 0 0)
+		(brutus constraints 0 -1 0))
 	    ))
       ))
   (generate-solution-from-field)
@@ -434,38 +465,9 @@ after x y"
 	 (dotimes (x nhouses)
 	   (dotimes (z nhouses)
 	     (when (= 1 (aref field x y z))
-	       (setf dname (cdr (assoc y domain-name-number)))
-	       (setf house-number x)
-	       (setf item-number z)
-	       (setf item-name (massoc (cons y item-number) domain-item-inverse-hash))
-	       (setf output (append output (list (list item-name  (1+ house-number)))))
-
+	       (let* ((house-number x) (item-number z) (item-name (massoc (cons y item-number) domain-item-inverse-hash)))
+	       (setf output (append output (list (list item-name  (1+ house-number))))))
   )))) output ))
-
-(defun create-domain-alist (domains)
-  "Create some alists to connect the words in domains with numbers in the field"
-  (defparameter domain-hash '()) ;identify from witch domain
-  (defparameter domain-item-hash '()) ;identify an iten in a domain
-  (defparameter domain-name-number '()) ;associate domain names and numbers
-  (defparameter domain-item-inverse-hash '())
-  (let ((domain-number 0))
-    (dolist (domain domains)
-      (setf domain-name (caadr domain))
-      (push (cons domain-number domain-name) domain-name-number)
-      (let ((item-number 0))
-	(dolist (element (cddr domain))
-	  (push (cons element item-number) domain-item-hash)
-	  (push (cons (cons domain-number item-number) element) domain-item-inverse-hash)
-	  (setf item-number (1+ item-number))
-	  (push (cons element domain-number) domain-hash))
-	(setf domain-number (1+ domain-number))))))
-
-(defun create-field (domains constraints)
-  (defparameter nhouses (- (length (car domains)) 2))
-  (defparameter ndomains (length domains))
-  (defparameter field (make-array (list nhouses ndomains nhouses) :initial-element 1))
-  (defparameter field_aux (make-array (list nhouses ndomains) :initial-element 0))
-  (defparameter min_field_aux nhouses))
 
 (defun copy-field (old-field)
   (let ((new-field (make-array (list nhouses ndomains nhouses))))
@@ -482,6 +484,27 @@ after x y"
       (dotimes (z nhouses)
 	(format t "~a " (aref field x y z))))
     (print "-----------------------")))
+
+(defun calculate-nsols (on-brutus)
+  "It only matters if its 0, 1 or many, outside brutus 0 is impossible"
+  (let ((acc 1) (flag 0))
+    (dotimes (x nhouses)
+      (dotimes (y ndomains)
+	(let ((cnt 0))
+	  (dotimes (z nhouses)
+	    (setf cnt (+ cnt (aref field x y z))))
+	  (setf acc (* acc cnt))
+	  (when (and (not on-brutus) (> acc 1))
+	    (setf flag 1)
+	    (return))
+	  (when (= acc 0)
+	    (setf flag 1)
+	    (return)))
+	(when (= flag 1)
+	  (return)))
+      (when (= flag 1)
+	(return)))
+    acc))
 
 (defun generate-field-aux ()
   (let ((acc 1))
