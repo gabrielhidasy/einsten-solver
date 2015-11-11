@@ -1,5 +1,5 @@
-(make-package 'tpman                 )
-(in-package tpman                 )
+(make-package 'tpman2)
+(in-package tpman2)
 (common-lisp:use-package 'common-lisp)
 (export 'solver)
 
@@ -115,38 +115,39 @@ thing n) rules, or rules, and so on"
   ;This loop parses all columns and when one column has only one '1'
   ;the line in it has only one 1 too
     (dotimes (y ndomains)
-      (let ((counter 0) (pos -1))
-      (dotimes (z nhouses)
-	(when (= 1 (aref field z y x))
-	  (setf counter (1+ counter))
-	  (setf pos z)
-	  ))
-      (when (= 1 counter)
-	(dotimes (z nhouses)
-	  (setf (aref field pos y z) 0))
-	(setf (aref field pos y x) 1)))
-      ))
-  (dotimes (x nhouses)
-  ;This loop parses all lines, when one line has only one '1' the col
-					;follows
-    (dotimes (y ndomains)
-      (let ((counter 0) (pos -1))
+      (let ((counter-1 0) (pos-1 -1) (counter-2 0) (pos-2 -1))
 	(dotimes (z nhouses)
 	  (when (= 1 (aref field x y z))
-	    (setf counter (1+ counter))
-	    (setf pos z)
+	    (setf counter-2 (1+ counter-2))
+	    (setf pos-2 z)
+	    )
+	  (when (= 1 (aref field z y x))
+	    (setf counter-1 (1+ counter-1))
+	    (setf pos-1 z)
 	    ))
-	(when (= 1 counter)
+      (when (= 1 counter-1)
+	(dotimes (z nhouses)
+	  (setf (aref field pos-1 y z) 0))
+	(setf (aref field pos-1 y x) 1))
+      (when (= 1 counter-2)
 	  (dotimes (z nhouses)
-	    (setf (aref field z y pos) 0))
-	  (setf (aref field x y pos) 1)))
-      )))
+	    (setf (aref field z y pos-2) 0))
+	  (setf (aref field x y pos-2) 1))
+      ))))
 
 ;;Muito a trabalhar aqui
-(defun smart-apply1 (constraints)
+(defun smart-apply1 (constraints on-brutus)
+  (setf smartcals (1+ smartcals))
   (let ((adjusted-constraints '()))
     (dolist (constraint constraints)
-      ;;(print constraint)
+      
+      (let ((nsols (generate-field-aux)))
+	(when (= nsols 0) ;There are no solutions this path
+	    (return))
+	;;makes a lot of diference in the extra ones:
+	;;if the rules determine a solution before parsing all but not on brutus
+	(when (and (not on-brutus) (= (generate-field-aux) 1)) 
+	  (return)))
       (cond
 	;;Tenta resolver as regras do tipo (= thing thing)
 	((and (equal (car constraint) '=) (symbolp (cadr constraint)) (symbolp (caddr constraint)))
@@ -215,9 +216,7 @@ thing n) rules, or rules, and so on"
 
 	
 	;;Resolve as regras do tipo (< coisa1 coisa2)
-	;;Se tem bug e nessas aqui
 	((and (equal (car constraint) '<) (symbolp (cadr constraint)) (symbolp (caddr constraint)))
-	 
 	 (let* ((att-1 (cadr constraint))
 		(att-1-domain (cdr (assoc att-1 domain-hash)))
 		(att-1-item (cdr (assoc att-1 domain-item-hash)))
@@ -250,7 +249,7 @@ thing n) rules, or rules, and so on"
 		 (setf count-2 (1+ count-2))))
 	     (when (or (= count-1 1) (= count-2 1))
 	       (setf flag 1))
-	     (when (or (= flag 0) nil)
+	     (when (or (= flag 0))
 	       (setf adjusted-constraints (append adjusted-constraints (list constraint)))))))
 	       
 
@@ -268,12 +267,12 @@ thing n) rules, or rules, and so on"
 	   ;;(print n)
 	   ;;Se em x e x+2n att-1 é 0, att-2 de x+n = 0
 	   ;;E vice versa
-	   (setf 2n (* 2 n))
-	   (dotimes (x (- nhouses 2n))
-	     (when (and (= 0 (aref field x att-1-domain att-1-item)) (= 0 (aref field (+ x 2n) att-1-domain att-1-item)))
-	       (setf (aref field (+ x n) att-2-domain att-2-item) 0))
-	     (when (and (= 0 (aref field x att-2-domain att-2-item)) (= 0 (aref field (+ x 2n) att-2-domain att-2-item)))
-	       (setf (aref field (+ x n) att-1-domain att-1-item) 0)))
+	   (let ((2n (* 2 n)))
+	     (dotimes (x (- nhouses 2n))
+	       (when (and (= 0 (aref field x att-1-domain att-1-item)) (= 0 (aref field (+ x 2n) att-1-domain att-1-item)))
+		 (setf (aref field (+ x n) att-2-domain att-2-item) 0))
+	       (when (and (= 0 (aref field x att-2-domain att-2-item)) (= 0 (aref field (+ x 2n) att-2-domain att-2-item)))
+		 (setf (aref field (+ x n) att-1-domain att-1-item) 0))))
 	   
 	   ;;Se x1 esta definido x2 so pode ser definido em x1+n ou x1-n
 	   (let ((count 0) (pos -1))
@@ -316,7 +315,6 @@ thing n) rules, or rules, and so on"
 	   ;(print constraint)))
 	   ))
 	;;Tratar as regras do tipo (OR (= Coisa1 Coisa2) (= Coisa1 Coisa3))
-	;;Ta bugado
 	((and (equal (car constraint) 'OR))
 	 ;;(print constraint)
 	 (let* ((att-0 (cadadr constraint))
@@ -347,7 +345,7 @@ thing n) rules, or rules, and so on"
 
 (defun choose-x-y (x y)
   (generate-field-aux)
-  (let ((out 0) (myx x) (myy y))
+  (let ((out 0))
     (dotimes (myx nhouses)
       (dotimes (myy ndomains)
 	(when (and (not (= 1 (aref field_aux myx myy))) (or (> myx x) (and (= myx x) (> myy y))))
@@ -362,10 +360,14 @@ thing n) rules, or rules, and so on"
 
 (defun smart-apply-repeat (constraints)
   (let ((nsols (generate-field-aux)))
-    (setf constraints (smart-apply1 constraints))
-    (if (= (generate-field-aux) nsols)
-	t
-	(setf constraints (smart-apply-repeat constraints))))
+    (setf constraints (smart-apply1 constraints nil))
+    (let ((nsols1 (generate-field-aux)))
+      (if (= nsols1 1)
+	  t
+	  (progn
+	    (if (= nsols nsols1)
+		t
+		(setf constraints (smart-apply-repeat constraints)))))))
   constraints)
 
 (defun brutus (constraints x y)
@@ -373,7 +375,7 @@ thing n) rules, or rules, and so on"
 after x y"
   ;;Start the brute-force approach by copying the field and the current
   ;;list of constraints
-  (let ((old-field (copy-field field)) (old-constraints (copy-list constraints)) (flag nil))
+  (let ((old-field (copy-field field)) (flag nil))
     ;;Choose the first x y to tackle
     (let* ((xy (choose-x-y x y)) (x (car xy)) (y (cdr xy)))
       ;;Try each non-0 value
@@ -382,7 +384,7 @@ after x y"
 	(when (= 1 (aref field x y z))
 	  (setf (aref field x y z) 0)
 	  ;;Try this house with brutus
-	  (smart-apply1 constraints)
+	  (smart-apply1 constraints t)
 	  (let ((nsols (generate-field-aux)))
 	    (when (= nsols 1)
 	      (setf flag t)
@@ -399,6 +401,7 @@ after x y"
     )
   )
 (defun solver (path)
+  (defparameter smartcals 0)
   (with-open-file (f path)
     (let* ((domains (read f))
 	   (constraints (read f))
@@ -409,6 +412,14 @@ after x y"
       (setf constraints (presolve constraints))
       ;;(print constraints)
       (setf constraints (smart-apply0 constraints))
+
+      ;;Byte-compile some things, got me a good speedup
+      (compile 'fix-field) ;Great, in extra62 from 0.6 to 0.3
+      (compile 'generate-field-aux) ;Good, from 0.3 to 0.2
+      ;(compile 'brutus) ;This others only help in some specific cases
+      ;(compile 'choose-x-y)
+      ;(compile 'smart-apply0)
+      ;(compile 'smart-apply1)
       (setf constraints (smart-apply-repeat constraints))
 
       ;;E aqui começa o brute
@@ -423,6 +434,7 @@ after x y"
       ;;(print constraints)
       )
     )
+  (print smartcals)
   (generate-solution-from-field)
   )
 
@@ -503,13 +515,6 @@ function to equalp (which should be good) so I will make it myself"
       (print "n")
       (dotimes (z nhouses)
 	(format t "~a " (aref field x y z))))
-    (print "-----------------------")))
-(defun pretty-print-field2 ()
-  (dotimes (y ndomains)
-    (dotimes (x nhouses)
-      (print "n")
-      (dotimes (z nhouses)
-	(format t "~a " (aref field2 x y z))))
     (print "-----------------------")))
 
 (defun generate-field-aux ()

@@ -1,4 +1,4 @@
-:- module(bobao,[solver/2]).
+:- module(tpman,[solver/2]).
 
 my_atom_number(X,Y) :-
     atom_codes(X,T),\+memberchk(95,T),
