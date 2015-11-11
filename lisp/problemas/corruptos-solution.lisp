@@ -1,0 +1,1 @@
+((desvio 3) (extorsao 2) (nepotismo 5) (propina 4) (superfaturamento 1) (deputado 1) (governador 5) (ministro 2) (prefeito 4) (vereador 3) (chipre 4) (ilhas_cayman 3) (suica 1) (tonga 2) (uruguai 5) (amarela 2) (azul 4) (branca 1) (verde 3) (vermelha 5) (goias 4) (maranhao 2) (para 5) (parana 3) (sao_paulo 1) (30_m 5) (35_m 1) (40_m 2) (45_m 3) (50_m 4))

@@ -1,0 +1,1 @@
+((acao 2) (comedia 4) (drama 1) (ficcao 5) (romance 3) (alex 3) (daniel 4) (henrique 5) (luis 1) (yuri 2) (21_anos 4) (22_anos 2) (23_anos 3) (24_anos 5) (25_anos 1) (amarelo 2) (azul 5) (branco 1) (verde 4) (vermelho 3) (bruna 1) (carol 3) (fernanda 5) (marcela 2) (sabrina 4))

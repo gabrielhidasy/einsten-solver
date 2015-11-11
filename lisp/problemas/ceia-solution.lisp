@@ -1,0 +1,1 @@
+((aries 3) (cancer 2) (libra 4) (sagitario 1) (touro 5) (amarela 4) (branca 5) (vermelha 3) (verde 1) (azul 2) (biscoitos 2) (frutas 1) (panetones 4) (peru 5) (rabanada 3) (28a 3) (31a 1) (33a 5) (39a 4) (44a 2) (laranja 4) (limao 2) (maca 1) (maracuja 5) (uva 3) (beatriz 4) (ivone 3) (julia 2) (natasha 5) (thais 1))

@@ -1,0 +1,1 @@
+((andrea 5) (barbara 1) (cristiane 4) (monica 3) (rafaela 2) (bolsa 1) (dvd 4) (livro 3) (sandalia 2) (vestido 5) (amarelo 4) (azul 2) (branco 3) (verde 5) (vermelho 1) (cachorros 4) (cavalos 1) (gatos 3) (golfinhos 5) (passaros 2) (13a 4) (14a 1) (15a 2) (16a 5) (17a 3) (abacaxi 5) (laranja 2) (limao 3) (maracuja 4) (morango 1))

@@ -1,0 +1,1 @@
+((vanessa 4) (isabela 3) (neide 1) (luisa 2) (carol 5) (videogame 3) (tenis 2) (volei 1) (cozinhar 4) (correr 5) (raul 2) (carlos 1) (ariel 3) (nivaldo 4) (arnaldo 5) (rosa 4) (azul 3) (vermelho 1) (ciano 2) (verde 5) (focus 2) (fiesta 3) (cruise 4) (i30 1) (agile 5) (engenheiro 3) (secretario 1) (cozinheiro 4) (advogado 2) (faxineiro 5))

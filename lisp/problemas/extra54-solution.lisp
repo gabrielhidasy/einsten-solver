@@ -1,0 +1,1 @@
+((elisa 3) (nelsa 4) (isabela 2) (luana 1) (luisa 5) (escrever 2) (tenis 3) (videogame 1) (volei 4) (futebol 5) (lilas 1) (vermelho 4) (branco 3) (marrom 2) (rosa 5) (focus 1) (ka 2) (uno 3) (agile 4) (i30 5) (professor 3) (ator 1) (advogado 4) (faxineiro 2) (lixeiro 5))

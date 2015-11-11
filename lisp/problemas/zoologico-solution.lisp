@@ -1,0 +1,1 @@
+((abacaxi 1) (laranja 2) (limao 3) (maracuja 4) (morango 5) (ana 5) (jessica 2) (joana 1) (pati 3) (renata 4) (biologia 4) (geografia 3) (historia 2) (portugues 5) (matematica 1) (banana 1) (chocolate 2) (maca 4) (salgadinho 3) (sanduiche 5) (amarela 3) (azul 4) (branca 5) (verde 1) (vermelha 2) (arara 2) (girafa 4) (elefante 1) (macaco 5) (leao 3))

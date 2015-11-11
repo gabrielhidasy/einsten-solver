@@ -1,0 +1,1 @@
+((astronauta 2) (bombeiro 5) (medico 4) (policial 1) (professor 3) (6_anos 5) (7_anos 1) (8_anos 4) (9_anos 3) (10_anos 2) (abacaxi 3) (laranja 5) (limao 1) (maracuja 4) (morango 2) (alex 5) (cristian 1) (eduardo 4) (mario 2) (pedro 3) (bicicleta 2) (bola 1) (computador 5) (skate 4) (video_game 3) (amarela 1) (azul 2) (branca 3) (verde 4) (vermelha 5))

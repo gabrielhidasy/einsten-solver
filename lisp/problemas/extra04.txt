@@ -1,0 +1,838 @@
+hobby: cozinhar, desenhar, futebol, correr, videogame
+camiseta: preto, ciano, lilas, verde, rosa
+signo: aquario, touro, aries, sagitario, capricornio
+cidade: rio, venceslau, tarabai, jau, campogrande
+profissao: lixeiro, secretario, advogado, faxineiro, cientista
+
+|faxineiro - lixeiro| = 1
+|desenhar - campogrande| = 4
+rio > venceslau
+|lilas - videogame| = 2
+touro < capricornio
+lilas > preto
+|correr - jau| = 1
+sagitario < touro
+|cientista - rosa| = 0
+rio < videogame
+|rosa - desenhar| = 4
+|videogame - advogado| = 1
+rio = futebol
+venceslau < jau
+futebol > correr
+|campogrande - lilas| = 2
+faxineiro < cozinhar
+videogame > aries
+|cientista - verde| = 3
+lixeiro < faxineiro
+futebol < cientista
+|faxineiro - rosa| = 3
+|lilas - venceslau| = 1
+|correr - tarabai| = 1
+venceslau < lilas
+|preto - rosa| = 4
+sagitario < touro
+|lilas - secretario| = 0
+tarabai < futebol
+|rio - campogrande| = 1
+desenhar < jau
+|videogame - campogrande| = 0
+|venceslau - futebol| = 2
+|rosa - desenhar| = 4
+lilas > tarabai
+correr < futebol
+cientista = videogame
+|rosa - jau| = 2
+|tarabai - correr| = 1
+|preto - correr| = 1
+secretario < videogame
+capricornio > rio
+|venceslau - videogame| = 3
+|rio - jau| = 1
+lilas > venceslau
+|lixeiro - verde| = 1
+|cozinhar - cientista| = 2
+lixeiro < campogrande
+faxineiro < ciano
+|preto - rosa| = 4
+videogame > secretario
+|venceslau - ciano| = 2
+correr > tarabai
+correr < campogrande
+lixeiro < cientista
+|desenhar - lixeiro| = 0
+|preto - lilas| = 2
+desenhar < verde
+|rio - rosa| = 1
+secretario > correr
+|tarabai - futebol| = 3
+|lixeiro - jau| = 2
+|campogrande - ciano| = 1
+|lilas - faxineiro| = 1
+|rio - preto| = 3
+|correr - videogame| = 3
+futebol > desenhar
+advogado < videogame
+|secretario - cientista| = 2
+|desenhar - campogrande| = 4
+|advogado - tarabai| = 3
+verde > desenhar
+|rosa - videogame| = 0
+rio > secretario
+|jau - cientista| = 2
+desenhar < advogado
+preto = desenhar
+futebol < cientista
+|secretario - futebol| = 1
+futebol < cientista
+|jau - cientista| = 2
+videogame > aquario
+lixeiro < faxineiro
+|venceslau - campogrande| = 3
+secretario = jau
+advogado > venceslau
+tarabai < campogrande
+|capricornio - jau| = 2
+|cozinhar - videogame| = 2
+|lilas - tarabai| = 2
+lixeiro = desenhar
+lixeiro < ciano
+lilas > preto
+|cientista - aquario| = 4
+campogrande > sagitario
+cozinhar > correr
+preto < videogame
+rio < videogame
+capricornio > desenhar
+tarabai < futebol
+futebol < rosa
+secretario < futebol
+advogado > venceslau
+|touro - aquario| = 2
+|verde - advogado| = 2
+jau > tarabai
+|campogrande - touro| = 2
+|capricornio - futebol| = 1
+ciano > jau
+|tarabai - cozinhar| = 2
+lilas > venceslau
+correr > lixeiro
+|videogame - lilas| = 2
+|jau - videogame| = 2
+desenhar < correr
+|correr - futebol| = 2
+|faxineiro - secretario| = 1
+|capricornio - correr| = 3
+videogame = rosa
+|preto - lilas| = 2
+|preto - verde| = 1
+|futebol - secretario| = 1
+|cientista - sagitario| = 3
+|cozinhar - campogrande| = 2
+cientista > aries
+|advogado - venceslau| = 2
+rio > tarabai
+verde < jau
+|futebol - secretario| = 1
+|verde - ciano| = 2
+|secretario - desenhar| = 2
+|lilas - jau| = 0
+lilas = jau
+|correr - venceslau| = 0
+|videogame - advogado| = 1
+futebol > jau
+|verde - cientista| = 3
+venceslau < lilas
+jau > tarabai
+videogame > venceslau
+rio < cientista
+secretario > lixeiro
+|campogrande - desenhar| = 4
+|tarabai - videogame| = 4
+|ciano - videogame| = 1
+|ciano - jau| = 1
+videogame > advogado
+correr > preto
+|videogame - jau| = 2
+jau < rio
+tarabai < lilas
+|aquario - aries| = 3
+|preto - lilas| = 2
+cientista > correr
+|lixeiro - advogado| = 3
+|lixeiro - lilas| = 2
+|faxineiro - lilas| = 1
+|tarabai - rosa| = 4
+|cozinhar - lilas| = 0
+campogrande > aries
+rio > desenhar
+|venceslau - lixeiro| = 1
+jau > desenhar
+tarabai < cozinhar
+correr < advogado
+|ciano - videogame| = 1
+rosa > faxineiro
+|secretario - cientista| = 2
+verde < futebol
+|cozinhar - correr| = 1
+|lilas - correr| = 1
+|correr - cozinhar| = 1
+verde < futebol
+|secretario - tarabai| = 2
+venceslau < secretario
+jau < futebol
+|secretario - videogame| = 2
+|secretario - ciano| = 1
+|capricornio - secretario| = 2
+verde < rosa
+capricornio > jau
+cientista > rio
+|cozinhar - advogado| = 1
+|tarabai - ciano| = 3
+lixeiro < cozinhar
+advogado > tarabai
+ciano > cozinhar
+correr < ciano
+futebol > verde
+lilas = cozinhar
+aquario < sagitario
+|cientista - tarabai| = 4
+cientista > tarabai
+ciano > faxineiro
+|capricornio - tarabai| = 4
+rosa > jau
+correr < ciano
+|preto - cientista| = 4
+cozinhar < videogame
+advogado > tarabai
+rosa > advogado
+verde > desenhar
+|preto - jau| = 2
+rosa > venceslau
+futebol = ciano
+|verde - rio| = 2
+|futebol - desenhar| = 3
+|capricornio - advogado| = 1
+futebol > tarabai
+cientista > cozinhar
+|rosa - jau| = 2
+|touro - aquario| = 2
+|jau - correr| = 1
+jau < rio
+sagitario < aries
+ciano > lixeiro
+|faxineiro - desenhar| = 1
+campogrande = rosa
+verde < futebol
+lixeiro < venceslau
+aries < capricornio
+verde < advogado
+|tarabai - correr| = 1
+|verde - cientista| = 3
+|desenhar - jau| = 2
+|futebol - advogado| = 0
+|rosa - desenhar| = 4
+secretario = lilas
+|ciano - tarabai| = 3
+lixeiro = preto
+cozinhar < videogame
+|lixeiro - faxineiro| = 1
+cozinhar = lilas
+rosa = cientista
+|videogame - aries| = 1
+|lixeiro - advogado| = 3
+|cozinhar - lixeiro| = 2
+venceslau < videogame
+jau = secretario
+rosa > rio
+|ciano - cientista| = 1
+capricornio > tarabai
+desenhar < videogame
+|lilas - secretario| = 0
+ciano = futebol
+verde < rosa
+capricornio > tarabai
+faxineiro < campogrande
+jau = cozinhar
+|lilas - videogame| = 2
+desenhar < cientista
+|jau - lixeiro| = 2
+cozinhar = jau
+lixeiro < venceslau
+|verde - ciano| = 2
+|desenhar - cientista| = 4
+|ciano - jau| = 1
+cozinhar < cientista
+|cozinhar - faxineiro| = 1
+futebol > venceslau
+|faxineiro - secretario| = 1
+|verde - advogado| = 2
+cozinhar < advogado
+ciano > tarabai
+|campogrande - correr| = 3
+|rio - futebol| = 0
+|tarabai - campogrande| = 4
+|capricornio - rio| = 1
+rio > secretario
+|ciano - lixeiro| = 3
+verde < advogado
+|faxineiro - desenhar| = 1
+venceslau < futebol
+advogado > secretario
+rio = futebol
+correr < futebol
+|secretario - rosa| = 2
+rio < videogame
+cozinhar = secretario
+|cientista - campogrande| = 0
+capricornio > jau
+|rosa - advogado| = 1
+|cozinhar - ciano| = 1
+rio = advogado
+lixeiro = tarabai
+rio > tarabai
+campogrande > secretario
+rosa > sagitario
+|preto - futebol| = 3
+sagitario < capricornio
+futebol > desenhar
+correr > lixeiro
+|correr - preto| = 1
+campogrande > touro
+futebol = ciano
+venceslau > lixeiro
+faxineiro < ciano
+ciano = advogado
+|rosa - cientista| = 0
+videogame > lixeiro
+|rosa - jau| = 2
+videogame > tarabai
+advogado < rosa
+|preto - venceslau| = 1
+|venceslau - rosa| = 3
+|venceslau - cientista| = 3
+|venceslau - cientista| = 3
+capricornio > lilas
+|capricornio - secretario| = 2
+rio > tarabai
+campogrande > desenhar
+|campogrande - cientista| = 0
+|correr - lilas| = 1
+|tarabai - cientista| = 4
+|desenhar - advogado| = 3
+rio = advogado
+|rosa - cozinhar| = 2
+|tarabai - venceslau| = 1
+|ciano - videogame| = 1
+advogado > desenhar
+videogame > verde
+aries > touro
+campogrande > ciano
+|correr - tarabai| = 1
+|verde - lixeiro| = 1
+desenhar < futebol
+secretario > faxineiro
+futebol > desenhar
+|rio - futebol| = 0
+|ciano - secretario| = 1
+verde < jau
+|secretario - rio| = 1
+verde = correr
+|lilas - desenhar| = 2
+|desenhar - lilas| = 2
+lilas > verde
+jau < rosa
+correr < advogado
+verde < advogado
+capricornio > secretario
+capricornio > lixeiro
+venceslau < rosa
+preto < lilas
+|rosa - advogado| = 1
+|advogado - campogrande| = 1
+capricornio > venceslau
+|futebol - correr| = 2
+|correr - rosa| = 3
+futebol > correr
+rosa > touro
+ciano > lilas
+|advogado - campogrande| = 1
+|venceslau - verde| = 0
+|aquario - capricornio| = 4
+venceslau < advogado
+|capricornio - tarabai| = 4
+rio > lilas
+lixeiro < advogado
+verde = 2
+advogado > venceslau
+|capricornio - advogado| = 1
+lilas > correr
+|futebol - secretario| = 1
+|capricornio - venceslau| = 3
+correr < advogado
+tarabai < correr
+|cientista - futebol| = 1
+ciano > tarabai
+cientista > jau
+advogado < campogrande
+|ciano - secretario| = 1
+|correr - verde| = 0
+desenhar = lixeiro
+|desenhar - rio| = 3
+jau > venceslau
+ciano < campogrande
+desenhar = 1
+|capricornio - ciano| = 1
+|correr - verde| = 0
+faxineiro = venceslau
+venceslau < advogado
+|cozinhar - lixeiro| = 2
+|rosa - faxineiro| = 3
+|cientista - aries| = 1
+|sagitario - aries| = 2
+|capricornio - correr| = 3
+|ciano - preto| = 3
+rio = ciano
+secretario = jau
+capricornio > faxineiro
+cientista > verde
+rosa > cozinhar
+rosa = campogrande
+|correr - lilas| = 1
+preto < futebol
+|rio - rosa| = 1
+|correr - rosa| = 3
+advogado > correr
+|correr - jau| = 1
+jau > venceslau
+|preto - futebol| = 3
+desenhar = tarabai
+|preto - jau| = 2
+futebol > desenhar
+cozinhar < futebol
+lilas < cientista
+|campogrande - aquario| = 4
+|futebol - advogado| = 0
+rosa > sagitario
+|capricornio - cozinhar| = 2
+|aquario - sagitario| = 1
+|lixeiro - correr| = 1
+|videogame - lixeiro| = 4
+ciano > lixeiro
+desenhar < secretario
+|videogame - venceslau| = 3
+|secretario - tarabai| = 2
+|lilas - cientista| = 2
+|futebol - faxineiro| = 2
+venceslau < advogado
+|rio - preto| = 3
+|advogado - faxineiro| = 2
+lilas < campogrande
+|cozinhar - campogrande| = 2
+|verde - cozinhar| = 1
+preto < faxineiro
+advogado > venceslau
+|rosa - touro| = 2
+futebol = advogado
+correr < campogrande
+|videogame - venceslau| = 3
+videogame > sagitario
+lilas < videogame
+|rio - campogrande| = 1
+faxineiro < cientista
+preto < cozinhar
+preto < faxineiro
+|futebol - faxineiro| = 2
+futebol > correr
+|rio - cientista| = 1
+rio > jau
+rosa > cozinhar
+|rio - jau| = 1
+|rosa - sagitario| = 3
+|venceslau - faxineiro| = 0
+secretario = lilas
+|advogado - faxineiro| = 2
+|desenhar - preto| = 0
+lixeiro < jau
+|cozinhar - secretario| = 0
+|aquario - touro| = 2
+futebol < campogrande
+|verde - correr| = 0
+|preto - lixeiro| = 0
+|desenhar - advogado| = 3
+lixeiro < correr
+|secretario - correr| = 1
+|rio - lilas| = 1
+|capricornio - faxineiro| = 3
+lilas < campogrande
+cientista > touro
+|verde - futebol| = 2
+lilas < rosa
+futebol > verde
+rosa > futebol
+correr = 2
+verde > tarabai
+|rosa - videogame| = 0
+jau > desenhar
+tarabai < futebol
+advogado < videogame
+|preto - futebol| = 3
+|desenhar - lilas| = 2
+|futebol - secretario| = 1
+|preto - cozinhar| = 2
+|secretario - advogado| = 1
+jau < ciano
+|videogame - tarabai| = 4
+capricornio > desenhar
+|ciano - advogado| = 0
+|videogame - sagitario| = 3
+|rosa - sagitario| = 3
+|secretario - lixeiro| = 2
+|tarabai - secretario| = 2
+desenhar < correr
+venceslau < secretario
+|preto - futebol| = 3
+cozinhar > preto
+|jau - cozinhar| = 0
+|correr - faxineiro| = 0
+|cientista - jau| = 2
+|secretario - jau| = 0
+|cientista - venceslau| = 3
+lixeiro < rosa
+videogame > touro
+|rio - videogame| = 1
+|correr - cozinhar| = 1
+faxineiro > tarabai
+tarabai = desenhar
+|videogame - rio| = 1
+|videogame - tarabai| = 4
+futebol > tarabai
+|cozinhar - preto| = 2
+venceslau < rio
+cozinhar > verde
+|campogrande - cozinhar| = 2
+ciano > lilas
+|cozinhar - secretario| = 0
+preto = 1
+|campogrande - aquario| = 4
+|ciano - cientista| = 1
+secretario < cientista
+|preto - jau| = 2
+|advogado - desenhar| = 3
+|rio - correr| = 2
+|venceslau - secretario| = 1
+advogado = ciano
+verde < lilas
+|videogame - jau| = 2
+lilas > lixeiro
+|lixeiro - videogame| = 4
+jau < cientista
+advogado = futebol
+|videogame - rio| = 1
+lilas > desenhar
+|cientista - cozinhar| = 2
+|cozinhar - jau| = 0
+cozinhar = jau
+capricornio > lixeiro
+cozinhar < cientista
+rosa > desenhar
+|jau - faxineiro| = 1
+|ciano - cientista| = 1
+|ciano - rio| = 0
+|preto - lilas| = 2
+desenhar = 1
+advogado < videogame
+|cozinhar - venceslau| = 1
+|cientista - aquario| = 4
+desenhar < cientista
+|verde - lilas| = 1
+|desenhar - videogame| = 4
+tarabai < futebol
+|faxineiro - venceslau| = 0
+|videogame - touro| = 2
+|venceslau - jau| = 1
+|faxineiro - rio| = 2
+rosa > correr
+faxineiro < rosa
+desenhar < futebol
+|correr - desenhar| = 1
+|faxineiro - rio| = 2
+|lixeiro - venceslau| = 1
+|secretario - campogrande| = 2
+lixeiro < rosa
+verde = correr
+rio > jau
+videogame > tarabai
+lilas > faxineiro
+correr < rosa
+lixeiro < lilas
+lixeiro < rio
+campogrande > correr
+secretario < advogado
+|preto - secretario| = 2
+|correr - preto| = 1
+|tarabai - futebol| = 3
+|jau - videogame| = 2
+futebol = ciano
+ciano > faxineiro
+|faxineiro - videogame| = 3
+touro < aries
+rio > cozinhar
+desenhar < correr
+|lilas - verde| = 1
+tarabai < rosa
+|secretario - lilas| = 0
+|desenhar - cozinhar| = 2
+|cozinhar - faxineiro| = 1
+|desenhar - correr| = 1
+cozinhar = secretario
+|venceslau - rio| = 2
+|verde - venceslau| = 0
+|jau - rosa| = 2
+|videogame - tarabai| = 4
+cozinhar > lixeiro
+|advogado - preto| = 3
+|aquario - aries| = 3
+|advogado - secretario| = 1
+rosa > sagitario
+secretario > faxineiro
+|touro - sagitario| = 1
+|venceslau - advogado| = 2
+|rosa - touro| = 2
+|cozinhar - tarabai| = 2
+|desenhar - tarabai| = 0
+rio > lilas
+|futebol - rosa| = 1
+tarabai < videogame
+|tarabai - rosa| = 4
+secretario < advogado
+lixeiro < correr
+|cientista - preto| = 4
+|jau - ciano| = 1
+secretario > desenhar
+campogrande > ciano
+preto < verde
+jau > lixeiro
+advogado > jau
+|capricornio - venceslau| = 3
+lixeiro < venceslau
+|rosa - cozinhar| = 2
+|campogrande - cozinhar| = 2
+preto < correr
+|sagitario - aquario| = 1
+secretario = cozinhar
+verde = faxineiro
+cientista > ciano
+cozinhar > tarabai
+venceslau < futebol
+|secretario - lixeiro| = 2
+preto < verde
+|futebol - cientista| = 1
+cientista > jau
+desenhar = 1
+|jau - lixeiro| = 2
+lilas < rio
+|correr - tarabai| = 1
+|rosa - cozinhar| = 2
+desenhar < advogado
+rosa = videogame
+|advogado - verde| = 2
+|advogado - correr| = 2
+|secretario - preto| = 2
+|venceslau - desenhar| = 1
+cozinhar < rio
+touro < aries
+futebol < rosa
+|tarabai - campogrande| = 4
+|faxineiro - lixeiro| = 1
+jau = lilas
+lixeiro < verde
+|faxineiro - tarabai| = 1
+|correr - desenhar| = 1
+futebol > secretario
+preto < venceslau
+|touro - aquario| = 2
+|venceslau - desenhar| = 1
+|futebol - preto| = 3
+secretario < ciano
+videogame > jau
+|desenhar - secretario| = 2
+desenhar < correr
+preto < futebol
+aquario < sagitario
+cientista > sagitario
+|jau - verde| = 1
+|campogrande - lilas| = 2
+jau = cozinhar
+preto < futebol
+|desenhar - lixeiro| = 0
+cozinhar = lilas
+|videogame - faxineiro| = 3
+|preto - tarabai| = 0
+jau > desenhar
+|aquario - capricornio| = 4
+|desenhar - cozinhar| = 2
+cozinhar < campogrande
+|tarabai - secretario| = 2
+lixeiro < videogame
+|correr - videogame| = 3
+cientista > sagitario
+sagitario < aries
+advogado < cientista
+|ciano - desenhar| = 3
+|venceslau - tarabai| = 1
+venceslau < rosa
+cozinhar < ciano
+|preto - cozinhar| = 2
+|verde - secretario| = 1
+venceslau = faxineiro
+|rosa - jau| = 2
+advogado < campogrande
+jau > venceslau
+correr > tarabai
+|ciano - advogado| = 0
+|rio - secretario| = 1
+aries < capricornio
+|venceslau - jau| = 1
+|touro - capricornio| = 2
+futebol < campogrande
+advogado > preto
+|aquario - sagitario| = 1
+campogrande = videogame
+|preto - advogado| = 3
+aries > sagitario
+rosa = campogrande
+|venceslau - verde| = 0
+lixeiro < correr
+|cientista - tarabai| = 4
+|correr - tarabai| = 1
+|ciano - correr| = 2
+futebol > faxineiro
+campogrande > lilas
+|preto - cozinhar| = 2
+jau < videogame
+|faxineiro - rio| = 2
+|preto - faxineiro| = 1
+cozinhar < advogado
+|tarabai - faxineiro| = 1
+|tarabai - rio| = 3
+|advogado - rio| = 0
+|ciano - rio| = 0
+preto < cientista
+futebol < campogrande
+jau > correr
+secretario < rio
+lilas > desenhar
+secretario > faxineiro
+|campogrande - lixeiro| = 4
+advogado > cozinhar
+desenhar < jau
+capricornio > futebol
+|desenhar - cozinhar| = 2
+|aries - touro| = 1
+|jau - cozinhar| = 0
+|lixeiro - videogame| = 4
+ciano > jau
+preto < jau
+venceslau > desenhar
+cientista > verde
+ciano < cientista
+|videogame - ciano| = 1
+preto < venceslau
+tarabai = lixeiro
+|secretario - verde| = 1
+|ciano - jau| = 1
+jau < ciano
+|cozinhar - futebol| = 1
+lilas < campogrande
+|faxineiro - lilas| = 1
+|preto - ciano| = 3
+desenhar = lixeiro
+verde > preto
+|desenhar - rio| = 3
+touro < aries
+|faxineiro - correr| = 0
+|faxineiro - advogado| = 2
+jau > tarabai
+tarabai < secretario
+|futebol - lilas| = 1
+jau < rosa
+|preto - rio| = 3
+advogado > tarabai
+lilas > lixeiro
+|advogado - cientista| = 1
+|aries - sagitario| = 2
+|capricornio - faxineiro| = 3
+|tarabai - faxineiro| = 1
+|lilas - campogrande| = 2
+rio < cientista
+verde < futebol
+advogado > correr
+ciano > faxineiro
+|campogrande - desenhar| = 4
+preto < rio
+|tarabai - rio| = 3
+|lilas - tarabai| = 2
+|cientista - rio| = 1
+jau < rio
+|futebol - videogame| = 1
+|cozinhar - campogrande| = 2
+|lixeiro - secretario| = 2
+venceslau < rio
+futebol > correr
+lixeiro < lilas
+secretario < ciano
+cientista > ciano
+lixeiro < rosa
+|correr - desenhar| = 1
+capricornio > tarabai
+aquario < touro
+correr > desenhar
+aries > aquario
+|futebol - advogado| = 0
+|desenhar - correr| = 1
+|campogrande - desenhar| = 4
+|secretario - jau| = 0
+|ciano - faxineiro| = 2
+ciano < cientista
+|jau - ciano| = 1
+|tarabai - rio| = 3
+verde > tarabai
+venceslau < videogame
+faxineiro < advogado
+advogado > correr
+|videogame - rio| = 1
+|cozinhar - rosa| = 2
+preto < cientista
+|ciano - rio| = 0
+desenhar < rio
+lilas > desenhar
+faxineiro < lilas
+desenhar < campogrande
+|capricornio - secretario| = 2
+tarabai = desenhar
+|cozinhar - advogado| = 1
+|secretario - lilas| = 0
+lixeiro < venceslau
+|tarabai - cientista| = 4
+|desenhar - faxineiro| = 1
+verde < cientista
+|ciano - rosa| = 1
+|advogado - venceslau| = 2
+|rosa - tarabai| = 4
+|secretario - venceslau| = 1
+|cientista - rosa| = 0
+faxineiro < futebol
+|campogrande - cientista| = 0
+|aquario - sagitario| = 1
+|jau - tarabai| = 2
+sagitario < aries
+|capricornio - tarabai| = 4
+ciano = 4
+cozinhar < rio
+aries < capricornio
+venceslau < secretario
+|tarabai - videogame| = 4
+correr < ciano
+|lixeiro - correr| = 1
+venceslau < videogame
+touro > aquario

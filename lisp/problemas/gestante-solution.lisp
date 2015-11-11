@@ -1,0 +1,1 @@
+((2m 2) (3m 1) (4m 5) (5m 3) (6m 4) (barbara 3) (glaucia 4) (laura 5) (poliana 1) (yasmim 2) (berco 2) (carrinho 5) (chupeta 1) (fraldas 4) (roupas 3) (amarela 4) (azul 5) (branca 2) (verde 3) (vermelha 1) (abril 5) (agosto 1) (fevereiro 3) (junho 4) (outubro 2) (adriano 2) (denilson 4) (julio 5) (nicolas 3) (sandro 1))

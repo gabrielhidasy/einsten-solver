@@ -1,0 +1,1250 @@
+esposa: isabela, vanessa, luisa, elisa, maria
+nome: arnaldo, douglas, leonardo, felipe, nivaldo
+signo: escorpiao, libra, gemeos, aquario, cancer
+profissao: professor, advogado, cozinheiro, faxineiro, engenheiro
+hobby: videogame, cozinhar, correr, desenhar, luta
+cidade: saopaulo, montemor, sertaozinho, anhumas, rio
+
+|vanessa - nivaldo| = 3
+leonardo < rio
+felipe > cozinhar
+|faxineiro - montemor| = 2
+|leonardo - advogado| = 0
+arnaldo < sertaozinho
+escorpiao < cancer
+|cozinhar - vanessa| = 0
+luta > elisa
+|cozinhar - sertaozinho| = 2
+|luisa - cozinheiro| = 1
+|saopaulo - professor| = 0
+|leonardo - felipe| = 2
+|cozinheiro - montemor| = 3
+desenhar = 4
+correr < saopaulo
+|luta - engenheiro| = 0
+rio > advogado
+|luisa - rio| = 2
+nivaldo > gemeos
+cozinheiro > saopaulo
+anhumas < engenheiro
+|montemor - vanessa| = 1
+luta > douglas
+cozinhar < anhumas
+correr < nivaldo
+sertaozinho < luta
+|felipe - isabela| = 2
+isabela < sertaozinho
+|escorpiao - libra| = 2
+|leonardo - correr| = 0
+|montemor - felipe| = 2
+|rio - engenheiro| = 0
+cozinhar < felipe
+|elisa - cozinhar| = 2
+|elisa - felipe| = 1
+|engenheiro - nivaldo| = 0
+luisa < sertaozinho
+felipe > saopaulo
+maria > arnaldo
+|faxineiro - luisa| = 0
+isabela < professor
+desenhar > professor
+douglas = elisa
+elisa > videogame
+|elisa - desenhar| = 0
+|cozinhar - vanessa| = 0
+|advogado - saopaulo| = 1
+nivaldo > gemeos
+sertaozinho > videogame
+|felipe - leonardo| = 2
+|vanessa - faxineiro| = 1
+advogado < douglas
+sertaozinho > arnaldo
+leonardo = 1
+|saopaulo - cozinhar| = 0
+|elisa - luisa| = 1
+elisa > felipe
+|sertaozinho - videogame| = 1
+|cozinhar - rio| = 3
+desenhar < luta
+|rio - luisa| = 2
+saopaulo < maria
+|cozinheiro - leonardo| = 3
+|cozinheiro - isabela| = 3
+douglas < nivaldo
+cozinhar > advogado
+sertaozinho > felipe
+douglas > professor
+douglas > advogado
+luta > advogado
+cozinhar = professor
+rio = nivaldo
+|vanessa - desenhar| = 2
+|saopaulo - videogame| = 1
+elisa > arnaldo
+|anhumas - engenheiro| = 2
+|sertaozinho - isabela| = 3
+|vanessa - engenheiro| = 3
+professor < engenheiro
+|professor - saopaulo| = 0
+rio > cozinhar
+saopaulo < cozinheiro
+|arnaldo - desenhar| = 2
+felipe > isabela
+|saopaulo - cozinhar| = 0
+desenhar > isabela
+|douglas - luisa| = 1
+|desenhar - vanessa| = 2
+|faxineiro - professor| = 1
+|advogado - vanessa| = 1
+isabela < maria
+correr < felipe
+|correr - douglas| = 3
+maria > advogado
+|sertaozinho - advogado| = 3
+|videogame - desenhar| = 1
+isabela < vanessa
+douglas > isabela
+professor < nivaldo
+isabela < felipe
+sertaozinho = douglas
+|correr - faxineiro| = 2
+anhumas < douglas
+|nivaldo - elisa| = 1
+luisa < maria
+cozinhar < maria
+|arnaldo - douglas| = 2
+|maria - advogado| = 4
+|felipe - faxineiro| = 0
+felipe > isabela
+luisa < douglas
+douglas = desenhar
+|elisa - advogado| = 3
+|vanessa - professor| = 0
+|vanessa - correr| = 1
+felipe < douglas
+|desenhar - advogado| = 3
+|rio - luta| = 0
+faxineiro > professor
+|desenhar - cozinheiro| = 0
+|engenheiro - elisa| = 1
+arnaldo < nivaldo
+|nivaldo - cozinheiro| = 1
+|professor - desenhar| = 2
+|arnaldo - douglas| = 2
+montemor < videogame
+|rio - cozinhar| = 3
+isabela < cozinhar
+|desenhar - cozinheiro| = 0
+desenhar > montemor
+faxineiro > isabela
+|nivaldo - montemor| = 4
+cozinhar < luisa
+|luta - leonardo| = 4
+|correr - professor| = 1
+|sertaozinho - rio| = 1
+rio = engenheiro
+|vanessa - maria| = 3
+leonardo = 1
+|libra - cancer| = 1
+|sertaozinho - felipe| = 1
+montemor = leonardo
+felipe < elisa
+libra < cancer
+|anhumas - desenhar| = 1
+anhumas = felipe
+|montemor - maria| = 4
+sertaozinho > advogado
+|desenhar - maria| = 1
+cozinhar < faxineiro
+|douglas - arnaldo| = 2
+|douglas - luta| = 1
+montemor < nivaldo
+isabela = correr
+cozinhar > leonardo
+leonardo < vanessa
+sertaozinho < luta
+cozinheiro > arnaldo
+|cozinhar - advogado| = 1
+|rio - vanessa| = 3
+engenheiro > anhumas
+|correr - saopaulo| = 1
+douglas > vanessa
+cozinheiro > saopaulo
+advogado < sertaozinho
+|saopaulo - montemor| = 1
+|luisa - isabela| = 2
+|faxineiro - leonardo| = 2
+|isabela - videogame| = 2
+|professor - cozinhar| = 0
+engenheiro > correr
+arnaldo < desenhar
+|correr - professor| = 1
+|anhumas - sertaozinho| = 1
+douglas < engenheiro
+|advogado - anhumas| = 2
+felipe = faxineiro
+|vanessa - douglas| = 2
+nivaldo > professor
+|advogado - leonardo| = 0
+|cozinheiro - cozinhar| = 2
+douglas > anhumas
+cozinhar < elisa
+|arnaldo - anhumas| = 1
+|cozinhar - sertaozinho| = 2
+|elisa - luta| = 1
+cozinheiro < engenheiro
+|engenheiro - anhumas| = 2
+|advogado - arnaldo| = 1
+|isabela - cozinhar| = 1
+felipe > advogado
+correr < videogame
+isabela < arnaldo
+cozinhar < faxineiro
+leonardo < engenheiro
+|professor - elisa| = 2
+|anhumas - professor| = 1
+|douglas - isabela| = 3
+|gemeos - escorpiao| = 1
+rio > elisa
+arnaldo < luisa
+|desenhar - isabela| = 3
+|correr - arnaldo| = 1
+|cozinheiro - professor| = 2
+faxineiro < desenhar
+|faxineiro - isabela| = 2
+|faxineiro - leonardo| = 2
+|nivaldo - libra| = 1
+douglas = sertaozinho
+nivaldo = engenheiro
+desenhar > faxineiro
+nivaldo > faxineiro
+|douglas - advogado| = 3
+anhumas > advogado
+|sertaozinho - isabela| = 3
+|cozinheiro - isabela| = 3
+sertaozinho > felipe
+|montemor - desenhar| = 3
+|luisa - anhumas| = 0
+montemor < vanessa
+|montemor - rio| = 4
+faxineiro < cozinheiro
+|faxineiro - leonardo| = 2
+|luta - gemeos| = 2
+nivaldo > aquario
+nivaldo = rio
+advogado < anhumas
+|montemor - advogado| = 0
+|montemor - desenhar| = 3
+vanessa = professor
+isabela = leonardo
+|nivaldo - sertaozinho| = 1
+montemor < douglas
+rio > felipe
+correr = montemor
+|cozinheiro - engenheiro| = 1
+|nivaldo - cozinhar| = 3
+nivaldo > sertaozinho
+professor = 2
+vanessa < douglas
+luisa > correr
+|elisa - professor| = 2
+montemor = isabela
+|rio - cozinhar| = 3
+sertaozinho > felipe
+|douglas - luisa| = 1
+leonardo < elisa
+|correr - cozinheiro| = 3
+|saopaulo - desenhar| = 2
+|rio - videogame| = 2
+montemor < arnaldo
+|gemeos - libra| = 1
+|videogame - felipe| = 0
+|arnaldo - saopaulo| = 0
+douglas = sertaozinho
+advogado < videogame
+videogame < desenhar
+|cozinhar - montemor| = 1
+advogado = 1
+|advogado - correr| = 0
+|luisa - elisa| = 1
+|vanessa - cozinhar| = 0
+|sertaozinho - nivaldo| = 1
+anhumas < douglas
+|cozinhar - vanessa| = 0
+|vanessa - videogame| = 1
+|nivaldo - saopaulo| = 3
+elisa = cozinheiro
+douglas > videogame
+|douglas - anhumas| = 1
+|faxineiro - saopaulo| = 1
+|faxineiro - douglas| = 1
+cozinheiro > correr
+elisa = desenhar
+saopaulo < luta
+|desenhar - montemor| = 3
+|leonardo - videogame| = 2
+|luisa - felipe| = 0
+leonardo < luta
+|faxineiro - montemor| = 2
+arnaldo < faxineiro
+maria > advogado
+advogado < arnaldo
+advogado < cozinheiro
+saopaulo < luisa
+|felipe - professor| = 1
+|montemor - desenhar| = 3
+luta = rio
+isabela < luisa
+|sertaozinho - cozinheiro| = 0
+leonardo = isabela
+|elisa - desenhar| = 0
+|professor - vanessa| = 0
+douglas = desenhar
+rio > aquario
+|desenhar - montemor| = 3
+leonardo < cozinhar
+|vanessa - desenhar| = 2
+advogado < saopaulo
+|engenheiro - correr| = 4
+|arnaldo - rio| = 3
+sertaozinho > correr
+|luta - rio| = 0
+advogado < luta
+professor < maria
+desenhar < maria
+videogame < sertaozinho
+|leonardo - videogame| = 2
+anhumas < engenheiro
+engenheiro > gemeos
+leonardo < luisa
+nivaldo > aquario
+engenheiro > correr
+|maria - engenheiro| = 0
+advogado = isabela
+|nivaldo - libra| = 1
+|isabela - elisa| = 3
+nivaldo > escorpiao
+videogame < nivaldo
+maria > professor
+|faxineiro - advogado| = 2
+rio > faxineiro
+professor < engenheiro
+aquario < escorpiao
+|elisa - faxineiro| = 1
+libra > aquario
+|elisa - vanessa| = 2
+vanessa < maria
+leonardo < anhumas
+|arnaldo - vanessa| = 0
+anhumas > professor
+leonardo < luta
+anhumas = luisa
+engenheiro > felipe
+isabela < nivaldo
+|cozinheiro - douglas| = 0
+|cozinheiro - arnaldo| = 2
+leonardo = advogado
+sertaozinho > anhumas
+|anhumas - cozinhar| = 1
+douglas = elisa
+|nivaldo - gemeos| = 2
+|isabela - engenheiro| = 4
+|anhumas - luta| = 2
+|cozinheiro - montemor| = 3
+|leonardo - correr| = 0
+|vanessa - rio| = 3
+|leonardo - cozinhar| = 1
+|isabela - sertaozinho| = 3
+anhumas < luta
+|advogado - faxineiro| = 2
+gemeos > aquario
+cozinhar = saopaulo
+|rio - cozinheiro| = 1
+cozinheiro > professor
+douglas = desenhar
+cozinhar < faxineiro
+|maria - luta| = 0
+anhumas < elisa
+|advogado - sertaozinho| = 3
+elisa = douglas
+nivaldo > gemeos
+|saopaulo - elisa| = 2
+sertaozinho > videogame
+|maria - professor| = 3
+rio > leonardo
+anhumas < nivaldo
+|faxineiro - felipe| = 0
+maria > gemeos
+|anhumas - elisa| = 1
+elisa > vanessa
+|advogado - nivaldo| = 4
+|montemor - luta| = 4
+|leonardo - felipe| = 2
+|felipe - maria| = 2
+|luta - vanessa| = 3
+luta > escorpiao
+|anhumas - videogame| = 0
+libra > escorpiao
+correr < nivaldo
+|videogame - arnaldo| = 1
+|anhumas - elisa| = 1
+|luisa - nivaldo| = 2
+nivaldo > correr
+arnaldo < cozinheiro
+|anhumas - douglas| = 1
+leonardo < felipe
+vanessa < engenheiro
+rio > aquario
+|elisa - saopaulo| = 2
+|nivaldo - gemeos| = 2
+|correr - faxineiro| = 2
+|desenhar - correr| = 3
+|arnaldo - videogame| = 1
+faxineiro = luisa
+douglas > professor
+|engenheiro - gemeos| = 2
+|saopaulo - vanessa| = 0
+|nivaldo - saopaulo| = 3
+|maria - felipe| = 2
+correr < videogame
+|maria - professor| = 3
+|saopaulo - maria| = 3
+|elisa - correr| = 3
+|vanessa - videogame| = 1
+|correr - leonardo| = 0
+nivaldo > montemor
+|douglas - montemor| = 3
+anhumas = luisa
+professor > correr
+|saopaulo - leonardo| = 1
+|isabela - luisa| = 2
+montemor < maria
+|faxineiro - luisa| = 0
+|cozinheiro - faxineiro| = 1
+luta = nivaldo
+|professor - desenhar| = 2
+elisa = sertaozinho
+|isabela - leonardo| = 0
+|maria - libra| = 1
+escorpiao > aquario
+|correr - cozinhar| = 1
+cozinhar < luisa
+advogado < videogame
+arnaldo = vanessa
+faxineiro < nivaldo
+montemor < desenhar
+|montemor - advogado| = 0
+advogado < sertaozinho
+correr < nivaldo
+|nivaldo - aquario| = 4
+saopaulo < luisa
+elisa > luisa
+vanessa = 2
+cozinhar < videogame
+desenhar > saopaulo
+desenhar = 4
+|luisa - videogame| = 0
+|montemor - desenhar| = 3
+|douglas - luta| = 1
+|correr - montemor| = 0
+saopaulo < luta
+|advogado - arnaldo| = 1
+engenheiro > leonardo
+faxineiro > isabela
+leonardo < saopaulo
+|felipe - arnaldo| = 1
+cozinhar = 2
+maria = engenheiro
+luta > cozinheiro
+|professor - douglas| = 2
+cozinhar < luisa
+|cozinhar - saopaulo| = 0
+|professor - douglas| = 2
+professor > montemor
+|professor - desenhar| = 2
+|correr - luisa| = 2
+|sertaozinho - rio| = 1
+nivaldo = maria
+arnaldo > advogado
+|cozinhar - luta| = 3
+engenheiro > anhumas
+cozinheiro > advogado
+|isabela - correr| = 0
+desenhar > cozinhar
+rio > escorpiao
+correr < luisa
+|douglas - luta| = 1
+|cozinhar - douglas| = 2
+engenheiro > gemeos
+rio = maria
+montemor < arnaldo
+rio > luisa
+|luta - aquario| = 4
+sertaozinho = elisa
+isabela < engenheiro
+|advogado - isabela| = 0
+|vanessa - advogado| = 1
+|nivaldo - isabela| = 4
+|faxineiro - elisa| = 1
+leonardo < faxineiro
+cozinheiro > professor
+|videogame - saopaulo| = 1
+|saopaulo - vanessa| = 0
+|montemor - anhumas| = 2
+|cozinheiro - isabela| = 3
+engenheiro > videogame
+engenheiro > desenhar
+engenheiro > cozinhar
+|professor - felipe| = 1
+|leonardo - anhumas| = 2
+correr < videogame
+rio = maria
+videogame < sertaozinho
+|nivaldo - anhumas| = 2
+|sertaozinho - correr| = 3
+correr < anhumas
+correr < anhumas
+|aquario - libra| = 3
+|videogame - cozinhar| = 1
+|advogado - cozinheiro| = 3
+isabela < felipe
+|leonardo - isabela| = 0
+cozinhar < elisa
+vanessa < anhumas
+luisa > montemor
+|cozinhar - nivaldo| = 3
+|cozinheiro - maria| = 1
+isabela < luta
+|sertaozinho - nivaldo| = 1
+rio > elisa
+|maria - faxineiro| = 2
+|vanessa - saopaulo| = 0
+|faxineiro - isabela| = 2
+faxineiro > vanessa
+elisa < nivaldo
+correr < engenheiro
+|advogado - professor| = 1
+sertaozinho = 4
+rio > correr
+faxineiro = anhumas
+|elisa - engenheiro| = 1
+|desenhar - luta| = 1
+|professor - faxineiro| = 1
+|engenheiro - elisa| = 1
+cozinhar < cozinheiro
+|luta - gemeos| = 2
+sertaozinho > cozinhar
+sertaozinho > advogado
+elisa > anhumas
+|professor - rio| = 3
+|felipe - leonardo| = 2
+isabela < maria
+douglas > arnaldo
+|gemeos - aquario| = 2
+faxineiro = anhumas
+cozinheiro > montemor
+arnaldo < engenheiro
+|rio - advogado| = 4
+nivaldo > sertaozinho
+isabela < arnaldo
+|correr - douglas| = 3
+felipe > isabela
+|luta - leonardo| = 4
+rio > professor
+|leonardo - rio| = 4
+|cozinheiro - arnaldo| = 2
+|sertaozinho - luta| = 1
+luisa > leonardo
+|elisa - professor| = 2
+|vanessa - engenheiro| = 3
+montemor = advogado
+|vanessa - nivaldo| = 3
+|professor - anhumas| = 1
+arnaldo = saopaulo
+rio > cozinhar
+luisa < luta
+faxineiro < douglas
+|cozinheiro - cozinhar| = 2
+|cozinheiro - douglas| = 0
+elisa > anhumas
+arnaldo < sertaozinho
+|rio - leonardo| = 4
+montemor < maria
+cozinheiro = sertaozinho
+|luisa - cozinhar| = 1
+anhumas < nivaldo
+|advogado - cozinhar| = 1
+|cozinhar - videogame| = 1
+|advogado - rio| = 4
+vanessa = arnaldo
+|professor - cozinhar| = 0
+arnaldo < engenheiro
+desenhar > correr
+|sertaozinho - anhumas| = 1
+|saopaulo - anhumas| = 1
+|rio - leonardo| = 4
+nivaldo > anhumas
+rio > correr
+|cozinhar - isabela| = 1
+|libra - gemeos| = 1
+elisa < maria
+|professor - montemor| = 1
+faxineiro < elisa
+|gemeos - escorpiao| = 1
+|felipe - arnaldo| = 1
+|felipe - luisa| = 0
+|rio - luta| = 0
+libra > aquario
+|luta - elisa| = 1
+|douglas - cozinheiro| = 0
+vanessa > advogado
+|engenheiro - libra| = 1
+advogado < vanessa
+|felipe - leonardo| = 2
+saopaulo < luta
+desenhar > isabela
+elisa = douglas
+nivaldo = engenheiro
+|maria - videogame| = 2
+|anhumas - advogado| = 2
+|luta - montemor| = 4
+|maria - saopaulo| = 3
+|libra - aquario| = 3
+engenheiro = luta
+douglas > luisa
+isabela < nivaldo
+|luta - sertaozinho| = 1
+|vanessa - saopaulo| = 0
+|vanessa - douglas| = 2
+|escorpiao - libra| = 2
+maria > escorpiao
+vanessa < douglas
+aquario < libra
+rio > vanessa
+|isabela - vanessa| = 1
+|professor - videogame| = 1
+|luta - vanessa| = 3
+|professor - correr| = 1
+|leonardo - felipe| = 2
+|leonardo - maria| = 4
+maria > cozinheiro
+douglas = elisa
+anhumas < douglas
+|cozinheiro - felipe| = 1
+arnaldo < elisa
+arnaldo < desenhar
+engenheiro = luta
+montemor < vanessa
+|vanessa - cozinheiro| = 2
+|professor - luisa| = 1
+desenhar > felipe
+|elisa - anhumas| = 1
+elisa < nivaldo
+sertaozinho < maria
+nivaldo > videogame
+|cozinheiro - maria| = 1
+|isabela - luta| = 4
+|escorpiao - aquario| = 1
+maria > desenhar
+sertaozinho > videogame
+|luisa - sertaozinho| = 1
+elisa = 4
+|arnaldo - saopaulo| = 0
+|luisa - cozinheiro| = 1
+|correr - nivaldo| = 4
+|leonardo - cozinheiro| = 3
+correr < maria
+professor = cozinhar
+rio > faxineiro
+nivaldo > libra
+nivaldo > videogame
+advogado < saopaulo
+|felipe - faxineiro| = 0
+rio > isabela
+rio = maria
+professor < anhumas
+|leonardo - arnaldo| = 1
+|aquario - libra| = 3
+felipe > correr
+elisa < rio
+rio = luta
+|felipe - luisa| = 0
+videogame < douglas
+arnaldo < luisa
+|desenhar - montemor| = 3
+rio > libra
+felipe > saopaulo
+vanessa < anhumas
+luisa > isabela
+|advogado - felipe| = 2
+professor > leonardo
+|saopaulo - elisa| = 2
+saopaulo < videogame
+engenheiro = nivaldo
+elisa < luta
+|felipe - montemor| = 2
+|felipe - correr| = 2
+rio > isabela
+elisa > luisa
+rio > leonardo
+|engenheiro - montemor| = 4
+cozinheiro > saopaulo
+professor > leonardo
+|faxineiro - montemor| = 2
+|isabela - saopaulo| = 1
+rio > gemeos
+|elisa - faxineiro| = 1
+maria = nivaldo
+|cozinheiro - sertaozinho| = 0
+|desenhar - sertaozinho| = 0
+|elisa - advogado| = 3
+|saopaulo - luta| = 3
+montemor < cozinheiro
+|montemor - engenheiro| = 4
+|douglas - felipe| = 1
+isabela = correr
+escorpiao < gemeos
+|cozinhar - vanessa| = 0
+|vanessa - isabela| = 1
+|sertaozinho - videogame| = 1
+maria > aquario
+|luta - cozinheiro| = 1
+montemor < felipe
+isabela < sertaozinho
+|arnaldo - engenheiro| = 3
+elisa < rio
+engenheiro > isabela
+correr = advogado
+|maria - felipe| = 2
+|cozinheiro - douglas| = 0
+engenheiro > libra
+maria > aquario
+sertaozinho > correr
+|engenheiro - correr| = 4
+engenheiro > felipe
+|engenheiro - desenhar| = 1
+|anhumas - isabela| = 2
+|anhumas - luisa| = 0
+|aquario - cancer| = 4
+|montemor - rio| = 4
+luta > advogado
+professor < cozinheiro
+felipe = anhumas
+|vanessa - leonardo| = 1
+|desenhar - maria| = 1
+elisa > vanessa
+|engenheiro - anhumas| = 2
+advogado < anhumas
+|sertaozinho - nivaldo| = 1
+|luisa - advogado| = 2
+montemor < felipe
+|elisa - faxineiro| = 1
+|faxineiro - leonardo| = 2
+advogado = leonardo
+montemor = leonardo
+|anhumas - luisa| = 0
+arnaldo < engenheiro
+cozinheiro > leonardo
+|leonardo - douglas| = 3
+|saopaulo - cozinheiro| = 2
+|desenhar - videogame| = 1
+arnaldo < elisa
+|cozinheiro - cozinhar| = 2
+|montemor - professor| = 1
+|vanessa - faxineiro| = 1
+faxineiro > cozinhar
+|advogado - videogame| = 2
+|cozinheiro - vanessa| = 2
+leonardo < professor
+|desenhar - nivaldo| = 1
+|cozinhar - felipe| = 1
+advogado < engenheiro
+videogame > leonardo
+|engenheiro - rio| = 0
+|saopaulo - nivaldo| = 3
+|douglas - advogado| = 3
+|engenheiro - luisa| = 2
+|sertaozinho - leonardo| = 3
+|nivaldo - gemeos| = 2
+|nivaldo - libra| = 1
+|desenhar - leonardo| = 3
+isabela < douglas
+|douglas - faxineiro| = 1
+|sertaozinho - professor| = 2
+arnaldo > advogado
+|anhumas - douglas| = 1
+felipe < elisa
+douglas > luisa
+maria > aquario
+vanessa < elisa
+faxineiro < sertaozinho
+|advogado - cozinhar| = 1
+vanessa = 2
+|professor - nivaldo| = 3
+|luta - engenheiro| = 0
+|anhumas - cozinheiro| = 1
+desenhar < engenheiro
+|arnaldo - vanessa| = 0
+|aquario - cancer| = 4
+felipe = anhumas
+professor < nivaldo
+nivaldo > cozinheiro
+|correr - elisa| = 3
+desenhar > isabela
+|isabela - advogado| = 0
+|luisa - anhumas| = 0
+|leonardo - desenhar| = 3
+|leonardo - rio| = 4
+nivaldo > libra
+maria = luta
+|saopaulo - luta| = 3
+videogame < rio
+montemor < nivaldo
+videogame > leonardo
+engenheiro > leonardo
+|faxineiro - advogado| = 2
+nivaldo > cozinheiro
+|desenhar - cozinhar| = 2
+luta = engenheiro
+faxineiro > professor
+|rio - felipe| = 2
+douglas > cozinhar
+saopaulo < luta
+elisa > montemor
+|isabela - cozinhar| = 1
+anhumas = felipe
+|saopaulo - isabela| = 1
+maria > desenhar
+|leonardo - montemor| = 0
+|douglas - maria| = 1
+|videogame - advogado| = 2
+|arnaldo - professor| = 0
+|felipe - saopaulo| = 1
+|faxineiro - cozinheiro| = 1
+anhumas > montemor
+|vanessa - isabela| = 1
+|engenheiro - videogame| = 2
+|professor - anhumas| = 1
+|felipe - luisa| = 0
+maria > montemor
+cozinhar < luisa
+felipe > leonardo
+rio > arnaldo
+|felipe - nivaldo| = 2
+|douglas - elisa| = 0
+luisa > correr
+faxineiro > vanessa
+leonardo < elisa
+|videogame - felipe| = 0
+|douglas - luta| = 1
+|luta - libra| = 1
+desenhar > isabela
+engenheiro > saopaulo
+|rio - videogame| = 2
+|cozinhar - luisa| = 1
+|faxineiro - nivaldo| = 2
+|elisa - douglas| = 0
+sertaozinho > videogame
+|montemor - nivaldo| = 4
+|faxineiro - correr| = 2
+saopaulo < douglas
+douglas = sertaozinho
+|cozinhar - videogame| = 1
+|cozinhar - douglas| = 2
+douglas = elisa
+|faxineiro - nivaldo| = 2
+faxineiro < sertaozinho
+|maria - correr| = 4
+|arnaldo - advogado| = 1
+elisa = desenhar
+desenhar < engenheiro
+luta > advogado
+cozinhar < douglas
+videogame = luisa
+montemor = leonardo
+montemor < luisa
+|engenheiro - aquario| = 4
+|saopaulo - douglas| = 2
+|sertaozinho - rio| = 1
+|faxineiro - leonardo| = 2
+|escorpiao - libra| = 2
+saopaulo < maria
+leonardo < vanessa
+videogame = luisa
+|correr - arnaldo| = 1
+|saopaulo - leonardo| = 1
+advogado < arnaldo
+|montemor - elisa| = 3
+faxineiro = felipe
+desenhar > videogame
+|arnaldo - rio| = 3
+|douglas - montemor| = 3
+arnaldo = saopaulo
+luta > escorpiao
+|saopaulo - advogado| = 1
+correr < luisa
+felipe = videogame
+|desenhar - luta| = 1
+cozinheiro = 4
+cozinheiro > isabela
+|engenheiro - luisa| = 2
+|vanessa - faxineiro| = 1
+anhumas = felipe
+|montemor - correr| = 0
+cozinheiro > luisa
+douglas > arnaldo
+luta = nivaldo
+|isabela - anhumas| = 2
+|libra - escorpiao| = 2
+|engenheiro - cozinhar| = 3
+|sertaozinho - correr| = 3
+isabela < luta
+engenheiro > videogame
+|saopaulo - felipe| = 1
+leonardo < nivaldo
+faxineiro < desenhar
+|engenheiro - maria| = 0
+|arnaldo - videogame| = 1
+felipe > advogado
+anhumas = videogame
+montemor < sertaozinho
+|nivaldo - libra| = 1
+|desenhar - faxineiro| = 1
+felipe > cozinhar
+leonardo < luta
+engenheiro = rio
+douglas > professor
+|cozinheiro - professor| = 2
+rio > isabela
+douglas < nivaldo
+|nivaldo - engenheiro| = 0
+correr < nivaldo
+|faxineiro - montemor| = 2
+felipe > arnaldo
+desenhar > anhumas
+|engenheiro - nivaldo| = 0
+isabela < vanessa
+cozinhar > leonardo
+nivaldo = maria
+anhumas > vanessa
+escorpiao < libra
+|douglas - videogame| = 1
+|desenhar - arnaldo| = 2
+|videogame - leonardo| = 2
+|faxineiro - felipe| = 0
+engenheiro > aquario
+saopaulo < nivaldo
+|montemor - arnaldo| = 1
+cozinheiro = sertaozinho
+videogame = luisa
+|arnaldo - videogame| = 1
+sertaozinho = douglas
+|arnaldo - luta| = 3
+|cozinheiro - anhumas| = 1
+cozinhar < maria
+faxineiro > professor
+|faxineiro - anhumas| = 0
+|rio - engenheiro| = 0
+saopaulo = cozinhar
+arnaldo = vanessa
+felipe < douglas
+|rio - professor| = 3
+saopaulo < anhumas
+|leonardo - saopaulo| = 1
+|arnaldo - leonardo| = 1
+faxineiro < rio
+|engenheiro - sertaozinho| = 1
+|maria - escorpiao| = 3
+advogado < videogame
+|saopaulo - luta| = 3
+|faxineiro - saopaulo| = 1
+nivaldo > professor
+cozinhar < luta
+|isabela - desenhar| = 3
+engenheiro = luta
+|nivaldo - aquario| = 4
+|saopaulo - elisa| = 2
+sertaozinho > saopaulo
+|elisa - luta| = 1
+luta > advogado
+advogado = 1
+anhumas = videogame
+|cozinhar - advogado| = 1
+montemor < cozinheiro
+saopaulo > montemor
+|montemor - rio| = 4
+saopaulo < rio
+anhumas > isabela
+|cozinhar - videogame| = 1
+saopaulo = cozinhar
+isabela = montemor
+advogado < cozinheiro
+|luisa - maria| = 2
+saopaulo < maria
+luisa > vanessa
+professor > isabela
+|sertaozinho - faxineiro| = 1
+professor > advogado
+|nivaldo - escorpiao| = 3
+nivaldo > luisa
+|douglas - luta| = 1
+correr < anhumas
+isabela = leonardo
+|advogado - saopaulo| = 1
+|leonardo - douglas| = 3
+|rio - escorpiao| = 3
+|cozinheiro - faxineiro| = 1
+|nivaldo - sertaozinho| = 1
+douglas > videogame
+|engenheiro - douglas| = 1
+|engenheiro - correr| = 4
+|douglas - professor| = 2
+montemor = correr
+|elisa - maria| = 1
+cozinheiro > correr
+|advogado - leonardo| = 0
+|maria - anhumas| = 2
+|advogado - arnaldo| = 1
+|sertaozinho - felipe| = 1
+|saopaulo - rio| = 3
+|isabela - anhumas| = 2
+nivaldo > anhumas
+faxineiro > correr
+|faxineiro - cozinheiro| = 1
+|faxineiro - luisa| = 0
+|vanessa - sertaozinho| = 2
+|luisa - felipe| = 0
+|engenheiro - aquario| = 4
+desenhar > luisa
+|leonardo - douglas| = 3
+engenheiro = luta
+|gemeos - aquario| = 2
+|luta - rio| = 0
+arnaldo < cozinheiro
+|arnaldo - cozinheiro| = 2
+|cozinhar - luta| = 3
+isabela < luta
+|elisa - sertaozinho| = 0
+correr < desenhar
+|correr - advogado| = 0
+|gemeos - escorpiao| = 1
+cozinheiro < rio
+|elisa - montemor| = 3
+gemeos > escorpiao
+elisa < engenheiro
+|sertaozinho - professor| = 2
+maria = engenheiro
+correr < saopaulo
+|rio - aquario| = 4
+|faxineiro - cozinheiro| = 1
+isabela < engenheiro
+vanessa < luisa
+|arnaldo - luisa| = 1
+cozinheiro > faxineiro
+|rio - engenheiro| = 0
+douglas > luisa
+|videogame - luisa| = 0
+|videogame - anhumas| = 0
+leonardo < professor
+|engenheiro - desenhar| = 1
+|libra - aquario| = 3
+engenheiro > aquario
+luta > anhumas
+anhumas = faxineiro
+professor < felipe
+faxineiro > correr
+|sertaozinho - nivaldo| = 1
+faxineiro < nivaldo
+|vanessa - professor| = 0
+|saopaulo - cozinheiro| = 2
+saopaulo < desenhar
+|engenheiro - elisa| = 1
+|faxineiro - engenheiro| = 2
+faxineiro < cozinheiro
+montemor < saopaulo
+cozinheiro < luta
+arnaldo < cozinheiro
+|advogado - isabela| = 0
+elisa > saopaulo
+|anhumas - cozinhar| = 1
+|felipe - saopaulo| = 1
+engenheiro > aquario
+cozinhar < engenheiro
+desenhar = 4
+vanessa > correr
+isabela = correr
+faxineiro < maria
+professor < rio
+professor = 2
+|anhumas - nivaldo| = 2
+|montemor - cozinhar| = 1
+|luisa - sertaozinho| = 1
+engenheiro > videogame
+desenhar < engenheiro
+desenhar > correr
+|engenheiro - escorpiao| = 3
+|aquario - libra| = 3
+|aquario - gemeos| = 2
+cozinheiro > professor
+|felipe - engenheiro| = 2
+|luisa - videogame| = 0
+|nivaldo - videogame| = 2
+douglas > anhumas
+felipe < desenhar
+|engenheiro - luta| = 0
+|professor - advogado| = 1
+engenheiro > felipe
+|aquario - gemeos| = 2
+cozinhar < nivaldo
+professor = 2
+anhumas < elisa
+advogado < felipe
+|vanessa - videogame| = 1
+|elisa - luisa| = 1
+professor < cozinheiro
+leonardo = montemor
+|desenhar - elisa| = 0
+gemeos < libra
+|elisa - luta| = 1
+desenhar > isabela
+|vanessa - leonardo| = 1
+escorpiao < libra
+engenheiro > montemor
+advogado < douglas
+|isabela - leonardo| = 0
+|cozinheiro - felipe| = 1
+|sertaozinho - nivaldo| = 1
+saopaulo < engenheiro
+douglas < engenheiro
+|faxineiro - sertaozinho| = 1
+|cozinhar - luta| = 3
+|montemor - isabela| = 0
+luisa > professor
+professor < engenheiro
+maria > cozinheiro
+|correr - leonardo| = 0
+cozinhar < luta
+|nivaldo - gemeos| = 2
+|montemor - vanessa| = 1
+arnaldo > advogado
+|professor - felipe| = 1
+|elisa - felipe| = 1
+|advogado - leonardo| = 0
+|maria - anhumas| = 2
+|maria - luta| = 0
+|elisa - advogado| = 3
+|correr - saopaulo| = 1
+rio > arnaldo
+|desenhar - videogame| = 1
+engenheiro > leonardo
+leonardo < vanessa
+|correr - saopaulo| = 1
+|luta - libra| = 1
+arnaldo < cozinheiro
+|escorpiao - aquario| = 1
+luta > anhumas
+|cozinhar - faxineiro| = 1
+sertaozinho = cozinheiro
+correr < saopaulo
+montemor = advogado
+luisa > isabela
+|anhumas - engenheiro| = 2
+|luta - engenheiro| = 0
+rio > gemeos
+felipe = faxineiro
+rio > felipe
+correr < luisa
+anhumas > advogado
+vanessa < anhumas
+professor = saopaulo
+anhumas > isabela
+professor > montemor
+|nivaldo - luta| = 0
+faxineiro > correr
+|isabela - videogame| = 2
+isabela < douglas
+luta > douglas
+nivaldo > professor
+desenhar > correr
+vanessa = 2
+|maria - cozinhar| = 3
+cozinheiro = sertaozinho
+nivaldo > anhumas
+|anhumas - maria| = 2
+douglas < engenheiro
+|saopaulo - elisa| = 2
+|luisa - maria| = 2
+|correr - luta| = 4
+|arnaldo - isabela| = 1
+|desenhar - faxineiro| = 1
+|advogado - isabela| = 0
+rio > advogado
+leonardo < elisa
+sertaozinho = elisa
+felipe < douglas
+sertaozinho = elisa
+luisa < luta
+|maria - aquario| = 4
+advogado < engenheiro
+vanessa > montemor
+felipe = anhumas
+cozinheiro > advogado
+maria = luta
+advogado < saopaulo
+|montemor - maria| = 4
+|luta - rio| = 0
+|felipe - correr| = 2
+|advogado - maria| = 4
+|elisa - advogado| = 3
+anhumas = faxineiro
+maria > montemor
+|douglas - faxineiro| = 1
+|arnaldo - douglas| = 2
+faxineiro > cozinhar
+|nivaldo - anhumas| = 2
+|felipe - cozinhar| = 1
+|anhumas - desenhar| = 1
+correr < rio
+|cozinheiro - faxineiro| = 1
+sertaozinho > arnaldo
+professor < faxineiro
+correr < cozinhar
+correr < cozinhar
+|sertaozinho - elisa| = 0
+videogame = felipe
+|advogado - professor| = 1
+|isabela - cozinhar| = 1
+videogame = anhumas
+douglas > arnaldo
+nivaldo > videogame
+engenheiro > isabela
+professor = cozinhar
+|anhumas - sertaozinho| = 1
+felipe < sertaozinho
+|correr - cozinheiro| = 3
+|correr - saopaulo| = 1
+|nivaldo - escorpiao| = 3
+videogame > vanessa
+|maria - professor| = 3
+desenhar < nivaldo
+cozinheiro > vanessa
+gemeos > aquario
+rio > desenhar
+felipe < maria
+|maria - felipe| = 2
+|desenhar - luisa| = 1
+|faxineiro - rio| = 2
+rio = luta
+videogame < douglas
+|maria - cozinhar| = 3
+|luisa - correr| = 2
+|elisa - advogado| = 3
+engenheiro > cozinhar
+|advogado - engenheiro| = 4
+|aquario - libra| = 3
+|felipe - douglas| = 1
+|videogame - nivaldo| = 2
+rio > leonardo
+saopaulo > correr
+douglas = 4
+|elisa - videogame| = 1

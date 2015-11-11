@@ -1,0 +1,1 @@
+((cheque 1) (credito 4) (debito 3) (dinheiro 5) (vale 2) (amaciante 1) (frutas 2) (leite 5) (pao 3) (presunto 4) (filho 5) (irma 4) (mae 3) (marido 2) (namorado 1) (amarela 2) (azul 3) (branca 4) (verde 1) (vermelha 5) (aline 2) (carol 3) (fernanda 4) (juliana 1) (natalia 5))

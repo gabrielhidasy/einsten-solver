@@ -1,0 +1,1248 @@
+carro: focus, fiesta, cruise, i30, agile
+camiseta: rosa, azul, vermelho, ciano, verde
+nome: raul, carlos, ariel, nivaldo, arnaldo
+profissao: engenheiro, secretario, cozinheiro, advogado, faxineiro
+hobby: videogame, tenis, volei, cozinhar, correr
+esposa: vanessa, isabela, neide, luisa, carol
+
+carlos = vermelho
+|isabela - neide| = 2
+advogado > secretario
+|correr - fiesta| = 2
+verde > cruise
+azul > tenis
+|raul - luisa| = 0
+rosa > fiesta
+|isabela - carlos| = 2
+|i30 - ciano| = 1
+|isabela - raul| = 1
+|isabela - vanessa| = 1
+correr > ciano
+tenis < rosa
+correr > isabela
+vermelho < ariel
+i30 < vanessa
+agile = correr
+cozinhar > videogame
+|raul - nivaldo| = 2
+|ciano - agile| = 3
+luisa < nivaldo
+|azul - ariel| = 0
+verde = agile
+videogame > raul
+|i30 - rosa| = 3
+|nivaldo - ariel| = 1
+carlos < agile
+ariel > volei
+agile > neide
+tenis < cruise
+luisa > i30
+vermelho < agile
+i30 < azul
+i30 < arnaldo
+|isabela - focus| = 1
+correr = arnaldo
+azul < rosa
+ciano < correr
+rosa > tenis
+nivaldo > ciano
+carlos = neide
+isabela < verde
+luisa < fiesta
+|rosa - i30| = 3
+|luisa - vermelho| = 1
+tenis < verde
+raul < carol
+engenheiro > advogado
+ariel = videogame
+|carol - correr| = 0
+|isabela - cruise| = 1
+ariel = videogame
+|focus - correr| = 3
+cruise > raul
+vermelho < correr
+|secretario - faxineiro| = 4
+|videogame - carol| = 2
+|ariel - vermelho| = 2
+|cozinheiro - faxineiro| = 1
+ciano < fiesta
+isabela > carlos
+|neide - isabela| = 2
+vanessa < carol
+|secretario - engenheiro| = 2
+|tenis - fiesta| = 1
+|raul - fiesta| = 1
+i30 = volei
+|rosa - ariel| = 1
+|verde - tenis| = 3
+nivaldo > fiesta
+|luisa - i30| = 1
+vanessa > videogame
+cozinhar > i30
+rosa > ciano
+rosa < correr
+ariel > luisa
+cozinhar < verde
+|cruise - ciano| = 2
+|videogame - volei| = 2
+|vanessa - correr| = 1
+azul < verde
+|raul - videogame| = 1
+nivaldo > neide
+|focus - fiesta| = 1
+nivaldo = cozinhar
+|agile - volei| = 4
+|verde - engenheiro| = 2
+vanessa < agile
+|correr - engenheiro| = 2
+|volei - correr| = 4
+|rosa - agile| = 1
+arnaldo > volei
+|cozinhar - agile| = 1
+vanessa = cruise
+tenis < nivaldo
+|volei - nivaldo| = 3
+vermelho < arnaldo
+|cruise - verde| = 1
+|verde - volei| = 4
+|rosa - carlos| = 3
+agile > vanessa
+correr > vermelho
+luisa = focus
+arnaldo = agile
+vanessa > vermelho
+isabela = 3
+videogame = 3
+cozinhar = 4
+|luisa - isabela| = 1
+isabela > ciano
+tenis < arnaldo
+|i30 - focus| = 1
+cruise > ciano
+|fiesta - correr| = 2
+ariel > raul
+fiesta < carol
+verde > secretario
+|neide - tenis| = 1
+verde > videogame
+|azul - nivaldo| = 1
+|ariel - carlos| = 2
+verde > videogame
+|tenis - verde| = 3
+vanessa > ariel
+nivaldo > focus
+cozinhar < agile
+|arnaldo - vanessa| = 1
+isabela < cruise
+|carlos - azul| = 2
+raul > i30
+neide < verde
+|carol - volei| = 4
+|volei - cozinhar| = 3
+vermelho < luisa
+rosa > raul
+|i30 - azul| = 2
+tenis > neide
+|cruise - luisa| = 2
+|correr - fiesta| = 2
+raul > neide
+|neide - vermelho| = 0
+|neide - arnaldo| = 4
+focus < isabela
+arnaldo > azul
+|azul - rosa| = 1
+neide < fiesta
+|vanessa - i30| = 3
+carol > cozinhar
+agile > isabela
+vanessa > carlos
+|azul - carol| = 2
+|vanessa - ciano| = 2
+fiesta > raul
+nivaldo > ciano
+|cruise - i30| = 3
+|focus - azul| = 1
+correr > cozinheiro
+focus < arnaldo
+cruise < carol
+|vermelho - agile| = 4
+|ariel - rosa| = 1
+i30 < nivaldo
+|ciano - rosa| = 2
+|azul - cozinhar| = 1
+|correr - ciano| = 3
+|nivaldo - volei| = 3
+arnaldo > isabela
+nivaldo = vanessa
+|cruise - ciano| = 2
+|vanessa - correr| = 1
+|tenis - neide| = 1
+|tenis - verde| = 3
+i30 < arnaldo
+|fiesta - nivaldo| = 1
+|neide - raul| = 1
+videogame > raul
+|fiesta - volei| = 2
+|videogame - carlos| = 2
+focus > carlos
+|correr - isabela| = 2
+|vermelho - verde| = 4
+|verde - cozinhar| = 1
+focus = tenis
+cruise < verde
+|luisa - vermelho| = 1
+|nivaldo - ciano| = 2
+|focus - luisa| = 0
+|fiesta - ariel| = 0
+nivaldo > luisa
+|volei - fiesta| = 2
+cozinhar > focus
+carol > engenheiro
+|vermelho - arnaldo| = 4
+carlos < tenis
+cruise > ciano
+carol > raul
+|verde - neide| = 4
+|ariel - verde| = 2
+|neide - rosa| = 3
+|engenheiro - faxineiro| = 2
+arnaldo > cozinheiro
+|vermelho - raul| = 1
+|isabela - cozinhar| = 1
+ariel < cozinhar
+isabela > tenis
+|tenis - nivaldo| = 2
+rosa > focus
+|secretario - cozinheiro| = 3
+|verde - i30| = 4
+engenheiro > secretario
+videogame = 3
+i30 < cozinhar
+|neide - ariel| = 2
+|fiesta - arnaldo| = 2
+nivaldo = cruise
+agile = arnaldo
+|carlos - azul| = 2
+|fiesta - carol| = 2
+rosa > vermelho
+|correr - nivaldo| = 1
+volei < ariel
+neide < ciano
+|videogame - agile| = 2
+azul < agile
+|vermelho - ciano| = 1
+|arnaldo - ciano| = 3
+|tenis - ciano| = 0
+|rosa - verde| = 1
+cruise < carol
+vermelho < vanessa
+|rosa - vermelho| = 3
+carlos < focus
+|raul - videogame| = 1
+correr = arnaldo
+luisa < arnaldo
+ariel < cozinhar
+|vanessa - videogame| = 1
+|arnaldo - neide| = 4
+|carlos - luisa| = 1
+correr > vermelho
+arnaldo = agile
+azul > neide
+vanessa > fiesta
+rosa < verde
+|azul - carol| = 2
+|ariel - videogame| = 0
+volei < cruise
+|arnaldo - agile| = 0
+cruise < correr
+volei < luisa
+nivaldo < carol
+cozinhar > neide
+|engenheiro - secretario| = 2
+arnaldo = agile
+|cozinheiro - faxineiro| = 1
+|tenis - ariel| = 1
+|azul - fiesta| = 0
+cozinheiro > secretario
+arnaldo > engenheiro
+fiesta = ariel
+|ciano - raul| = 0
+|agile - ariel| = 2
+|carol - cozinheiro| = 1
+tenis < videogame
+|luisa - agile| = 3
+|isabela - fiesta| = 0
+agile > neide
+|arnaldo - cozinheiro| = 1
+|isabela - ciano| = 1
+tenis < videogame
+tenis < cruise
+|ariel - tenis| = 1
+tenis > i30
+|cruise - tenis| = 2
+|cozinhar - tenis| = 2
+|cozinhar - rosa| = 0
+|vanessa - ariel| = 1
+|ciano - arnaldo| = 3
+i30 < cozinhar
+|ciano - luisa| = 0
+|luisa - carlos| = 1
+|isabela - vermelho| = 2
+rosa < agile
+carol > ariel
+carol > ciano
+|nivaldo - ariel| = 1
+|arnaldo - cozinheiro| = 1
+neide < videogame
+neide < nivaldo
+|carol - vermelho| = 4
+videogame = isabela
+|vermelho - neide| = 0
+engenheiro > secretario
+engenheiro < faxineiro
+isabela > carlos
+|vanessa - videogame| = 1
+|cozinhar - vermelho| = 3
+correr > raul
+videogame < verde
+cozinheiro < faxineiro
+carol > fiesta
+|volei - i30| = 0
+|vermelho - ciano| = 1
+arnaldo > ciano
+ciano < carol
+azul < nivaldo
+nivaldo = cruise
+vanessa > volei
+volei < cruise
+|i30 - carlos| = 0
+raul < arnaldo
+|volei - vanessa| = 3
+|fiesta - carol| = 2
+|tenis - agile| = 3
+secretario < engenheiro
+|fiesta - focus| = 1
+videogame > volei
+carlos < agile
+|ariel - agile| = 2
+|raul - ariel| = 1
+agile > advogado
+|volei - azul| = 2
+|i30 - isabela| = 2
+vanessa > raul
+volei < carol
+volei < fiesta
+|volei - carol| = 4
+fiesta > vermelho
+|isabela - carlos| = 2
+|neide - videogame| = 2
+|focus - correr| = 3
+focus < vanessa
+focus = luisa
+verde > cozinheiro
+|videogame - tenis| = 1
+fiesta < cruise
+|ariel - i30| = 2
+carlos < rosa
+|rosa - arnaldo| = 1
+azul = isabela
+|cozinhar - ariel| = 1
+|isabela - tenis| = 1
+neide < vanessa
+|nivaldo - arnaldo| = 1
+cruise > focus
+|cozinheiro - advogado| = 2
+|carol - secretario| = 4
+correr > fiesta
+isabela < vanessa
+luisa > i30
+fiesta = videogame
+ariel > i30
+|vanessa - raul| = 2
+|arnaldo - tenis| = 3
+|nivaldo - arnaldo| = 1
+|cozinhar - vanessa| = 0
+ariel = videogame
+|nivaldo - focus| = 2
+|vanessa - volei| = 3
+neide < carol
+azul < rosa
+ariel < cruise
+luisa > neide
+|raul - isabela| = 1
+ariel < cruise
+focus < rosa
+isabela < carol
+arnaldo > cruise
+|verde - nivaldo| = 1
+|vanessa - volei| = 3
+rosa < carol
+correr > secretario
+neide < ariel
+raul = ciano
+raul < videogame
+|ariel - tenis| = 1
+verde > tenis
+|focus - nivaldo| = 2
+ciano < nivaldo
+carol > videogame
+|focus - vanessa| = 2
+|arnaldo - isabela| = 2
+ariel < correr
+cozinhar = vanessa
+carol > rosa
+|focus - isabela| = 1
+|isabela - nivaldo| = 1
+ariel < rosa
+|raul - azul| = 1
+|ariel - ciano| = 1
+|luisa - vanessa| = 2
+ariel < vanessa
+arnaldo = agile
+volei < arnaldo
+focus > vermelho
+luisa > neide
+|i30 - vermelho| = 0
+videogame = 3
+verde > secretario
+luisa = 2
+|azul - arnaldo| = 2
+videogame > ciano
+|vermelho - fiesta| = 2
+verde > volei
+|volei - carlos| = 0
+|raul - carol| = 3
+rosa > i30
+|raul - azul| = 1
+|vanessa - luisa| = 2
+|cozinhar - i30| = 3
+|azul - ariel| = 0
+|nivaldo - tenis| = 2
+vermelho = carlos
+isabela > carlos
+|arnaldo - videogame| = 2
+arnaldo > advogado
+azul = fiesta
+cozinhar > carlos
+|vanessa - volei| = 3
+|luisa - agile| = 3
+correr > isabela
+neide = i30
+|azul - verde| = 2
+|i30 - cruise| = 3
+|ariel - luisa| = 1
+rosa = cozinhar
+|ariel - vermelho| = 2
+|ariel - videogame| = 0
+fiesta = isabela
+cozinheiro > engenheiro
+agile > ariel
+|rosa - carol| = 1
+|nivaldo - verde| = 1
+i30 < vanessa
+vermelho < ciano
+luisa < nivaldo
+raul < ariel
+|arnaldo - verde| = 0
+rosa > vermelho
+|volei - vanessa| = 3
+|rosa - volei| = 3
+|i30 - isabela| = 2
+cozinhar < verde
+fiesta > vermelho
+|volei - carlos| = 0
+i30 = carlos
+luisa = raul
+ciano < carol
+|agile - carlos| = 4
+fiesta > ciano
+carlos < videogame
+i30 = vermelho
+vanessa > isabela
+engenheiro > secretario
+vermelho < ariel
+isabela < vanessa
+|verde - raul| = 3
+|ariel - agile| = 2
+|focus - rosa| = 2
+azul < arnaldo
+|vermelho - videogame| = 2
+|volei - vanessa| = 3
+|carol - verde| = 0
+|azul - volei| = 2
+|nivaldo - arnaldo| = 1
+tenis < videogame
+nivaldo > volei
+luisa < ariel
+|focus - i30| = 1
+fiesta < cruise
+ariel = isabela
+raul = ciano
+cruise > vermelho
+|luisa - raul| = 0
+|videogame - verde| = 2
+nivaldo > i30
+|neide - ariel| = 2
+|vermelho - rosa| = 3
+vermelho < luisa
+|nivaldo - videogame| = 1
+|ariel - ciano| = 1
+|carol - focus| = 3
+fiesta > focus
+ariel > focus
+|carol - carlos| = 4
+|agile - vermelho| = 4
+agile = carol
+|vermelho - focus| = 1
+|carlos - i30| = 0
+|volei - rosa| = 3
+|luisa - fiesta| = 1
+|vanessa - neide| = 3
+|vermelho - volei| = 0
+arnaldo > vermelho
+|carol - focus| = 3
+correr > raul
+|volei - agile| = 4
+|videogame - carlos| = 2
+|vermelho - carlos| = 0
+carol > tenis
+carol > cozinheiro
+|carlos - volei| = 0
+volei = neide
+cozinhar < carol
+rosa > i30
+focus > volei
+tenis = raul
+azul = fiesta
+|arnaldo - neide| = 4
+|videogame - verde| = 2
+cozinhar > i30
+focus < azul
+|vermelho - correr| = 4
+tenis < videogame
+carol > cozinhar
+vermelho < ciano
+|cruise - correr| = 1
+luisa > neide
+|i30 - vanessa| = 3
+cozinhar = rosa
+volei < ariel
+|fiesta - volei| = 2
+cruise > tenis
+azul = ariel
+tenis < agile
+correr > ciano
+|isabela - volei| = 2
+tenis < cozinhar
+ciano = tenis
+|agile - azul| = 2
+|nivaldo - vermelho| = 3
+|fiesta - luisa| = 1
+correr > engenheiro
+|carol - vermelho| = 4
+|arnaldo - verde| = 0
+|azul - focus| = 1
+|raul - correr| = 3
+|arnaldo - agile| = 0
+|tenis - carlos| = 1
+carlos = 1
+videogame < cruise
+|rosa - nivaldo| = 0
+|vanessa - azul| = 1
+|focus - videogame| = 1
+|vanessa - carlos| = 3
+carlos < ciano
+|ariel - focus| = 1
+rosa < arnaldo
+vanessa > ariel
+|nivaldo - agile| = 1
+|nivaldo - tenis| = 2
+|verde - nivaldo| = 1
+correr > ariel
+|azul - luisa| = 1
+rosa > isabela
+|vermelho - focus| = 1
+|cruise - i30| = 3
+carlos < carol
+vanessa < correr
+|cozinheiro - secretario| = 3
+|fiesta - cruise| = 1
+|rosa - i30| = 3
+|arnaldo - volei| = 4
+|ciano - luisa| = 0
+|cozinhar - correr| = 1
+vanessa = nivaldo
+|vanessa - verde| = 1
+|vermelho - tenis| = 1
+|ariel - correr| = 2
+|isabela - tenis| = 1
+|videogame - ciano| = 1
+arnaldo > vanessa
+arnaldo > isabela
+correr > isabela
+carlos < arnaldo
+tenis < cozinhar
+|focus - neide| = 1
+carlos = vermelho
+|ariel - focus| = 1
+cozinhar > ciano
+neide < cozinhar
+videogame < cozinhar
+|verde - cruise| = 1
+|raul - nivaldo| = 2
+|neide - vermelho| = 0
+|arnaldo - ciano| = 3
+isabela > neide
+isabela > carlos
+|vermelho - carlos| = 0
+rosa > i30
+|ariel - isabela| = 0
+|fiesta - volei| = 2
+focus < correr
+focus < correr
+|ariel - verde| = 2
+|correr - verde| = 0
+focus < vanessa
+|raul - rosa| = 2
+|neide - nivaldo| = 3
+vanessa > raul
+|carol - i30| = 4
+volei = i30
+videogame > volei
+agile > advogado
+azul = ariel
+|ariel - vermelho| = 2
+|volei - verde| = 4
+arnaldo > focus
+azul < carol
+vermelho < carol
+|videogame - correr| = 2
+ariel > i30
+|vermelho - vanessa| = 3
+|luisa - fiesta| = 1
+|ariel - correr| = 2
+focus > neide
+|tenis - videogame| = 1
+luisa < azul
+isabela < nivaldo
+carol > cozinhar
+tenis < fiesta
+carol > rosa
+|advogado - cozinheiro| = 2
+volei < azul
+advogado < cozinheiro
+tenis = focus
+isabela = 3
+|fiesta - luisa| = 1
+azul = ariel
+isabela = 3
+|rosa - agile| = 1
+|carlos - tenis| = 1
+|carol - ariel| = 2
+|rosa - correr| = 1
+carlos = neide
+carol = arnaldo
+|fiesta - focus| = 1
+|ariel - ciano| = 1
+|videogame - volei| = 2
+carlos < cruise
+correr > fiesta
+|correr - cozinheiro| = 1
+nivaldo < correr
+vanessa > ciano
+|advogado - faxineiro| = 3
+|rosa - carlos| = 3
+tenis < fiesta
+|arnaldo - engenheiro| = 2
+|carlos - azul| = 2
+|luisa - vermelho| = 1
+focus < videogame
+cruise < correr
+luisa = 2
+carol > secretario
+|fiesta - volei| = 2
+verde > neide
+correr > carlos
+tenis < isabela
+|i30 - isabela| = 2
+|volei - ariel| = 2
+cozinhar > videogame
+rosa > azul
+ciano < rosa
+|cruise - ciano| = 2
+|carol - rosa| = 1
+|volei - verde| = 4
+ariel = azul
+|arnaldo - azul| = 2
+carlos < agile
+carol > i30
+|isabela - videogame| = 0
+cruise > fiesta
+|agile - vermelho| = 4
+|vanessa - carlos| = 3
+|luisa - raul| = 0
+|neide - arnaldo| = 4
+vanessa > carlos
+|raul - ciano| = 0
+i30 < agile
+arnaldo > fiesta
+|luisa - isabela| = 1
+videogame = ariel
+|videogame - vermelho| = 2
+videogame > i30
+|volei - verde| = 4
+neide < tenis
+|fiesta - carlos| = 2
+ariel < arnaldo
+|neide - cozinhar| = 3
+fiesta > focus
+cruise = vanessa
+isabela < cruise
+|focus - vanessa| = 2
+videogame > ciano
+volei < focus
+|focus - tenis| = 0
+|vanessa - volei| = 3
+|carlos - cozinhar| = 3
+arnaldo > vermelho
+|luisa - carol| = 3
+|raul - carol| = 3
+|nivaldo - correr| = 1
+focus > volei
+volei < raul
+|neide - tenis| = 1
+|ariel - raul| = 1
+|azul - correr| = 2
+|focus - vermelho| = 1
+volei < focus
+|nivaldo - correr| = 1
+|i30 - cruise| = 3
+|engenheiro - faxineiro| = 2
+raul < ariel
+luisa < agile
+|neide - vermelho| = 0
+agile > raul
+i30 < raul
+vanessa > videogame
+raul < fiesta
+secretario < advogado
+|correr - azul| = 2
+|vanessa - videogame| = 1
+|tenis - neide| = 1
+|correr - isabela| = 2
+|i30 - cruise| = 3
+|videogame - azul| = 0
+fiesta > neide
+cruise = nivaldo
+|focus - raul| = 0
+|isabela - verde| = 2
+|isabela - arnaldo| = 2
+|vermelho - cruise| = 3
+focus = ciano
+ariel < nivaldo
+cruise < verde
+|tenis - isabela| = 1
+|tenis - ariel| = 1
+|correr - luisa| = 3
+tenis < isabela
+azul = isabela
+correr = agile
+|vanessa - carol| = 1
+|i30 - ariel| = 2
+raul > vermelho
+rosa < verde
+neide < arnaldo
+videogame > luisa
+|vermelho - arnaldo| = 4
+|neide - correr| = 4
+|neide - carol| = 4
+verde > secretario
+nivaldo > ariel
+|ariel - vanessa| = 1
+|tenis - videogame| = 1
+|agile - arnaldo| = 0
+rosa = 4
+|vanessa - arnaldo| = 1
+|volei - carol| = 4
+|neide - raul| = 1
+|ciano - tenis| = 0
+isabela > luisa
+isabela < cozinhar
+ariel > tenis
+|ariel - cruise| = 1
+fiesta = videogame
+secretario < engenheiro
+|azul - luisa| = 1
+|cozinhar - fiesta| = 1
+correr > fiesta
+azul > vermelho
+tenis < fiesta
+verde > cozinhar
+|rosa - raul| = 2
+|agile - videogame| = 2
+|cozinhar - vanessa| = 0
+correr > cruise
+|videogame - tenis| = 1
+vermelho < agile
+cruise > focus
+|raul - fiesta| = 1
+fiesta < rosa
+|correr - carlos| = 4
+videogame < agile
+|azul - focus| = 1
+|carol - correr| = 0
+vermelho < vanessa
+tenis > vermelho
+|vanessa - cruise| = 0
+|focus - ariel| = 1
+vanessa > focus
+carol > cozinhar
+|vanessa - arnaldo| = 1
+ariel > raul
+|correr - verde| = 0
+|neide - fiesta| = 2
+raul < rosa
+|verde - volei| = 4
+|cozinheiro - advogado| = 2
+|vanessa - rosa| = 0
+nivaldo < agile
+fiesta > ciano
+|ariel - correr| = 2
+ciano < azul
+ariel = azul
+carlos < fiesta
+arnaldo > cozinhar
+nivaldo > ciano
+ciano > neide
+cruise > azul
+verde > advogado
+carlos < verde
+nivaldo = cruise
+|tenis - rosa| = 2
+nivaldo < agile
+|carol - raul| = 3
+cruise < carol
+vanessa = rosa
+|carlos - ciano| = 1
+tenis < correr
+verde > tenis
+|videogame - neide| = 2
+azul > luisa
+|carlos - azul| = 2
+luisa > i30
+raul < correr
+carol > fiesta
+azul < nivaldo
+|focus - cozinhar| = 2
+vermelho = volei
+|neide - isabela| = 2
+|vanessa - rosa| = 0
+|cruise - ariel| = 1
+|focus - carlos| = 1
+arnaldo > luisa
+|rosa - raul| = 2
+|ciano - rosa| = 2
+arnaldo > tenis
+|carlos - verde| = 4
+|neide - cozinhar| = 3
+i30 = neide
+carlos = 1
+arnaldo = verde
+|nivaldo - azul| = 1
+|luisa - nivaldo| = 2
+|agile - tenis| = 3
+azul = videogame
+carlos < ciano
+nivaldo > ciano
+vermelho < ciano
+arnaldo = verde
+|ciano - videogame| = 1
+tenis > vermelho
+isabela < arnaldo
+cozinhar > azul
+agile = verde
+cozinhar < verde
+correr > raul
+cozinhar = vanessa
+azul > neide
+|vermelho - i30| = 0
+|cozinhar - luisa| = 2
+azul > luisa
+rosa > neide
+i30 < luisa
+videogame < vanessa
+|cozinheiro - engenheiro| = 1
+i30 < correr
+|nivaldo - vermelho| = 3
+fiesta < rosa
+correr > neide
+|fiesta - vermelho| = 2
+videogame < agile
+isabela < verde
+|ciano - carol| = 3
+vanessa > fiesta
+|arnaldo - vanessa| = 1
+|agile - cozinhar| = 1
+|rosa - cruise| = 0
+|azul - luisa| = 1
+i30 < focus
+|rosa - vermelho| = 3
+|ciano - focus| = 0
+|rosa - raul| = 2
+vanessa < verde
+|videogame - carlos| = 2
+agile = verde
+fiesta < cruise
+|correr - engenheiro| = 2
+carlos < ciano
+|tenis - azul| = 1
+|vanessa - carlos| = 3
+|verde - cozinheiro| = 1
+|advogado - faxineiro| = 3
+|cozinhar - correr| = 1
+raul < videogame
+|luisa - vermelho| = 1
+|fiesta - volei| = 2
+rosa > tenis
+|vermelho - correr| = 4
+|arnaldo - fiesta| = 2
+|correr - advogado| = 3
+|raul - cozinhar| = 2
+|cozinhar - tenis| = 2
+ciano < cozinhar
+vermelho < cozinhar
+|luisa - volei| = 1
+tenis > vermelho
+ciano > volei
+|verde - advogado| = 3
+|carlos - agile| = 4
+carlos < verde
+vermelho = i30
+|agile - ciano| = 3
+|i30 - vermelho| = 0
+|luisa - vanessa| = 2
+raul > neide
+nivaldo > fiesta
+|vermelho - rosa| = 3
+focus < videogame
+|isabela - fiesta| = 0
+|fiesta - focus| = 1
+fiesta < cruise
+cozinhar < verde
+cozinhar > ciano
+tenis < arnaldo
+videogame = azul
+|arnaldo - secretario| = 4
+fiesta > focus
+|secretario - faxineiro| = 4
+fiesta < rosa
+|raul - correr| = 3
+|isabela - ciano| = 1
+|rosa - cruise| = 0
+|carlos - arnaldo| = 4
+|videogame - i30| = 2
+|fiesta - agile| = 2
+vermelho < carol
+videogame = isabela
+fiesta < carol
+|nivaldo - ariel| = 1
+videogame > vermelho
+rosa > fiesta
+|videogame - rosa| = 1
+i30 < ciano
+ariel = isabela
+i30 < vanessa
+|luisa - azul| = 1
+|nivaldo - videogame| = 1
+|vanessa - agile| = 1
+|cozinhar - arnaldo| = 1
+|correr - engenheiro| = 2
+|cozinhar - videogame| = 1
+ciano > carlos
+|arnaldo - vermelho| = 4
+|videogame - verde| = 2
+|vermelho - rosa| = 3
+|vermelho - ariel| = 2
+carlos < azul
+agile > nivaldo
+|carol - fiesta| = 2
+luisa = focus
+|isabela - agile| = 2
+neide < agile
+|azul - ariel| = 0
+|raul - ciano| = 0
+|raul - rosa| = 2
+|carlos - agile| = 4
+|cozinhar - verde| = 1
+nivaldo < correr
+azul < cozinhar
+|focus - videogame| = 1
+volei = i30
+|verde - vanessa| = 1
+nivaldo < correr
+correr > rosa
+rosa > vermelho
+volei < arnaldo
+tenis = ciano
+|neide - focus| = 1
+|focus - isabela| = 1
+carol > volei
+volei < ciano
+ciano > i30
+cruise > focus
+|focus - i30| = 1
+|focus - correr| = 3
+isabela > carlos
+|luisa - nivaldo| = 2
+|verde - isabela| = 2
+arnaldo > tenis
+|vermelho - raul| = 1
+|cozinhar - azul| = 1
+tenis < arnaldo
+|nivaldo - vanessa| = 0
+|fiesta - ariel| = 0
+raul = luisa
+focus < verde
+|nivaldo - carlos| = 3
+rosa = vanessa
+|cozinhar - carol| = 1
+|neide - cozinhar| = 3
+|volei - tenis| = 1
+neide < carol
+|fiesta - luisa| = 1
+|ciano - carlos| = 1
+raul < videogame
+|engenheiro - faxineiro| = 2
+carlos < tenis
+agile > ciano
+focus < arnaldo
+|ciano - vermelho| = 1
+carol > videogame
+focus < carol
+focus < fiesta
+nivaldo > vermelho
+|carlos - videogame| = 2
+i30 < ariel
+|videogame - focus| = 1
+i30 < cruise
+carol > azul
+videogame < rosa
+vermelho < correr
+|volei - carlos| = 0
+fiesta < verde
+advogado > secretario
+raul = focus
+neide < agile
+tenis > vermelho
+|tenis - volei| = 1
+|cozinhar - correr| = 1
+|ariel - neide| = 2
+|rosa - luisa| = 2
+|vermelho - volei| = 0
+vermelho < agile
+|cruise - azul| = 1
+|volei - vanessa| = 3
+luisa < carol
+raul < cozinhar
+|carol - carlos| = 4
+luisa = tenis
+|neide - cozinhar| = 3
+carlos = i30
+i30 < nivaldo
+rosa > carlos
+vanessa > focus
+carlos < arnaldo
+|vermelho - volei| = 0
+|cruise - arnaldo| = 1
+ariel > ciano
+rosa = 4
+ciano < isabela
+correr > secretario
+vermelho < cozinhar
+|azul - vermelho| = 2
+videogame < vanessa
+carol > nivaldo
+agile > secretario
+|arnaldo - i30| = 4
+focus = tenis
+|azul - arnaldo| = 2
+|cruise - vanessa| = 0
+correr = arnaldo
+raul = luisa
+|focus - cruise| = 2
+carlos < rosa
+neide < vanessa
+|ariel - rosa| = 1
+vanessa = cozinhar
+correr > raul
+|arnaldo - vermelho| = 4
+|luisa - agile| = 3
+azul = isabela
+tenis = luisa
+videogame > raul
+|arnaldo - azul| = 2
+|carlos - agile| = 4
+cruise > tenis
+|nivaldo - i30| = 3
+carlos < cruise
+agile > luisa
+|correr - nivaldo| = 1
+vermelho < videogame
+correr > isabela
+isabela = ariel
+isabela = 3
+arnaldo > vanessa
+fiesta < cruise
+nivaldo > luisa
+cruise > tenis
+tenis > vermelho
+|secretario - cozinheiro| = 3
+neide < arnaldo
+vermelho = neide
+verde > engenheiro
+ciano > i30
+|nivaldo - cruise| = 0
+|vermelho - ariel| = 2
+volei < raul
+agile > nivaldo
+tenis < arnaldo
+isabela > ciano
+isabela < rosa
+rosa > luisa
+raul > neide
+azul > raul
+agile > rosa
+i30 < cruise
+correr > vanessa
+arnaldo > focus
+nivaldo > ciano
+|luisa - cozinhar| = 2
+videogame < rosa
+|ciano - nivaldo| = 2
+carlos = 1
+|raul - agile| = 3
+i30 = volei
+|isabela - fiesta| = 0
+ariel > neide
+neide = 1
+neide < raul
+neide < ciano
+luisa < ariel
+rosa > focus
+|vermelho - agile| = 4
+isabela > tenis
+focus < vanessa
+verde = arnaldo
+arnaldo > fiesta
+carlos < nivaldo
+nivaldo < correr
+|carol - verde| = 0
+|luisa - neide| = 1
+carlos < correr
+|correr - carol| = 0
+isabela = videogame
+|videogame - vanessa| = 1
+|correr - i30| = 4
+|neide - ciano| = 1
+ciano < carol
+|engenheiro - faxineiro| = 2
+luisa > volei
+cruise > tenis
+|videogame - fiesta| = 0
+arnaldo > cozinhar
+|agile - secretario| = 4
+|arnaldo - focus| = 3
+videogame > raul
+ciano < arnaldo
+verde > nivaldo
+|i30 - neide| = 0
+tenis > carlos
+|ariel - isabela| = 0
+vermelho < nivaldo
+|vanessa - luisa| = 2
+vermelho < fiesta
+cozinhar < verde
+agile > carlos
+azul > focus
+volei < cruise
+|volei - verde| = 4
+|ciano - ariel| = 1
+raul = ciano
+raul < isabela
+focus > vermelho
+focus < arnaldo
+|verde - fiesta| = 2
+|tenis - carlos| = 1
+|neide - carol| = 4
+verde > nivaldo
+|volei - carol| = 4
+secretario < advogado
+cozinhar > luisa
+isabela = azul
+|isabela - carol| = 2
+verde > isabela
+|rosa - videogame| = 1
+cozinhar > i30
+|tenis - vermelho| = 1
+|rosa - carol| = 1
+|videogame - cozinhar| = 1
+|raul - correr| = 3
+luisa = tenis
+|verde - tenis| = 3
+tenis = luisa
+|fiesta - carol| = 2
+|ariel - ciano| = 1
+volei < carol
+|isabela - ciano| = 1
+ariel < cruise
+|vanessa - agile| = 1
+ariel < carol
+|correr - vanessa| = 1
+azul < agile
+nivaldo < verde
+arnaldo > tenis
+|correr - isabela| = 2
+|ciano - rosa| = 2
+|neide - ciano| = 1
+cruise < agile
+luisa < cozinhar
+videogame > carlos
+volei < nivaldo
+tenis < fiesta
+focus < agile
+|correr - secretario| = 4
+neide < raul
+i30 < videogame
+|ariel - carlos| = 2
+neide < correr
+|carol - correr| = 0
+neide < arnaldo
+focus = raul
+rosa > azul
+|carol - engenheiro| = 2
+|vermelho - cruise| = 3
+neide < tenis
+|vermelho - rosa| = 3
+neide < carol
+|neide - luisa| = 1
+|cruise - ciano| = 2
+i30 < rosa
+|verde - cruise| = 1
+carol > secretario
+neide < azul
+|agile - raul| = 3
+vanessa = cozinhar
+azul < vanessa
+carlos < cozinhar
+|rosa - azul| = 1
+arnaldo > vanessa
+|vermelho - tenis| = 1
+ciano = luisa
+agile > rosa
+cozinhar < arnaldo
+|carlos - nivaldo| = 3
+|rosa - ariel| = 1
+cozinhar > focus
+volei = carlos
+raul < isabela
+|agile - secretario| = 4

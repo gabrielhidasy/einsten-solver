@@ -1,0 +1,1 @@
+((amarela 2) (azul 3) (branca 1) (verde 5) (vermelha 4) (alemao 3) (japones 2) (ingles 4) (sueco 1) (italiano 5) (abacaxi 4) (laranja 5) (limao 1) (maracuja 2) (morango 3) (crossover 5) (hatch 1) (pickup 2) (sedan 3) (suv 4) (47a 4) (50a 2) (51a 5) (53a 1) (54a 3) (frango 4) (massa 2) (peixe 1) (salada 3) (sopa 5))

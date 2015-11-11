@@ -1,0 +1,1 @@
+((laranja 1) (limao 2) (maracuja 3) (morango 4) (cachorro 3) (gato 1) (passaro 2) (peixe 4) (amarelo 3) (azul 2) (branco 1) (verde 4) (i8 4) (i9 3) (i10 2) (i11 1) (ana 4) (bruna 3) (raquel 1) (vivian 2) (fps40 3) (fps45 1) (fps50 4) (fps55 2))

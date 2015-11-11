@@ -1,0 +1,839 @@
+camiseta: branco, cinza, vermelho, preto, amarelo
+esposa: nelsa, isabela, luisa, vanessa, carol
+hobby: luta, videogame, desenhar, escrever, volei
+carro: uno, corolla, vectra, cruise, corsa
+cidade: saopaulo, regente, venceslau, tarabai, campogrande
+
+videogame < volei
+branco < venceslau
+luisa = vectra
+saopaulo > isabela
+carol > vermelho
+saopaulo > corolla
+|cruise - corolla| = 2
+|nelsa - uno| = 1
+escrever < volei
+regente < campogrande
+|cinza - corolla| = 1
+regente < corsa
+|corolla - cruise| = 2
+branco < campogrande
+luisa < vanessa
+cruise < vermelho
+|venceslau - campogrande| = 1
+luisa < amarelo
+venceslau < amarelo
+|campogrande - cinza| = 3
+isabela = 1
+tarabai < venceslau
+regente < campogrande
+|regente - amarelo| = 4
+tarabai > vectra
+|vectra - vanessa| = 2
+|preto - nelsa| = 0
+vanessa > branco
+campogrande = carol
+|uno - nelsa| = 1
+corolla < luisa
+|corolla - isabela| = 0
+|vermelho - amarelo| = 1
+nelsa < amarelo
+|campogrande - escrever| = 3
+|venceslau - campogrande| = 1
+|vermelho - amarelo| = 1
+|amarelo - saopaulo| = 3
+|preto - branco| = 2
+|regente - vermelho| = 3
+regente = corolla
+|luisa - cruise| = 1
+|cinza - venceslau| = 2
+carol > vermelho
+|carol - preto| = 2
+vermelho > tarabai
+|uno - tarabai| = 1
+|corolla - branco| = 0
+volei > branco
+|nelsa - amarelo| = 2
+preto > saopaulo
+|nelsa - corolla| = 2
+amarelo > corolla
+|venceslau - luisa| = 2
+videogame > desenhar
+|corolla - vermelho| = 3
+|vanessa - cinza| = 2
+vanessa > preto
+vanessa > nelsa
+|carol - saopaulo| = 3
+|venceslau - vermelho| = 0
+|vanessa - cinza| = 2
+vermelho > corolla
+uno > cruise
+|regente - venceslau| = 3
+cinza = vectra
+|uno - cruise| = 1
+escrever < volei
+tarabai < carol
+|branco - amarelo| = 4
+volei > regente
+|amarelo - campogrande| = 0
+|campogrande - vectra| = 3
+campogrande > preto
+venceslau > nelsa
+|corsa - vanessa| = 1
+|desenhar - luta| = 2
+corsa > saopaulo
+venceslau > regente
+|amarelo - nelsa| = 2
+|luisa - isabela| = 1
+branco < campogrande
+nelsa < vermelho
+|luisa - cinza| = 0
+|branco - vectra| = 1
+|amarelo - escrever| = 3
+|regente - isabela| = 0
+|amarelo - corsa| = 0
+carol > luta
+carol > desenhar
+carol = amarelo
+amarelo > regente
+isabela < vermelho
+|venceslau - corsa| = 1
+uno > tarabai
+regente < saopaulo
+desenhar < luta
+preto > vectra
+|carol - luta| = 2
+corolla < amarelo
+escrever > desenhar
+|saopaulo - vectra| = 0
+volei > regente
+nelsa = cruise
+|luisa - campogrande| = 3
+vermelho > luisa
+corolla < campogrande
+volei > vermelho
+luisa < vermelho
+regente < nelsa
+uno > branco
+regente < vermelho
+|venceslau - luisa| = 2
+vanessa > tarabai
+vectra < preto
+vermelho > vectra
+|vanessa - nelsa| = 1
+|venceslau - cinza| = 2
+tarabai = cruise
+luisa < vanessa
+|vermelho - amarelo| = 1
+regente = corolla
+|carol - saopaulo| = 3
+|escrever - luta| = 1
+amarelo > tarabai
+corolla < uno
+saopaulo < vermelho
+carol > branco
+|cruise - venceslau| = 1
+vanessa < campogrande
+regente < cinza
+|venceslau - corolla| = 3
+venceslau > preto
+vectra < vanessa
+tarabai > isabela
+regente = corolla
+|cruise - vermelho| = 1
+|corolla - nelsa| = 2
+|nelsa - carol| = 2
+isabela = branco
+branco < nelsa
+|cruise - corolla| = 2
+vanessa > corolla
+cruise > saopaulo
+corsa > vermelho
+vanessa > luisa
+cinza = vectra
+saopaulo > branco
+|carol - regente| = 4
+corsa > cinza
+|corsa - vermelho| = 1
+cinza < uno
+|tarabai - vanessa| = 1
+tarabai < venceslau
+tarabai = cruise
+volei > corolla
+venceslau > luisa
+|preto - amarelo| = 2
+branco < tarabai
+tarabai > luisa
+|nelsa - venceslau| = 1
+|corsa - desenhar| = 4
+|luisa - cruise| = 1
+|carol - amarelo| = 0
+|tarabai - branco| = 2
+cruise = 3
+venceslau > corolla
+saopaulo > corolla
+|isabela - amarelo| = 4
+|nelsa - campogrande| = 2
+tarabai < corsa
+nelsa = 3
+amarelo > desenhar
+isabela < tarabai
+preto > regente
+|venceslau - vanessa| = 0
+cruise < vermelho
+amarelo > saopaulo
+videogame > desenhar
+|volei - luisa| = 3
+branco < vectra
+corsa > desenhar
+isabela < saopaulo
+corolla < amarelo
+preto < campogrande
+|vermelho - branco| = 3
+|isabela - cruise| = 2
+vermelho > corolla
+|luisa - cinza| = 0
+|isabela - branco| = 0
+|nelsa - vectra| = 1
+vectra < cruise
+tarabai > vectra
+|volei - tarabai| = 2
+|vanessa - vermelho| = 0
+saopaulo < vermelho
+|vanessa - carol| = 1
+|branco - nelsa| = 2
+amarelo = carol
+nelsa > corolla
+|luta - desenhar| = 2
+|vanessa - venceslau| = 0
+|nelsa - regente| = 2
+|vermelho - vanessa| = 0
+amarelo > vanessa
+branco < uno
+|luisa - carol| = 3
+luta > escrever
+|nelsa - cinza| = 1
+uno > tarabai
+regente < uno
+|saopaulo - uno| = 2
+isabela < cinza
+regente < vanessa
+carol > vectra
+venceslau = uno
+|uno - branco| = 3
+vanessa = vermelho
+|carol - videogame| = 1
+|campogrande - isabela| = 4
+|corolla - corsa| = 4
+|uno - preto| = 1
+|vanessa - cinza| = 2
+|uno - branco| = 3
+|luisa - amarelo| = 3
+nelsa < corsa
+|cinza - vermelho| = 2
+|tarabai - carol| = 2
+escrever < videogame
+venceslau > branco
+volei > saopaulo
+vectra = cinza
+luisa = cinza
+|carol - tarabai| = 2
+|volei - preto| = 2
+|tarabai - cinza| = 1
+|venceslau - tarabai| = 1
+|cruise - branco| = 2
+venceslau = 4
+|venceslau - nelsa| = 1
+cruise < carol
+|corsa - preto| = 2
+campogrande > luisa
+|branco - venceslau| = 3
+venceslau > cinza
+|vanessa - isabela| = 3
+branco < venceslau
+corsa > escrever
+|preto - cinza| = 1
+|carol - vermelho| = 1
+vectra > corolla
+venceslau = uno
+isabela = 1
+luisa < tarabai
+|corolla - saopaulo| = 1
+|luisa - regente| = 1
+|branco - luisa| = 1
+|corsa - tarabai| = 2
+cinza < nelsa
+preto = tarabai
+|venceslau - corsa| = 1
+vectra < vermelho
+luisa < tarabai
+|uno - vermelho| = 0
+|venceslau - nelsa| = 1
+|amarelo - tarabai| = 2
+|corsa - carol| = 0
+amarelo > saopaulo
+branco < tarabai
+vermelho = vanessa
+|corsa - vermelho| = 1
+|regente - isabela| = 0
+|uno - tarabai| = 1
+cinza < corsa
+isabela = corolla
+|vectra - corsa| = 3
+|isabela - vermelho| = 3
+|saopaulo - corolla| = 1
+|corolla - saopaulo| = 1
+isabela < carol
+escrever < videogame
+|carol - cruise| = 2
+luisa < campogrande
+|corsa - escrever| = 3
+|regente - campogrande| = 4
+|luisa - uno| = 2
+corolla = branco
+|nelsa - preto| = 0
+saopaulo < campogrande
+|cinza - regente| = 1
+|vermelho - tarabai| = 1
+|regente - vanessa| = 3
+|cruise - saopaulo| = 1
+branco = isabela
+cruise < carol
+campogrande > luisa
+cruise < carol
+|isabela - corsa| = 4
+|luisa - nelsa| = 1
+branco < venceslau
+venceslau > luisa
+uno < campogrande
+|nelsa - vectra| = 1
+vectra < preto
+|carol - escrever| = 3
+vermelho > corolla
+|tarabai - isabela| = 2
+|vanessa - cruise| = 1
+|venceslau - corsa| = 1
+|isabela - regente| = 0
+|nelsa - uno| = 1
+|cruise - saopaulo| = 1
+corolla < vectra
+cruise < vanessa
+|vermelho - corolla| = 3
+amarelo > regente
+corolla < luisa
+|preto - nelsa| = 0
+|luisa - cruise| = 1
+|vectra - vanessa| = 2
+|volei - isabela| = 4
+|corsa - campogrande| = 0
+venceslau > corolla
+nelsa > luisa
+tarabai < vermelho
+|branco - regente| = 0
+campogrande > cinza
+|campogrande - uno| = 1
+corsa > tarabai
+|luta - escrever| = 1
+|corolla - tarabai| = 2
+|vectra - amarelo| = 3
+corolla = regente
+|saopaulo - venceslau| = 2
+cruise > isabela
+tarabai > saopaulo
+vanessa > regente
+|corsa - tarabai| = 2
+vectra < preto
+|venceslau - regente| = 3
+|corolla - branco| = 0
+corsa > escrever
+uno < amarelo
+preto < amarelo
+|amarelo - corolla| = 4
+|uno - vermelho| = 0
+nelsa < amarelo
+nelsa < vanessa
+|tarabai - preto| = 0
+|luisa - cruise| = 1
+vermelho > nelsa
+nelsa = 3
+|nelsa - branco| = 2
+|isabela - luisa| = 1
+|nelsa - corsa| = 2
+corolla < vectra
+|branco - corsa| = 4
+|luisa - uno| = 2
+|nelsa - carol| = 2
+tarabai < carol
+|regente - saopaulo| = 1
+vanessa > cinza
+vanessa = uno
+regente < nelsa
+|vanessa - preto| = 1
+cinza < uno
+|branco - tarabai| = 2
+|cinza - vermelho| = 2
+vectra < campogrande
+|branco - regente| = 0
+|tarabai - isabela| = 2
+|cinza - vanessa| = 2
+|regente - cinza| = 1
+luisa < amarelo
+uno > luisa
+|volei - vanessa| = 1
+vectra < uno
+cruise < vermelho
+cruise > corolla
+|vanessa - cinza| = 2
+nelsa < vermelho
+|nelsa - venceslau| = 1
+|venceslau - vectra| = 2
+|uno - campogrande| = 1
+isabela = corolla
+|corolla - saopaulo| = 1
+|tarabai - nelsa| = 0
+|isabela - vectra| = 1
+|volei - vanessa| = 1
+cruise > vectra
+|tarabai - regente| = 2
+|volei - corolla| = 4
+|campogrande - vectra| = 3
+vanessa < carol
+cruise > vectra
+cinza > regente
+|isabela - vanessa| = 3
+|cinza - amarelo| = 3
+corolla < uno
+nelsa < carol
+tarabai < uno
+cinza < venceslau
+|tarabai - regente| = 2
+tarabai < vermelho
+corsa > saopaulo
+regente < carol
+|volei - uno| = 1
+cruise > luisa
+|isabela - uno| = 3
+|regente - cinza| = 1
+vermelho = 4
+uno = vermelho
+cruise > corolla
+amarelo > uno
+preto > corolla
+luisa = vectra
+|nelsa - regente| = 2
+|vectra - branco| = 1
+tarabai < vanessa
+|corolla - cinza| = 1
+venceslau < carol
+|campogrande - videogame| = 1
+|amarelo - cruise| = 2
+tarabai > saopaulo
+|corolla - saopaulo| = 1
+vermelho = venceslau
+cinza < cruise
+isabela < carol
+tarabai < carol
+|escrever - luta| = 1
+volei > tarabai
+regente = corolla
+|cinza - uno| = 2
+|saopaulo - campogrande| = 3
+volei > preto
+|carol - campogrande| = 0
+vectra < uno
+campogrande > escrever
+cinza = vectra
+|isabela - cinza| = 1
+|preto - isabela| = 2
+|campogrande - vectra| = 3
+|regente - vanessa| = 3
+vermelho = vanessa
+luisa > isabela
+|tarabai - campogrande| = 2
+venceslau > tarabai
+|preto - venceslau| = 1
+corolla = branco
+|corsa - isabela| = 4
+|isabela - corolla| = 0
+venceslau = uno
+|amarelo - vectra| = 3
+uno > saopaulo
+|branco - tarabai| = 2
+vermelho > tarabai
+tarabai = cruise
+|isabela - tarabai| = 2
+corolla < preto
+vanessa = 4
+corolla = regente
+|corsa - videogame| = 1
+vectra < amarelo
+branco < saopaulo
+|amarelo - venceslau| = 1
+nelsa > saopaulo
+|volei - vectra| = 3
+branco < cruise
+amarelo > vectra
+|nelsa - corsa| = 2
+campogrande > luisa
+vermelho > cinza
+|cinza - corsa| = 3
+luta < videogame
+|campogrande - nelsa| = 2
+|vanessa - luisa| = 2
+regente < preto
+vermelho > branco
+|preto - vermelho| = 1
+|corsa - vanessa| = 1
+saopaulo < vanessa
+|uno - corsa| = 1
+|cruise - tarabai| = 0
+|cruise - vectra| = 1
+cruise < uno
+|preto - uno| = 1
+|preto - vermelho| = 1
+|carol - amarelo| = 0
+|vectra - corsa| = 3
+cinza = saopaulo
+vectra = luisa
+|preto - corsa| = 2
+corsa > branco
+|vanessa - corolla| = 3
+|volei - luisa| = 3
+isabela < vanessa
+|preto - tarabai| = 0
+amarelo > tarabai
+|saopaulo - cruise| = 1
+regente = isabela
+|vermelho - nelsa| = 1
+|preto - amarelo| = 2
+|carol - desenhar| = 4
+corsa = amarelo
+carol = amarelo
+|isabela - venceslau| = 3
+|carol - campogrande| = 0
+luisa = 2
+cruise > cinza
+|regente - preto| = 2
+|regente - nelsa| = 2
+|luisa - vanessa| = 2
+|escrever - luta| = 1
+|vermelho - carol| = 1
+branco < cinza
+amarelo > vectra
+amarelo > videogame
+|regente - tarabai| = 2
+|isabela - preto| = 2
+vermelho > vectra
+preto > isabela
+saopaulo = luisa
+|saopaulo - cruise| = 1
+isabela < carol
+vectra < nelsa
+tarabai < amarelo
+corolla < cruise
+|vanessa - tarabai| = 1
+luisa < vermelho
+|isabela - vectra| = 1
+|volei - tarabai| = 2
+|nelsa - regente| = 2
+amarelo > luisa
+uno = venceslau
+campogrande > luisa
+corolla < cinza
+|amarelo - cruise| = 2
+vermelho > isabela
+saopaulo = luisa
+branco < cruise
+|campogrande - vanessa| = 1
+|campogrande - corolla| = 4
+escrever < volei
+|videogame - desenhar| = 3
+regente < corsa
+venceslau = 4
+vectra < corsa
+|cruise - vermelho| = 1
+preto < carol
+|isabela - vanessa| = 3
+isabela < vermelho
+luisa < uno
+uno > saopaulo
+|saopaulo - tarabai| = 1
+|campogrande - videogame| = 1
+amarelo > luisa
+|corolla - corsa| = 4
+preto < amarelo
+corsa > cinza
+tarabai < campogrande
+|saopaulo - cinza| = 0
+|amarelo - cruise| = 2
+|corolla - vanessa| = 3
+vermelho < carol
+branco < corsa
+|luisa - vanessa| = 2
+|vermelho - saopaulo| = 2
+|preto - nelsa| = 0
+|amarelo - luta| = 2
+luta < videogame
+tarabai < uno
+isabela < corsa
+regente < nelsa
+|branco - corolla| = 0
+corolla = regente
+|vectra - tarabai| = 1
+|campogrande - branco| = 4
+|vermelho - isabela| = 3
+|corsa - branco| = 4
+luisa < carol
+|corsa - tarabai| = 2
+|cruise - uno| = 1
+|preto - isabela| = 2
+|vectra - branco| = 1
+vermelho > isabela
+corolla < nelsa
+tarabai < corsa
+cinza < venceslau
+|uno - branco| = 3
+isabela < vectra
+|luisa - branco| = 1
+cinza < cruise
+|uno - isabela| = 3
+|corolla - cruise| = 2
+|saopaulo - nelsa| = 1
+|cinza - vectra| = 0
+|cruise - luisa| = 1
+nelsa > cinza
+|corolla - corsa| = 4
+|vermelho - cinza| = 2
+|vermelho - venceslau| = 0
+|vermelho - tarabai| = 1
+|preto - amarelo| = 2
+|cruise - preto| = 0
+|preto - campogrande| = 2
+nelsa > saopaulo
+|tarabai - branco| = 2
+|amarelo - videogame| = 1
+campogrande > isabela
+|campogrande - luisa| = 3
+carol > cruise
+vanessa = venceslau
+|luisa - corolla| = 1
+|desenhar - luta| = 2
+|regente - corsa| = 4
+|preto - amarelo| = 2
+|vanessa - amarelo| = 1
+tarabai > regente
+volei > uno
+cruise < vanessa
+|luta - volei| = 2
+corsa > vanessa
+branco < uno
+volei > saopaulo
+|campogrande - cinza| = 3
+nelsa > isabela
+|corsa - branco| = 4
+cinza > isabela
+preto < uno
+campogrande > luta
+corsa > desenhar
+|corsa - saopaulo| = 3
+uno > tarabai
+|vermelho - tarabai| = 1
+regente < carol
+preto = nelsa
+|corsa - cinza| = 3
+|tarabai - preto| = 0
+regente < vanessa
+cruise < corsa
+|luisa - regente| = 1
+corolla = isabela
+saopaulo = cinza
+vanessa > vectra
+tarabai > vectra
+|cruise - nelsa| = 0
+cruise = tarabai
+|carol - escrever| = 3
+|vectra - saopaulo| = 0
+corolla < vanessa
+|carol - regente| = 4
+escrever > desenhar
+|luisa - vermelho| = 2
+campogrande > desenhar
+cruise > corolla
+regente < corsa
+|corolla - luisa| = 1
+|isabela - vanessa| = 3
+vermelho > tarabai
+tarabai < uno
+|vermelho - venceslau| = 0
+|luisa - vermelho| = 2
+|cruise - cinza| = 1
+campogrande > luta
+vanessa = vermelho
+uno > corolla
+nelsa > vectra
+|uno - isabela| = 3
+|saopaulo - uno| = 2
+amarelo > saopaulo
+vanessa = 4
+|vermelho - amarelo| = 1
+cruise > branco
+isabela < luisa
+luisa < uno
+tarabai > vectra
+|campogrande - luisa| = 3
+|venceslau - uno| = 0
+corsa > vermelho
+luisa > isabela
+branco = corolla
+|branco - carol| = 4
+cinza < cruise
+nelsa < campogrande
+|luta - videogame| = 1
+|amarelo - corsa| = 0
+|saopaulo - cruise| = 1
+|cinza - regente| = 1
+vectra > isabela
+|luisa - corolla| = 1
+|corolla - carol| = 4
+preto = tarabai
+corolla < saopaulo
+vermelho > branco
+|tarabai - cruise| = 0
+|luisa - vanessa| = 2
+|cinza - vermelho| = 2
+|saopaulo - branco| = 1
+carol > desenhar
+|luisa - branco| = 1
+|cruise - tarabai| = 0
+vermelho > isabela
+campogrande > nelsa
+preto < venceslau
+preto < corsa
+|vanessa - preto| = 1
+|videogame - desenhar| = 3
+|venceslau - carol| = 1
+venceslau > regente
+|saopaulo - isabela| = 1
+vermelho > branco
+|corolla - campogrande| = 4
+preto < campogrande
+vermelho > branco
+vermelho = venceslau
+vermelho > saopaulo
+|vectra - uno| = 2
+|nelsa - campogrande| = 2
+corolla < vermelho
+campogrande > branco
+corolla < carol
+corolla < vectra
+carol = amarelo
+|regente - saopaulo| = 1
+|venceslau - luisa| = 2
+isabela < campogrande
+|branco - vanessa| = 3
+corsa > luta
+|cruise - saopaulo| = 1
+uno < carol
+|nelsa - vermelho| = 1
+cruise < corsa
+venceslau = vermelho
+|amarelo - uno| = 1
+|vermelho - carol| = 1
+|cinza - corolla| = 1
+carol > cruise
+luisa < nelsa
+|corolla - amarelo| = 4
+tarabai < vanessa
+|campogrande - corolla| = 4
+|campogrande - amarelo| = 0
+|cinza - vectra| = 0
+|desenhar - luta| = 2
+|vanessa - uno| = 0
+isabela = branco
+saopaulo = luisa
+uno > cruise
+|regente - campogrande| = 4
+|tarabai - cruise| = 0
+|vectra - nelsa| = 1
+cruise = preto
+corsa > regente
+|luisa - carol| = 3
+|carol - escrever| = 3
+preto < vanessa
+uno > vectra
+luisa = vectra
+|saopaulo - uno| = 2
+tarabai > isabela
+|amarelo - cruise| = 2
+|isabela - nelsa| = 2
+|venceslau - vectra| = 2
+videogame > desenhar
+|videogame - escrever| = 2
+|uno - preto| = 1
+cruise < vanessa
+volei > isabela
+|vanessa - isabela| = 3
+|branco - tarabai| = 2
+|luisa - cruise| = 1
+|campogrande - corolla| = 4
+regente = corolla
+venceslau < campogrande
+|branco - carol| = 4
+|tarabai - saopaulo| = 1
+vanessa > preto
+luisa < vermelho
+campogrande = corsa
+preto > regente
+|campogrande - corsa| = 0
+cruise > luisa
+campogrande > cruise
+corsa > cinza
+branco = regente
+uno = vermelho
+branco < corsa
+tarabai > vectra
+saopaulo < cruise
+amarelo > nelsa
+isabela < corsa
+amarelo > vectra
+|vectra - carol| = 3
+|carol - luta| = 2
+|vanessa - tarabai| = 1
+branco < vanessa
+|luisa - amarelo| = 3
+|nelsa - corsa| = 2
+nelsa > isabela
+|vectra - venceslau| = 2
+|cruise - uno| = 1
+saopaulo < cruise
+tarabai < campogrande
+|isabela - nelsa| = 2
+|uno - carol| = 1
+nelsa > saopaulo
+vanessa < campogrande
+|carol - cinza| = 3
+|cinza - corsa| = 3
+isabela < vermelho
+vectra < tarabai
+isabela < corsa
+|cruise - cinza| = 1
+corsa > luisa
+corolla < venceslau
+|corsa - branco| = 4
+tarabai < amarelo
+vanessa < corsa
+|vectra - cruise| = 1
+cinza = saopaulo
+|vectra - carol| = 3
+cinza < amarelo
+branco < nelsa
+|cinza - tarabai| = 1
+tarabai < venceslau
+vermelho > preto
+|vermelho - corsa| = 1
+|corsa - videogame| = 1
+|uno - nelsa| = 1
+luisa < vermelho
+|cinza - branco| = 1
+|tarabai - carol| = 2
+|corolla - uno| = 3

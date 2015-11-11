@@ -1,0 +1,1 @@
+((cassio 4) (gabriel 3) (helena 1) (lais 2) (sandro 5) (alemanha 3) (espanha 5) (italia 1) (japao 2) (portugal 4) (amarelo 4) (azul 5) (branco 3) (verde 2) (vermelho 1) (7a 5) (8a 3) (9a 4) (10a 2) (11a 1) (jucenir 5) (marcio 2) (marilena 1) (rosa 3) (rogerio 4))

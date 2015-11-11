@@ -1,0 +1,1 @@
+((crossover 3) (hatch 1) (pickup 2) (sedan 5) (suv 4) (19a 4) (22a 3) (27a 5) (29a 2) (34a 1) (brigadeiro 3) (calabresa 1) (frango 2) (portuguesa 5) (4queijos 4) (gabriel 1) (leandro 3) (mauricio 5) (renato 2) (vinicius 4) (amarela 5) (azul 2) (branca 4) (verde 1) (vermelha 3) (5p 2) (6p 5) (7p 1) (8p 4) (9p 3))

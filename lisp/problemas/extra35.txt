@@ -1,0 +1,840 @@
+camiseta: verde, marrom, branco, amarelo, cinza
+cidade: anhumas, campogrande, tarabai, sertaozinho, rio
+hobby: futebol, escrever, desenhar, ler, pintar
+signo: gemeos, libra, sagitario, peixe, cancer
+profissao: secretario, advogado, cozinheiro, engenheiro, lixeiro
+
+lixeiro > sagitario
+|tarabai - rio| = 1
+amarelo < cinza
+rio > libra
+|sertaozinho - desenhar| = 3
+|engenheiro - cinza| = 2
+|anhumas - campogrande| = 1
+|sertaozinho - cinza| = 4
+marrom < cinza
+secretario < advogado
+|secretario - amarelo| = 2
+secretario < advogado
+|sertaozinho - secretario| = 0
+ler < tarabai
+engenheiro > escrever
+peixe > gemeos
+|branco - futebol| = 1
+|ler - anhumas| = 1
+anhumas < tarabai
+|lixeiro - anhumas| = 2
+lixeiro > escrever
+|sertaozinho - cozinheiro| = 3
+|pintar - rio| = 0
+|futebol - pintar| = 2
+|lixeiro - tarabai| = 1
+|ler - pintar| = 3
+futebol < desenhar
+cozinheiro > amarelo
+|pintar - engenheiro| = 2
+escrever = secretario
+|campogrande - rio| = 3
+|secretario - campogrande| = 1
+|verde - sertaozinho| = 0
+engenheiro = amarelo
+secretario < amarelo
+|cancer - tarabai| = 1
+|gemeos - libra| = 1
+campogrande < tarabai
+|anhumas - campogrande| = 1
+|engenheiro - futebol| = 0
+cozinheiro > futebol
+secretario < branco
+|tarabai - verde| = 3
+advogado > escrever
+|anhumas - marrom| = 1
+sertaozinho = escrever
+|cinza - engenheiro| = 2
+sertaozinho = escrever
+pintar > amarelo
+|futebol - campogrande| = 1
+|ler - advogado| = 0
+ler = branco
+rio > branco
+|futebol - lixeiro| = 2
+|amarelo - escrever| = 2
+|anhumas - cozinheiro| = 1
+|tarabai - rio| = 1
+|escrever - engenheiro| = 2
+secretario < ler
+marrom = desenhar
+engenheiro > ler
+|cinza - ler| = 3
+peixe > gemeos
+sertaozinho < pintar
+cancer > cozinheiro
+anhumas < cinza
+|desenhar - amarelo| = 1
+|escrever - secretario| = 0
+|desenhar - cozinheiro| = 0
+tarabai < cinza
+secretario < lixeiro
+advogado < tarabai
+futebol < cinza
+|tarabai - engenheiro| = 1
+|cinza - ler| = 3
+cinza > anhumas
+|amarelo - verde| = 2
+|sertaozinho - advogado| = 1
+ler < lixeiro
+|advogado - marrom| = 2
+|anhumas - tarabai| = 1
+|lixeiro - rio| = 0
+|amarelo - anhumas| = 0
+libra < peixe
+campogrande < tarabai
+cozinheiro = tarabai
+|cinza - cozinheiro| = 1
+engenheiro < desenhar
+ler > sertaozinho
+rio > gemeos
+pintar > sagitario
+advogado < cozinheiro
+campogrande < anhumas
+tarabai > engenheiro
+|sertaozinho - advogado| = 1
+|ler - engenheiro| = 1
+|rio - advogado| = 3
+sagitario > gemeos
+cinza > campogrande
+marrom > escrever
+|futebol - cinza| = 2
+|sertaozinho - advogado| = 1
+|ler - engenheiro| = 1
+|anhumas - lixeiro| = 2
+sertaozinho < campogrande
+|cancer - engenheiro| = 2
+|ler - anhumas| = 1
+campogrande > escrever
+desenhar = 4
+|cinza - peixe| = 1
+|branco - cozinheiro| = 2
+|tarabai - cinza| = 1
+ler = branco
+cozinheiro = marrom
+rio > ler
+ler = branco
+cinza > gemeos
+campogrande > sertaozinho
+|cinza - peixe| = 1
+|cinza - libra| = 4
+ler < rio
+|sertaozinho - pintar| = 4
+|anhumas - sertaozinho| = 2
+|pintar - cozinheiro| = 1
+|tarabai - marrom| = 0
+anhumas = engenheiro
+cinza > desenhar
+|branco - advogado| = 0
+cancer > campogrande
+|advogado - escrever| = 1
+rio > amarelo
+tarabai > campogrande
+desenhar > advogado
+|ler - cinza| = 3
+rio > peixe
+verde = escrever
+branco < rio
+|anhumas - rio| = 2
+|peixe - libra| = 3
+|anhumas - rio| = 2
+anhumas = futebol
+|rio - sagitario| = 2
+pintar = cinza
+|verde - rio| = 4
+|pintar - verde| = 4
+|tarabai - escrever| = 3
+|cancer - secretario| = 4
+futebol < cinza
+campogrande < pintar
+|futebol - verde| = 2
+tarabai = 4
+|pintar - verde| = 4
+marrom > secretario
+branco < amarelo
+marrom = desenhar
+|desenhar - pintar| = 1
+libra < peixe
+lixeiro > escrever
+|sertaozinho - engenheiro| = 2
+|branco - secretario| = 1
+ler < marrom
+|cinza - advogado| = 3
+|marrom - secretario| = 3
+branco < tarabai
+|cozinheiro - secretario| = 3
+|marrom - verde| = 3
+|anhumas - engenheiro| = 0
+advogado < lixeiro
+|escrever - ler| = 1
+|cozinheiro - amarelo| = 1
+ler = 2
+gemeos < cancer
+desenhar > advogado
+branco < tarabai
+cinza = rio
+|cancer - ler| = 3
+secretario < marrom
+|marrom - tarabai| = 0
+|futebol - marrom| = 1
+|lixeiro - anhumas| = 2
+sagitario > libra
+|anhumas - verde| = 2
+sertaozinho < branco
+escrever < pintar
+desenhar > amarelo
+|cozinheiro - tarabai| = 0
+|marrom - pintar| = 1
+|ler - engenheiro| = 1
+ler = advogado
+cozinheiro > anhumas
+escrever = secretario
+pintar > secretario
+|cancer - advogado| = 3
+desenhar < cinza
+|advogado - campogrande| = 0
+|marrom - engenheiro| = 1
+|tarabai - secretario| = 3
+escrever < marrom
+|futebol - desenhar| = 1
+escrever < cinza
+desenhar < rio
+|pintar - sagitario| = 2
+anhumas < cozinheiro
+engenheiro = anhumas
+sertaozinho < desenhar
+|futebol - rio| = 2
+|amarelo - engenheiro| = 0
+|rio - secretario| = 4
+|cancer - marrom| = 1
+|branco - campogrande| = 0
+|verde - secretario| = 0
+|cinza - lixeiro| = 0
+|branco - futebol| = 1
+|anhumas - amarelo| = 0
+|desenhar - campogrande| = 2
+|verde - secretario| = 0
+sertaozinho < cozinheiro
+|sertaozinho - marrom| = 3
+futebol > advogado
+|cancer - marrom| = 1
+|rio - branco| = 3
+cinza > secretario
+branco < lixeiro
+branco < tarabai
+|amarelo - cozinheiro| = 1
+|verde - anhumas| = 2
+|secretario - verde| = 0
+campogrande > secretario
+|engenheiro - cozinheiro| = 1
+lixeiro > marrom
+|cancer - advogado| = 3
+tarabai > sertaozinho
+|cancer - branco| = 3
+|pintar - tarabai| = 1
+pintar > secretario
+|rio - futebol| = 2
+cozinheiro < cinza
+|tarabai - futebol| = 1
+amarelo > advogado
+marrom = tarabai
+|marrom - anhumas| = 1
+|tarabai - anhumas| = 1
+|lixeiro - branco| = 3
+cinza > ler
+|cozinheiro - branco| = 2
+|tarabai - advogado| = 2
+|cancer - amarelo| = 2
+branco < pintar
+|advogado - desenhar| = 2
+|advogado - futebol| = 1
+escrever < engenheiro
+|rio - engenheiro| = 2
+amarelo = anhumas
+pintar > engenheiro
+|pintar - cozinheiro| = 1
+|anhumas - engenheiro| = 0
+marrom > anhumas
+|pintar - gemeos| = 3
+verde = secretario
+escrever < futebol
+|advogado - futebol| = 1
+|sertaozinho - advogado| = 1
+amarelo < cozinheiro
+|campogrande - branco| = 0
+desenhar > branco
+|secretario - rio| = 4
+|tarabai - ler| = 2
+|secretario - campogrande| = 1
+anhumas > advogado
+|cinza - engenheiro| = 2
+|sertaozinho - branco| = 1
+|engenheiro - futebol| = 0
+ler = 2
+amarelo > verde
+|pintar - peixe| = 1
+escrever < ler
+|secretario - rio| = 4
+anhumas > secretario
+|engenheiro - amarelo| = 0
+cozinheiro > sertaozinho
+|engenheiro - branco| = 1
+amarelo < lixeiro
+|amarelo - sertaozinho| = 2
+|branco - cozinheiro| = 2
+futebol < lixeiro
+|campogrande - rio| = 3
+branco < pintar
+|escrever - cozinheiro| = 3
+cozinheiro > amarelo
+verde < anhumas
+|sertaozinho - marrom| = 3
+anhumas < cinza
+ler > sertaozinho
+|lixeiro - marrom| = 1
+|amarelo - sertaozinho| = 2
+|cozinheiro - pintar| = 1
+|engenheiro - cinza| = 2
+|tarabai - verde| = 3
+desenhar > ler
+|marrom - advogado| = 2
+rio > cozinheiro
+|advogado - pintar| = 3
+|branco - escrever| = 1
+advogado > verde
+|ler - advogado| = 0
+|branco - anhumas| = 1
+cinza > ler
+|branco - advogado| = 0
+|marrom - cozinheiro| = 0
+ler > verde
+|amarelo - lixeiro| = 2
+advogado < pintar
+|campogrande - cozinheiro| = 2
+|marrom - rio| = 1
+branco < futebol
+|amarelo - lixeiro| = 2
+rio = cinza
+|futebol - tarabai| = 1
+branco < anhumas
+engenheiro > advogado
+campogrande < tarabai
+marrom < cinza
+branco < amarelo
+|campogrande - advogado| = 0
+|rio - futebol| = 2
+rio > verde
+campogrande > verde
+|sertaozinho - lixeiro| = 4
+|cinza - pintar| = 0
+anhumas = futebol
+|escrever - secretario| = 0
+desenhar > amarelo
+lixeiro > desenhar
+branco < rio
+|marrom - secretario| = 3
+|desenhar - amarelo| = 1
+marrom < cinza
+|cinza - peixe| = 1
+ler < pintar
+|rio - escrever| = 4
+futebol = anhumas
+|anhumas - pintar| = 2
+campogrande < rio
+|pintar - campogrande| = 3
+|cancer - futebol| = 2
+branco < marrom
+|verde - marrom| = 3
+cancer > engenheiro
+|branco - campogrande| = 0
+verde = escrever
+cinza > secretario
+cinza > desenhar
+|cozinheiro - campogrande| = 2
+campogrande < anhumas
+|futebol - sertaozinho| = 2
+engenheiro > branco
+|lixeiro - desenhar| = 1
+|engenheiro - branco| = 1
+|sagitario - libra| = 2
+|tarabai - amarelo| = 1
+rio > amarelo
+|sagitario - cancer| = 2
+rio = pintar
+|rio - cinza| = 0
+|anhumas - tarabai| = 1
+|pintar - cinza| = 0
+|marrom - futebol| = 1
+branco < desenhar
+marrom > futebol
+|cozinheiro - escrever| = 3
+futebol = amarelo
+|cozinheiro - cinza| = 1
+|sertaozinho - campogrande| = 1
+|lixeiro - anhumas| = 2
+lixeiro > amarelo
+rio > peixe
+|tarabai - rio| = 1
+|ler - secretario| = 1
+desenhar > amarelo
+cinza > campogrande
+|campogrande - escrever| = 1
+campogrande < tarabai
+|verde - cinza| = 4
+ler < cozinheiro
+sertaozinho < pintar
+cozinheiro > ler
+ler = campogrande
+|futebol - pintar| = 2
+secretario < cozinheiro
+|branco - pintar| = 3
+|advogado - rio| = 3
+|verde - marrom| = 3
+|cozinheiro - verde| = 3
+|lixeiro - campogrande| = 3
+anhumas = 3
+|desenhar - marrom| = 0
+marrom = cozinheiro
+|verde - desenhar| = 3
+|rio - peixe| = 1
+engenheiro = 3
+|pintar - cozinheiro| = 1
+|advogado - cinza| = 3
+engenheiro > branco
+advogado < engenheiro
+cinza > futebol
+|rio - marrom| = 1
+|lixeiro - anhumas| = 2
+|desenhar - tarabai| = 0
+|cinza - sertaozinho| = 4
+|anhumas - cozinheiro| = 1
+|verde - lixeiro| = 4
+branco < amarelo
+pintar > anhumas
+|desenhar - verde| = 3
+cancer > cozinheiro
+secretario < branco
+branco < anhumas
+|amarelo - futebol| = 0
+|futebol - advogado| = 1
+cancer > campogrande
+desenhar = cozinheiro
+desenhar > amarelo
+rio > escrever
+|escrever - secretario| = 0
+secretario < marrom
+|futebol - rio| = 2
+desenhar < lixeiro
+cozinheiro < cinza
+secretario < campogrande
+|secretario - escrever| = 0
+|ler - campogrande| = 0
+|futebol - tarabai| = 1
+campogrande > escrever
+|tarabai - lixeiro| = 1
+|cinza - cozinheiro| = 1
+|futebol - engenheiro| = 0
+|engenheiro - escrever| = 2
+|desenhar - escrever| = 3
+|verde - anhumas| = 2
+|anhumas - campogrande| = 1
+|sertaozinho - escrever| = 0
+cancer > escrever
+branco < anhumas
+verde < tarabai
+|cinza - peixe| = 1
+|cancer - tarabai| = 1
+|secretario - engenheiro| = 2
+|sagitario - libra| = 2
+lixeiro > sagitario
+|escrever - engenheiro| = 2
+|marrom - campogrande| = 2
+|tarabai - campogrande| = 2
+lixeiro > peixe
+|cozinheiro - marrom| = 0
+sertaozinho < lixeiro
+escrever < cinza
+|cancer - futebol| = 2
+|marrom - anhumas| = 1
+escrever = sertaozinho
+|campogrande - anhumas| = 1
+|campogrande - cinza| = 3
+|advogado - secretario| = 1
+desenhar > anhumas
+ler < pintar
+lixeiro > futebol
+sertaozinho < desenhar
+|engenheiro - campogrande| = 1
+|sertaozinho - escrever| = 0
+desenhar > campogrande
+rio > gemeos
+futebol < pintar
+|verde - escrever| = 0
+|rio - sagitario| = 2
+verde < lixeiro
+|cozinheiro - campogrande| = 2
+|marrom - cozinheiro| = 0
+cozinheiro > secretario
+campogrande < engenheiro
+|branco - engenheiro| = 1
+|branco - rio| = 3
+|cinza - gemeos| = 3
+escrever = sertaozinho
+|pintar - cozinheiro| = 1
+|futebol - verde| = 2
+|campogrande - cinza| = 3
+desenhar < cinza
+advogado < marrom
+|tarabai - desenhar| = 0
+|cinza - tarabai| = 1
+|escrever - futebol| = 2
+|campogrande - ler| = 0
+verde < advogado
+marrom < rio
+lixeiro > desenhar
+sertaozinho < ler
+|cozinheiro - escrever| = 3
+|futebol - tarabai| = 1
+|pintar - lixeiro| = 0
+|sertaozinho - escrever| = 0
+marrom < pintar
+lixeiro > sagitario
+cinza = rio
+|cinza - tarabai| = 1
+branco > secretario
+libra < peixe
+cancer > campogrande
+advogado < rio
+futebol < cinza
+|marrom - cozinheiro| = 0
+anhumas > sertaozinho
+|amarelo - secretario| = 2
+|pintar - campogrande| = 3
+|escrever - lixeiro| = 4
+advogado = ler
+amarelo < desenhar
+cancer > escrever
+sagitario > libra
+amarelo = futebol
+|tarabai - ler| = 2
+marrom > futebol
+|engenheiro - verde| = 2
+|ler - cozinheiro| = 2
+|amarelo - sertaozinho| = 2
+|verde - desenhar| = 3
+|campogrande - ler| = 0
+amarelo < cozinheiro
+verde < amarelo
+|rio - ler| = 3
+campogrande < lixeiro
+|sagitario - libra| = 2
+anhumas > escrever
+rio > secretario
+|futebol - campogrande| = 1
+|lixeiro - campogrande| = 3
+|anhumas - cinza| = 2
+amarelo < rio
+|futebol - amarelo| = 0
+secretario < engenheiro
+amarelo < rio
+|pintar - tarabai| = 1
+escrever < lixeiro
+sertaozinho < desenhar
+anhumas > campogrande
+amarelo > secretario
+|amarelo - tarabai| = 1
+futebol = amarelo
+|pintar - libra| = 4
+cozinheiro = desenhar
+cancer > futebol
+engenheiro > verde
+desenhar > amarelo
+rio > ler
+|cancer - tarabai| = 1
+|sertaozinho - secretario| = 0
+|campogrande - marrom| = 2
+|lixeiro - desenhar| = 1
+branco > verde
+lixeiro > desenhar
+branco < marrom
+advogado < marrom
+|marrom - cozinheiro| = 0
+pintar = cinza
+cinza > engenheiro
+secretario < futebol
+|verde - branco| = 1
+cozinheiro > ler
+|engenheiro - marrom| = 1
+pintar > branco
+|verde - pintar| = 4
+|advogado - secretario| = 1
+gemeos > libra
+futebol = anhumas
+tarabai > sertaozinho
+sertaozinho < rio
+anhumas < cinza
+|tarabai - rio| = 1
+rio > marrom
+|anhumas - escrever| = 2
+branco < marrom
+pintar > sagitario
+|cozinheiro - secretario| = 3
+cancer > branco
+desenhar = 4
+|campogrande - engenheiro| = 1
+|futebol - amarelo| = 0
+futebol < marrom
+cozinheiro > amarelo
+ler < cinza
+|amarelo - ler| = 1
+|rio - futebol| = 2
+lixeiro > desenhar
+pintar > engenheiro
+engenheiro > secretario
+|rio - engenheiro| = 2
+|verde - branco| = 1
+|pintar - advogado| = 3
+|anhumas - ler| = 1
+desenhar > advogado
+|campogrande - tarabai| = 2
+|branco - marrom| = 2
+|branco - campogrande| = 0
+futebol < rio
+cinza > desenhar
+branco < engenheiro
+cinza > advogado
+ler > escrever
+cozinheiro > sertaozinho
+|rio - cinza| = 0
+tarabai < cinza
+cancer > escrever
+tarabai = marrom
+|cancer - escrever| = 4
+pintar > sertaozinho
+secretario < campogrande
+advogado < anhumas
+cinza > advogado
+futebol > ler
+sagitario > libra
+engenheiro > ler
+|cinza - futebol| = 2
+sertaozinho < cozinheiro
+|desenhar - lixeiro| = 1
+lixeiro > campogrande
+campogrande > verde
+futebol < rio
+|secretario - campogrande| = 1
+|engenheiro - cinza| = 2
+advogado > secretario
+|branco - secretario| = 1
+|campogrande - escrever| = 1
+|secretario - marrom| = 3
+|rio - marrom| = 1
+|desenhar - sertaozinho| = 3
+secretario < desenhar
+futebol > escrever
+amarelo > ler
+|branco - amarelo| = 1
+branco = ler
+futebol < pintar
+verde < marrom
+pintar > tarabai
+rio > amarelo
+escrever < amarelo
+rio > branco
+advogado > secretario
+pintar > libra
+rio > escrever
+futebol < lixeiro
+|cozinheiro - sertaozinho| = 3
+|cinza - sagitario| = 2
+verde < marrom
+|cinza - sertaozinho| = 4
+|sagitario - libra| = 2
+verde = sertaozinho
+desenhar > sertaozinho
+|rio - cozinheiro| = 1
+|verde - sertaozinho| = 0
+|lixeiro - peixe| = 1
+|engenheiro - lixeiro| = 2
+|sertaozinho - advogado| = 1
+rio = cinza
+|libra - sagitario| = 2
+marrom < cinza
+futebol = anhumas
+marrom = tarabai
+escrever < ler
+futebol > escrever
+cinza > sagitario
+sertaozinho < branco
+|sertaozinho - desenhar| = 3
+|ler - pintar| = 3
+pintar > sagitario
+futebol < pintar
+|ler - sertaozinho| = 1
+tarabai < cinza
+gemeos < peixe
+desenhar < rio
+futebol > sertaozinho
+escrever = 1
+|tarabai - marrom| = 0
+|advogado - engenheiro| = 1
+|secretario - anhumas| = 2
+|engenheiro - secretario| = 2
+secretario < branco
+|lixeiro - desenhar| = 1
+|cozinheiro - advogado| = 2
+lixeiro > peixe
+|lixeiro - peixe| = 1
+campogrande < rio
+rio > engenheiro
+|escrever - lixeiro| = 4
+verde < branco
+sertaozinho < marrom
+|rio - marrom| = 1
+|branco - cozinheiro| = 2
+|engenheiro - tarabai| = 1
+|branco - futebol| = 1
+cozinheiro < cinza
+|cinza - sagitario| = 2
+cancer > escrever
+sertaozinho < branco
+sertaozinho < advogado
+|peixe - libra| = 3
+|amarelo - sertaozinho| = 2
+|ler - campogrande| = 0
+|rio - desenhar| = 1
+|rio - cozinheiro| = 1
+|libra - peixe| = 3
+|marrom - verde| = 3
+cinza = pintar
+engenheiro > ler
+|tarabai - ler| = 2
+marrom < pintar
+cancer > marrom
+escrever < futebol
+secretario < campogrande
+engenheiro < lixeiro
+cancer > marrom
+|escrever - verde| = 0
+|ler - escrever| = 1
+|cinza - sagitario| = 2
+verde < anhumas
+futebol < rio
+|lixeiro - marrom| = 1
+|desenhar - campogrande| = 2
+anhumas < marrom
+|engenheiro - verde| = 2
+|secretario - desenhar| = 3
+gemeos > libra
+|libra - cancer| = 4
+amarelo = anhumas
+branco = advogado
+pintar > amarelo
+escrever < cozinheiro
+cozinheiro > campogrande
+marrom < rio
+|cozinheiro - verde| = 3
+|anhumas - tarabai| = 1
+|rio - marrom| = 1
+rio > escrever
+engenheiro = futebol
+|cozinheiro - sertaozinho| = 3
+|cozinheiro - ler| = 2
+|ler - advogado| = 0
+|verde - desenhar| = 3
+|secretario - tarabai| = 3
+|ler - campogrande| = 0
+|rio - verde| = 4
+|sertaozinho - pintar| = 4
+|futebol - cozinheiro| = 1
+|tarabai - cozinheiro| = 0
+|pintar - cinza| = 0
+desenhar > engenheiro
+|tarabai - futebol| = 1
+cancer > futebol
+|tarabai - cinza| = 1
+|pintar - cinza| = 0
+branco > sertaozinho
+|engenheiro - campogrande| = 1
+|pintar - libra| = 4
+|pintar - verde| = 4
+escrever < rio
+|amarelo - rio| = 2
+|advogado - ler| = 0
+pintar > anhumas
+advogado = branco
+tarabai > secretario
+verde < futebol
+rio > advogado
+|engenheiro - ler| = 1
+|ler - anhumas| = 1
+|cinza - cozinheiro| = 1
+|ler - branco| = 0
+|amarelo - sertaozinho| = 2
+|libra - gemeos| = 1
+desenhar > verde
+anhumas = futebol
+tarabai < rio
+|branco - campogrande| = 0
+secretario < cinza
+|branco - tarabai| = 2
+|lixeiro - marrom| = 1
+|marrom - pintar| = 1
+anhumas < pintar
+amarelo = anhumas
+|sagitario - libra| = 2
+sertaozinho < futebol
+|desenhar - sertaozinho| = 3
+ler = advogado
+marrom = tarabai
+campogrande > sertaozinho
+anhumas = engenheiro
+|anhumas - escrever| = 2
+verde = escrever
+|anhumas - pintar| = 2
+verde < campogrande
+sertaozinho = verde
+|branco - ler| = 0
+cancer > engenheiro
+|amarelo - desenhar| = 1
+|tarabai - futebol| = 1
+|tarabai - campogrande| = 2
+escrever < pintar
+|marrom - anhumas| = 1
+|cozinheiro - tarabai| = 0
+|futebol - escrever| = 2
+branco > escrever
+|tarabai - futebol| = 1
+|cinza - peixe| = 1
+|amarelo - desenhar| = 1
+|cancer - marrom| = 1
+|cinza - escrever| = 4
+|anhumas - escrever| = 2
+|ler - advogado| = 0
+|secretario - escrever| = 0
+ler < cinza
+|ler - cozinheiro| = 2
+advogado < engenheiro
+|desenhar - tarabai| = 0
+|futebol - cozinheiro| = 1
+|marrom - advogado| = 2
+|engenheiro - campogrande| = 1
+engenheiro < cozinheiro
+|desenhar - engenheiro| = 1
+|branco - ler| = 0
+futebol = amarelo
+|cinza - desenhar| = 1
+anhumas > sertaozinho
+ler = branco
+lixeiro > futebol
+|secretario - advogado| = 1
+pintar = lixeiro
+ler > secretario
+|escrever - branco| = 1

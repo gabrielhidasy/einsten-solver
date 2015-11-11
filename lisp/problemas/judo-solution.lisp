@@ -1,0 +1,1 @@
+((175cm 5) (178cm 1) (180cm 2) (184cm 3) (187cm 4) (diego 1) (emerson 5) (felipe 2) (milton 4) (renato 3) (amarela 4) (azul 2) (branca 1) (verde 5) (vermelha 3) (75kg 1) (79kg 3) (81kg 5) (84kg 4) (87kg 2) (es 4) (go 2) (rj 1) (rs 3) (sp 5) (23a 1) (25a 2) (28a 3) (30a 4) (32a 5))

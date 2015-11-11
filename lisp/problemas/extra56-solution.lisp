@@ -1,0 +1,1 @@
+((ka 4) (agile 1) (focus 2) (uno 3) (vectra 5) (gilberto 4) (arnaldo 1) (felipe 2) (ariel 3) (leonardo 5) (saopaulo 2) (tarabai 1) (campogrande 3) (campinas 4) (montemor 5) (maria 4) (luana 1) (ana 3) (vanessa 2) (luisa 5) (rosa 1) (vermelho 3) (marrom 2) (verde 4) (cinza 5) (cientista 1) (engenheiro 2) (secretario 3) (advogado 4) (cozinheiro 5))

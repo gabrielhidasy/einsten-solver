@@ -1,0 +1,1 @@
+((3oumais 2) (cacapalavras 1) (cubovermelho 5) (forca 3) (logica 4) (denis 2) (joao 4) (lenin 5) (otavio 1) (will 3) (amarela 5) (azul 3) (branca 2) (verde 1) (vermelha 4) (agosto 1) (dezembro 2) (janeiro 3) (maio 5) (setembro 4) (laranja 5) (limao 1) (maracuja 2) (morango 3) (uva 4) (biologia 3) (geografia 1) (historia 4) (matematica 2) (portugues 5))

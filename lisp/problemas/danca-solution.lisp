@@ -1,0 +1,1 @@
+((1a 5) (2a 4) (3a 2) (4a 3) (5a 1) (amarelo 5) (azul 4) (branco 2) (verde 3) (vermelho 1) (bolero 4) (forro 1) (salsa 3) (samba 5) (zouk 2) (alagoas 3) (rio 2) (catarina 4) (sp 1) (tocantins 5) (caio 4) (gabriel 5) (diogo 2) (luciano 3) (samuel 1) (amanda 3) (fabiana 2) (jessica 1) (lais 4) (vivian 5))

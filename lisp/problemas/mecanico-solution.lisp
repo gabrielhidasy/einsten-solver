@@ -1,0 +1,1 @@
+((crossover 5) (hatch 2) (pickup 3) (sedan 4) (suv 1) (2007a 1) (2008a 5) (2009a 2) (2010a 3) (2011a 4) (amarela 2) (azul 3) (branca 4) (verde 5) (vermelha 1) (bateria 5) (cambio 3) (embreagem 1) (freio 4) (motor 2) (alema 1) (chinesa 4) (francesa 2) (italiana 5) (japonesa 3) (adailton 1) (francisco 4) (george 5) (nilton 3) (marcos 2))

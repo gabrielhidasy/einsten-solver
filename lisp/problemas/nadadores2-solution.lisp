@@ -1,0 +1,1 @@
+((argentina 2) (brasil 4) (eua 3) (franca 1) (amarela 4) (azul 2) (branca 3) (verde 1) (borboleta 1) (costas 3) (crawl 4) (peito 2) (20anos 1) (22anos 4) (23anos 2) (24anos 3) (2medalhas 1) (3medalhas 2) (5medalhas 3) (8medalhas 4) (70kg 3) (75kg 4) (80kg 1) (84kg 2))

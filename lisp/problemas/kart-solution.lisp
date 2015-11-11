@@ -1,0 +1,1 @@
+((ferrari 4) (mclaren 2) (rbr 3) (renault 1) (williams 5) (a_prost 1) (f_alonso 4) (k_raikkonen 5) (m_schumacher 2) (n_piquet 3) (22a 5) (25a 4) (27a 3) (29a 1) (31a 2) (bruno 2) (emerson 3) (felipe 4) (fernando 5) (rubens 1) (crossover 3) (hatch 2) (pickup 5) (sedan 4) (suv 1) (amarelo 2) (azul 1) (branco 5) (verde 4) (vermelho 3))

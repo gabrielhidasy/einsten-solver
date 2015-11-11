@@ -1,0 +1,1 @@
+((amenos 1) (amais 3) (abmais 5) (bmais 2) (omenos 4) (amarelo 2) (azul 4) (branco 1) (verde 3) (vermelho 5) (9h35m 3) (9h50m 5) (10h05m 1) (10h40m 2) (11h10m 4) (corinthians 2) (cruzeiro 1) (flamengo 5) (gremio 4) (sport 3) (ana 2) (isadora 3) (katia 1) (martina 4) (tatiane 5) (cristiano 3) (evandro 2) (julio 4) (paulo 5) (willian 1))

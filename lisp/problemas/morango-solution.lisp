@@ -1,0 +1,1 @@
+((amarela 5) (azul 3) (branca 4) (verde 2) (vermelha 1) (estilista 1) (garconete 3) (jornalista 4) (projetista 2) (vendedora 5) (26a 5) (31a 2) (37a 1) (42a 3) (55a 4) (2c 5) (3c 2) (4c 3) (5c 4) (6c 1) (carla 1) (giovana 2) (ines 4) (mariana 5) (silvia 3) (bolo 4) (geleia 3) (mousse 2) (pave 1) (torta 5))

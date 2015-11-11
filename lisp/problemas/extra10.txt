@@ -1,0 +1,1249 @@
+carro: cruise, uno, agile, fiesta, corsa
+profissao: advogado, faxineiro, cientista, engenheiro, arquiteto
+esposa: isabela, ana, luisa, neide, maria
+cidade: rio, anhumas, regente, saopaulo, campinas
+hobby: correr, tenis, pintar, videogame, futebol
+camiseta: vermelho, rosa, amarelo, cinza, lilas
+
+rosa < rio
+|ana - cruise| = 2
+|futebol - lilas| = 0
+|rio - corsa| = 3
+|pintar - corsa| = 1
+|lilas - campinas| = 0
+|luisa - saopaulo| = 0
+rosa < amarelo
+fiesta < maria
+correr < pintar
+|saopaulo - maria| = 2
+|lilas - videogame| = 4
+cinza > regente
+amarelo > neide
+pintar > luisa
+|pintar - ana| = 0
+|luisa - pintar| = 1
+|lilas - neide| = 4
+|cruise - campinas| = 3
+|vermelho - maria| = 1
+rio < saopaulo
+|campinas - amarelo| = 3
+|amarelo - uno| = 1
+|fiesta - cinza| = 0
+|neide - videogame| = 0
+campinas > engenheiro
+amarelo < vermelho
+|campinas - isabela| = 3
+corsa > rio
+|saopaulo - correr| = 0
+|lilas - engenheiro| = 4
+|corsa - amarelo| = 3
+|lilas - agile| = 1
+rosa < rio
+rio < maria
+|regente - videogame| = 0
+|ana - campinas| = 1
+|faxineiro - cientista| = 1
+|lilas - saopaulo| = 2
+fiesta > videogame
+|uno - amarelo| = 1
+anhumas > amarelo
+|cruise - futebol| = 3
+pintar > cinza
+|luisa - rosa| = 2
+|videogame - rosa| = 0
+corsa > regente
+|lilas - correr| = 2
+maria > agile
+|rio - videogame| = 1
+saopaulo = fiesta
+anhumas = ana
+regente < lilas
+rio < luisa
+|rio - pintar| = 2
+futebol > agile
+|engenheiro - faxineiro| = 2
+ana > luisa
+|cientista - faxineiro| = 1
+anhumas > rio
+|saopaulo - anhumas| = 1
+rosa < cruise
+campinas > vermelho
+rio > videogame
+tenis = rio
+lilas = campinas
+|campinas - cientista| = 1
+|ana - fiesta| = 1
+uno < pintar
+videogame < campinas
+|lilas - neide| = 4
+agile > fiesta
+|luisa - futebol| = 2
+agile > videogame
+|fiesta - cruise| = 1
+|correr - maria| = 2
+|luisa - cruise| = 1
+cruise > rosa
+rosa < lilas
+agile > isabela
+|regente - anhumas| = 3
+rosa < fiesta
+|vermelho - uno| = 3
+|lilas - maria| = 0
+|tenis - saopaulo| = 1
+advogado < faxineiro
+campinas > luisa
+videogame < tenis
+|saopaulo - maria| = 2
+|agile - isabela| = 2
+uno < amarelo
+|pintar - cinza| = 1
+rosa < agile
+|fiesta - agile| = 1
+|lilas - cientista| = 1
+videogame < campinas
+|correr - videogame| = 2
+|correr - fiesta| = 0
+|cinza - pintar| = 1
+|lilas - cientista| = 1
+advogado < cientista
+|amarelo - pintar| = 2
+|saopaulo - pintar| = 1
+uno = 1
+|fiesta - pintar| = 1
+|maria - pintar| = 1
+regente = 1
+cinza < pintar
+ana > fiesta
+|saopaulo - fiesta| = 0
+|rio - uno| = 1
+correr > rosa
+amarelo > rosa
+ana > tenis
+fiesta > regente
+|vermelho - agile| = 0
+amarelo < agile
+neide < isabela
+|rosa - isabela| = 1
+corsa = futebol
+|anhumas - rosa| = 3
+ana = 4
+|cruise - vermelho| = 2
+anhumas > amarelo
+|cinza - isabela| = 1
+|campinas - cinza| = 2
+|ana - cinza| = 1
+saopaulo < futebol
+futebol > advogado
+fiesta = saopaulo
+saopaulo = luisa
+anhumas < campinas
+|amarelo - futebol| = 3
+agile > rio
+|maria - correr| = 2
+|amarelo - fiesta| = 1
+luisa = correr
+campinas = corsa
+|saopaulo - campinas| = 2
+maria > pintar
+|luisa - tenis| = 1
+|advogado - cientista| = 2
+campinas > faxineiro
+saopaulo > neide
+|vermelho - campinas| = 1
+vermelho < corsa
+neide < corsa
+uno < vermelho
+|anhumas - saopaulo| = 1
+campinas > cruise
+|cruise - anhumas| = 2
+|rio - pintar| = 2
+maria > fiesta
+cruise > uno
+|cruise - correr| = 1
+correr < ana
+corsa > amarelo
+saopaulo > cruise
+|rosa - luisa| = 2
+anhumas > isabela
+|corsa - anhumas| = 1
+|saopaulo - neide| = 2
+neide < amarelo
+|rio - pintar| = 2
+|vermelho - neide| = 3
+|vermelho - neide| = 3
+isabela < lilas
+|vermelho - ana| = 0
+|saopaulo - maria| = 2
+saopaulo = fiesta
+uno < cruise
+|engenheiro - arquiteto| = 4
+maria > vermelho
+fiesta < corsa
+neide < correr
+correr < agile
+|regente - fiesta| = 2
+|neide - luisa| = 2
+isabela < anhumas
+|anhumas - neide| = 3
+|uno - cruise| = 1
+|isabela - rio| = 0
+|videogame - correr| = 2
+|cinza - amarelo| = 1
+cruise < vermelho
+ana < maria
+|cinza - anhumas| = 1
+|rosa - rio| = 1
+|corsa - rio| = 3
+|campinas - luisa| = 2
+|ana - saopaulo| = 1
+|futebol - vermelho| = 1
+rio < futebol
+videogame < vermelho
+|uno - vermelho| = 3
+|cruise - anhumas| = 2
+|fiesta - regente| = 2
+|faxineiro - arquiteto| = 2
+vermelho > amarelo
+|saopaulo - fiesta| = 0
+uno < ana
+vermelho > amarelo
+lilas > cruise
+|luisa - anhumas| = 1
+pintar > tenis
+luisa = correr
+ana > uno
+agile = ana
+|tenis - regente| = 1
+agile > tenis
+corsa > rosa
+ana > regente
+regente < ana
+neide < cruise
+neide = videogame
+|futebol - saopaulo| = 2
+|vermelho - futebol| = 1
+isabela < correr
+uno < fiesta
+|anhumas - regente| = 3
+|maria - corsa| = 0
+saopaulo = correr
+|isabela - campinas| = 3
+anhumas = pintar
+futebol > advogado
+cinza > rio
+|anhumas - fiesta| = 1
+videogame < fiesta
+|futebol - uno| = 4
+lilas > tenis
+vermelho > amarelo
+|rosa - corsa| = 4
+|tenis - futebol| = 3
+|ana - cruise| = 2
+isabela = amarelo
+saopaulo < pintar
+vermelho > luisa
+|amarelo - vermelho| = 2
+|lilas - futebol| = 0
+amarelo > uno
+|anhumas - lilas| = 1
+|videogame - isabela| = 1
+saopaulo < futebol
+futebol > engenheiro
+|cruise - agile| = 2
+|cruise - videogame| = 1
+ana > correr
+|corsa - videogame| = 4
+|ana - isabela| = 2
+|tenis - rosa| = 1
+amarelo < agile
+|campinas - ana| = 1
+isabela > regente
+anhumas = ana
+maria > cinza
+|campinas - cinza| = 2
+corsa > ana
+pintar > amarelo
+pintar < corsa
+|luisa - anhumas| = 1
+anhumas > luisa
+vermelho > videogame
+|ana - futebol| = 1
+|uno - anhumas| = 3
+|futebol - cientista| = 1
+pintar > luisa
+|isabela - maria| = 3
+saopaulo < agile
+|regente - isabela| = 1
+|tenis - agile| = 2
+|correr - videogame| = 2
+saopaulo < agile
+|cinza - regente| = 2
+futebol > vermelho
+vermelho = agile
+pintar > uno
+vermelho > videogame
+ana > isabela
+|corsa - anhumas| = 1
+|engenheiro - faxineiro| = 2
+|anhumas - pintar| = 0
+pintar > fiesta
+saopaulo > isabela
+|maria - futebol| = 0
+cinza < futebol
+|uno - correr| = 2
+rio > uno
+futebol = maria
+neide < cruise
+luisa > tenis
+campinas > uno
+neide < campinas
+uno < anhumas
+|rosa - luisa| = 2
+isabela < saopaulo
+anhumas > rosa
+|isabela - maria| = 3
+|saopaulo - cinza| = 0
+|agile - regente| = 3
+neide < isabela
+corsa > vermelho
+rosa < tenis
+|uno - cruise| = 1
+|futebol - saopaulo| = 2
+ana = 4
+|correr - amarelo| = 1
+neide = uno
+pintar < campinas
+regente < futebol
+|cruise - amarelo| = 0
+fiesta > neide
+|uno - futebol| = 4
+saopaulo < pintar
+futebol > anhumas
+|correr - saopaulo| = 0
+|videogame - maria| = 4
+uno = regente
+cruise < vermelho
+cruise = isabela
+correr > tenis
+isabela = amarelo
+correr > tenis
+rosa < correr
+|anhumas - cinza| = 1
+correr < pintar
+cruise < saopaulo
+regente < vermelho
+|tenis - anhumas| = 2
+cinza < agile
+|vermelho - pintar| = 0
+amarelo > uno
+|ana - vermelho| = 0
+|pintar - isabela| = 2
+cruise = amarelo
+neide < agile
+|anhumas - campinas| = 1
+|neide - pintar| = 3
+|ana - cruise| = 2
+ana > correr
+|anhumas - correr| = 1
+pintar = anhumas
+|luisa - fiesta| = 0
+correr = saopaulo
+|maria - tenis| = 3
+pintar > cruise
+|regente - anhumas| = 3
+videogame < correr
+|ana - rosa| = 3
+futebol > anhumas
+rio > videogame
+|tenis - regente| = 1
+|videogame - campinas| = 4
+regente < pintar
+|luisa - uno| = 2
+|amarelo - vermelho| = 2
+cruise = isabela
+correr > uno
+|futebol - campinas| = 0
+saopaulo > tenis
+|engenheiro - arquiteto| = 4
+|rio - cruise| = 0
+saopaulo < agile
+|vermelho - correr| = 1
+|lilas - cientista| = 1
+|amarelo - agile| = 2
+campinas = corsa
+tenis < luisa
+cruise < cinza
+agile > regente
+correr > videogame
+|cinza - saopaulo| = 0
+correr < agile
+|lilas - ana| = 1
+|rio - neide| = 1
+cruise = rio
+pintar > cruise
+|vermelho - anhumas| = 0
+correr < pintar
+|cruise - videogame| = 1
+vermelho < maria
+fiesta < maria
+|lilas - uno| = 4
+maria > videogame
+cinza < corsa
+|isabela - corsa| = 3
+|lilas - regente| = 4
+faxineiro < arquiteto
+|fiesta - videogame| = 2
+|correr - pintar| = 1
+vermelho > rio
+fiesta < pintar
+maria = lilas
+correr < pintar
+|vermelho - lilas| = 1
+|tenis - lilas| = 3
+lilas > isabela
+|neide - tenis| = 1
+isabela < luisa
+amarelo = rio
+tenis < agile
+fiesta > amarelo
+|rosa - pintar| = 3
+|videogame - luisa| = 2
+campinas > isabela
+lilas = futebol
+cruise = isabela
+|cinza - anhumas| = 1
+engenheiro < faxineiro
+|tenis - pintar| = 2
+|uno - rio| = 1
+luisa < pintar
+uno < saopaulo
+videogame < correr
+regente < anhumas
+|regente - isabela| = 1
+lilas > fiesta
+campinas = maria
+vermelho > correr
+|tenis - isabela| = 0
+|fiesta - uno| = 2
+|ana - vermelho| = 0
+campinas > videogame
+|campinas - ana| = 1
+|pintar - tenis| = 2
+maria > tenis
+regente < anhumas
+|ana - luisa| = 1
+ana > videogame
+futebol = campinas
+|uno - rosa| = 0
+|videogame - lilas| = 4
+corsa > correr
+ana < futebol
+vermelho > fiesta
+saopaulo > neide
+luisa < vermelho
+ana > luisa
+neide < lilas
+|isabela - luisa| = 1
+|anhumas - vermelho| = 0
+|regente - anhumas| = 3
+|regente - fiesta| = 2
+lilas > neide
+|agile - fiesta| = 1
+amarelo < pintar
+|amarelo - cinza| = 1
+|rio - amarelo| = 0
+tenis < anhumas
+agile < corsa
+|cinza - amarelo| = 1
+pintar < maria
+|uno - cinza| = 2
+|ana - luisa| = 1
+futebol > neide
+|isabela - futebol| = 3
+luisa > cruise
+|futebol - agile| = 1
+rio = cruise
+|fiesta - campinas| = 2
+|neide - tenis| = 1
+luisa > rio
+|tenis - cinza| = 1
+|lilas - correr| = 2
+|ana - agile| = 0
+fiesta < maria
+|luisa - corsa| = 2
+ana < maria
+ana > correr
+|advogado - engenheiro| = 1
+regente < cinza
+|correr - corsa| = 2
+|corsa - pintar| = 1
+tenis > regente
+|regente - cruise| = 1
+videogame < fiesta
+|ana - uno| = 3
+uno < lilas
+|rio - isabela| = 0
+rosa < ana
+|uno - rosa| = 0
+vermelho > isabela
+|regente - agile| = 3
+anhumas = ana
+|uno - rio| = 1
+campinas > videogame
+cinza < maria
+rio > neide
+neide < fiesta
+rio < futebol
+|anhumas - fiesta| = 1
+|vermelho - correr| = 1
+futebol > rio
+futebol > vermelho
+|campinas - lilas| = 0
+amarelo = cruise
+|tenis - saopaulo| = 1
+saopaulo < anhumas
+isabela = amarelo
+|futebol - cinza| = 2
+|amarelo - vermelho| = 2
+|pintar - fiesta| = 1
+|uno - tenis| = 1
+campinas > engenheiro
+|videogame - pintar| = 3
+amarelo < vermelho
+|correr - amarelo| = 1
+|maria - cientista| = 1
+tenis = amarelo
+cruise < anhumas
+correr > neide
+|agile - saopaulo| = 1
+|saopaulo - rio| = 1
+|cinza - fiesta| = 0
+|maria - fiesta| = 2
+saopaulo = fiesta
+|maria - faxineiro| = 2
+|tenis - lilas| = 3
+videogame < campinas
+uno < isabela
+|campinas - maria| = 0
+anhumas > fiesta
+|regente - rio| = 1
+|agile - amarelo| = 2
+|ana - corsa| = 1
+|agile - luisa| = 1
+|regente - corsa| = 4
+|futebol - cruise| = 3
+|maria - advogado| = 3
+|saopaulo - agile| = 1
+uno < ana
+ana > luisa
+advogado < faxineiro
+fiesta < anhumas
+|tenis - pintar| = 2
+|rosa - neide| = 0
+saopaulo > tenis
+fiesta > regente
+|rio - futebol| = 3
+regente < vermelho
+anhumas > videogame
+|fiesta - corsa| = 2
+|ana - vermelho| = 0
+|vermelho - maria| = 1
+|fiesta - videogame| = 2
+|corsa - rosa| = 4
+fiesta < futebol
+|tenis - neide| = 1
+anhumas = pintar
+|fiesta - amarelo| = 1
+|correr - rosa| = 2
+|uno - ana| = 3
+corsa > faxineiro
+|cruise - corsa| = 3
+|campinas - videogame| = 4
+|videogame - corsa| = 4
+|agile - regente| = 3
+|rosa - cinza| = 2
+|saopaulo - videogame| = 2
+amarelo < agile
+|saopaulo - amarelo| = 1
+agile = anhumas
+|rosa - lilas| = 4
+|maria - cruise| = 3
+uno < corsa
+|tenis - cruise| = 0
+|rosa - tenis| = 1
+luisa = cinza
+anhumas > saopaulo
+|futebol - vermelho| = 1
+|tenis - cruise| = 0
+saopaulo < agile
+agile = anhumas
+maria > faxineiro
+saopaulo < lilas
+|pintar - lilas| = 1
+|tenis - lilas| = 3
+isabela < futebol
+pintar = agile
+saopaulo > tenis
+fiesta < corsa
+|neide - saopaulo| = 2
+|luisa - ana| = 1
+agile < maria
+ana > neide
+|corsa - lilas| = 0
+|pintar - videogame| = 3
+|rio - campinas| = 3
+rio < anhumas
+|ana - regente| = 3
+|ana - agile| = 0
+|tenis - isabela| = 0
+|uno - rosa| = 0
+agile < lilas
+campinas > luisa
+regente < ana
+|campinas - agile| = 1
+correr < campinas
+luisa = saopaulo
+|corsa - ana| = 1
+|fiesta - saopaulo| = 0
+|lilas - saopaulo| = 2
+|cruise - cinza| = 1
+amarelo < anhumas
+agile = anhumas
+|luisa - ana| = 1
+|isabela - saopaulo| = 1
+|correr - videogame| = 2
+|advogado - arquiteto| = 3
+|neide - vermelho| = 3
+|lilas - neide| = 4
+cinza = fiesta
+|tenis - cruise| = 0
+|isabela - amarelo| = 0
+|anhumas - uno| = 3
+neide < campinas
+regente < fiesta
+|uno - vermelho| = 3
+|neide - luisa| = 2
+|saopaulo - videogame| = 2
+cruise > rosa
+|faxineiro - arquiteto| = 2
+rio < maria
+|regente - lilas| = 4
+fiesta > amarelo
+luisa = correr
+|rio - rosa| = 1
+|correr - fiesta| = 0
+|saopaulo - vermelho| = 1
+regente = uno
+|agile - tenis| = 2
+|campinas - cinza| = 2
+fiesta > cruise
+luisa > uno
+|cinza - regente| = 2
+regente < campinas
+cinza < maria
+|ana - regente| = 3
+vermelho > cinza
+|cruise - amarelo| = 0
+agile > luisa
+|amarelo - rosa| = 1
+isabela < vermelho
+correr < futebol
+corsa = maria
+engenheiro < arquiteto
+correr > uno
+|corsa - luisa| = 2
+isabela > rosa
+agile > saopaulo
+|fiesta - ana| = 1
+|videogame - lilas| = 4
+vermelho > rio
+campinas > neide
+|correr - rosa| = 2
+|ana - correr| = 1
+vermelho < maria
+|corsa - tenis| = 3
+|vermelho - cruise| = 2
+corsa > anhumas
+engenheiro < arquiteto
+|lilas - pintar| = 1
+|campinas - ana| = 1
+anhumas > rosa
+tenis < agile
+|lilas - regente| = 4
+regente < cruise
+|tenis - neide| = 1
+|luisa - tenis| = 1
+campinas > tenis
+|correr - agile| = 1
+tenis > neide
+regente < cinza
+cinza < maria
+|saopaulo - anhumas| = 1
+cruise = amarelo
+|pintar - luisa| = 1
+|vermelho - futebol| = 1
+|vermelho - maria| = 1
+|neide - rio| = 1
+|agile - cruise| = 2
+anhumas > rio
+|campinas - fiesta| = 2
+|videogame - uno| = 0
+ana > amarelo
+futebol > rio
+anhumas < futebol
+maria = futebol
+saopaulo < maria
+campinas > amarelo
+|maria - amarelo| = 3
+maria > saopaulo
+|uno - rio| = 1
+lilas = futebol
+|corsa - anhumas| = 1
+|vermelho - maria| = 1
+isabela > neide
+cinza < anhumas
+cientista > faxineiro
+rosa < fiesta
+saopaulo < agile
+rosa < maria
+|saopaulo - agile| = 1
+|anhumas - rio| = 2
+|ana - cruise| = 2
+cinza > uno
+|isabela - luisa| = 1
+|advogado - cientista| = 2
+rosa < pintar
+|maria - cinza| = 2
+rosa = 1
+|cruise - fiesta| = 1
+faxineiro < arquiteto
+|lilas - ana| = 1
+|pintar - tenis| = 2
+futebol > cientista
+amarelo < luisa
+regente < vermelho
+agile > fiesta
+luisa > rio
+|videogame - lilas| = 4
+tenis < cinza
+|amarelo - uno| = 1
+|videogame - ana| = 3
+|anhumas - luisa| = 1
+campinas > pintar
+campinas = lilas
+|isabela - luisa| = 1
+|pintar - regente| = 3
+|pintar - rosa| = 3
+|corsa - pintar| = 1
+luisa > cruise
+|uno - regente| = 0
+|rosa - agile| = 3
+uno < fiesta
+|maria - uno| = 4
+|tenis - isabela| = 0
+|amarelo - ana| = 2
+isabela = tenis
+campinas > uno
+correr > uno
+tenis < fiesta
+corsa > tenis
+|agile - rosa| = 3
+vermelho > videogame
+|pintar - luisa| = 1
+vermelho = anhumas
+|luisa - campinas| = 2
+isabela < pintar
+campinas > uno
+|tenis - agile| = 2
+pintar > uno
+futebol = lilas
+|corsa - ana| = 1
+|agile - tenis| = 2
+rio > uno
+luisa < vermelho
+|faxineiro - engenheiro| = 2
+|fiesta - amarelo| = 1
+tenis = amarelo
+lilas > correr
+|ana - anhumas| = 0
+vermelho > videogame
+isabela < saopaulo
+|videogame - correr| = 2
+videogame < maria
+|rosa - videogame| = 0
+lilas = corsa
+tenis < vermelho
+rosa < amarelo
+rosa < cruise
+correr = cinza
+anhumas > neide
+correr > rosa
+isabela < correr
+|isabela - campinas| = 3
+|vermelho - saopaulo| = 1
+rio < corsa
+|vermelho - isabela| = 2
+saopaulo = fiesta
+|lilas - futebol| = 0
+ana > correr
+|uno - campinas| = 4
+|neide - agile| = 3
+cinza = luisa
+corsa > cinza
+|cruise - rio| = 0
+campinas = corsa
+|campinas - agile| = 1
+|anhumas - ana| = 0
+cruise < cinza
+|uno - correr| = 2
+fiesta > rio
+|ana - anhumas| = 0
+campinas > uno
+rio = amarelo
+|neide - tenis| = 1
+agile > neide
+|corsa - rio| = 3
+|videogame - rosa| = 0
+lilas > pintar
+|regente - saopaulo| = 2
+|neide - luisa| = 2
+|cruise - anhumas| = 2
+|saopaulo - lilas| = 2
+neide < agile
+|uno - maria| = 4
+|anhumas - neide| = 3
+amarelo < luisa
+|tenis - uno| = 1
+maria > rosa
+|amarelo - corsa| = 3
+|luisa - futebol| = 2
+|neide - vermelho| = 3
+|rio - correr| = 1
+|fiesta - luisa| = 0
+agile > regente
+saopaulo > rio
+tenis = isabela
+regente = neide
+|vermelho - rio| = 2
+|faxineiro - advogado| = 1
+|neide - rio| = 1
+uno < maria
+cinza > amarelo
+|pintar - correr| = 1
+|futebol - cinza| = 2
+|saopaulo - videogame| = 2
+amarelo < futebol
+|cruise - futebol| = 3
+tenis = amarelo
+|rio - futebol| = 3
+|futebol - faxineiro| = 2
+vermelho < maria
+lilas > faxineiro
+|cientista - advogado| = 2
+regente < cruise
+regente < anhumas
+regente < rio
+pintar > isabela
+vermelho < campinas
+isabela < saopaulo
+corsa > ana
+rosa < rio
+|corsa - isabela| = 3
+futebol > rosa
+luisa = correr
+cruise < ana
+advogado < cientista
+|rio - uno| = 1
+|luisa - cinza| = 0
+|maria - cinza| = 2
+|lilas - anhumas| = 1
+|vermelho - corsa| = 1
+|ana - tenis| = 2
+faxineiro < arquiteto
+tenis < pintar
+lilas = futebol
+cinza > amarelo
+campinas > amarelo
+cinza < agile
+|vermelho - maria| = 1
+amarelo > regente
+videogame < saopaulo
+pintar > uno
+|anhumas - futebol| = 1
+isabela > uno
+|rio - tenis| = 0
+|campinas - engenheiro| = 4
+|rio - cruise| = 0
+|luisa - regente| = 2
+|cruise - futebol| = 3
+videogame < cruise
+|rio - tenis| = 0
+saopaulo > cruise
+|fiesta - tenis| = 1
+luisa = 3
+|isabela - campinas| = 3
+|uno - tenis| = 1
+cinza = saopaulo
+|corsa - campinas| = 0
+amarelo < correr
+|agile - correr| = 1
+ana < maria
+fiesta < pintar
+ana > correr
+cinza = correr
+rio = amarelo
+engenheiro < advogado
+|uno - cinza| = 2
+|luisa - corsa| = 2
+futebol > regente
+uno < lilas
+|maria - cruise| = 3
+rosa = neide
+|anhumas - cinza| = 1
+lilas > uno
+correr = luisa
+ana > isabela
+|tenis - corsa| = 3
+cientista < arquiteto
+anhumas > amarelo
+|fiesta - maria| = 2
+futebol = maria
+|rosa - ana| = 3
+uno < tenis
+advogado < cientista
+neide < maria
+|cinza - isabela| = 1
+futebol = maria
+|anhumas - correr| = 1
+cruise < pintar
+amarelo > rosa
+|luisa - rio| = 1
+|saopaulo - neide| = 2
+|vermelho - tenis| = 2
+|vermelho - maria| = 1
+regente < cinza
+videogame < amarelo
+|agile - regente| = 3
+|lilas - cientista| = 1
+amarelo > regente
+isabela > rosa
+fiesta > tenis
+|campinas - cientista| = 1
+|isabela - ana| = 2
+|rio - tenis| = 0
+saopaulo = fiesta
+|neide - rosa| = 0
+|fiesta - vermelho| = 1
+|rosa - agile| = 3
+regente = neide
+|correr - videogame| = 2
+rio > regente
+|regente - agile| = 3
+saopaulo > rio
+saopaulo > tenis
+|regente - corsa| = 4
+|luisa - correr| = 0
+luisa = fiesta
+|anhumas - vermelho| = 0
+|rio - regente| = 1
+|amarelo - tenis| = 0
+|neide - saopaulo| = 2
+|videogame - anhumas| = 3
+correr > rosa
+videogame < fiesta
+|uno - tenis| = 1
+|lilas - regente| = 4
+maria > vermelho
+|fiesta - saopaulo| = 0
+|pintar - correr| = 1
+|uno - videogame| = 0
+|ana - pintar| = 0
+|maria - corsa| = 0
+anhumas > cinza
+|anhumas - vermelho| = 0
+|cruise - pintar| = 2
+|luisa - neide| = 2
+|luisa - tenis| = 1
+saopaulo = fiesta
+|faxineiro - cientista| = 1
+neide < campinas
+|tenis - videogame| = 1
+|ana - correr| = 1
+rosa < futebol
+|amarelo - isabela| = 0
+|fiesta - tenis| = 1
+|amarelo - pintar| = 2
+|luisa - videogame| = 2
+|regente - futebol| = 4
+anhumas > tenis
+campinas > videogame
+|agile - neide| = 3
+lilas > advogado
+|pintar - lilas| = 1
+|agile - cinza| = 1
+amarelo < campinas
+ana > isabela
+tenis < pintar
+cruise < futebol
+|tenis - lilas| = 3
+|maria - anhumas| = 1
+|videogame - maria| = 4
+regente < cinza
+|correr - campinas| = 2
+luisa < ana
+|rosa - luisa| = 2
+|maria - anhumas| = 1
+|cruise - futebol| = 3
+correr > tenis
+|rosa - fiesta| = 2
+|correr - pintar| = 1
+|neide - anhumas| = 3
+|vermelho - neide| = 3
+|lilas - luisa| = 2
+futebol > saopaulo
+|videogame - isabela| = 1
+luisa > neide
+|luisa - anhumas| = 1
+luisa < anhumas
+|corsa - campinas| = 0
+cinza < futebol
+cruise = 2
+tenis < saopaulo
+|uno - corsa| = 4
+saopaulo > regente
+|tenis - videogame| = 1
+|cinza - corsa| = 2
+saopaulo < pintar
+ana > luisa
+|lilas - neide| = 4
+|regente - isabela| = 1
+|campinas - cientista| = 1
+|vermelho - ana| = 0
+correr < futebol
+|isabela - rio| = 0
+|saopaulo - futebol| = 2
+isabela < maria
+|uno - cinza| = 2
+|maria - campinas| = 0
+|videogame - luisa| = 2
+|luisa - videogame| = 2
+|fiesta - tenis| = 1
+|correr - corsa| = 2
+|rosa - agile| = 3
+|agile - tenis| = 2
+|fiesta - uno| = 2
+|tenis - saopaulo| = 1
+|lilas - futebol| = 0
+|correr - uno| = 2
+futebol > cinza
+saopaulo > videogame
+|amarelo - pintar| = 2
+|rosa - vermelho| = 3
+|isabela - pintar| = 2
+|maria - agile| = 1
+|isabela - correr| = 1
+|luisa - tenis| = 1
+|isabela - regente| = 1
+isabela < anhumas
+|fiesta - tenis| = 1
+correr > rio
+luisa > neide
+|tenis - saopaulo| = 1
+agile < futebol
+correr = luisa
+amarelo = tenis
+amarelo > videogame
+luisa < vermelho
+rio < agile
+anhumas < futebol
+|cinza - ana| = 1
+videogame < amarelo
+|campinas - futebol| = 0
+|agile - amarelo| = 2
+|fiesta - corsa| = 2
+|neide - cinza| = 2
+|maria - videogame| = 4
+corsa > rio
+|pintar - anhumas| = 0
+|correr - videogame| = 2
+neide < corsa
+saopaulo < lilas
+agile > cinza
+|anhumas - tenis| = 2
+cinza < campinas
+|faxineiro - cientista| = 1
+cinza > regente
+corsa > tenis
+advogado < faxineiro
+|rosa - agile| = 3
+videogame < luisa
+regente = 1
+|vermelho - fiesta| = 1
+|corsa - advogado| = 3
+|corsa - cientista| = 1
+|ana - videogame| = 3
+|cinza - rio| = 1
+|cruise - luisa| = 1
+luisa = saopaulo
+|isabela - pintar| = 2
+ana = agile
+maria > correr
+cruise < anhumas
+cruise < luisa
+amarelo > uno
+|corsa - videogame| = 4
+cruise < ana
+|neide - luisa| = 2
+neide < futebol
+|tenis - fiesta| = 1
+cruise > regente
+|regente - cruise| = 1
+vermelho > luisa
+|anhumas - rio| = 2
+|saopaulo - luisa| = 0
+videogame < fiesta
+regente < lilas
+|tenis - correr| = 1
+isabela < lilas
+tenis > neide
+|neide - cruise| = 1
+vermelho > luisa
+futebol > ana
+|lilas - campinas| = 0
+luisa > uno
+rosa < amarelo
+futebol = maria
+|pintar - cruise| = 2
+correr < ana
+|rio - videogame| = 1
+|tenis - agile| = 2
+|cruise - ana| = 2
+luisa > amarelo
+|maria - campinas| = 0
+|videogame - cinza| = 2
+anhumas > regente
+|videogame - correr| = 2
+|faxineiro - engenheiro| = 2
+|advogado - faxineiro| = 1
+|uno - pintar| = 3
+|rio - luisa| = 1
+vermelho > rosa
+|uno - ana| = 3
+|videogame - uno| = 0
+saopaulo < agile
+cruise < vermelho
+|neide - rio| = 1
+rio < luisa
+|ana - anhumas| = 0
+|rio - pintar| = 2
+cinza > videogame
+engenheiro < advogado
+uno < rio
+|lilas - isabela| = 3
+|cinza - maria| = 2
+maria > anhumas
+isabela < luisa
+|isabela - tenis| = 0
+|videogame - maria| = 4
+pintar = agile
+|uno - futebol| = 4
+rio < pintar
+tenis < ana
+cruise < vermelho
+|maria - rio| = 3
+|tenis - futebol| = 3
+corsa > tenis
+neide < tenis
+|fiesta - videogame| = 2
+|amarelo - futebol| = 3
+|fiesta - neide| = 2
+|regente - campinas| = 4
+|campinas - cruise| = 3
+regente < futebol
+|agile - amarelo| = 2
+|agile - neide| = 3
+neide < agile
+vermelho > luisa
+rosa < tenis
+|maria - correr| = 2
+|campinas - vermelho| = 1
+isabela < cinza
+|amarelo - campinas| = 3
+cinza < vermelho
+pintar < campinas
+amarelo < ana
+pintar > cruise
+|neide - maria| = 4
+|tenis - futebol| = 3
+|lilas - cientista| = 1
+|saopaulo - agile| = 1
+|anhumas - cinza| = 1
+videogame < agile
+|vermelho - amarelo| = 2
+amarelo < correr
+|pintar - uno| = 3
+vermelho < corsa
+|futebol - maria| = 0
+|ana - futebol| = 1
+vermelho > correr
+fiesta < pintar
+cinza > rio
+|regente - correr| = 2
+|fiesta - ana| = 1
+amarelo < vermelho
+|rosa - isabela| = 1
+|futebol - campinas| = 0
+neide < futebol
+tenis < agile
+uno < cruise
+|futebol - neide| = 4
+anhumas > neide
+vermelho < campinas
+|vermelho - fiesta| = 1
+|maria - engenheiro| = 4
+amarelo < corsa
+|rio - saopaulo| = 1
+|luisa - lilas| = 2
+|corsa - cinza| = 2
+fiesta < lilas
+lilas > saopaulo
+|amarelo - uno| = 1
+amarelo > videogame
+neide < rio
+|saopaulo - futebol| = 2
+amarelo > neide
+|maria - saopaulo| = 2
+|correr - regente| = 2
+|rio - fiesta| = 1
+tenis < vermelho
+lilas > cruise
+cinza > videogame
+|cruise - corsa| = 3
+corsa > ana
+amarelo < saopaulo
+videogame < saopaulo
+|faxineiro - engenheiro| = 2
+cruise = amarelo
+correr > amarelo
+|cruise - ana| = 2
+rio > videogame
+|regente - fiesta| = 2
+|uno - luisa| = 2
+|rio - cruise| = 0
+regente < tenis
+|cinza - pintar| = 1
+|uno - ana| = 3
+amarelo < cinza
+|neide - ana| = 3
+cruise < pintar
+|vermelho - rio| = 2
+fiesta > cruise
+|videogame - correr| = 2
+|tenis - vermelho| = 2
+|anhumas - tenis| = 2
+corsa > faxineiro
+fiesta = correr
+neide < cinza
+|vermelho - pintar| = 0
+campinas > uno
+lilas = campinas

@@ -1,0 +1,1 @@
+((basquete 2) (futebol 5) (sinuca 4) (natacao 3) (volei 1) (cachorro 1) (gato 5) (passaro 3) (peixe 2) (tartaruga 4) (amarela 2) (azul 5) (branca 4) (verde 3) (vermelha 1) (agua 4) (aluguel 1) (celular 2) (luz 3) (telefone 5) (augusto 4) (douglas 1) (jose 5) (ronaldo 2) (samuel 3) (bombeiro 4) (fotografo 1) (massagista 2) (pesquisador 3) (veterinario 5))

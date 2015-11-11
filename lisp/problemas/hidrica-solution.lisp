@@ -1,0 +1,1 @@
+((everson 3) (geraldo 5) (joao 2) (orlando 4) (raul 1) (cachorro 3) (passaro 1) (gato 2) (peixe 4) (tartaruga 5) (amarela 5) (azul 2) (branca 1) (verde 3) (vermelha 4) (2t 2) (5t 5) (8t 4) (10t 1) (12t 3) (2m 5) (3m 1) (4m 4) (5m 2) (6m 3) (5p 2) (10p 1) (15p 5) (20p 4) (25p 3))

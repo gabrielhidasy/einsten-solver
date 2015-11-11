@@ -1,0 +1,1 @@
+((civil 4) (comercial 3) (consumidor 5) (imobiliaria 1) (trabalhista 2) (crossover 1) (hatch 3) (pickup 2) (sedan 5) (suv 4) (amarela 2) (azul 3) (branca 5) (verde 1) (vermelha 4) (dr_alberto 2) (dr_carlos 5) (dr_luis 4) (dr_otavio 1) (dr_ulysses 3) (30_anos 2) (34_anos 3) (37_anos 4) (40_anos 1) (44_anos 5) (caipirinha 5) (cosmopolitan 4) (margarita 1) (martini 3) (mojito 2))

@@ -1,0 +1,1 @@
+((amarela 4) (azul 1) (branca 3) (verde 2) (vermelha 5) (alemao 4) (croata 5) (espanhol 1) (frances 2) (italiano 3) (10d 2) (15d 1) (20d 3) (25d 4) (30d 5) (amigo 3) (filho 4) (irma 1) (esposa 2) (namorada 5) (agua 1) (cafe 5) (cha 2) (cerveja 4) (leite 3) (28a 5) (31a 3) (36a 2) (45a 4) (57a 1))

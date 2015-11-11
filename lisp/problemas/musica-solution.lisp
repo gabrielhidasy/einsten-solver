@@ -1,0 +1,1 @@
+((1s 4) (2s 5) (3s 1) (4s 3) (5s 2) (baixo 2) (bateria 1) (guitarra 5) (teclado 4) (violao 3) (blues 4) (jazz 3) (mpb 1) (pop 2) (rock 5) (igor 2) (pedro 3) (ricardo 4) (vinicius 1) (wesley 5) (amarela 4) (azul 2) (branca 3) (verde 1) (vermelha 5) (aurelio 1) (douglas 5) (helio 3) (marcio 2) (sergio 4))

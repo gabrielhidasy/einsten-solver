@@ -1,0 +1,1 @@
+((capricornio 2) (escorpiao 5) (aquario 4) (peixes 3) (touro 1) (24a 3) (25a 4) (26a 5) (27a 2) (28a 1) (alesandra 4) (gabriela 3) (fernanda 2) (paula 1) (thais 5) (desodorante 4) (fralda 2) (hidratante 5) (remedio 3) (xampu 1) (amarela 2) (azul 3) (branca 1) (verde 4) (vermelha 5) (chanel 5) (curto 1) (desfiado 4) (franja 2) (cavalo 3))

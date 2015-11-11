@@ -1,0 +1,1 @@
+((cinza 3) (verde 2) (preto 1) (amarelo 4) (rosa 5) (neide 2) (ana 1) (nelsa 3) (maria 4) (vanessa 5) (videogame 3) (futebol 4) (desenhar 1) (correr 2) (tenis 5) (carlos 3) (ariel 1) (gilberto 2) (diego 4) (raul 5) (leao 3) (cancer 4) (escorpiao 2) (capricornio 1) (aquario 5))

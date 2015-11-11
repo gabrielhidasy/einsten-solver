@@ -1,0 +1,1 @@
+((ana 1) (elisa 3) (katia 5) (marcia 2) (vera 4) (amarela 2) (vermelha 5) (verde 3) (azul 4) (branca 1) (banana 3) (bolacha 5) (maca 1) (salgadinho 2) (sanduiche 4) (artes 2) (biologia 1) (historia 5) (matematica 4) (portugues 3) (cereja 2) (hortela 3) (menta 1) (morango 4) (tutti 5) (everton 3) (fabio 2) (ivan 4) (robson 5) (silvio 1))

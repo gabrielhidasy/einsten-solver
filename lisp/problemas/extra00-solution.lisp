@@ -1,0 +1,1 @@
+((cineastra 4) (lixeiro 1) (advogado 2) (cozinheiro 3) (cientista 5) (arnaldo 2) (amauri 4) (diego 3) (douglas 1) (ariel 5) (videogame 1) (pintar 3) (desenhar 2) (volei 4) (cozinhar 5) (venceslau 3) (tarabai 4) (montemor 1) (jau 2) (campogrande 5) (vectra 1) (uno 2) (cruise 4) (i30 3) (focus 5) (gemeos 2) (peixe 4) (escorpiao 1) (capricornio 3) (aries 5))

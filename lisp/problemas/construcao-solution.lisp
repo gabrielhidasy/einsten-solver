@@ -1,0 +1,1 @@
+((crossover 1) (hatch 2) (pickup 5) (sedan 4) (suv 3) (2c 5) (3c 4) (4c 3) (5c 2) (6c 1) (amarelo 2) (azul 3) (branco 4) (verde 1) (vermelho 5) (2000r 3) (2500r 2) (3000r 1) (3500r 5) (4000r 4) (adriano 3) (denis 5) (heitor 4) (leonardo 2) (valdir 1) (banheiro 3) (cozinha 4) (quarto 5) (quintal 2) (sala 1))

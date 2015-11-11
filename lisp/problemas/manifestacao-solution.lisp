@@ -1,0 +1,1 @@
+((biomedico 2) (engenheiro 5) (locutor 3) (mecanico 1) (vendedor 4) (aguiar 5) (jair 2) (felipe 1) (murilo 3) (samuel 4) (amarela 1) (azul 5) (branca 2) (verde 4) (vermelha 3) (26a 1) (30a 2) (35a 4) (42a 3) (49a 5) (14h00m 1) (14h30m 2) (15h00m 4) (15h30m 5) (16h00m 3) (educacao 3) (moradia 2) (saude 1) (seguranca 5) (transporte 4))

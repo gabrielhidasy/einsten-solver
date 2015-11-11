@@ -1,0 +1,1 @@
+((ana 4) (flavia 3) (jessica 1) (larissa 5) (tatiana 2) (gerberas 3) (lirios 2) (margaridas 4) (rosas 5) (tulipas 1) (27a 3) (28a 5) (29a 2) (30a 1) (31a 4) (amarelo 2) (azul 4) (branco 5) (verde 3) (vermelho 1) (daniel 2) (gabriel 1) (julio 5) (leandro 3) (renan 4) (bancaria 2) (dentista 1) (enfermeira 5) (professora 4) (programadora 3))

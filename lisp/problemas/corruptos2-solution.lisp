@@ -1,0 +1,1 @@
+((100m 5) (200m 2) (300m 4) (400m 1) (500m 3) (bahamas 1) (bolivia 5) (bermudas 2) (luxemburgo 4) (monaco 3) (amarela 3) (azul 2) (branca 4) (verde 1) (vermelha 5) (alagoas 4) (matogrosso 3) (rio 5) (catarina 1) (tocantins 2) (alberto 1) (fernando 4) (luiz 3) (renato 5) (ricardo 2) (educacao 5) (energia 3) (saude 1) (seguranca 2) (transporte 4))

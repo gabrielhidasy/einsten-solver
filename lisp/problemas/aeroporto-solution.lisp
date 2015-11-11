@@ -1,0 +1,1 @@
+((congresso 5) (estudos 4) (intercambio 2) (negocios 3) (turismo 1) (amarela 5) (azul 4) (branca 2) (verde 3) (vermelha 1) (8h 4) (9h 1) (10h 3) (11h 5) (12h 2) (agenda 3) (celular 2) (notebook 4) (oculos 1) (terno 5) (australia 4) (franca 5) (italia 2) (inglaterra 3) (japao 1) (baiano 3) (gaucho 2) (fluminense 1) (mineiro 4) (paulista 5))

@@ -1,0 +1,1 @@
+((amarelo 1) (azul 5) (branco 3) (verde 4) (vermelho 2) (23a 2) (24a 5) (25a 3) (26a 4) (27a 1) (arthur 1) (carlos 5) (juliano 4) (marcio 2) (oscar 3) (380p 5) (390p 4) (400p 3) (410p 2) (420p 1) (0s 1) (1s 2) (2s 5) (3s 3) (4s 4) (14biz 3) (fenix 2) (peraltas 1) (supinos 5) (tratores 4))

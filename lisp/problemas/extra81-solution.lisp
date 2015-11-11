@@ -1,0 +1,1 @@
+((cancer 1) (capricornio 4) (touro 3) (libra 2) (gemeos 5) (nivaldo 2) (gilberto 3) (ariel 1) (douglas 4) (leonardo 5) (cineastra 1) (cientista 2) (arquiteto 3) (lixeiro 4) (engenheiro 5) (volei 2) (ler 3) (futebol 4) (luta 1) (videogame 5) (elisa 4) (maria 2) (carol 3) (nelsa 1) (luana 5) (rio 4) (campogrande 1) (saopaulo 3) (jau 2) (campinas 5))

@@ -1,0 +1,1248 @@
+nome: nivaldo, gilberto, ariel, douglas, leonardo
+cidade: rio, campogrande, saopaulo, jau, campinas
+signo: cancer, capricornio, touro, libra, gemeos
+profissao: cineastra, cientista, arquiteto, lixeiro, engenheiro
+esposa: elisa, maria, carol, nelsa, luana
+hobby: volei, ler, futebol, luta, videogame
+
+|videogame - elisa| = 1
+|cancer - touro| = 2
+nivaldo < carol
+engenheiro > libra
+|douglas - arquiteto| = 1
+rio > volei
+engenheiro > douglas
+|nelsa - carol| = 2
+|saopaulo - jau| = 1
+ler > nelsa
+ler < videogame
+|cientista - leonardo| = 3
+nelsa < rio
+videogame > rio
+|videogame - cientista| = 3
+cientista < douglas
+saopaulo < douglas
+cientista < arquiteto
+saopaulo = gilberto
+douglas > volei
+cineastra < lixeiro
+gilberto > nivaldo
+cientista < futebol
+|volei - campogrande| = 1
+carol < campinas
+luta < ler
+carol > ariel
+luana = videogame
+|maria - jau| = 0
+|jau - elisa| = 2
+|campinas - cineastra| = 4
+|carol - lixeiro| = 1
+saopaulo = gilberto
+cientista < rio
+|cineastra - arquiteto| = 2
+carol > jau
+touro < capricornio
+leonardo > luta
+gilberto < videogame
+campogrande < volei
+capricornio > libra
+volei < douglas
+|cineastra - gilberto| = 2
+cineastra < gilberto
+|jau - engenheiro| = 3
+videogame > douglas
+engenheiro = leonardo
+|saopaulo - cineastra| = 2
+carol > campogrande
+luana > cineastra
+|touro - gemeos| = 2
+|leonardo - carol| = 2
+rio > maria
+elisa > carol
+nivaldo > ariel
+videogame > touro
+|ariel - carol| = 2
+douglas > cientista
+futebol > ariel
+nivaldo > nelsa
+nivaldo < saopaulo
+arquiteto < futebol
+|futebol - nelsa| = 3
+arquiteto > luta
+|arquiteto - elisa| = 1
+|nivaldo - maria| = 0
+nelsa < futebol
+|saopaulo - volei| = 1
+videogame > ariel
+|ariel - douglas| = 3
+|capricornio - cancer| = 3
+|douglas - arquiteto| = 1
+|arquiteto - elisa| = 1
+|rio - douglas| = 0
+|arquiteto - campogrande| = 2
+|saopaulo - luta| = 2
+|cineastra - lixeiro| = 3
+campogrande = ariel
+|luta - cineastra| = 0
+|campinas - libra| = 3
+maria < campinas
+elisa > nivaldo
+videogame = engenheiro
+carol > cineastra
+|carol - lixeiro| = 1
+lixeiro > nivaldo
+|futebol - maria| = 2
+luana = engenheiro
+leonardo > cancer
+|gilberto - volei| = 1
+engenheiro > douglas
+cientista < gilberto
+|luta - jau| = 1
+|arquiteto - douglas| = 1
+ler > campogrande
+|futebol - arquiteto| = 1
+|campinas - libra| = 3
+arquiteto < rio
+luana > arquiteto
+|luana - douglas| = 1
+|cientista - maria| = 0
+|volei - nivaldo| = 0
+|libra - capricornio| = 2
+videogame > cancer
+|ler - ariel| = 2
+cineastra < jau
+|jau - cineastra| = 1
+touro < capricornio
+|futebol - campinas| = 1
+|saopaulo - leonardo| = 2
+cancer < capricornio
+|luana - saopaulo| = 2
+douglas = futebol
+|campinas - libra| = 3
+maria > cineastra
+cientista < lixeiro
+|futebol - nelsa| = 3
+|saopaulo - nelsa| = 2
+cancer < gemeos
+gilberto > cientista
+jau < saopaulo
+|nelsa - elisa| = 3
+|douglas - rio| = 0
+campinas > luta
+rio = futebol
+cineastra = ariel
+nivaldo < saopaulo
+videogame > capricornio
+|ariel - gilberto| = 2
+nivaldo > campogrande
+gilberto > cientista
+maria > ariel
+elisa = futebol
+|elisa - nelsa| = 3
+engenheiro > elisa
+|cineastra - ariel| = 0
+|luta - campinas| = 4
+|engenheiro - ariel| = 4
+|lixeiro - saopaulo| = 1
+ariel < elisa
+volei = maria
+leonardo = engenheiro
+|engenheiro - rio| = 1
+engenheiro > ler
+saopaulo < douglas
+maria < futebol
+nelsa < carol
+elisa < engenheiro
+|carol - lixeiro| = 1
+|capricornio - libra| = 2
+|elisa - arquiteto| = 1
+ler > cineastra
+|futebol - rio| = 0
+elisa > ariel
+ariel < jau
+|luta - ariel| = 0
+carol > cientista
+campinas > luta
+douglas < engenheiro
+|volei - carol| = 1
+|gilberto - videogame| = 2
+volei < elisa
+carol > nelsa
+|ler - rio| = 1
+ler < elisa
+futebol = rio
+ler < engenheiro
+|volei - jau| = 0
+|leonardo - campogrande| = 4
+ariel < videogame
+|maria - cientista| = 0
+cineastra < luana
+|nelsa - maria| = 1
+|cineastra - arquiteto| = 2
+volei < rio
+nivaldo < douglas
+|elisa - lixeiro| = 0
+|elisa - campinas| = 1
+cientista < arquiteto
+|campogrande - saopaulo| = 2
+ariel < campinas
+gilberto > cientista
+|ler - volei| = 1
+cineastra = ariel
+saopaulo = arquiteto
+nelsa < ler
+|luta - saopaulo| = 2
+|maria - jau| = 0
+|carol - engenheiro| = 2
+luta < futebol
+maria < lixeiro
+futebol < leonardo
+|nivaldo - elisa| = 2
+|leonardo - arquiteto| = 2
+rio < luana
+|volei - nelsa| = 1
+|rio - videogame| = 1
+|luta - gilberto| = 2
+|arquiteto - gilberto| = 0
+capricornio > libra
+nivaldo < rio
+saopaulo > ariel
+|futebol - gilberto| = 1
+cientista > campogrande
+|lixeiro - elisa| = 0
+libra < touro
+|gilberto - lixeiro| = 1
+|libra - touro| = 1
+lixeiro < videogame
+|videogame - elisa| = 1
+campinas > carol
+saopaulo > nelsa
+cineastra = nelsa
+|saopaulo - campogrande| = 2
+lixeiro < leonardo
+saopaulo < elisa
+elisa = douglas
+gilberto > ariel
+|luana - rio| = 1
+touro > libra
+|gilberto - saopaulo| = 0
+|luana - capricornio| = 1
+|saopaulo - cineastra| = 2
+engenheiro = campinas
+gilberto < leonardo
+|nivaldo - cientista| = 0
+|jau - luana| = 3
+campinas = engenheiro
+arquiteto > volei
+|cientista - ariel| = 1
+leonardo > ler
+douglas > cientista
+|arquiteto - gilberto| = 0
+|arquiteto - campogrande| = 2
+leonardo > cancer
+|elisa - volei| = 2
+cineastra < carol
+|douglas - campogrande| = 3
+|saopaulo - futebol| = 1
+|elisa - cientista| = 2
+|elisa - luana| = 1
+|nelsa - cineastra| = 0
+|jau - luta| = 1
+|jau - douglas| = 2
+videogame = engenheiro
+|ariel - volei| = 1
+carol < futebol
+|cientista - luta| = 1
+engenheiro > nelsa
+engenheiro > luta
+|campinas - ariel| = 4
+gilberto > jau
+arquiteto = carol
+cancer < touro
+campogrande < videogame
+carol = saopaulo
+|saopaulo - campinas| = 2
+|rio - luta| = 3
+volei = maria
+|luana - ariel| = 4
+|lixeiro - ariel| = 3
+|cientista - gilberto| = 1
+|saopaulo - campogrande| = 2
+|arquiteto - cientista| = 1
+ariel < leonardo
+volei < engenheiro
+cineastra < cientista
+|volei - luana| = 3
+|nelsa - ler| = 2
+|lixeiro - volei| = 2
+|rio - volei| = 2
+|nelsa - elisa| = 3
+cientista < douglas
+|videogame - capricornio| = 1
+leonardo = luana
+|arquiteto - lixeiro| = 1
+|cientista - saopaulo| = 1
+|carol - cientista| = 1
+|videogame - douglas| = 1
+|ler - maria| = 1
+maria > ariel
+|jau - engenheiro| = 3
+|ler - carol| = 0
+|gilberto - leonardo| = 2
+rio < videogame
+|lixeiro - saopaulo| = 1
+|videogame - luana| = 0
+|ariel - gilberto| = 2
+arquiteto > nivaldo
+|futebol - cientista| = 2
+|videogame - lixeiro| = 1
+ariel = cineastra
+nelsa < rio
+|leonardo - volei| = 3
+|ariel - luta| = 0
+engenheiro = campinas
+nivaldo > ariel
+cineastra < luana
+saopaulo < leonardo
+|rio - elisa| = 0
+|leonardo - carol| = 2
+|gilberto - futebol| = 1
+campogrande < cientista
+|luta - cineastra| = 0
+jau < gilberto
+|lixeiro - cineastra| = 3
+|jau - leonardo| = 3
+|cientista - engenheiro| = 3
+|jau - gilberto| = 1
+|lixeiro - nelsa| = 3
+|leonardo - cineastra| = 4
+arquiteto < lixeiro
+futebol > nivaldo
+|leonardo - campogrande| = 4
+capricornio > libra
+leonardo > volei
+saopaulo = gilberto
+saopaulo < videogame
+|leonardo - futebol| = 1
+|rio - futebol| = 0
+gilberto < luana
+|douglas - luana| = 1
+|futebol - engenheiro| = 1
+jau < douglas
+|ler - maria| = 1
+|douglas - volei| = 2
+gilberto > luta
+|cientista - gilberto| = 1
+|lixeiro - ler| = 1
+|luana - douglas| = 1
+campinas > cientista
+|campinas - futebol| = 1
+|engenheiro - volei| = 3
+gilberto < videogame
+|gilberto - luana| = 2
+|carol - leonardo| = 2
+|elisa - luta| = 3
+nivaldo > campogrande
+volei < arquiteto
+ler > luta
+|videogame - arquiteto| = 2
+saopaulo < douglas
+|cineastra - futebol| = 3
+|jau - leonardo| = 3
+lixeiro > maria
+elisa > arquiteto
+nivaldo < elisa
+cineastra < arquiteto
+volei < elisa
+|nelsa - douglas| = 3
+|cientista - nivaldo| = 0
+|campinas - cientista| = 3
+elisa = rio
+|leonardo - carol| = 2
+|volei - saopaulo| = 1
+|ariel - volei| = 1
+|rio - saopaulo| = 1
+|cientista - videogame| = 3
+|campogrande - campinas| = 4
+|nivaldo - cientista| = 0
+|jau - ler| = 1
+|lixeiro - arquiteto| = 1
+|ler - ariel| = 2
+|maria - videogame| = 3
+|nivaldo - campinas| = 3
+|campogrande - lixeiro| = 3
+futebol > nelsa
+jau < ler
+|jau - elisa| = 2
+|lixeiro - maria| = 2
+|videogame - rio| = 1
+videogame > carol
+cientista < douglas
+arquiteto > nelsa
+|cineastra - cientista| = 1
+|arquiteto - luana| = 2
+arquiteto < douglas
+|nelsa - lixeiro| = 3
+douglas = lixeiro
+|ler - saopaulo| = 0
+luta < cientista
+|douglas - campinas| = 1
+cineastra = ariel
+libra < capricornio
+|rio - videogame| = 1
+|ler - saopaulo| = 0
+|engenheiro - ler| = 2
+|rio - saopaulo| = 1
+carol < futebol
+engenheiro > saopaulo
+maria < luana
+campogrande < maria
+|capricornio - touro| = 1
+|futebol - campinas| = 1
+douglas > carol
+|maria - douglas| = 2
+|volei - nelsa| = 1
+cientista < saopaulo
+|cineastra - jau| = 1
+|cineastra - elisa| = 3
+|engenheiro - douglas| = 1
+|nelsa - elisa| = 3
+rio > saopaulo
+|nivaldo - lixeiro| = 2
+|leonardo - rio| = 1
+|ariel - ler| = 2
+|campogrande - jau| = 1
+ariel < elisa
+lixeiro > luta
+|volei - saopaulo| = 1
+nelsa < engenheiro
+|gilberto - nivaldo| = 1
+carol < lixeiro
+douglas > volei
+arquiteto < futebol
+cineastra < rio
+|jau - elisa| = 2
+|ler - elisa| = 1
+leonardo > capricornio
+|capricornio - libra| = 2
+videogame > elisa
+|jau - futebol| = 2
+rio = douglas
+|douglas - luana| = 1
+ariel < cientista
+nelsa < campinas
+elisa > luta
+|douglas - lixeiro| = 0
+volei = cientista
+jau > cineastra
+gilberto < luana
+engenheiro > carol
+|saopaulo - lixeiro| = 1
+volei < ler
+rio > cientista
+|luana - lixeiro| = 1
+|campinas - luana| = 0
+nelsa = campogrande
+carol = gilberto
+campogrande = nelsa
+arquiteto > luta
+cineastra < futebol
+luta < luana
+elisa < videogame
+carol > jau
+luta < videogame
+|saopaulo - engenheiro| = 2
+|campinas - arquiteto| = 2
+|rio - volei| = 2
+|leonardo - campinas| = 0
+cientista < elisa
+|jau - volei| = 0
+elisa = lixeiro
+luana > rio
+cancer < touro
+|campogrande - videogame| = 4
+|libra - capricornio| = 2
+|saopaulo - campinas| = 2
+volei = cientista
+campogrande = cineastra
+videogame > nivaldo
+|douglas - maria| = 2
+|nelsa - videogame| = 4
+cineastra = nelsa
+|lixeiro - carol| = 1
+|lixeiro - saopaulo| = 1
+|lixeiro - elisa| = 0
+|futebol - luta| = 3
+|arquiteto - elisa| = 1
+luana > lixeiro
+ariel < leonardo
+rio > cineastra
+futebol > cineastra
+elisa > arquiteto
+engenheiro > ariel
+futebol < engenheiro
+nelsa < ler
+videogame > jau
+|gilberto - arquiteto| = 0
+lixeiro > nelsa
+elisa > nelsa
+|gilberto - jau| = 1
+campogrande = luta
+maria > luta
+futebol > ariel
+|nelsa - arquiteto| = 2
+gilberto > jau
+futebol < leonardo
+|saopaulo - campinas| = 2
+arquiteto < leonardo
+|gilberto - nivaldo| = 1
+nelsa < campinas
+|arquiteto - volei| = 1
+|elisa - carol| = 1
+|videogame - capricornio| = 1
+|nelsa - douglas| = 3
+engenheiro > touro
+ariel < jau
+|nelsa - douglas| = 3
+luana > nivaldo
+arquiteto > nivaldo
+|luta - leonardo| = 4
+|luta - volei| = 1
+futebol > nivaldo
+|ler - nelsa| = 2
+elisa = futebol
+|nivaldo - luta| = 1
+jau < elisa
+elisa > maria
+douglas > ler
+|engenheiro - capricornio| = 1
+|cientista - luana| = 3
+|videogame - arquiteto| = 2
+|nivaldo - ler| = 1
+libra > cancer
+|elisa - maria| = 2
+|volei - leonardo| = 3
+|ariel - nivaldo| = 1
+|campinas - ler| = 2
+|engenheiro - videogame| = 0
+|lixeiro - maria| = 2
+maria < campinas
+cineastra < volei
+leonardo > capricornio
+|videogame - leonardo| = 0
+campinas = engenheiro
+engenheiro > capricornio
+|cineastra - videogame| = 4
+|luta - cineastra| = 0
+|videogame - lixeiro| = 1
+|maria - gilberto| = 1
+cientista < saopaulo
+|engenheiro - ariel| = 4
+maria < futebol
+|ler - campogrande| = 2
+arquiteto < lixeiro
+|ariel - luta| = 0
+volei < lixeiro
+|engenheiro - luana| = 0
+|capricornio - touro| = 1
+|engenheiro - nelsa| = 4
+|jau - nivaldo| = 0
+luta < arquiteto
+futebol > carol
+lixeiro = futebol
+futebol > ariel
+gilberto > nivaldo
+cineastra < leonardo
+|nelsa - carol| = 2
+leonardo > carol
+|nelsa - volei| = 1
+|cineastra - carol| = 2
+|libra - capricornio| = 2
+|campogrande - videogame| = 4
+nivaldo < elisa
+carol = 3
+futebol > luta
+|maria - nelsa| = 1
+campinas = videogame
+maria < saopaulo
+|campogrande - luta| = 0
+|campinas - douglas| = 1
+|arquiteto - nelsa| = 2
+|cineastra - maria| = 1
+|cancer - touro| = 2
+touro > cancer
+|campogrande - douglas| = 3
+capricornio > libra
+cancer < capricornio
+leonardo = campinas
+lixeiro = futebol
+ler < luana
+leonardo > elisa
+|rio - elisa| = 0
+jau > luta
+arquiteto > campogrande
+|jau - saopaulo| = 1
+|touro - libra| = 1
+|videogame - cientista| = 3
+|douglas - gilberto| = 1
+cineastra < arquiteto
+|nivaldo - arquiteto| = 1
+campogrande < volei
+|leonardo - maria| = 3
+arquiteto = gilberto
+futebol > ariel
+|luana - campinas| = 0
+nelsa = ariel
+|campinas - luta| = 4
+|luana - ler| = 2
+gilberto < lixeiro
+|nivaldo - rio| = 2
+|rio - ler| = 1
+|lixeiro - futebol| = 0
+douglas > jau
+volei = maria
+|maria - jau| = 0
+nelsa < jau
+ariel < arquiteto
+|jau - saopaulo| = 1
+|campinas - touro| = 2
+ariel < volei
+|nelsa - luana| = 4
+ler > nelsa
+|cientista - nelsa| = 1
+rio > gilberto
+futebol > nelsa
+|rio - ler| = 1
+|campogrande - volei| = 1
+|nelsa - videogame| = 4
+|gilberto - rio| = 1
+arquiteto < elisa
+|rio - saopaulo| = 1
+carol < leonardo
+|jau - engenheiro| = 3
+jau < leonardo
+rio > arquiteto
+arquiteto < douglas
+|cineastra - cientista| = 1
+|cineastra - videogame| = 4
+campinas > futebol
+|campogrande - engenheiro| = 4
+saopaulo > campogrande
+nivaldo < carol
+arquiteto = carol
+|futebol - engenheiro| = 1
+|elisa - douglas| = 0
+luana > capricornio
+saopaulo > luta
+|luana - gilberto| = 2
+saopaulo < leonardo
+jau < engenheiro
+campogrande < ler
+|cientista - saopaulo| = 1
+|rio - nelsa| = 3
+|luana - ler| = 2
+saopaulo < leonardo
+jau < ler
+|cientista - carol| = 1
+|gilberto - futebol| = 1
+jau < rio
+nelsa < maria
+|ler - gilberto| = 0
+|campinas - videogame| = 0
+|nivaldo - videogame| = 3
+|ler - campogrande| = 2
+|engenheiro - futebol| = 1
+|lixeiro - volei| = 2
+arquiteto < rio
+|arquiteto - jau| = 1
+|cientista - maria| = 0
+futebol < campinas
+|gilberto - ler| = 0
+rio > cientista
+saopaulo = gilberto
+|nivaldo - ler| = 1
+|cineastra - rio| = 3
+|nivaldo - luana| = 3
+cientista < videogame
+cineastra < rio
+arquiteto > campogrande
+|rio - campinas| = 1
+|elisa - volei| = 2
+|arquiteto - saopaulo| = 0
+|douglas - nelsa| = 3
+videogame = engenheiro
+|ariel - cientista| = 1
+|volei - maria| = 0
+gilberto = carol
+|luta - leonardo| = 4
+campogrande < saopaulo
+volei < douglas
+engenheiro = leonardo
+|rio - nivaldo| = 2
+nelsa < campinas
+carol < engenheiro
+|elisa - arquiteto| = 1
+|luta - saopaulo| = 2
+futebol = elisa
+|ariel - rio| = 3
+saopaulo < rio
+|luana - engenheiro| = 0
+ariel = nelsa
+|cientista - leonardo| = 3
+campogrande < campinas
+rio > maria
+jau < douglas
+luta < volei
+|campogrande - arquiteto| = 2
+|nivaldo - leonardo| = 3
+lixeiro = futebol
+|luta - arquiteto| = 2
+lixeiro > luta
+volei = cientista
+|volei - arquiteto| = 1
+|douglas - futebol| = 0
+volei > luta
+|luana - videogame| = 0
+|jau - videogame| = 3
+|cineastra - lixeiro| = 3
+lixeiro > ler
+|luana - campogrande| = 4
+nelsa < luana
+arquiteto < douglas
+|engenheiro - leonardo| = 0
+|luta - volei| = 1
+cientista < saopaulo
+carol < douglas
+|douglas - ler| = 1
+ariel < campinas
+|maria - cientista| = 0
+saopaulo > luta
+|jau - campogrande| = 1
+|carol - luana| = 2
+|capricornio - touro| = 1
+carol < elisa
+|carol - ariel| = 2
+rio > saopaulo
+|elisa - engenheiro| = 1
+|douglas - volei| = 2
+engenheiro = videogame
+maria > cineastra
+|leonardo - cientista| = 3
+carol > jau
+|cancer - gemeos| = 4
+|cientista - maria| = 0
+rio > nivaldo
+cancer < libra
+leonardo > maria
+|cineastra - nelsa| = 0
+|douglas - nivaldo| = 2
+volei < saopaulo
+futebol > maria
+|elisa - carol| = 1
+|douglas - leonardo| = 1
+|engenheiro - nivaldo| = 3
+gilberto < douglas
+luana > libra
+videogame = engenheiro
+douglas < leonardo
+maria = volei
+|luana - nivaldo| = 3
+rio > volei
+|saopaulo - ariel| = 2
+nelsa = campogrande
+nivaldo > cineastra
+|volei - lixeiro| = 2
+gilberto < douglas
+|rio - futebol| = 0
+|carol - luta| = 2
+douglas > cientista
+douglas = lixeiro
+maria < rio
+|ler - cineastra| = 2
+|maria - videogame| = 3
+luta < maria
+maria > ariel
+luana > nivaldo
+|campogrande - cineastra| = 0
+|ariel - maria| = 1
+|luta - arquiteto| = 2
+leonardo > futebol
+|volei - ariel| = 1
+|campinas - libra| = 3
+engenheiro > carol
+|maria - luana| = 3
+|cineastra - campogrande| = 0
+touro < capricornio
+|lixeiro - volei| = 2
+|carol - cientista| = 1
+|carol - luana| = 2
+|cineastra - saopaulo| = 2
+|futebol - douglas| = 0
+luana > gilberto
+cineastra < jau
+|ler - lixeiro| = 1
+|cineastra - douglas| = 3
+lixeiro > arquiteto
+rio < leonardo
+campinas > carol
+|rio - maria| = 2
+cancer < libra
+|gilberto - arquiteto| = 0
+engenheiro > elisa
+|arquiteto - videogame| = 2
+gilberto > volei
+luta < engenheiro
+douglas = lixeiro
+|campogrande - cientista| = 1
+|engenheiro - libra| = 3
+cientista < futebol
+|lixeiro - saopaulo| = 1
+douglas > jau
+|lixeiro - luana| = 1
+|arquiteto - nivaldo| = 1
+|elisa - futebol| = 0
+campinas > cancer
+leonardo = engenheiro
+nivaldo = maria
+carol > cientista
+|maria - campogrande| = 1
+nelsa < maria
+nivaldo = volei
+|elisa - saopaulo| = 1
+|campinas - elisa| = 1
+rio = lixeiro
+ariel < rio
+|touro - capricornio| = 1
+|nivaldo - rio| = 2
+|arquiteto - engenheiro| = 2
+saopaulo < rio
+futebol > nelsa
+douglas < luana
+|volei - luana| = 3
+ler < douglas
+cineastra < cientista
+ariel < maria
+|cientista - campinas| = 3
+|luta - ler| = 2
+|engenheiro - jau| = 3
+|campinas - ler| = 2
+|volei - leonardo| = 3
+douglas = rio
+gilberto = arquiteto
+nivaldo > luta
+saopaulo > maria
+|elisa - saopaulo| = 1
+saopaulo > cientista
+futebol > maria
+|arquiteto - volei| = 1
+luta < rio
+|ler - arquiteto| = 0
+arquiteto < elisa
+|ler - luana| = 2
+|maria - campogrande| = 1
+leonardo > futebol
+|engenheiro - luta| = 4
+|nivaldo - volei| = 0
+|jau - cineastra| = 1
+luana > saopaulo
+|ler - engenheiro| = 2
+|carol - nivaldo| = 1
+cineastra < lixeiro
+|campogrande - douglas| = 3
+videogame > nivaldo
+|carol - volei| = 1
+cineastra < gilberto
+nivaldo < carol
+|cientista - gilberto| = 1
+|luta - volei| = 1
+|volei - cientista| = 0
+|douglas - ler| = 1
+|lixeiro - engenheiro| = 1
+lixeiro < engenheiro
+rio < leonardo
+|luana - futebol| = 1
+|ariel - campinas| = 4
+douglas > arquiteto
+arquiteto > nelsa
+maria < luana
+carol > campogrande
+douglas < luana
+douglas > campogrande
+|luana - rio| = 1
+volei < leonardo
+carol < leonardo
+videogame > arquiteto
+|leonardo - cancer| = 4
+|videogame - saopaulo| = 2
+|carol - ler| = 0
+|campinas - ariel| = 4
+|nelsa - cientista| = 1
+|maria - cientista| = 0
+|cineastra - jau| = 1
+nivaldo < futebol
+|libra - cancer| = 1
+elisa > gilberto
+|ler - douglas| = 1
+|gilberto - maria| = 1
+|volei - engenheiro| = 3
+|arquiteto - luta| = 2
+|engenheiro - campogrande| = 4
+nivaldo = volei
+jau < carol
+|cientista - nivaldo| = 0
+jau < carol
+|nivaldo - leonardo| = 3
+leonardo > cientista
+|carol - leonardo| = 2
+|arquiteto - ler| = 0
+volei < engenheiro
+cineastra < lixeiro
+|campogrande - jau| = 1
+lixeiro < engenheiro
+ler = carol
+|ler - ariel| = 2
+videogame > ariel
+campogrande < luana
+douglas > jau
+|campinas - arquiteto| = 2
+|cineastra - lixeiro| = 3
+|douglas - ariel| = 3
+luta < videogame
+|rio - futebol| = 0
+cineastra = campogrande
+|luta - campinas| = 4
+|elisa - gilberto| = 1
+|arquiteto - leonardo| = 2
+|volei - arquiteto| = 1
+|futebol - arquiteto| = 1
+|jau - luta| = 1
+ariel < nivaldo
+nivaldo < gilberto
+luta < arquiteto
+luana > nivaldo
+volei = nivaldo
+carol < leonardo
+|videogame - cineastra| = 4
+|douglas - volei| = 2
+|futebol - nelsa| = 3
+cineastra < douglas
+carol > jau
+rio < engenheiro
+lixeiro > campogrande
+|luta - nivaldo| = 1
+maria < elisa
+|douglas - videogame| = 1
+|carol - campogrande| = 2
+|maria - elisa| = 2
+volei < ler
+ler > maria
+|saopaulo - leonardo| = 2
+|saopaulo - jau| = 1
+leonardo > campogrande
+luta = cineastra
+|ler - douglas| = 1
+|ariel - luta| = 0
+luta < rio
+|elisa - leonardo| = 1
+|ariel - leonardo| = 4
+|carol - nelsa| = 2
+|ler - carol| = 0
+ler > nivaldo
+|elisa - nivaldo| = 2
+|elisa - engenheiro| = 1
+|leonardo - jau| = 3
+cineastra < arquiteto
+|luta - videogame| = 4
+nelsa < douglas
+saopaulo < leonardo
+|nelsa - maria| = 1
+carol = saopaulo
+|nivaldo - videogame| = 3
+|cientista - maria| = 0
+futebol > volei
+futebol > carol
+|campogrande - lixeiro| = 3
+maria > campogrande
+videogame > nivaldo
+gilberto > cientista
+ler > volei
+|lixeiro - jau| = 2
+ariel < engenheiro
+videogame > cineastra
+cientista < leonardo
+|campogrande - jau| = 1
+|cineastra - volei| = 1
+|carol - gilberto| = 0
+|carol - arquiteto| = 0
+jau < saopaulo
+|cientista - carol| = 1
+cineastra < leonardo
+nelsa < ler
+|nivaldo - campinas| = 3
+saopaulo > luta
+rio < videogame
+douglas > volei
+|saopaulo - arquiteto| = 0
+leonardo > cancer
+|videogame - maria| = 3
+leonardo > capricornio
+|videogame - gilberto| = 2
+lixeiro = rio
+|arquiteto - futebol| = 1
+|carol - lixeiro| = 1
+|lixeiro - engenheiro| = 1
+|volei - lixeiro| = 2
+|volei - maria| = 0
+campinas > arquiteto
+|nivaldo - ler| = 1
+nivaldo < leonardo
+saopaulo > volei
+ler = saopaulo
+elisa > campogrande
+|engenheiro - futebol| = 1
+engenheiro > ariel
+maria < saopaulo
+|futebol - volei| = 2
+elisa = rio
+nivaldo < arquiteto
+|engenheiro - campogrande| = 4
+|maria - ariel| = 1
+volei = cientista
+elisa < engenheiro
+ler = gilberto
+|luana - nivaldo| = 3
+campogrande < rio
+lixeiro = douglas
+|videogame - carol| = 2
+touro > libra
+|campinas - douglas| = 1
+|leonardo - arquiteto| = 2
+|lixeiro - rio| = 0
+|rio - campinas| = 1
+|engenheiro - cancer| = 4
+campogrande < videogame
+leonardo > elisa
+jau < engenheiro
+|campogrande - arquiteto| = 2
+campinas > cientista
+|maria - luta| = 1
+cineastra < douglas
+|videogame - capricornio| = 1
+|lixeiro - carol| = 1
+|leonardo - arquiteto| = 2
+|cientista - nivaldo| = 0
+|maria - futebol| = 2
+rio < leonardo
+nivaldo < luana
+lixeiro > luta
+|volei - futebol| = 2
+|ariel - carol| = 2
+douglas > jau
+libra < gemeos
+|ler - campinas| = 2
+|leonardo - capricornio| = 1
+arquiteto < videogame
+|videogame - leonardo| = 0
+|jau - elisa| = 2
+|elisa - douglas| = 0
+|ariel - nelsa| = 0
+saopaulo > campogrande
+videogame > carol
+|futebol - douglas| = 0
+videogame > ariel
+|leonardo - libra| = 3
+|futebol - douglas| = 0
+|elisa - campinas| = 1
+nivaldo < lixeiro
+|arquiteto - maria| = 1
+|futebol - nivaldo| = 2
+|carol - saopaulo| = 0
+|leonardo - ler| = 2
+cientista < saopaulo
+elisa = futebol
+|nelsa - lixeiro| = 3
+|jau - carol| = 1
+|cientista - arquiteto| = 1
+futebol < engenheiro
+|gilberto - campogrande| = 2
+|videogame - campinas| = 0
+arquiteto > cientista
+|engenheiro - gilberto| = 2
+campinas > douglas
+|nivaldo - campogrande| = 1
+leonardo > lixeiro
+futebol > gilberto
+|futebol - saopaulo| = 1
+|campinas - cientista| = 3
+jau < carol
+cineastra < videogame
+campinas = luana
+|saopaulo - engenheiro| = 2
+|cientista - videogame| = 3
+|saopaulo - ariel| = 2
+saopaulo < leonardo
+gilberto < rio
+maria < arquiteto
+campinas > maria
+luta = campogrande
+campinas = leonardo
+|gilberto - volei| = 1
+|engenheiro - maria| = 3
+|cineastra - campinas| = 4
+|carol - maria| = 1
+saopaulo > volei
+rio = elisa
+|saopaulo - douglas| = 1
+maria < engenheiro
+|engenheiro - saopaulo| = 2
+|lixeiro - douglas| = 0
+ariel < maria
+|engenheiro - volei| = 3
+volei < videogame
+cientista > campogrande
+|luta - jau| = 1
+elisa < engenheiro
+cientista < videogame
+|saopaulo - maria| = 1
+|saopaulo - cineastra| = 2
+|futebol - maria| = 2
+luana > touro
+saopaulo = gilberto
+ler < luana
+|elisa - ler| = 1
+|douglas - cientista| = 2
+elisa = rio
+|campinas - elisa| = 1
+futebol > saopaulo
+nivaldo < engenheiro
+|futebol - rio| = 0
+|leonardo - touro| = 2
+cineastra < futebol
+campinas = videogame
+|nivaldo - videogame| = 3
+|nivaldo - volei| = 0
+|futebol - ler| = 1
+campogrande < nivaldo
+|engenheiro - ler| = 2
+|campogrande - lixeiro| = 3
+campogrande < elisa
+|campogrande - volei| = 1
+|lixeiro - cineastra| = 3
+arquiteto < leonardo
+maria = jau
+rio > nivaldo
+luana > capricornio
+|ariel - nelsa| = 0
+|campinas - touro| = 2
+capricornio > cancer
+|rio - gilberto| = 1
+futebol > saopaulo
+leonardo > arquiteto
+douglas > maria
+gilberto < leonardo
+ariel = cineastra
+leonardo > jau
+|leonardo - ler| = 2
+|nelsa - douglas| = 3
+|carol - gilberto| = 0
+nivaldo < luana
+jau < luana
+|cientista - douglas| = 2
+|luana - futebol| = 1
+leonardo > cancer
+|douglas - gilberto| = 1
+|videogame - touro| = 2
+volei = maria
+|ariel - engenheiro| = 4
+jau < leonardo
+|luta - jau| = 1
+|ler - videogame| = 2
+campinas > luta
+leonardo > arquiteto
+cineastra < douglas
+ariel < jau
+elisa > gilberto
+carol < douglas
+|ler - carol| = 0
+|jau - videogame| = 3
+maria < futebol
+|nelsa - luta| = 0
+touro > libra
+futebol = douglas
+|videogame - cientista| = 3
+volei < rio
+luta < nivaldo
+gilberto > cineastra
+|campinas - capricornio| = 1
+|douglas - leonardo| = 1
+|gilberto - luta| = 2
+videogame > rio
+|cineastra - ariel| = 0
+|nelsa - maria| = 1
+maria < saopaulo
+|elisa - videogame| = 1
+|campinas - touro| = 2
+ariel < futebol
+|nelsa - saopaulo| = 2
+futebol > nelsa
+jau < videogame
+arquiteto < rio
+maria < engenheiro
+luana > libra
+campogrande < volei
+|carol - engenheiro| = 2
+|campinas - lixeiro| = 1
+|douglas - campinas| = 1
+maria = cientista
+|leonardo - nelsa| = 4
+|luana - cancer| = 4
+|volei - rio| = 2
+campogrande < maria
+|arquiteto - nelsa| = 2
+cineastra < saopaulo
+|elisa - maria| = 2
+carol = ler
+|volei - saopaulo| = 1
+luta < gilberto
+jau < luana
+|nelsa - lixeiro| = 3
+volei < videogame
+|videogame - cineastra| = 4
+|videogame - nivaldo| = 3
+|lixeiro - ariel| = 3
+jau < ler
+videogame > cineastra
+|videogame - cineastra| = 4
+|libra - capricornio| = 2
+douglas = elisa
+|carol - campogrande| = 2
+|douglas - cineastra| = 3
+douglas < luana
+|gilberto - campogrande| = 2
+elisa > nivaldo
+cientista = volei
+luana > luta
+|saopaulo - rio| = 1
+arquiteto > jau
+jau < rio
+futebol < videogame
+|maria - cineastra| = 1
+maria > cineastra
+engenheiro > nelsa
+cineastra < douglas
+ler > volei
+|nelsa - maria| = 1
+arquiteto < leonardo
+cientista < carol
+maria > campogrande
+|maria - douglas| = 2
+|lixeiro - ler| = 1
+|nivaldo - douglas| = 2
+maria < luana
+maria < arquiteto
+|arquiteto - nelsa| = 2
+volei > cineastra
+|douglas - cientista| = 2
+|arquiteto - lixeiro| = 1
+jau > luta
+|nelsa - cientista| = 1

@@ -1,0 +1,1 @@
+((amarela 2) (azul 3) (branca 1) (verde 5) (vermelha 4) (evandro 3) (fabricio 4) (pedro 2) (marcel 1) (yuri 5) (12aa 4) (15aa 5) (20aa 1) (22aa 2) (25aa 3) (futebol 1) (natacao 2) (basquete 5) (volei 3) (tenis 4) (33aa 4) (35aa 2) (39aa 5) (41aa 1) (44aa 3) (armas 4) (brinquedos 2) (esculturas 1) (latas 3) (relogios 5))

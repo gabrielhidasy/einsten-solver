@@ -1,0 +1,1 @@
+((arroz 4) (cacau 3) (cafe 2) (cha 1) (milho 5) (brasileiro 3) (espanhol 5) (frances 1) (grego 2) (ingles 4) (5h 1) (6h 2) (7h 5) (8h 3) (9h 4) (azul 1) (branca 4) (verde 5) (vermelha 2) (preta 3) (hamburgo 2) (macau 4) (manila 3) (santos 1) (rotterdam 5))

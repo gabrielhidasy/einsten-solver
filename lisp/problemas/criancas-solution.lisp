@@ -1,0 +1,1 @@
+((abacaxi 3) (laranja 1) (maca 2) (maracuja 5) (uva 4) (6a 4) (7a 3) (8a 5) (9a 2) (10a 1) (bola 3) (carrinho 1) (domino 2) (frisbee 5) (ioio 4) (caio 1) (danilo 3) (josue 2) (flavio 5) (matias 4) (amarelo 5) (azul 2) (branco 4) (verde 1) (vermelho 3) (bombeiro 2) (dentista 5) (policial 1) (medico 4) (veterinario 3))

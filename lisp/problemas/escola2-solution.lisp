@@ -1,0 +1,1 @@
+((cachorros 5) (cavalos 2) (gatos 3) (hamsters 4) (passaros 1) (abacaxi 1) (laranja 5) (limao 2) (maracuja 3) (morango 4) (aline 2) (beatriz 3) (isabelle 4) (juliana 5) (patricia 1) (florianopolis 5) (manaus 3) (recife 1) (rio_de_janeiro 4) (salvador 2) (amarela 1) (azul 4) (branca 2) (verde 5) (vermelha 3) (artes 1) (biologia 4) (historia 5) (matematica 3) (portugues 2))

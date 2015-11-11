@@ -1,0 +1,1 @@
+((artes 5) (biologia 4) (historia 1) (matematica 2) (portugues 3) (ana 3) (jessica 4) (joana 2) (pati 1) (renata 5) (abacaxi 2) (laranja 4) (limao 3) (maracuja 5) (morango 1) (cachorros 2) (cavalos 4) (gatos 3) (hamsters 5) (passaros 1) (amarela 1) (azul 2) (preta 5) (verde 4) (vermelha 3) (fernando_de_noronha 3) (florianopolis 2) (recife 1) (rio_de_janeiro 5) (salvador 4))

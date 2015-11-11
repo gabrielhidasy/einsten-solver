@@ -1,0 +1,1 @@
+((50r 1) (75r 2) (100r 3) (200r 4) (300r 5) (amarela 5) (azul 2) (branca 1) (verde 3) (vermelha 4) (corinthians 4) (palmeiras 3) (portuguesa 2) (santos 5) (sao_paulo 1) (andre 1) (carlos 2) (fabio 4) (joao 3) (paulo 5) (adriana 3) (carolina 4) (daniela 5) (mariana 1) (patricia 2) (calca_jeans 2) (camisa 1) (carteira 4) (gravata 5) (perfume 3))

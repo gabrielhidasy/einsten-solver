@@ -1,0 +1,1 @@
+((amarela 4) (azul 5) (branca 1) (verde 2) (vermelha 3) (agata 3) (beatriz 4) (soraia 1) (talita 2) (vanessa 5) (biscoitos 5) (chocolates 2) (salgadinhos 3) (sanduiches 1) (tortas 4) (abner 3) (gilberto 1) (lucas 2) (robson 4) (saulo 5) (abacaxi 2) (limao 1) (maca 5) (maracuja 3) (uva 4) (12do01 1) (25do04 4) (04do07 2) (30do09 3) (18do11 5))

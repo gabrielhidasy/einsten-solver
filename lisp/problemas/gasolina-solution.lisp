@@ -1,0 +1,1 @@
+((alema 1) (chinesa 3) (francesa 2) (italiana 5) (japonesa 4) (amarelo 2) (verde 3) (branco 1) (azul 5) (vermelho 4) (50r 3) (60r 4) (70r 5) (80r 2) (90r 1) (anderson 5) (fred 1) (gustavo 4) (lucas 3) (vitor 2) (10m 1) (20m 4) (30m 5) (40m 2) (50m 3) (crossover 4) (hatch 5) (pickup 1) (sedan 2) (suv 3))

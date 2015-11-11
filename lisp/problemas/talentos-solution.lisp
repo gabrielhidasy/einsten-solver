@@ -1,0 +1,1 @@
+((canto 5) (danca 2) (imitacao 1) (malabarismo 4) (musica 3) (basquete 4) (boliche 3) (corrida 5) (futebol 2) (natacao 1) (alexander 1) (heitor 3) (junior 4) (michel 2) (rodolfo 5) (22anos 1) (24anos 5) (29anos 3) (32anos 2) (35anos 4) (amarela 5) (azul 1) (branca 2) (verde 4) (vermelha 3) (abacaxi 2) (banana 4) (maca 3) (morango 1) (uva 5))

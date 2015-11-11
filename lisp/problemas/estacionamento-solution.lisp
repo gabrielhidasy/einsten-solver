@@ -1,0 +1,1 @@
+((crossover 3) (hatch 1) (pickup 5) (sedan 4) (suv 2) (alexandre 3) (felipe 4) (gilmar 5) (guilherme 2) (rogerio 1) (aaa1111 5) (bbb2222 3) (ccc3333 2) (ddd4444 1) (ee5555 4) (amarela 3) (azul 5) (branca 4) (verde 1) (vermelha 2) (alema 5) (chinesa 1) (francesa 4) (italiana 2) (japonesa 3) (2007a 2) (2008a 4) (2009a 5) (2010a 3) (2011a 1))

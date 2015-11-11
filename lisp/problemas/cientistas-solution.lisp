@@ -1,0 +1,1 @@
+((gauss 5) (newton 1) (pascal 4) (tesla 3) (watt 2) (alberto 1) (eduardo 4) (fabio 3) (sergio 2) (willian 5) (amarelo 4) (azul 2) (branco 3) (vermelho 1) (verde 5) (academia 4) (churrasqueira 1) (piscina 3) (salao_de_festa 5) (salao_de_jogos 2) (45a 4) (47a 1) (50a 2) (51a 5) (56a 3) (50p 5) (60p 2) (70p 3) (80p 4) (90p 1))

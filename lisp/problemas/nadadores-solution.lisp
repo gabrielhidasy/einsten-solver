@@ -1,0 +1,1 @@
+((19anos 4) (20anos 1) (21anos 2) (24anos 3) (amarela 3) (azul 2) (branca 4) (verde 1) (brasil 3) (china 2) (eua 1) (russia 4) (2medalhas 4) (3medalhas 2) (5medalhas 1) (8medalhas 3) (borboleta 1) (costas 3) (crawl 4) (peito 2) (abacaxi 1) (laranja 2) (limao 3) (maracuja 4))

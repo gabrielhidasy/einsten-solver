@@ -1,0 +1,1 @@
+((videogame 4) (correr 2) (tenis 3) (volei 1) (pintar 5) (luisa 1) (caroline 4) (luana 2) (ana 3) (nelsa 5) (corolla 3) (cruise 2) (civic 1) (ka 4) (vectra 5) (raul 2) (arnaldo 4) (carlos 1) (felipe 3) (gilberto 5) (verde 3) (marrom 1) (preto 4) (ciano 2) (cinza 5) (ator 2) (cientista 3) (secretario 1) (arquiteto 4) (engenheiro 5))

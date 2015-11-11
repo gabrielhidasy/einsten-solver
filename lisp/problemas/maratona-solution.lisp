@@ -1,0 +1,1 @@
+((cantar 2) (dancar 4) (desenhar 5) (pintar 3) (ler 1) (455i 5) (612i 4) (708i 1) (899i 3) (963i 2) (amarelo 2) (azul 1) (branco 4) (verde 5) (vermelha 3) (edgar 1) (lucio 4) (moacir 5) (paulo 2) (tiago 3) (25anos 2) (28anos 5) (34anos 1) (39anos 3) (41anos 4) (bahia 1) (minas_gerais 3) (parana 2) (rio_de_janeiro 4) (sao_paulo 5))

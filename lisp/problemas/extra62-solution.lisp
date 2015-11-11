@@ -1,0 +1,1 @@
+((nivaldo 2) (ariel 3) (felipe 4) (amauri 1) (douglas 5) (vanessa 1) (luana 2) (isabela 4) (carol 3) (neide 5) (corsa 1) (corolla 2) (i30 3) (vectra 4) (agile 5) (saopaulo 3) (campogrande 1) (venceslau 2) (anhumas 4) (rio 5) (escrever 4) (desenhar 2) (cozinhar 3) (tenis 1) (volei 5) (faxineiro 2) (ator 4) (lixeiro 1) (cientista 3) (advogado 5))

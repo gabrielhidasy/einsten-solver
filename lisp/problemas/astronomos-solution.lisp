@@ -1,0 +1,1 @@
+((basquete 3) (futebol 2) (sinuca 5) (natacao 1) (volei 4) (27a 2) (29a 1) (32a 3) (33a 5) (35a 4) (amarela 1) (azul 5) (branca 4) (verde 3) (vermelha 2) (alan 1) (cleber 2) (luis 4) (milton 5) (vinicius 3) (andromeda 2) (aries 5) (escorpiao 4) (orion 1) (pegasus 3) (166cm 5) (170cm 2) (172cm 3) (175cm 1) (181cm 4))

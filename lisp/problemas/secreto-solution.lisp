@@ -1,0 +1,1 @@
+((arthur 5) (caio 1) (julio 4) (rogerio 3) (matheus 2) (caneca 1) (dvd 4) (gravata 3) (jaqueta 2) (livro 5) (amarela 4) (azul 2) (branca 3) (verde 5) (vermelha 1) (futebol 4) (squash 1) (surf 3) (natacao 5) (volei 2) (alessandro 4) (denis 1) (celso 2) (fabiano 5) (wagner 3) (cantar 5) (dancar 2) (desenhar 3) (pintar 4) (ler 1))

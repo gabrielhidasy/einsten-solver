@@ -1,0 +1,1 @@
+((amarela 2) (azul 1) (branca 5) (verde 4) (vermelha 3) (1a 5) (2a 4) (3a 1) (4a 2) (5a 3) (caroline 1) (karen 3) (laura 2) (mayara 5) (viviane 4) (adriano 5) (cassio 2) (edson 4) (thomas 1) (wagner 3) (belo_horizonte 4) (campo_grande 5) (curitiba 3) (florianopolis 2) (recife 1) (faculdade 5) (festa 4) (igreja 3) (praia 1) (trabalho 2))

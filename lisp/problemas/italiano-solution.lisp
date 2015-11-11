@@ -1,0 +1,1 @@
+((capeletti 3) (espaguete 1) (lasanha 2) (penne 5) (raviolli 4) (20a 2) (25a 4) (30a 5) (35a 1) (40a 3) (amarelo 4) (azul 3) (verde 2) (vermelho 5) (branco 1) (argentino 2) (chileno 5) (frances 4) (italianao 3) (portugues 1) (alice 4) (deise 3) (leticia 1) (patricia 2) (taina 5) (amiga 5) (irma 1) (mae 4) (prima 2) (tia 3))

@@ -1,0 +1,1 @@
+((aquario 1) (aries 3) (cancer 2) (escorpiao 4) (libra 5) (amanda 3) (carolina 5) (flavia 1) (gabriela 2) (patricia 4) (banana 3) (laranja 1) (maracuja 4) (morango 2) (uva 5) (biologia 3) (geografia 1) (historia 2) (matematica 4) (portugues 5) (amarela 4) (azul 3) (branca 2) (verde 1) (vermelha 5) (borboletas 5) (cachorro 4) (gatos 1) (passaros 2) (tartarugas 3))

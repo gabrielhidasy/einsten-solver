@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~meidanis/courses/mc346/2015s2/jogo/problemas</title>
+ </head>
+ <body>
+<h1>Index of /~meidanis/courses/mc346/2015s2/jogo/problemas</h1>
+<table><tr><th><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=D">Description</a></th></tr><tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[DIR]"></td><td><a href="/~meidanis/courses/mc346/2015s2/jogo/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="advocacia-solution.lisp">advocacia-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">380 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="advocacia.lisp">advocacia.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">895 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="advocacia.prolog">advocacia.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">921 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="advocacia.txt">advocacia.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">816 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="aeroporto-solution.lisp">aeroporto-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">342 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="aeroporto.lisp">aeroporto.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">829 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="aeroporto.prolog">aeroporto.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">857 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="aeroporto.txt">aeroporto.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">732 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="aniversario-solution.lisp">aniversario-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">332 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="aniversario.lisp">aniversario.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">853 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="aniversario.prolog">aniversario.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">881 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="aniversario.txt">aniversario.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">738 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="antiguidades-solution.lisp">antiguidades-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">322 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="antiguidades.lisp">antiguidades.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">730 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="antiguidades.txt">antiguidades.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">667 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="astronomos-solution.lisp">astronomos-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">318 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="astronomos.lisp">astronomos.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">784 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="astronomos.txt">astronomos.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">723 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="banco-solution.lisp">banco-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">357 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="banco.lisp">banco.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">753 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="banco.prolog">banco.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">755 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="banco.txt">banco.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">660 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="bercario-solution.lisp">bercario-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">338 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="bercario.lisp">bercario.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">813 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="bercario.txt">bercario.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">714 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="biblioteca-solution.lisp">biblioteca-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">410 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="biblioteca.lisp">biblioteca.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">971 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="biblioteca.prolog">biblioteca.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">1.0K</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="biblioteca.txt">biblioteca.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">864 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="bicicleta-solution.lisp">bicicleta-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">366 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="bicicleta.lisp">bicicleta.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">903 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="bicicleta.txt">bicicleta.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">784 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="boliche-solution.lisp">boliche-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">290 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="boliche.lisp">boliche.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">671 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="boliche.txt">boliche.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">632 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="carnaval-solution.lisp">carnaval-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">352 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="carnaval.lisp">carnaval.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">802 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="casamento-solution.lisp">casamento-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">339 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="casamento.lisp">casamento.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">810 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="casamento.txt">casamento.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">725 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ceia-solution.lisp">ceia-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">319 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ceia.lisp">ceia.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">817 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ceia.txt">ceia.txt</a></td><td align="right">11-Oct-2015 07:58  </td><td align="right">714 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="churrasco-solution.lisp">churrasco-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">320 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="churrasco.lisp">churrasco.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">948 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="cientistas-solution.lisp">cientistas-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">326 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="cientistas.lisp">cientistas.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">838 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="cientistas.txt">cientistas.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">747 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="cinema-solution.lisp">cinema-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">279 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="cinema.lisp">cinema.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">661 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="cinema2-solution.lisp">cinema2-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">279 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="cinema2.lisp">cinema2.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">661 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="cinema2.prolog">cinema2.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">689 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="cinema2.txt">cinema2.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">585 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="compras-solution.lisp">compras-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">277 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="compras.lisp">compras.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">645 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="compras.prolog">compras.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">647 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="compras.txt">compras.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">555 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="compras2-solution.lisp">compras2-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">330 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="compras2.lisp">compras2.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">803 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="compras2.prolog">compras2.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">805 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="compras2.txt">compras2.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">684 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="construcao-solution.lisp">construcao-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">309 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="construcao.lisp">construcao.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">797 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="copa-solution.lisp">copa-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">298 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="copa.lisp">copa.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">705 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="copa.txt">copa.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">634 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="corruptos-solution.lisp">corruptos-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">357 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="corruptos.lisp">corruptos.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">922 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="corruptos.prolog">corruptos.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">946 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="corruptos.txt">corruptos.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">839 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="corruptos2-solution.lisp">corruptos2-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">348 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="corruptos2.lisp">corruptos2.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">792 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="corruptos2.txt">corruptos2.txt</a></td><td align="right">11-Oct-2015 07:58  </td><td align="right">711 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="criancas-solution.lisp">criancas-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">319 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="criancas.lisp">criancas.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">798 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="criancas.txt">criancas.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">713 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="danca-solution.lisp">danca-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">305 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="danca.lisp">danca.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">748 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="danca.txt">danca.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">651 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="dentes-solution.lisp">dentes-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">339 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="dentes.lisp">dentes.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">822 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="enem-solution.lisp">enem-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">345 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="enem.lisp">enem.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">863 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="enem.prolog">enem.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">889 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="enem.txt">enem.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">776 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="escola-solution.lisp">escola-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">377 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="escola.lisp">escola.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">916 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="escola.prolog">escola.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">918 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="escola.txt">escola.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">807 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="escola2-solution.lisp">escola2-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">375 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="escola2.lisp">escola2.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">1.0K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="escola2.prolog">escola2.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">1.0K</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="escola2.txt">escola2.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">851 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="estacao-solution.lisp">estacao-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">347 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="estacao.lisp">estacao.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">716 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="estacao.txt">estacao.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">629 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="estacionamento-solution.lisp">estacionamento-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">342 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="estacionamento.lisp">estacionamento.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">782 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="estacionamento.prolog">estacionamento.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">804 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="estacionamento.txt">estacionamento.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">697 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra00-solution.lisp">extra00-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">358 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra00.txt">extra00.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 25K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra04-solution.lisp">extra04-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">302 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra04.txt">extra04.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 17K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra10-solution.lisp">extra10-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">342 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra10.txt">extra10.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 23K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra18-solution.lisp">extra18-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">334 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra18.txt">extra18.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 22K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra22-solution.lisp">extra22-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">290 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra22.txt">extra22.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 16K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra35-solution.lisp">extra35-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">303 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra35.txt">extra35.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 18K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra54-solution.lisp">extra54-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">272 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra54.txt">extra54.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 15K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra56-solution.lisp">extra56-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">349 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra56.txt">extra56.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 24K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra62-solution.lisp">extra62-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">347 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra62.txt">extra62.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 24K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra69-solution.lisp">extra69-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">278 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra69.txt">extra69.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 15K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra81-solution.lisp">extra81-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">350 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra81.txt">extra81.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 25K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra87-solution.lisp">extra87-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">367 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra87.txt">extra87.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 26K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="extra98-solution.lisp">extra98-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">341 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="extra98.txt">extra98.txt</a></td><td align="right">24-Oct-2015 09:27  </td><td align="right"> 23K</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="farmacia-solution.lisp">farmacia-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">340 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="farmacia.lisp">farmacia.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">845 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="farmacia.txt">farmacia.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">756 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="fotografo-solution.lisp">fotografo-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">319 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="fotografo.lisp">fotografo.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">824 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="futebol-solution.lisp">futebol-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">302 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="futebol.lisp">futebol.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">741 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="futebol.prolog">futebol.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">789 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="futebol.txt">futebol.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">670 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="futuro-solution.lisp">futuro-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">350 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="futuro.lisp">futuro.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">909 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="gasolina-solution.lisp">gasolina-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">305 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="gasolina.lisp">gasolina.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">937 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="gasolina.txt">gasolina.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">850 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="gestante-solution.lisp">gestante-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">322 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="gestante.lisp">gestante.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">723 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="halloween-solution.lisp">halloween-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">312 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="halloween.lisp">halloween.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">719 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="halloween.txt">halloween.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">632 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="hidrica-solution.lisp">hidrica-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">280 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="hidrica.lisp">hidrica.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">660 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="hidrica.txt">hidrica.txt</a></td><td align="right">11-Oct-2015 07:59  </td><td align="right">625 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ilha-solution.lisp">ilha-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">357 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ilha.lisp">ilha.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">865 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ilha.txt">ilha.txt</a></td><td align="right">11-Oct-2015 07:59  </td><td align="right">746 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ingles-solution.lisp">ingles-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">364 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ingles.lisp">ingles.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">857 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ingles.prolog">ingles.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">885 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ingles.txt">ingles.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">772 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="italiano-solution.lisp">italiano-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">326 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="italiano.lisp">italiano.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">818 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="judo-solution.lisp">judo-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">282 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="judo.lisp">judo.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">640 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="judo.prolog">judo.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">706 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="judo.txt">judo.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">595 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="kart-solution.lisp">kart-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">335 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="kart.lisp">kart.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">860 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="kart.prolog">kart.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">894 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="kart.txt">kart.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">781 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="laboratorio-solution.lisp">laboratorio-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">355 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="laboratorio.lisp">laboratorio.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">872 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="laboratorio.txt">laboratorio.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">743 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="lavanderia-solution.lisp">lavanderia-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">326 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="lavanderia.lisp">lavanderia.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">777 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="manifestacao-solution.lisp">manifestacao-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">336 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="manifestacao.lisp">manifestacao.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">848 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="maratona-solution.lisp">maratona-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">333 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="maratona.lisp">maratona.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">767 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="maratona.prolog">maratona.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">815 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="maratona.txt">maratona.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">710 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mecanico-solution.lisp">mecanico-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">338 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mecanico.lisp">mecanico.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">901 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mecanico.prolog">mecanico.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">927 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mecanico.txt">mecanico.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">788 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mercado-solution.lisp">mercado-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">332 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mercado.lisp">mercado.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">694 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mercado.txt">mercado.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">625 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="morango-solution.lisp">morango-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">308 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="morango.lisp">morango.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">734 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mulher-solution.lisp">mulher-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">341 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mulher.lisp">mulher.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">866 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mulher.txt">mulher.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">761 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="musica-solution.lisp">musica-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">305 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="musica.lisp">musica.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">730 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="musica.txt">musica.txt</a></td><td align="right">11-Oct-2015 07:59  </td><td align="right">651 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nacoes-solution.lisp">nacoes-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">264 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nacoes.lisp">nacoes.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">665 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nacoes.prolog">nacoes.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">689 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="nacoes.txt">nacoes.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">585 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nadadores-solution.lisp">nadadores-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">276 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nadadores.lisp">nadadores.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">625 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nadadores.prolog">nadadores.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">665 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="nadadores.txt">nadadores.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">572 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nadadores2-solution.lisp">nadadores2-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">269 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nadadores2.lisp">nadadores2.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">584 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nadadores2.prolog">nadadores2.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">634 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="nadadores2.txt">nadadores2.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">533 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="navios-solution.lisp">navios-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">257 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="navios.lisp">navios.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">613 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="navios.prolog">navios.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">639 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="navios.txt">navios.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">545 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="negocios-solution.lisp">negocios-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">317 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="negocios.lisp">negocios.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">723 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="negocios.txt">negocios.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">638 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="onibus-solution.lisp">onibus-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">298 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="onibus.lisp">onibus.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">763 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="onibus.txt">onibus.txt</a></td><td align="right">11-Oct-2015 07:59  </td><td align="right">650 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p1-solution.lisp">p1-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right"> 71 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p1.lisp">p1.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">146 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p1.prolog">p1.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">148 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="p1.txt">p1.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">121 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p2-solution.lisp">p2-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">142 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p2.lisp">p2.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">319 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p2.prolog">p2.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">321 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="p2.txt">p2.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">266 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p3-solution.lisp">p3-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">192 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p3.lisp">p3.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">411 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="p3.prolog">p3.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">413 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="p3.txt">p3.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">350 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="pais-solution.lisp">pais-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">346 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="pais.lisp">pais.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">858 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="pais.prolog">pais.prolog</a></td><td align="right">21-Sep-2015 06:20  </td><td align="right">896 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="pais.txt">pais.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">781 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="piquenique-solution.lisp">piquenique-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">345 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="piquenique.lisp">piquenique.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">809 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="piquenique.txt">piquenique.txt</a></td><td align="right">09-Oct-2015 08:24  </td><td align="right">719 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="piscina-solution.lisp">piscina-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">245 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="piscina.lisp">piscina.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">586 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="piscina.prolog">piscina.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">588 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="piscina.txt">piscina.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">479 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="pizza-solution.lisp">pizza-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">314 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="pizza.lisp">pizza.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">762 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="pizza.txt">pizza.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">709 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="praia-solution.lisp">praia-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">339 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="praia.lisp">praia.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">810 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="praia.txt">praia.txt</a></td><td align="right">11-Oct-2015 07:59  </td><td align="right">709 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="prato-solution.lisp">prato-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">342 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="prato.lisp">prato.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">833 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="prato.txt">prato.txt</a></td><td align="right">11-Oct-2015 07:59  </td><td align="right">736 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="presentes-solution.lisp">presentes-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">355 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="presentes.lisp">presentes.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">881 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="presentes.prolog">presentes.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">907 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="presentes.txt">presentes.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">784 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="problemas.txt">problemas.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">817 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="reveillon-solution.lisp">reveillon-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">331 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="reveillon.lisp">reveillon.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">764 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="reveillon.prolog">reveillon.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">794 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="reveillon.txt">reveillon.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">685 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="secreto-solution.lisp">secreto-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">330 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="secreto.lisp">secreto.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">862 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="secreto.txt">secreto.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">721 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="talentos-solution.lisp">talentos-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">344 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="talentos.lisp">talentos.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">939 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="talentos.prolog">talentos.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">967 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="talentos.txt">talentos.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">836 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="veterinario-solution.lisp">veterinario-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">317 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="veterinario.lisp">veterinario.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">789 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="veterinario.txt">veterinario.txt</a></td><td align="right">11-Oct-2015 07:59  </td><td align="right">682 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="zoologico-solution.lisp">zoologico-solution.lisp</a></td><td align="right">04-Nov-2015 07:16  </td><td align="right">352 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="zoologico.lisp">zoologico.lisp</a></td><td align="right">25-Oct-2015 19:18  </td><td align="right">862 </td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="zoologico.prolog">zoologico.prolog</a></td><td align="right">07-Sep-2015 23:49  </td><td align="right">864 </td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="zoologico.txt">zoologico.txt</a></td><td align="right">07-Oct-2015 08:21  </td><td align="right">753 </td></tr>
+<tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>

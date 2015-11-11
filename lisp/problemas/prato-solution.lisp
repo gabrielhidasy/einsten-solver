@@ -1,0 +1,1 @@
+((contador 4) (engenheiro 3) (gerente 1) (porteiro 2) (publicitario 5) (amarela 2) (azul 4) (branco 1) (verde 5) (vermelha 3) (laranja 3) (limao 5) (maca 2) (maracuja 4) (uva 1) (corrida 5) (futebol 2) (sinuca 1) (natacao 3) (volei 4) (milanesa 3) (parmegiana 4) (calabresa 2) (frango 5) (paulista 1) (22a 3) (25a 5) (28a 2) (33a 4) (38a 1))

@@ -1,0 +1,1 @@
+((amarela 2) (azul 4) (branca 1) (verde 3) (vermelha 5) (cheque 4) (credito 1) (debito 2) (dinheiro 5) (vale 3) (amaciante 3) (frutas 1) (leite 4) (pao 5) (presunto 2) (crossover 3) (hatch 1) (pickup 2) (sedan 4) (suv 5) (filho 3) (irma 4) (mae 5) (marido 1) (namorado 2) (aline 2) (carol 4) (fernanda 3) (juliana 5) (natalia 1))

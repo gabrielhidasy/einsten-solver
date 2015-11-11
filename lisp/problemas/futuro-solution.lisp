@@ -1,0 +1,1 @@
+((cachorros 2) (cavalos 4) (coelhos 3) (gatos 5) (passaros 1) (aquario 1) (gemeos 2) (leao 4) (libra 3) (sagitario 5) (amor 3) (familia 5) (saude 4) (trabalho 1) (viagem 2) (biologa 3) (corretora 5) (fotografa 1) (pedagoga 4) (veterinaria 2) (alice 5) (gisele 1) (helen 3) (luiza 2) (raquel 4) (amarelo 4) (azul 5) (branco 1) (verde 3) (vermelho 2))

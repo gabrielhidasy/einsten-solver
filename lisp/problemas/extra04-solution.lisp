@@ -1,0 +1,1 @@
+((cozinhar 3) (desenhar 1) (futebol 4) (correr 2) (videogame 5) (rio 4) (venceslau 2) (tarabai 1) (jau 3) (campogrande 5) (lixeiro 1) (secretario 3) (advogado 4) (faxineiro 2) (cientista 5) (preto 1) (ciano 4) (lilas 3) (verde 2) (rosa 5) (aquario 1) (touro 3) (aries 4) (sagitario 2) (capricornio 5))

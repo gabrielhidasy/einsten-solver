@@ -1,0 +1,1 @@
+((bernardo 5) (ivan 4) (lucas 2) (ricardo 3) (vagner 1) (aghata 3) (debora 4) (jaqueline 2) (paola 5) (thais 1) (cuiaba 3) (portoalegre 4) (riobranco 1) (rio 2) (salvador 5) (4d 4) (5d 5) (6d 1) (7d 3) (8d 2) (california 2) (cincomontes 1) (florestanativa 4) (pontegrande 3) (voltesempre 5) (amarelas 1) (azuis 5) (brancas 3) (verdes 4) (vermelhas 2))

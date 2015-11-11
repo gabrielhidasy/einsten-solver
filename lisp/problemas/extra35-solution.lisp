@@ -1,0 +1,1 @@
+((anhumas 3) (campogrande 2) (tarabai 4) (sertaozinho 1) (rio 5) (verde 1) (marrom 4) (branco 2) (amarelo 3) (cinza 5) (futebol 3) (escrever 1) (desenhar 4) (ler 2) (pintar 5) (secretario 1) (advogado 2) (cozinheiro 4) (engenheiro 3) (lixeiro 5) (gemeos 2) (libra 1) (sagitario 3) (peixe 4) (cancer 5))
