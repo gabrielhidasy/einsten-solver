@@ -1,10 +1,9 @@
-;(make-package 'tpman_noprint)
-;;Needed the following lines to compile the code
-(defpackage :tpman_noprint
+;(make-package 'tpman_uf)
+(defpackage :tpman_uf
   (:use :common-lisp)
-  (:export
-   :solver))
-(in-package tpman_noprint)
+  (:export "solver"
+   ))
+(in-package tpman_uf)
 (common-lisp:use-package 'common-lisp)
 (export 'solver)
 (declaim (optimize
@@ -13,6 +12,7 @@
 	  (debug 0)
 	  ))
 
+;;Needed the following lines to compile the code
 ;;Define our parameters
 (defun create-field (domains)
   (defparameter nhouses (- (length (car domains)) 2))
@@ -66,7 +66,6 @@ other adjustments"
 	;(= (ABS (+ PEDRO 1)) EDUARDO) -> (= (+ PEDRO 1) EDUARDO)
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal (caadr constraint) 'ABS) (equal (car (cadadr constraint)) '+))
 	 (setf constraint `(= ,(cadadr constraint) ,(caddr constraint))))
-	 ;(print (cadr constraint)))
 	;;Resolver a Coisa + n1 = n2 -> é um Coisa = n2-n1
 	;;(= (+ florianopolis 1) 3) -> (= florianopolis 2)
 	((and (equal (car constraint) '=) (listp (cadr constraint)) (equal (caadr constraint) '+) (symbolp (cadadr constraint)) (numberp (caddr constraint)))
@@ -134,7 +133,6 @@ thing n) rules, or rules, and so on"
 	 ;;Essa regra ainda não pode ser eliminada
 	(push constraint adjusted-constraints))
 	(T
-	 ;(print constraint)
 	(push constraint adjusted-constraints))))
     (nreverse adjusted-constraints)))
 
@@ -179,7 +177,6 @@ thing n) rules, or rules, and so on"
 	;;Tenta resolver as regras do tipo (= thing thing)
 	((and (equal (car constraint) '=) (symbolp (cadr constraint)) (symbolp (caddr constraint)))
 	 ;;Se um dos lados esta definido define o outro e nem poe essa regra mais
-	 ;(print constraint)
 	 (let* ((att-1 (cadr constraint))
 		(att-1-domain (cdr (assoc att-1 domain-hash)))
 		(att-1-item (cdr (assoc att-1 domain-item-hash)))
@@ -278,7 +275,6 @@ thing n) rules, or rules, and so on"
 	;;Resolver as regras ABS (so existem ABS -, as + sao removidas no presolve)
 	;;mais especificamente (= (ABS (- coisa1 coisa2)) n) 
 	((and (equal (car constraint) '=) (equal (caadr constraint) 'ABS))
-	 ;(print constraint)
 	 (let* ((att-1 (cadr (cadadr constraint)))
 		(att-1-domain (cdr (assoc att-1 domain-hash)))
 		(att-1-item (cdr (assoc att-1 domain-item-hash)))
@@ -286,7 +282,6 @@ thing n) rules, or rules, and so on"
 		(att-2-domain (cdr (assoc att-2 domain-hash)))
 		(att-2-item (cdr (assoc att-2 domain-item-hash)))
 		(n (caddr constraint)))
-	   ;;(print n)
 	   ;;Se em x e x+2n att-1 é 0, att-2 de x+n = 0
 	   ;;E vice versa
 	   (let ((2n (* 2 n)))
@@ -329,7 +324,6 @@ thing n) rules, or rules, and so on"
 	   ))
 	;;Tratar as regras do tipo (OR (= Coisa1 Coisa2) (= Coisa1 Coisa3))
 	((and (equal (car constraint) 'OR))
-	 ;;(print constraint)
 	 (let* ((att-0 (cadadr constraint))
 		(att-0-domain (cdr (assoc att-0 domain-hash)))
 		(att-0-item (cdr (assoc att-0 domain-item-hash)))
@@ -426,7 +420,8 @@ after x y"
       ;; 1 - Byte-compile some things, got me a good speedup
       (when (not (compiled-function-p #'fix-field))
 	(compile 'fix-field) ;Great, in extra62 from 0.6 to 0.3
-	(compile 'calculate-nsols)) ;Good, from 0.3 to 0.2
+	(compile 'calculate-nsols)
+	) ;Good, from 0.3 to 0.2
       ;;All others take more time to compile then to execute as they are
       ;; 2 - Created a lighter version of (generate-aux-field) that
       ;;has the kind of return (number of solutions), but no side effects
@@ -436,7 +431,6 @@ after x y"
       ;; 4 - Started checking the number of solutions inside smart-apply1
       ;; 5 - Some declares got me another 10%
       (setf constraints (presolve constraints))
-      ;;(print constraints)
       (setf constraints (smart-apply0 constraints))
       (setf constraints (smart-apply-repeat constraints))
       ;;E aqui começa o brute
