@@ -4,7 +4,7 @@ rm out
 echo -n "Solved: "
 for i in $(cat problems-lisp)
 do
-./run-expr.lisp ./solver-compiled tpman_uf problemas/$(echo $i | cut -d . -f 1) rand | grep ok | cut -d k -f 2 >> out
+./run-expr.lisp ./solver-compiled harvey_dent2 problemas/$(echo $i | cut -d . -f 1) rand | grep ok | cut -d k -f 2 >> out
 done
 cat out | wc -l
 echo -n "of: "
